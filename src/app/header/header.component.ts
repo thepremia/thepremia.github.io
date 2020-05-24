@@ -76,7 +76,7 @@ export class HeaderComponent implements OnInit {
         {name: 'ThePremianEdge'},
         {name: 'Admissions'},
         {name: 'Apply'},
-        {name: 'ENG'}
+        {name: 'Eng'}
     ];
   }
 
