@@ -91,7 +91,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n  <div class=\"container\">\n    <a href=\"javascript:void(0)\">\n        <img src=\"assets/images/logo.png\">\n    </a>\n    <ul class=\"navbar-nav-list\">\n      <li class=\"nav-item\" *ngFor=\"let item of list; index as i\">\n        <a routerLink=\"{{item.name}}\" routerLinkActive=\"active\"\n        skipLocationChange=true>{{item.name}}</a>\n      </li>\n    </ul>\n  </div>\n</nav>\n\n<nav class=\"navbar-vertical\">\n  <a class=\"nav-link\" (click)=\"slideToggel()\">\n    <i class=\"icon icon-small\">\n      <svg focusable=\"false\">\n        <use xlink:href=\"#icon_menu\"></use>\n      </svg>\n    </i>\n  </a> \n  \n  <div class=\"social-net\">\n\n    <ul>\n        <li><a href=\"https://www.facebook.com\" target=\"_blank\">\n                <i class=\"icon icon-ex-small\">\n                    <svg focusable=\"false\">\n                        <use xlink:href=\"#icon_facebook\"></use>\n                    </svg>\n                </i>\n                <span>Facebook</span>\n            </a>\n        </li>\n        <li><a href=\"https://www.instagram.com\" target=\"_blank\">\n                <i class=\"icon icon-ex-small\">\n                    <svg focusable=\"false\">\n                        <use xlink:href=\"#icon_instagram\"></use>\n                    </svg>\n                </i>\n                <span>Linkedin</span>\n            </a>\n        </li>\n        <li><a href=\"https://www.twitter.com\" target=\"_blank\">\n                <i class=\"icon icon-ex-small\">\n                    <svg focusable=\"false\">\n                        <use xlink:href=\"#icon_twitter\"></use>\n                    </svg>\n                </i>\n                <span>Instagram</span>\n            </a>\n        </li>\n    </ul>\n</div>\n</nav>";
+    __webpack_exports__["default"] = "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n  <div class=\"container\">\n    <a href=\"javascript:void(0)\">\n        <img src=\"assets/images/logo.png\">\n    </a>\n    <ul class=\"navbar-nav-list\">\n      <li class=\"nav-item\" *ngFor=\"let item of list; index as i\">\n        <a routerLink=\"{{item.name}}\" routerLinkActive=\"active\"\n        skipLocationChange=true>{{item.name | createSpace}}</a>\n      </li>\n    </ul>\n  </div>\n</nav>\n\n<nav class=\"navbar-vertical\">\n  <a class=\"nav-link\" (click)=\"slideToggel()\">\n    <i class=\"icon icon-small\">\n      <svg focusable=\"false\">\n        <use xlink:href=\"#icon_menu\"></use>\n      </svg>\n    </i>\n  </a> \n  \n  <div class=\"social-net\">\n\n    <ul>\n        <li><a href=\"https://www.facebook.com\" target=\"_blank\">\n                <i class=\"icon icon-ex-small\">\n                    <svg focusable=\"false\">\n                        <use xlink:href=\"#icon_facebook\"></use>\n                    </svg>\n                </i>\n                <span>Facebook</span>\n            </a>\n        </li>\n        <li><a href=\"https://www.instagram.com\" target=\"_blank\">\n                <i class=\"icon icon-ex-small\">\n                    <svg focusable=\"false\">\n                        <use xlink:href=\"#icon_instagram\"></use>\n                    </svg>\n                </i>\n                <span>Linkedin</span>\n            </a>\n        </li>\n        <li><a href=\"https://www.twitter.com\" target=\"_blank\">\n                <i class=\"icon icon-ex-small\">\n                    <svg focusable=\"false\">\n                        <use xlink:href=\"#icon_twitter\"></use>\n                    </svg>\n                </i>\n                <span>Instagram</span>\n            </a>\n        </li>\n    </ul>\n</div>\n</nav>";
     /***/
   },
 
@@ -970,6 +970,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ngx_slick_carousel__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ngx-slick-carousel */
     "./node_modules/ngx-slick-carousel/fesm2015/ngx-slick-carousel.js");
+    /* harmony import */
+
+
+    var _space_pipe_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ./space.pipe.module */
+    "./src/app/space.pipe.module.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
@@ -977,7 +983,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
       declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"], _header_header_component__WEBPACK_IMPORTED_MODULE_3__["HeaderComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__["FooterComponent"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"], ngx_slick_carousel__WEBPACK_IMPORTED_MODULE_8__["SlickCarouselModule"]],
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"], ngx_slick_carousel__WEBPACK_IMPORTED_MODULE_8__["SlickCarouselModule"], _space_pipe_module__WEBPACK_IMPORTED_MODULE_9__["CreateSpacePipe"]],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
     })], AppModule);
@@ -1172,7 +1178,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }, {
           name: 'Apply'
         }, {
-          name: 'ENG'
+          name: 'Eng'
         }];
       }
 
@@ -1490,6 +1496,118 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./home.component.scss */
       "./src/app/home/home.component.scss"))["default"]]
     })], HomeComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/space.pipe.module.ts":
+  /*!**************************************!*\
+    !*** ./src/app/space.pipe.module.ts ***!
+    \**************************************/
+
+  /*! exports provided: CreateSpacePipe */
+
+  /***/
+  function srcAppSpacePipeModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CreateSpacePipe", function () {
+      return CreateSpacePipe;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _space_pipe__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./space.pipe */
+    "./src/app/space.pipe.ts");
+
+    var CreateSpacePipe = function CreateSpacePipe() {
+      _classCallCheck(this, CreateSpacePipe);
+    };
+
+    CreateSpacePipe = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+      declarations: [_space_pipe__WEBPACK_IMPORTED_MODULE_3__["CreateSpace"]],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"]],
+      exports: [_space_pipe__WEBPACK_IMPORTED_MODULE_3__["CreateSpace"]] // <---
+
+    })], CreateSpacePipe);
+    /***/
+  },
+
+  /***/
+  "./src/app/space.pipe.ts":
+  /*!*******************************!*\
+    !*** ./src/app/space.pipe.ts ***!
+    \*******************************/
+
+  /*! exports provided: CreateSpace */
+
+  /***/
+  function srcAppSpacePipeTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CreateSpace", function () {
+      return CreateSpace;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var CreateSpace = /*#__PURE__*/function () {
+      function CreateSpace() {
+        _classCallCheck(this, CreateSpace);
+      }
+
+      _createClass(CreateSpace, [{
+        key: "transform",
+        value: function transform(value) {
+          var newStr = value;
+          newStr = newStr.replace(/([A-Z])/g, ' $1').trim();
+          return newStr;
+        }
+      }]);
+
+      return CreateSpace;
+    }();
+
+    CreateSpace = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Pipe"])({
+      name: 'createSpace'
+    })], CreateSpace);
     /***/
   },
 
