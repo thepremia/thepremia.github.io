@@ -1,0 +1,268 @@
+.section-about, .section-nofify, .premian-league, .section-events, .section-spacing{
+	padding:70px 0;
+	h1{
+		margin-bottom:40px;
+	}
+}
+
+
+.section-info{
+	position: relative;
+	overflow:hidden;
+	padding:50px 0;
+	img{
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	h1{
+		margin-bottom:40px;
+	}
+	h1, p{
+		color:#fff;
+	}
+	svg{
+		fill:#fff;
+	}
+}
+
+.v-align{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height:100%;
+}
+
+.section-admission{
+	.admission-flag{
+		position:relative;
+		text-align:center;
+		color:#fff;
+		padding:25px 0;
+		height:250px;
+		.flag-pos{
+			content:'';
+			background:#bf272d;
+			position: absolute;
+			top: -25px;
+			left: -45px;
+			width: 100%;
+			height: 300px;
+			z-index: 1;
+			box-shadow: 7px 5px 10px 0px rgba(0, 0, 0, 0.5);
+		}
+        .btn{
+			border:1px solid #fff;
+			color:#fff;
+			background:none;
+		}
+	}
+	p{
+		white-space: pre;
+		margin-top:15px;
+	}
+
+}
+
+.section-curriculum{
+	.row-f{
+		float:left;
+		width:100%;
+		.p0{
+			padding:0px;
+		}
+	}
+	
+	.curriculum-info{
+		margin-top:-50px;
+		background:#000;
+		padding:30px;
+		color:#fff;
+		font-family: "Lora", serif;
+		font-size:16px;
+		.btn{
+			background:#fff;
+			color:#000;
+			float:right;
+			font-family: "Lora", serif;
+		}
+	}
+	p + p{
+		font-size:20px;
+	}
+}
+.section-events {
+	position: relative;
+	display: table;
+	width: 75%;
+	margin:0 auto;
+	h6{
+		margin: 35px 0 40px;
+	}
+	.events-grid{
+		li{
+			width:50%;
+			float:left;
+			list-style-type: none;
+			figure{
+				margin:0 0 10px 0;
+			}
+		
+			&:nth-child(4), &:nth-child(5){
+				figure{
+					margin:0;
+				}
+			}
+		}
+		button{
+			background:none;
+			border:2px solid #fff;
+		}
+	}
+	.p1{
+		padding:1px;
+	}
+	figure {
+		position: relative;
+		float: left;
+		overflow: hidden;
+		width: calc(100% - 10px);
+		background-color: #fff;
+		margin:0;
+		cursor: pointer;
+		img {
+			position: relative;
+			display: block;
+			-webkit-transform: scale(1);
+			transform: scale(1);
+			-webkit-transition: .5s ease-in-out;
+			transition: .5s ease-in-out;
+			max-width: 100%;
+			height: auto;
+		}
+		.show-more-overlay {
+			background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 23%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 81%, rgba(0, 0, 0, 0) 92%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0;
+			bottom: 0;
+			left: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			transform: translateY(100%);
+			transition: all 0.5s ease 0s;
+		}
+		
+		figcaption {
+			webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			position: absolute;
+			bottom: 0px;
+			left: 20px;
+			right: 20px;
+			max-height: 60px;
+			-webkit-transition: .5s ease-in-out;
+			transition: .5s ease-in-out;
+			z-index: 2;
+		}
+		.show_date{
+			color: #fff;
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+		.show_more-title {
+			color: #fff;
+			font-size: 21px;
+			line-height: 30px;
+			font-weight: 700;
+			margin-bottom: 10px;
+			font-family: "Lora", serif;
+			
+		}
+		.show_more-desc {
+			color: #fff;
+			font-size: 14px;
+			line-height: 18px;
+			font-weight: 300;
+			padding-top:15px;
+			position:relative;
+			&::after{
+				content:'';
+				background:#fff;
+				top: 0;
+				left: 0;
+				position: absolute;
+				width: 50px;
+				height:3px;
+				z-index: 1;}
+		}
+		&::after{
+			content:'';
+			background: rgba(0, 0, 0, 0.3);
+			bottom: 0;
+			left: 0;
+			position: absolute;
+			width: 100%;
+			height:100%;
+			z-index: 1;
+		}
+		&:hover{
+			img{
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);
+			}
+			.show-more-overlay
+			{
+				background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%) repeat scroll 0 0;
+				transform: translateY(0px);
+			}
+			figcaption
+			{
+				height: auto;
+				max-height: 250px;
+				bottom: 50px;
+			}
+		}
+	}
+
+}
+
+.premian-league{
+	background-color: rgba(247, 247, 247, .5);
+	.slick-slide{
+		img{
+		  width: 100%;
+		}
+		h6{
+			margin-bottom:0;
+			margin-top:15px;
+			line-height:18px;
+			font-weight:bold;
+		}
+		p{
+			white-space: pre;
+		}
+	}
+}
+
+.clear-float{
+	clear:both;
+	float:none;
+}
+.main-banner{
+	height: 500px;	
+}
+.picsum-img-wrapper{
+	background-image: url("../../assets/images/banner1.jpg");
+	background-color: #cccccc;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+@media (max-width: 576px){
+	.main-banner{
+		display:none;
+	}
+}

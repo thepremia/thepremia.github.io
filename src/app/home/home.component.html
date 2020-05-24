@@ -1,0 +1,187 @@
+<div class="main-banner">
+    <div class="picsum-img-wrapper">
+       
+    </div>
+  </div>
+
+  <section class="section-admission">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 admission-flag">
+            <div class="flag-pos">
+                <div class="v-align">
+                    <h1>Take<br>
+                        Admission<br>
+                        Now
+                        <br>
+                        <button class="btn btn-primary">LEARN MORE</button></h1>
+                </div>
+                </div>
+        </div>
+
+        <ngx-slick-carousel class="carousel col-lg-9 col-md-9 col-sm-12" #slickModal="slick-carousel" [config]="admissionConfig">
+            <div ngxSlickItem *ngFor="let item of admission; index as i" class="slide col-lg-3 col-md-3 col-sm-12">
+                <div class="panel">
+                    <div class="panel-front">
+                        <div class="panel-heading">
+                            <i class="icon icon-medium">
+                                <svg focusable="false">
+                                    <use attr.xlink:href="{{item.icon}}"></use>
+                                </svg>
+                            </i>
+                             
+                                <p>{{item.description}}</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </ngx-slick-carousel>
+       
+    </div>
+</div>
+</section>
+  
+<section class="section-info">
+    <img src="assets/images/1.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>We don’t just<br>
+                    teach kids,<br>
+                    we nurture them</h1>
+             </div>
+            <div *ngFor="let item of solution" class="col-lg-4 col-md-4 col-sm-12 panel-container">
+                <div class="panel">
+                    <div class="panel-front">
+                        <div class="panel-heading">
+                                <i class="icon icon-medium">
+                                    <svg focusable="false">
+                                        <use attr.xlink:href="{{item.icon}}"></use>
+                                    </svg>
+                                </i>
+                            <h5>{{item.title}}</h5>
+                        </div>
+                        
+                    </div>
+                    <div class="panel-back">
+                        <h5>{{item.title}}</h5>
+                        <p>{{item.description}}
+                        </p>
+                     </div>
+                </div>
+            </div>
+
+        </div>      
+    </div>
+</section>
+
+<section class="section-nofify">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h1>What<br>
+                drives<br>
+                us?</h1>
+        </div>
+        <div *ngFor="let item of notify" class="col-lg-4 col-md-4 col-sm-12">
+            <div class="panel">
+                <div class="panel-front">
+                    <div class="panel-heading">
+                            <h5>{{item.title}}</h5>
+                            <p>{{item.description}}</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+</section>
+<section class="section-curriculum">
+    <div class="row-f">
+     <div class="col-lg-8 col-md-8 col-sm-12 float-right p0">
+        <img src="assets/images/2.jpg">
+    </div>
+</div>
+<div class="clearfix"></div>
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <p class="text-highlighter">Curriculum</p><br>
+            <p> PREMIA ADVANTAGE</p><br>
+            <p> COMMUNICATION<br>
+                AND LANGUAGE</p><br>
+            <p> PERSONAL, SOCIAL AND<br>
+                EMOTIONAL DEVELOPMENT</p><br>
+            <p> PHYSICAL DEVELOPMENT</p><br>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 curriculum-info">
+            <p>
+                The term curriculum refers to the lessons and academic syllabus taught in a school for students to follow,
+which will help them attain their goals and ambitions of life. It is an instructional and educative program
+comprising of all the subjects to be taught during an academic year.
+An appropriate curriculum is required to enhance the learning experiences of students. Students today
+need a curriculum that is not only designed to achieve educational goals but also relevant to the interests
+and needs of the students to enhance their abilities to understand the world around them.
+An integrated curriculum provides lifelong learning, creating and developing values for the development
+of students according to the changing social requirements. 
+            </p>
+            <p>
+                Sustained learning and the ability to apply concepts. <br>
+Facilitate self-confidence and motivation <br>
+A deeper understanding of science and math concepts<br> 
+Improved reading and writing skills <br>
+Fostering positive attitudes and personal growth. <br>
+Critical thinking skills and improved quality of work. <br>
+Remarkable academic success 
+            </p>
+            <button class="btn btn-primary">KNOW MORE</button>
+        </div>
+    </div>
+    </div>
+    </section>
+
+
+<div class="clear-float"></div>
+<section class="premian-league">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 center">
+                <h1>The Premian League</h1>
+             </div>
+
+            <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+                <div ngxSlickItem *ngFor="let list of premianLeague; index as i" class="slide col-lg-3 col-md-3 col-sm-12">
+                    <img src="assets/images/premianleague{{i+1}}.jpg" alt="" width="100%">  
+                    <h6>{{list.name}}</h6> 
+                    <p>{{list.post}}</p>
+                    <p> {{list.desc}}</p>
+                </div>
+            </ngx-slick-carousel>
+            </div>
+    </div>
+</section>
+
+
+<section class="section-events"> 
+    <div class="container">
+        <div class="events-grid">
+            <li *ngFor="let info of events; index as i" class="p2">
+                <a>
+                    <figure>
+                        <img src="assets/images/events/event{{i + 1}}.jpg" alt="Experience">
+                        <div class="show-more-overlay"></div>  
+                        <figcaption>
+                            <span class="show_date">{{info.eventDate}}</span>
+                            <h2 class="show_more-title">{{info.title}}</h2>
+                            <p class="show_more-desc">
+                                {{info.description}}
+                            </p>
+                            <button class="btn btn-primary">LEARN MORE</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </li>
+        </div>
+    </div>
+</section>
