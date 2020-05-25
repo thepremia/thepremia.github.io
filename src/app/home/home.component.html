@@ -20,7 +20,7 @@
         </div>
 
         <ngx-slick-carousel class="carousel col-lg-9 col-md-9 col-sm-12" #slickModal="slick-carousel" [config]="admissionConfig">
-            <div ngxSlickItem *ngFor="let item of admission; index as i" class="slide col-lg-3 col-md-3 col-sm-12">
+            <div ngxSlickItem *ngFor="let item of admission; index as i" class="slide">
                 <div class="panel">
                     <div class="panel-front">
                         <div class="panel-heading">
@@ -149,16 +149,15 @@ Remarkable academic success
             <div class="col-sm-12 center">
                 <h1>The Premian League</h1>
              </div>
-
-            <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
-                <div ngxSlickItem *ngFor="let list of premianLeague; index as i" class="slide col-lg-3 col-md-3 col-sm-12">
-                    <img src="assets/images/premianleague{{i+1}}.jpg" alt="" width="100%">  
-                    <h6>{{list.name}}</h6> 
-                    <p>{{list.post}}</p>
-                    <p> {{list.desc}}</p>
-                </div>
-            </ngx-slick-carousel>
+        </div>
+        <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+            <div ngxSlickItem *ngFor="let list of premianLeague; index as i" class="slide">
+                <img src="assets/images/premianleague{{i+1}}.jpg" alt="" width="100%">  
+                <h6>{{list.name}}</h6> 
+                <p>{{list.post}}</p>
+                <p> {{list.desc}}</p>
             </div>
+        </ngx-slick-carousel>
     </div>
 </section>
 
