@@ -127,8 +127,23 @@ img{
 	width:100%;
 }
 
+.main-banner{
+	.carousel-caption{
+		h3{
+			color:#bf272d;
+			font-size:40px;
+			font-weight: bold;
+			font-family: "Lora", serif;
+		}
+		p{
+			color:#000;
+			font-weight: bold;
+		}
+	}
+}
+
 @media (max-width: 576px){
-	.main-banner, .navbar-vertical{
+	.navbar-vertical{
 		display:none;
 	}
 	.newsletter {

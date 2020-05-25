@@ -1,7 +1,16 @@
 <div class="main-banner">
-    <div class="picsum-img-wrapper">
-       
-    </div>
+    <ngb-carousel #carousel interval="5000" [showNavigationArrows]="showNavigationArrows" [pauseOnHover]="pauseOnHover"
+    (slide)="onSlide($event)">
+        <ng-template ngbSlide  *ngFor="let info of banner; index as i">
+          <div class="picsum-img-wrapper">
+            <img src="assets/images/banner{{i+1}}.jpg" alt="Random first slide">
+          </div>
+          <div class="carousel-caption">
+            <h3>{{info.title}}</h3>
+            <p>{{info.description}}</p>
+          </div>
+        </ng-template>     
+      </ngb-carousel>
   </div>
 
   <section class="section-admission">
@@ -59,12 +68,10 @@
                                         <use attr.xlink:href="{{item.icon}}"></use>
                                     </svg>
                                 </i>
-                            <h5>{{item.title}}</h5>
                         </div>
                         
                     </div>
                     <div class="panel-back">
-                        <h5>{{item.title}}</h5>
                         <p>{{item.description}}
                         </p>
                      </div>
@@ -87,7 +94,7 @@
             <div class="panel">
                 <div class="panel-front">
                     <div class="panel-heading">
-                            <h5>{{item.title}}</h5>
+                            <h5><span>{{item.title}}</span></h5>
                             <p>{{item.description}}</p>
                     </div>
                  </div>
@@ -119,10 +126,10 @@
             <p>
                 The term curriculum refers to the lessons and academic syllabus taught in a school for students to follow,
 which will help them attain their goals and ambitions of life. It is an instructional and educative program
-comprising of all the subjects to be taught during an academic year.
+comprising of all the subjects to be taught during an academic year.<br><br>
 An appropriate curriculum is required to enhance the learning experiences of students. Students today
 need a curriculum that is not only designed to achieve educational goals but also relevant to the interests
-and needs of the students to enhance their abilities to understand the world around them.
+and needs of the students to enhance their abilities to understand the world around them.<br><br>
 An integrated curriculum provides lifelong learning, creating and developing values for the development
 of students according to the changing social requirements. 
             </p>

@@ -8,6 +8,21 @@ import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/n
 })
 export class HomeComponent {
 
+  banner = [
+    {
+      title: 'First slide label',
+      description: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+    },
+    {
+      title: 'Second slide label',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    },
+    {
+      title: 'Third slide label',
+      description: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
+    }
+  ];
+
   slideConfig = {
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -215,15 +230,6 @@ Business Icon` },
 educationist
 30+ Years of
 experience` },
-  ];
-
-  gallery =[
-    {class: 'col-lg-5 col-md-5', description: 'consectetur adipiscing elit'},
-    {class: 'col-lg-7 col-md-7', description: 'consectetur adipiscing elit'},
-    {class: 'col-lg-6 col-md-6', description: 'consectetur adipiscing elit'},
-    {class: 'col-lg-6 col-md-6', description: 'consectetur adipiscing elit'},
-    {class: 'col-lg-5 col-md-5', description: 'consectetur adipiscing elit'},
-    {class: 'col-lg-7 col-md-7', description: 'consectetur adipiscing elit'}
   ];
 
   paused = false;
