@@ -97,6 +97,9 @@ svg:not(:root) {
 .slick-slider {
 	width: 100%;
 	margin: auto;
+	.slick-slide{
+		margin:0 15px;
+	}
   }
 
   .inner-banner{
@@ -122,4 +125,18 @@ textarea.form-control{
 
 img{
 	width:100%;
+}
+
+@media (max-width: 576px){
+	.main-banner, .navbar-vertical{
+		display:none;
+	}
+	.newsletter {
+		.btn{
+			margin:15px 0 0 0;
+		}
+	}
+	.navbar-nav-list{
+		float: left;
+	}
 }
