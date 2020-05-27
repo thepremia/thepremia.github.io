@@ -43,26 +43,6 @@ export class HeaderComponent implements OnInit {
     ]
   };
 
-  banner = [
-    {
-      img: 'assets/images/banner',
-      title: 'WE SPECIALIZE IN IMPROVING',
-      title_2:'OPERATIONAL PERFORMANCE AND IT DELIVERY.',
-      description: 'We do this by improving the way our clients use people, processes and technologies. Here is the place to envision, discover and fulfil your technology needs.'
-    },
-    // {
-    //   img: 'assets/images/banner',
-    //   title: 'WE SPECIALIZE IN IMPROVING',
-    //   title_2:'OPERATIONAL PERFORMANCE AND IT DELIVERY.',
-    //   description: 'We do this by improving the way our clients use people.'
-    // },
-    // {
-    //   img: 'assets/images/banner',
-    //   title: 'WE SPECIALIZE IN IMPROVING',
-    //   title_2:'OPERATIONAL PERFORMANCE AND IT DELIVERY.',
-    //   description: 'We do this by improving processes and technologies. Here is the place to envision, discover and fulfil your technology needs.'
-    // }
-  ];
 
   list;
   managedService;
@@ -76,7 +56,7 @@ export class HeaderComponent implements OnInit {
         {name: 'ThePremianEdge'},
         {name: 'Admissions'},
         {name: 'Apply'},
-        {name: 'ENG'}
+        {name: 'Eng'}
     ];
   }
 

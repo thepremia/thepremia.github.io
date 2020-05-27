@@ -2,9 +2,32 @@ body{
 	color:#000;
 	font-family: 'Quicksand', sans-serif;
 	font-size:14px;
+	background:#f0f0f0;
 }
 .form-control, .btn{
 	border-radius: 0;
+}
+
+.breadcum{
+	margin-top:25px;
+	margin-left:150px;
+	font-family: "Lora", serif;
+	span{
+		margin:0 15px;
+	}
+	.icon-ex-small{
+		svg{
+			width: 14px;
+			height: 14px;
+		}
+	}
+	
+}
+
+.clearfix{
+	clear: both;
+	float:none;
+	
 }
 
 .text-highlighter{
@@ -27,6 +50,7 @@ h1{
 }
 h2{
 	font-size:34px;
+	font-family: "Lora", serif;
 }
 h3{
 	font-size:30px;
@@ -138,6 +162,29 @@ img{
 		p{
 			color:#000;
 			font-weight: bold;
+		}
+	}
+}
+
+ul.list{
+	margin-top:35px;
+	li{
+		padding: 0 0 20px 20px;
+		list-style: none outside;
+		font-size: 16px;
+		position: relative;
+		color:#fff;
+		&::before{
+			content: " ";
+			background: #fff;
+			font-weight: bold;
+			position:absolute;
+			top:8px;
+			left:0px;
+			width: 10px; 
+			height:10px;
+			border-radius: 50%;
+			margin-right: 10px;
 		}
 	}
 }

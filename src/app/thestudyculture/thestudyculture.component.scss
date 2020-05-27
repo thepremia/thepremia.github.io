@@ -1,0 +1,99 @@
+.section-study-culture{
+	.row-f, .row{
+		margin:70px 0 100px 70px ; 
+		position: relative;
+	}
+	.curriculum{
+		margin-bottom:0px;
+	}
+	.panel {
+		background:#fff;
+		padding:50px;
+		
+	}
+	h1{
+		margin-left:65px;
+		margin-bottom: 35px;
+	}
+	h2{
+		position:relative;
+		padding-bottom:5px;
+		line-height: 60px;
+		margin-bottom: 30px;
+		&::before{
+			content:" ";
+			position: absolute;
+			bottom:0;
+			left:0;
+			width:50px;
+			height:2px;
+			background:#f0f0f0;
+		}
+	}
+	.our-mission{
+		.img-flag{
+			left: 0px;
+			z-index: 1;
+			top: -25px;
+		}
+		.panel{
+			float:right;
+		}
+		.panel-body{
+			margin-left:40%;
+		}
+	}
+	.img-flag{
+		position: absolute;
+		right:0;
+		top:0;
+		width: 40%;
+	}
+	ul.list{
+		margin:0px;
+		li{
+			color:#000;
+			&::before{
+				background:#bf272d;
+			}
+		}
+	}
+}
+
+.more-info{
+	float:none;
+	clear:both;
+	p{
+		margin:50px 0 70px 75px ;
+	}
+}
+
+@media (max-width: 576px){
+	.section-study-culture{
+		.row-f, .row, h1{
+			margin-left:0px; 
+	}
+	.breadcum{
+		margin-left:15px;
+	}
+	.img-flag{
+		padding:15px;
+		position: static;
+		width:100%;
+	}
+}
+.section-study-culture {
+	.our-mission{
+		margin: 0 15px;
+		.panel-body {
+			margin-left: 0;
+		}
+		.panel{
+			float:none;
+		}
+		.img-flag{
+			padding:15px 0;
+		}
+	}
+}
+}
