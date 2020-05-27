@@ -82,36 +82,8 @@ footer {
 		}
     }
 }
-
-.newsletter{
-    background:#3e65ac;
-    padding:40px 0;
-    .form-inline{
-        margin:0 auto;
-    }
-    label{
-        color:#000;
-        font-size:20px;
-        margin-right:15px;
-
-    }
-    .btn{
-        background:#000;
-        color:#fff;
-        margin-left:15px;
-        padding:9px 15px;
-        text-transform: uppercase;
-        font-size:14px;
-    }
-}
-
 @media (max-width: 576px){
-	.newsletter {
-		.btn{
-			margin:15px 0 0 0;
-		}
-    }
-    .contact-info {
+	    .contact-info {
         .social-net{
             border:none;
             padding:0;
