@@ -4,10 +4,10 @@ body{
 	font-size:14px;
 	background:#f0f0f0;
 }
+
 .form-control, .btn{
 	border-radius: 0;
 }
-
 .breadcum{
 	margin-top:25px;
 	margin-left:150px;
@@ -107,7 +107,7 @@ svg:not(:root) {
 		color:#000;
 	}
 	.slick-prev, .slick-next{
-		bottom:-40px;
+		bottom:-25px;
 		top:auto;
 		right: 0;
         left: auto !important;
@@ -189,7 +189,32 @@ ul.list{
 	}
 }
 
+@media(min-width: 768px){
+	.container{
+	width:calc(720px - 108px);
+	margin-right:108px;
+}
+}
+
+@media(min-width: 992px){
+	.container{
+	width:calc(960px - 108px);
+	margin-right:108px;
+}
+}
+
+@media(min-width: 1200px){
+	.container{
+	width:calc(1140px - 108px);
+	margin-right:108px;
+}
+}
+
 @media (max-width: 576px){
+	.container{
+		width:100%;
+		margin-right:0;
+	}
 	.navbar-vertical{
 		display:none;
 	}

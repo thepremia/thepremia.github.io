@@ -9,6 +9,9 @@
 	.panel {
 		background:#fff;
 		padding:50px;
+		.panel-body{
+			width:70%;
+		}
 		
 	}
 	h1{
@@ -30,24 +33,11 @@
 			background:#f0f0f0;
 		}
 	}
-	.our-mission{
-		.img-flag{
-			left: 0px;
-			z-index: 1;
-			top: -25px;
-		}
-		.panel{
-			float:right;
-		}
-		.panel-body{
-			margin-left:40%;
-		}
-	}
 	.img-flag{
 		position: absolute;
 		right:0;
 		top:0;
-		width: 40%;
+		width: 50%;
 	}
 	ul.list{
 		margin:0px;
@@ -81,19 +71,8 @@
 		position: static;
 		width:100%;
 	}
-}
-.section-study-culture {
-	.our-mission{
-		margin: 0 15px;
-		.panel-body {
-			margin-left: 0;
-		}
-		.panel{
-			float:none;
-		}
-		.img-flag{
-			padding:15px 0;
-		}
+	.panel-body{
+		width:100%;
 	}
 }
 }
