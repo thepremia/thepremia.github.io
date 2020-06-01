@@ -84,7 +84,24 @@
 		white-space: pre;
 		margin-top:15px;
 	}
-
+	.carousel{
+		.panel{
+			i{
+				margin:0 auto;
+				display:block;
+				text-align:center;
+			}
+			svg{
+				width:75px;
+				height:75px;
+			}
+			p{
+				font-size:20px;
+				font-family: "Lora", serif;
+				text-align:center;
+			}
+		}
+	}
 }
 
 .section-curriculum{
@@ -129,7 +146,7 @@
 .section-events {
 	position: relative;
 	display: table;
-	width: 75%;
+	width: 60%;
 	margin:0 auto;
 	h6{
 		margin: 35px 0 40px;
@@ -264,7 +281,7 @@
 	background-color: rgba(247, 247, 247, .5);
 	.slick-slide{
 		img{
-		  width: 100%;
+		  width: 80%;
 		}
 		h6{
 			margin-bottom:0;
@@ -387,5 +404,10 @@
 		.btn{
 			margin:15px 0 0 0;
 		}
-    }
+	}
+	.premian-league{
+		img{
+			width:100%;
+		}
+	}
 }
