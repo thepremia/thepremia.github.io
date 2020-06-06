@@ -187,7 +187,36 @@ Mindset`,
     },
   ];
 
-
+  testimonials = [
+    {
+      clientView_1: ' We ensure excellence in service through understanding of our clients business and their unique requirements.',
+      clientView_2: ' Due to our close relationships and constant interactions with clients,',
+      clientView_3: ' we have developed solid understanding and insight in our focus industries that include.',
+      clientName: 'xyz Company',
+      desti: 'CEO'
+    },
+    {
+      clientView_1: ' Consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
+      clientView_2: ' Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.',
+      clientView_3: ' lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.',
+      clientName: 'ABC Company',
+      desti: 'CEO'
+    },
+    {
+      clientView_1: ' We ensure excellence in service through understanding of our clients business and their unique requirements.',
+      clientView_2: ' Due to our close relationships and constant interactions with clients,',
+      clientView_3: ' we have developed solid understanding and insight in our focus industries that include.',
+      clientName: '123 Company',
+      desti: 'CEO'
+    },
+    {
+      clientView_1: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      clientView_2: ' Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo',
+      clientView_3: ' Proin sodales pulvinar tempor.',
+      clientName: 'QWERTy',
+      desti: 'CEO'
+    },
+];
 
   // images = [62, 83, 466, 965, 982, 1043, 738].map((n) => `https://picsum.photos/id/${n}/900/500`);
 

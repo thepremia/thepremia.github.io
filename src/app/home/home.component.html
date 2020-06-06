@@ -1,16 +1,22 @@
 <div class="main-banner">
-    <ngb-carousel #carousel interval="5000" [showNavigationArrows]="showNavigationArrows" [pauseOnHover]="pauseOnHover"
+    <!-- <ngb-carousel #carousel interval="5000" [showNavigationArrows]="showNavigationArrows" [pauseOnHover]="pauseOnHover"
     (slide)="onSlide($event)">
         <ng-template ngbSlide  *ngFor="let info of banner; index as i">
           <div class="picsum-img-wrapper">
             <img src="assets/images/banner{{i+1}}.jpg" alt="Random first slide">
           </div>
           <div class="carousel-caption">
-            <!-- <h3>{{info.title}}</h3>
-            <p>{{info.description}}</p> -->
+           <h3>{{info.title}}</h3>
+            <p>{{info.description}}</p>
           </div>
         </ng-template>     
-      </ngb-carousel>
+      </ngb-carousel> -->
+
+      <video autoplay>
+        <source src="assets/images/banner.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
   </div>
 
   <section class="section-admission">
@@ -165,6 +171,39 @@ Remarkable academic success
                 <p> {{list.desc}}</p>
             </div>
         </ngx-slick-carousel>
+    </div>
+</section>
+
+
+<section class="testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>TESTIMONIALS</h1>
+                <ngb-carousel #carousel interval="5000" [showNavigationArrows]='true' [showNavigationIndicators]='false'
+                    [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+                    <ng-template ngbSlide *ngFor="let info of testimonials; index as i">
+                        <p>
+                            {{info.clientView_1}}
+                        </p>
+                        <p>
+                            {{info.clientView_2}}
+                        </p>
+                        <p>
+                            {{info.clientView_3}}
+                        </p>
+                        <p>
+                            {{info.clientName}}<br>
+                            <span>{{info.desti}}</span>
+                        </p>
+                       
+
+                    </ng-template>
+                </ngb-carousel>
+
+            </div>
+
+        </div>
     </div>
 </section>
 

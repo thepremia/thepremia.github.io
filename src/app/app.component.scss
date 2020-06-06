@@ -5,12 +5,16 @@ body{
 	background:#f0f0f0;
 }
 
+*{
+	outline:none;
+}
+
 .form-control, .btn{
 	border-radius: 0;
 }
 .breadcum{
 	margin-top:25px;
-	margin-left:150px;
+	margin-left:140px;
 	font-family: "Lora", serif;
 	span{
 		margin:0 15px;
