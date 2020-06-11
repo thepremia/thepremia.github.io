@@ -9,25 +9,21 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav navbar-nav-list">
-        <li class="nav-item" *ngFor="let item of list; index as i">
-          <a class="nav-link" routerLink="{{item.name}}" routerLinkActive="active" skipLocationChange=true>
-            {{item.name | createSpace}}
-          </a>
-        </li>
-        <li class="nav-item login">
-          <a class="nav-link">
-            <i class="icon icon-small">
-              <svg focusable="false">
-                <use xlink:href="#icon_login"></use>
-              </svg>
-            </i><br>
-            Login
-          </a>
-        </li>
-      </ul>
+    
     </div>
   </div>
+  <ul class="navbar-nav navbar-nav-list">
+    <li class="nav-item login">
+       <a class="nav-link">
+         <i class="icon icon-small">
+           <svg focusable="false">
+             <use xlink:href="#icon_login"></use>
+           </svg>
+         </i><br>
+         Login
+       </a>
+     </li>
+   </ul>
   </nav>
 </header>
 
@@ -73,3 +69,26 @@
     </ul>
 </div>
 </nav>
+
+<div class="overlay" [ngClass]="isOpen ? '' : 'active'" (click)="slideToggel()">
+
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav navbar-nav-list">
+      <li class="nav-item" *ngFor="let item of list; index as i">
+        <a class="nav-link" routerLink="{{item.name}}" routerLinkActive="active" skipLocationChange=true>
+          {{item.name | createSpace}}
+        </a>
+      </li>
+      <li class="nav-item login">
+        <a class="nav-link">
+          <i class="icon icon-small">
+            <svg focusable="false">
+              <use xlink:href="#icon_login"></use>
+            </svg>
+          </i><br>
+          Login
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
