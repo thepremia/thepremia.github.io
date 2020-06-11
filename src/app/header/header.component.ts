@@ -14,6 +14,9 @@ export class HeaderComponent implements OnInit {
   showNavigationIndicators = false;
   showNavigationArrows = false;
 
+  isOpen = true;
+  isSlideOpen = true;
+
   slideConfig = {
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -47,7 +50,6 @@ export class HeaderComponent implements OnInit {
   list;
   managedService;
   managedServiceSoftEng;
-  isOpen = true;
 
   constructor() {
     this.list = [
@@ -61,7 +63,13 @@ export class HeaderComponent implements OnInit {
   }
 
   slideToggel() {
+    const body = document.getElementsByTagName('body')[0];
     this.isOpen = !this.isOpen;
+    if (!this.isOpen) {
+      body.classList.add('remove-scroll');
+    } else {
+      body.classList.remove('remove-scroll'); 
+    }
   }
 
   ngOnInit() {

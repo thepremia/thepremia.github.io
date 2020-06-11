@@ -133,6 +133,19 @@ nav {
     }
 }
 
+.overlay{
+    display:none;
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: calc(100vh);
+    top:0;
+    &.active{
+        display:block;
+        z-index:10;
+    }
+}
+
 @media (max-width: 576px){
 	.navbar-nav-list{
         float: left;
