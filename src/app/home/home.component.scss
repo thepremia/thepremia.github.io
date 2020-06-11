@@ -25,7 +25,9 @@
 		margin-bottom:10px;
 	}
 	.panel-container{
-		margin-top:30px;
+		margin: 30px auto 0;
+		display: block;
+		text-align: center;
 	}
 }
 
@@ -113,6 +115,10 @@
 		}
 		
 	}
+
+	.curri-list{
+		margin-top:15px;
+	}
 	
 	.curriculum-info{
 		margin-top:-50px;
@@ -127,10 +133,11 @@
 			float:right;
 			font-family: "Lora", serif;
 		}
+		p{
+			font-size:12px;
+		}
 	}
-	p + p{
-		font-size:20px;
-	}
+	
 
 	.text-highlighter{
 			&:after{
@@ -154,6 +161,7 @@
 		position: absolute;
 		top:0;
 		left:0;
+		opacity:0.5;
 	}
 	h1{
 		color:#fff;
@@ -334,7 +342,7 @@
 			{
 				height: auto;
 				max-height: 250px;
-				bottom: 50px;
+				bottom: 35px;
 			}
 		}
 	}
@@ -345,7 +353,7 @@
 	background-color: rgba(247, 247, 247, .5);
 	.slick-slide{
 		img{
-		  width: 80%;
+		  width: 100%;
 		}
 		h6{
 			margin-bottom:0;
@@ -366,6 +374,7 @@
 .main-banner{
 	height: 500px;	
 	overflow:hidden;
+	margin-top:112px;
 	video{
 		width:calc(100% - 70px);
 		margin-left:70px; 
@@ -416,6 +425,7 @@
 	.section-curriculum {
 		.curriculum-info{
 			margin-top:0px;
+			
 		}
 	}
 

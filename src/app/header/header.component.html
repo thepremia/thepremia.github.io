@@ -66,29 +66,33 @@
                 <span>Instagram</span>
             </a>
         </li>
+
+        <li class="notice-board"><a  target="_blank">
+          <i class="icon icon-ex-small">
+              <svg focusable="false">
+                  <use xlink:href="#icon_noticeBoard"></use>
+              </svg>
+          </i>
+       </a>
+  </li>
     </ul>
 </div>
 </nav>
 
-<div class="overlay" [ngClass]="isOpen ? '' : 'active'" (click)="slideToggel()">
-
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav navbar-nav-list">
-      <li class="nav-item" *ngFor="let item of list; index as i">
-        <a class="nav-link" routerLink="{{item.name}}" routerLinkActive="active" skipLocationChange=true>
+<div class="overlay" [ngClass]="isOpen ? '' : 'active'">
+  <img src="assets/images/2.jpg">
+  <a class="nav-link" (click)="slideToggel()">
+    <i class="icon icon-small close-menu">
+      <svg focusable="false">
+        <use xlink:href="#icon_close"></use>
+      </svg>
+    </i>
+  </a> 
+<ul class="main-nav">
+      <li class="main-nav-list" *ngFor="let item of list; index as i">
+        <a class="main-nav-link" routerLink="{{item.name}}" routerLinkActive="active" skipLocationChange=true>
           {{item.name | createSpace}}
         </a>
       </li>
-      <li class="nav-item login">
-        <a class="nav-link">
-          <i class="icon icon-small">
-            <svg focusable="false">
-              <use xlink:href="#icon_login"></use>
-            </svg>
-          </i><br>
-          Login
-        </a>
-      </li>
     </ul>
-  </div>
 </div>
