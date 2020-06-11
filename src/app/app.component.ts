@@ -19,9 +19,9 @@ export class AppComponent implements OnInit {
             }
         }
         if (this.router.url === '/home') {
-          document.body.classList.add('main-banner');
+          document.body.classList.add('main-page');
         } else {
-          document.body.classList.remove('main-banner');
+          document.body.classList.remove('main-page');
         }
     });
 }

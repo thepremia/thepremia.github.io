@@ -29,12 +29,12 @@ export class HomeComponent {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 1500,
-    arrows: false,
+    arrows: true,
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 2
@@ -43,7 +43,7 @@ export class HomeComponent {
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 1
@@ -222,43 +222,39 @@ Mindset`,
 
   premianLeague = [
     {
-      name: 'SHRI PRADEEP REDDY',
-      post: 'SOCIETY PRESIDENT',
-      desc: `IITian
+      name:'SHRI PRADEEP REDDY',
+      post:'SOCIETY PRESIDENT',
+      desc:`IITian
 Renowned
 Business Icon` },
     {
-      name: 'MS. TRUPTI RAO',
-      post: 'PRINCIPAL',
-      desc: `Educator, Teacher, Achiever
+      name:'MS. TRUPTI RAO',
+      post:'PRINCIPAL',
+      desc:`Educator, Teacher, Achiever
  21+ Years of experience
 19 years at Meridian` },
     {
-      name: 'MS. MALINI PAUL',
-      post: 'HEADMISTRESS',
-      desc: `Facilitator, Visionary,
-educationist
-30+ Years of
-experience` },
+      name:'MS. MALINI PAUL',
+      post:'HEADMISTRESS',
+      desc:`Facilitator, Visionary, educationist
+30+ Years of experience` },
     {
-      name: 'SHRI PRADEEP REDDY',
-      post: 'SOCIETY PRESIDENT',
-      desc: `IITian
+      name:'SHRI PRADEEP REDDY',
+      post:'SOCIETY PRESIDENT',
+      desc:`IITian
 Renowned
 Business Icon` },
     {
-      name: 'MS. TRUPTI RAO',
-      post: 'PRINCIPAL',
-      desc: `Educator, Teacher, Achiever
+      name:'MS. TRUPTI RAO',
+      post:'PRINCIPAL',
+      desc:`Educator, Teacher, Achiever
 21+ Years of experience
 19 years at Meridian` },
     {
-      name: 'MS. MALINI PAUL',
-      post: 'HEADMISTRESS',
-      desc: `Facilitator, Visionary,
-educationist
-30+ Years of
-experience` },
+      name:'MS. MALINI PAUL',
+      post:'HEADMISTRESS',
+      desc:`Facilitator, Visionary, educationist
+30+ Years of experience` },
   ];
 
   paused = false;
