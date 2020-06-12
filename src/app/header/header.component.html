@@ -1,16 +1,14 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-    <a href="javascript:void(0)" routerLink="home" routerLinkActive="active"
+    <a href="javascript:void(0)" class="logo" routerLink="home" routerLinkActive="active"
     skipLocationChange=true>
       <img src="assets/images/logo.png">
   </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" (click)="slideToggel()">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-    
-    </div>
+
   </div>
   <ul class="navbar-nav navbar-nav-list">
     <li class="nav-item login">
@@ -67,17 +65,52 @@
             </a>
         </li>
 
-        <li class="notice-board"><a  target="_blank">
+        <li class="notice-board"><a  target="_blank" (click)="open(content)">
           <i class="icon icon-ex-small">
               <svg focusable="false">
                   <use xlink:href="#icon_noticeBoard"></use>
               </svg>
           </i>
        </a>
+
+       <ng-template #content let-modal>
+        <div class="modal-header">
+          <i class="icon icon-ex-small">
+            <svg focusable="false">
+                <use xlink:href="#icon_noticeBoard"></use>
+            </svg>
+        </i>
+          <h4 class="modal-title" id="modal-basic-title">NOTICE BOARD</h4>
+              <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <i class="icon icon-ex-small">
+                  <svg focusable="false">
+                    <use xlink:href="#icon_close"></use>
+                  </svg>
+                </i>
+              </a>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 v-flex">
+             <p>
+              Admissions open<br>
+              for the academic<br>
+              year of
+             </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+             <img src="assets/images/notice-board.png">
+            </div>
+          </div>
+        </div>
+      </ng-template>
   </li>
     </ul>
 </div>
 </nav>
+
+
+
 
 <div class="overlay" [ngClass]="isOpen ? '' : 'active'">
   <img src="assets/images/2.jpg">
@@ -90,7 +123,7 @@
   </a> 
 <ul class="main-nav">
       <li class="main-nav-list" *ngFor="let item of list; index as i">
-        <a class="main-nav-link" routerLink="{{item.name}}" routerLinkActive="active" skipLocationChange=true>
+        <a class="main-nav-link" routerLink="{{item.name}}" routerLinkActive="active" skipLocationChange=true (click)="slideToggel()">
           {{item.name | createSpace}}
         </a>
       </li>
