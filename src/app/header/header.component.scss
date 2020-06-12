@@ -8,14 +8,18 @@ nav {
         background-color:#f0f0f0;
         width:100%;
         z-index: 9;
-        padding:1rem;
+        padding:10px;
         position: fixed;
         top:0px;
-        .container{
-            width:100%;
-        }
+       
         li:not(.login){
             margin-top:10px;
+        }
+        .logo{
+            img{
+                height:50px;
+            width:auto;
+            }
         }
         .login{
             background: #000;
@@ -38,6 +42,7 @@ nav {
     height: 100vh;
     background-color: #f0f0f0;
     top: 0px;
+    padding-left: 15px;
     a{
         padding:0px;
     }
@@ -91,6 +96,28 @@ nav {
         display:block;
     }
 }
+
+::ng-deep .modal-content{
+    background-color:#3e65ac;
+    padding: 0 15px;
+    .modal-title{
+        margin-left:15px;
+        font-family: "Lora", serif;
+        color:#fff;
+    }
+    i{
+        margin-top: 9px;
+        display: block;
+    }
+    svg{
+        fill:#fff;
+    }
+    p{
+        color:#fff;
+        font-size:24px;
+        align-self: center;
+    }
+}
 .navbar-nav-list{
         float: right;
         margin-left: auto;
@@ -100,7 +127,7 @@ nav {
         font-size:14px;
         float:left;
         a{
-            padding:1rem;
+            padding:10px;
             font-size:16px;
             font-weight:bold;
             color:#000;

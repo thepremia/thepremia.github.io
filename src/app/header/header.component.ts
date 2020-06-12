@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewEncapsulation, ViewChild } from '@angular/core';
 import { viewClassName } from '@angular/compiler';
-import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource} from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource, NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -51,7 +51,9 @@ export class HeaderComponent implements OnInit {
   managedService;
   managedServiceSoftEng;
 
-  constructor() {
+  closeResult = '';
+
+  constructor(private modalService: NgbModal) {
     this.list = [
         {name: 'ThePremianStory'},
         {name: 'TheStudyCulture'},
@@ -61,6 +63,25 @@ export class HeaderComponent implements OnInit {
         // {name: 'Eng'}
     ];
   }
+    open(content) {
+      this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
+        this.closeResult = `Closed with: ${result}`;
+      }, (reason) => {
+        this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+      });
+    }
+  
+    private getDismissReason(reason: any): string {
+      if (reason === ModalDismissReasons.ESC) {
+        return 'by pressing ESC';
+      } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+        return 'by clicking on a backdrop';
+      } else {
+        return `with: ${reason}`;
+      }
+    }
+
+
 
   slideToggel() {
     const body = document.getElementsByTagName('body')[0];
