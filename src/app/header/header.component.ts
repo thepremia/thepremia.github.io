@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, ViewChild, TemplateRef } from '@angular/core';
 import { viewClassName } from '@angular/compiler';
 import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource, NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
@@ -10,6 +10,8 @@ import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource, NgbModal, ModalDismiss
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+
+  @ViewChild('content', { static: true }) content: TemplateRef<any>;
 
   showNavigationIndicators = false;
   showNavigationArrows = false;
@@ -94,6 +96,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.modalService.open(this.content);
   }
 
   paused = false;
