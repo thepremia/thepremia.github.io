@@ -206,7 +206,7 @@ nav {
                 a{
                     padding:15px;
                     color:#000;
-                    font-size:16px;
+                    font-size:18px;
                     font-weight:bold;
                     text-decoration: none;
                     &:hover{
@@ -214,6 +214,18 @@ nav {
                     }
                 }
             
+            }
+        }
+        .general-info-nav{
+            position: absolute;
+            bottom:10px;
+            text-align:center;
+            width:100%;
+            a{
+                padding: 0 10px;
+                &:hover{
+                    color:#f44336;
+                }
             }
         }
 }
