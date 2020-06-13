@@ -66,7 +66,7 @@ export class HeaderComponent implements OnInit {
     ];
   }
     open(content) {
-      this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
+      this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title', size: 'lg'}).result.then((result) => {
         this.closeResult = `Closed with: ${result}`;
       }, (reason) => {
         this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
@@ -96,7 +96,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.modalService.open(this.content);
+    this.modalService.open(this.content, { size: 'lg' });
   }
 
   paused = false;

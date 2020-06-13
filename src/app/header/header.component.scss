@@ -97,7 +97,10 @@ nav {
     }
 }
 
-::ng-deep .modal-content{
+::ng-deep .modal{
+    display: flex !important;
+    align-items: center;
+.modal-content{
     background-color:#3e65ac;
     padding: 0 15px;
     .modal-title{
@@ -114,10 +117,10 @@ nav {
     }
     p{
         color:#fff;
-        font-size:24px;
+        font-size:28px;
         align-self: center;
     }
-}
+}}
 .navbar-nav-list{
         float: right;
         margin-left: auto;
