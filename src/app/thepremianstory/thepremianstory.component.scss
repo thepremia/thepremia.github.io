@@ -12,6 +12,30 @@
 		.panel-body{
 			width:70%;
 		}
+		&.story-info{
+			background:#bf272d;
+			color:#fff;
+			position:relative;
+			.flying-plane{
+				position: absolute;
+				left:0px;
+				top:0px;
+				svg{
+					fill: #fff;
+					transform: rotate(90deg);
+    				margin-top: 5px;
+				}
+			}
+			&::after{
+				content: "";
+				position: absolute;
+				left:0px;
+				top:50px;
+				width: 3px;
+				height: 20px;
+				background: #fff;
+			}
+		}
 		
 	}
 	h1{
