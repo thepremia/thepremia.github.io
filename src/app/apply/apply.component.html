@@ -1,13 +1,54 @@
-<div class="breadcum">
-    <a>
-        <i class="icon icon-ex-small">
-            <svg focusable="false">
-                <use xlink:href="#icon_home"></use>
-            </svg>
-        </i>
-    </a>
-    <span> |</span>
-    <a>
-        Page under construction.
-    </a>
-</div>
+<section class="section-study-culture">
+    <div class="breadcum">
+        <a>
+            <i class="icon icon-ex-small">
+                <svg focusable="false">
+                    <use xlink:href="#icon_home"></use>
+                </svg>
+            </i>
+        </a>
+        <span> |</span>
+        <a>
+            The
+            Premian Story
+        </a>
+    </div>
+    <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+           
+                <h2>
+                    How to apply?
+                </h2>
+                <div class="panel-body">
+                <p>At Premia Academy, our school year calendar will begin from June through April.
+                    <br><br>
+                    We encourage parents to submit the admission application, documents and payment as soon as possible. The Admissions Department will review completed applications prior to enrollment.</p>
+                </div>
+           
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="assets/images/8.jpg">
+ 
+    </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="row applycation-rules">
+        <div class="col-lg-1 col-md-1 col-sm-12"></div>
+        <div class="col-lg-11 col-md-11 col-sm-12 float-right">
+            <div class="panel">
+             <ul class="list">
+                      <li *ngFor="let data of moreInfo">
+                          {{data.info}}
+                      </li>
+                  </ul>
+          </div>
+          <button class="btn btn-primary">APPLY</button>
+       </div>
+    </div>
+
+
+
+
+</section>

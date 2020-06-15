@@ -1,0 +1,223 @@
+.section-admission{
+  
+	.row-f, .row{
+		margin:70px 0 100px 70px ; 
+		position: relative;
+    }
+    .admission-info{
+        background:#fff;
+    }
+    .add-spec{
+        margin:0 0 0 35px;
+        .row{
+            margin:0px;
+        }
+     .panel{
+            padding:0;
+            margin: 0 auto ;
+            display: block;
+            text-align: center;
+            p{
+                margin-top:25px;
+            }
+        }
+    }
+	.curriculum{
+		margin-bottom:0px;
+	}
+	.panel {
+		background:#fff;
+        padding:50px;
+        padding-bottom:0px;
+		.panel-body{
+			width:50%;
+		}
+		&.story-info{
+			background:#bf272d;
+			color:#fff;
+			position:relative;
+			.flying-plane{
+				position: absolute;
+				left:0px;
+				top:0px;
+				svg{
+					fill: #fff;
+					transform: rotate(90deg);
+    				margin-top: 5px;
+				}
+			}
+			&::after{
+				content: "";
+				position: absolute;
+				left:0px;
+				top:50px;
+				width: 3px;
+				height: 20px;
+				background: #fff;
+			}
+		}
+		
+	}
+	h1{
+		margin-left:65px;
+		margin-bottom: 35px;
+	}
+	h2{
+		position:relative;
+		padding-bottom:5px;
+		line-height: 60px;
+		margin-bottom: 30px;
+		&::before{
+			content:" ";
+			position: absolute;
+			bottom:0;
+			left:0;
+			width:50px;
+			height:2px;
+			background:#f0f0f0;
+		}
+	}
+	.img-flag{
+		position: absolute;
+		right:0;
+		top:0;
+		width: 40%;
+	}
+	ul.list{
+		margin:0px;
+		li{
+			color:#000;
+			&::before{
+				background:#bf272d;
+			}
+		}
+	}
+}
+
+.more-info{
+	float:none;
+	clear:both;
+	p{
+		margin:50px 0 70px 75px ;
+	}
+}
+
+.applycation-rules{
+    .btn{
+        width:75%;
+        padding:15px 0;
+        background:#bf272d;
+        font-family: "Lora", serif;
+        margin:25px auto 0;
+        font-size:24px;
+        display:block;
+    }
+}
+
+.section-admission-2{
+	margin:70px 0px;
+	.row{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.bar{
+		position:relative;
+		padding-top:15px;
+		&::after{
+			content: "";
+			position: absolute;
+			top:0px;
+			left:0px;
+			width:100px;
+			height:5px;
+		}
+	}
+
+	.pp0{
+		&::after{
+		background:#fff;}
+	}
+	.pp1{&::after{
+		background:#bf272d;}
+	}
+	.pp2{&::after{
+		background:#000000;}
+	}
+	.pp3{&::after{
+		background:#e4e4e4;}
+	}
+
+	.addmin-sec{
+		padding:0px;
+		.row{
+			margin-left:0px;
+		}
+		.add-info{
+			padding:0px;
+			display: flex;
+		}
+	}
+	.admission-flag{
+		position:relative;
+		color:#fff;
+		padding:25px 0;
+		height:250px;
+		
+		.flag-pos{
+			content:'';
+			background:url(../../assets/images/bulb.jpg) #bf272d;
+			position: absolute;
+			top: -25px;
+			left: 0px;
+			width: 100%;
+			padding: 325px 20px 0;
+			z-index: 1;
+			box-shadow: 7px 5px 10px 0px rgba(0, 0, 0, 0.5);
+		}
+        .btn{
+			border:1px solid #fff;
+			color:#fff;
+			background:none;
+		}
+	}
+	p{
+		white-space: pre;
+		margin-top:15px;
+	}
+		.panel{
+			background:url(../../assets/images/bulb.png) no-repeat 40px top #fff;
+			margin-right: 5px;
+			padding-top: 270px;
+			i{
+				margin:0 auto;
+				display:block;
+				text-align:center;
+			}
+			svg{
+				width:75px;
+				height:75px;
+			}
+			
+		}
+}
+
+
+@media (max-width: 576px){
+	.section-study-culture{
+		.row-f, .row, h1{
+			margin-left:0px; 
+	}
+	.breadcum{
+		margin-left:15px;
+	}
+	.img-flag{
+		padding:15px;
+		position: static;
+		width:100%;
+	}
+	.panel-body{
+		width:100%;
+	}
+}
+}
