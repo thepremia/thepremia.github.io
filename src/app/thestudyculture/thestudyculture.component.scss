@@ -5,6 +5,13 @@
 	}
 	.curriculum{
 		margin-bottom:0px;
+		.curriculum-1{
+			padding:0;
+			background:#fff;
+			p{
+				padding:30px;
+			}
+		}
 	}
 	.panel {
 		background:#fff;
@@ -61,10 +68,42 @@
 }
 
 .more-info{
+	.panel{
+		background:#bf272d;
+		margin-top: 35px;
+		ul.list{
+			li {
+				color:#fff;
+			&::before{
+				background: #fff;
+			}	
+			}
+		}
+	}
 	float:none;
 	clear:both;
 	p{
+		background:#fff;
+		padding:30px;
 		margin:50px 0 70px 75px ;
+	}
+}
+
+.our-belief{
+	h2{
+		color:#bf272d;
+	}
+	.panel{
+		background:#3e65ac;
+		color:#fff;
+		ul.list{
+			li{
+				color: #fff;
+				&::before{
+					background:#fff;
+				}
+		}
+		}
 	}
 }
 

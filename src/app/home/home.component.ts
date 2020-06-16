@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -82,7 +83,7 @@ export class HomeComponent {
     ]
   };
 
-  constructor() {
+  constructor(private router: Router) {
   }
 
   events = [
@@ -151,11 +152,27 @@ Mindset`,
   notify = [
     {
       title: 'Vision',
-      description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.',
+      description: 'Our vision is to raise, our ‘Premia Pride’ to live their dreams as a generation who are:',
+      moreInfo : [
+        { info : 'Resilient and Confident lifelong learners'},
+        { info : 'Agile and authentic individuals'},
+        { info : 'Innovative and intuitive changemakers'},
+        { info : 'Socially responsible and humble global citizens'},
+        { info : 'Empathetic and humane souls who uphold integrity above all'}
+      ]
     },
     {
       title: 'Mission',
-      description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.',
+      description: `Our students will be equipped to meet the current and future challenges with
+      values of
+      `,
+      moreInfo : [
+        { info : 'Resilience'},
+        { info : 'Agility'},
+        { info : 'Integrity'},
+        { info : 'Social responsibility'},
+        { info : 'Empathy'},
+      ]
     },
   ];
 
@@ -272,6 +289,17 @@ Business Icon` },
     }
     this.paused = !this.paused;
   }
+
+  knowMore = function(text) {
+    if(text == 'culture'){
+      this.router.navigateByUrl('/TheStudyCulture', {skipLocationChange: true});
+    }else if(text == 'edge'){
+      this.router.navigateByUrl('/ThePremianEdge', {skipLocationChange: true});
+    }
+
+};
+
+
 
   onSlide(slideEvent: NgbSlideEvent) {
     if (this.unpauseOnArrow && slideEvent.paused &&

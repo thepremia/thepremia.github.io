@@ -14,14 +14,11 @@
         </a>
     </div>
     <div class="row-f">
-
-        <div class="col-lg-8 col-md-8 col-sm-12">
-            <h1>
-                The<br>
-                Premian Story
-            </h1>
-
-
+        <h1>
+            The<br>
+            Premian Story
+        </h1>
+        <div class="col-lg-11 col-md-11 col-sm-12 story">
             <div class="panel">
                 <h2>
                     Who we are
@@ -30,10 +27,34 @@
                 <p>We are a group of committed individuals who believe that “What sculpture is to a block of marble, education is to the human soul.” Joseph Addison.
                     <br><br>
                     Our advisory board comprises of diverse academicians who have a keen interest in providing a unique perspective to our collective vision. Individually they have contributed tremendously to the field of education, together they bring their unique capacities to our advisory board supporting continual improvement and sustainability.
-                    <br><br>
-                    We want to nurture a confident, compassionate student body that is ready to make a positive difference to the World. We affirm that every child deserves a childhood filled with love and positivism. That is the core belief, with which we will take care of each child, as this will contribute to making exemplary individuals.
-                    </p>
+               </p>
                 </div>
+            </div>
+            <div class="row add-spec">
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>
+                        We want to nurture a confident, compassionate student body that is ready to make a positive difference to the World. We affirm that every child deserves a childhood filled with love and positivism. That is the core belief, with which we will take care of each child, as this will contribute to making exemplary individuals. </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12" *ngFor="let item of story; index as i">
+                        <div class="panel">
+                            <div class="panel-front">
+                                <div class="panel-heading">
+                                    <i class="icon icon-medium">
+                                        <svg focusable="false">
+                                            <use attr.xlink:href="{{item.icon}}"></use>
+                                        </svg>
+                                    </i>
+                                     
+                                        <p>{{item.description}}</p>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
         <div class="img-flag">

@@ -101,6 +101,11 @@
                     <div class="panel-heading">
                             <h5><span>{{item.title}}</span></h5>
                             <p>{{item.description}}</p>
+                            <ul class="list">
+                                <li *ngFor="let data of item.moreInfo">
+                                    {{data.info}}
+                                </li>
+                            </ul>
                     </div>
                  </div>
             </div>
@@ -121,7 +126,7 @@
         <div class="col-lg-4 col-md-4 col-sm-12">
         <div class="curri-list">
             <p class="text-highlighter">CURRICULUM</p><br>
-            <p> PREMIA ADVANTAGE</p><br>
+            <p> PREMIA EDGE</p><br>
             <p> COMMUNICATION<br>
                 AND LANGUAGE</p><br>
             <p> PERSONAL, SOCIAL AND<br>
@@ -147,7 +152,7 @@ Improved reading and writing skills <br>
 Fostering positive attitudes and personal growth. <br>
 Critical thinking skills and improved quality of work. <br>
 Remarkable academic success 
-<button class="btn btn-primary">KNOW MORE</button>
+<button class="btn btn-primary" (click)="knowMore('culture');">KNOW MORE</button>
             </p>
            
         </div>

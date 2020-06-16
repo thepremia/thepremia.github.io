@@ -58,6 +58,12 @@
 			margin-top: 13px;
 		}
 	}
+	ul.list li{
+		color:#000;
+		&::before{
+			background:#bf272d;
+		}
+	}
 }
 
 .section-admission{
