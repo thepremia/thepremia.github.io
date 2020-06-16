@@ -39,7 +39,7 @@ const routes: Routes = [
     EngComponent
 ],
   imports: [
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, { enableTracing: false, scrollPositionRestoration: 'enabled'}),
     BrowserModule,
     NgbModule,
     SlickCarouselModule

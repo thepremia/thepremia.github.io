@@ -20,6 +20,29 @@ a{
 .v-flex{
 	align-self: center;
 }
+.lines{
+	display:none;
+	width:2px;
+	height:100%;
+	position: absolute;
+	background:#fff;
+	top:0;
+	&._1{
+		left:20%;
+	}
+	&._2{
+		left:40%;
+	}
+	&._3{
+		left:60%;
+	}
+	&._4{
+		left:80%;
+	}
+	&._5{
+		left:100%;
+	}
+}
 .breadcum{
 	margin-top:115px;
 	margin-left:140px;

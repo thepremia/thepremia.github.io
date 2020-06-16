@@ -3,14 +3,33 @@
 		margin:70px 0 100px 70px ; 
 		position: relative;
 	}
+	.story{
+		background:#fff;
+	}
+	.add-spec{
+        margin:0 0 0 35px;
+        .row{
+            margin:0px;
+        }
+     .panel{
+            padding:0;
+            margin: 0 auto ;
+            display: block;
+            text-align: center;
+            p{
+                margin-top:25px;
+            }
+        }
+    }
 	.curriculum{
 		margin-bottom:0px;
 	}
 	.panel {
 		background:#fff;
 		padding:50px;
+		padding-bottom: 0px;
 		.panel-body{
-			width:70%;
+			width:50%;
 		}
 		&.story-info{
 			background:#bf272d;
@@ -61,7 +80,7 @@
 		position: absolute;
 		right:0;
 		top:0;
-		width: 50%;
+		width:40%;
 	}
 	ul.list{
 		margin:0px;
