@@ -22,13 +22,16 @@ nav {
             }
         }
         .login{
-            background: #000;
+            border:1px solid #000;
             margin:0 15px;
             a{
-                color:#fff !important;
+                color:#000 !important;
                 text-align: center;
                 svg{
-                    fill:#fff;
+                    fill:#000;
+                }
+                &:hover{
+                    background:none !important;
                 }
             }
         }

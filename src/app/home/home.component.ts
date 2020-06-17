@@ -179,28 +179,28 @@ Mindset`,
  solution = [
     {
       description: `Comprehensive Development`,
-      icon: '#icon_training'
+      icon: '#icon_termDevelopment'
     },
     {
       description: `Communication and
       vocational training`,
-      icon: '#icon_training'
+      icon: '#icon_commTrainning'
     },
     {
       description: `Performing arts`,
-      icon: '#icon_training'
+      icon: '#icon_art'
     },
     {
       description: `Sports`,
-      icon: '#icon_training'
+      icon: '#icon_tophy'
     },
     {
       description: `Health and Fitness`,
-      icon: '#icon_training'
+      icon: '#icon_health'
     },
     {
       description: `Emotional Development`,
-      icon: '#icon_training'
+      icon: '#icon_emoDev'
     },
   ];
 
