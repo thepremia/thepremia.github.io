@@ -1879,22 +1879,22 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.'
         }];
         this.admission = [{
-          icon: '#icon_training',
+          icon: '#icon_reading',
           description: "Sculpting\nYoung\nLearners"
         }, {
-          icon: '#icon_training',
+          icon: '#icon_education',
           description: "Imparting\nHolistic\nEducation"
         }, {
-          icon: '#icon_training',
+          icon: '#icon_emoDev',
           description: "Nurturing a\nProgressive\nMindset"
         }, {
-          icon: '#icon_training',
+          icon: '#icon_reading',
           description: "Sculpting\nYoung\nLearners"
         }, {
-          icon: '#icon_training',
+          icon: '#icon_education',
           description: "Imparting\nHolistic\nEducation"
         }, {
-          icon: '#icon_training',
+          icon: '#icon_emoDev',
           description: "Nurturing a\nProgressive\nMindset"
         }];
         this.notify = [{
