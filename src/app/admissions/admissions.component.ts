@@ -11,18 +11,18 @@ export class AdmissionsComponent implements OnInit {
   
   admission = [
     {
-      icon: '#icon_softEngg',
+      icon: '#icon_ethicalEdu',
       description: `Ethical
       Education`,
     },
     {
-      icon: '#icon_softEngg',
+      icon: '#icon_nurturing',
       description: `Nurturing
       Individual
       Passion`,
     },
     {
-      icon: '#icon_softEngg',
+      icon: '#icon_community',
       description: `Building
 A Community`,
     }

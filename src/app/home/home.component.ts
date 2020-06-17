@@ -111,37 +111,37 @@ export class HomeComponent {
 
   admission = [
     {
-      icon: '#icon_softEngg',
+      icon: '#icon_training',
       description: `Sculpting
 Young
 Learners`,
     },
     {
-      icon: '#icon_softEngg',
+      icon: '#icon_training',
       description: `Imparting
 Holistic
 Education`,
     },
     {
-      icon: '#icon_softEngg',
+      icon: '#icon_training',
       description: `Nurturing a
 Progressive
 Mindset`,
     },
     {
-      icon: '#icon_softEngg',
+      icon: '#icon_training',
       description: `Sculpting
 Young
 Learners`,
     },
     {
-      icon: '#icon_softEngg',
+      icon: '#icon_training',
       description: `Imparting
 Holistic
 Education`,
     },
     {
-      icon: '#icon_softEngg',
+      icon: '#icon_training',
       description: `Nurturing a
 Progressive
 Mindset`,
@@ -179,12 +179,12 @@ Mindset`,
  solution = [
     {
       description: `Comprehensive Development`,
-      icon: '#icon_mgmt'
+      icon: '#icon_training'
     },
     {
       description: `Communication and
       vocational training`,
-      icon: '#icon_softEngg'
+      icon: '#icon_training'
     },
     {
       description: `Performing arts`,
@@ -192,11 +192,11 @@ Mindset`,
     },
     {
       description: `Sports`,
-      icon: '#icon_mgmt'
+      icon: '#icon_training'
     },
     {
       description: `Health and Fitness`,
-      icon: '#icon_softEngg'
+      icon: '#icon_training'
     },
     {
       description: `Emotional Development`,

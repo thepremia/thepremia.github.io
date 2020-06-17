@@ -16,13 +16,13 @@ export class ThepremianstoryComponent implements OnInit {
       Development`,
     },
     {
-      icon: '#icon_softEngg',
+      icon: '#icon_commTrainning',
       description: `Communication
       and vocational
       training`,
     },
     {
-      icon: '#icon_softEngg',
+      icon: '#icon_art',
       description: `Performing
       arts`,
     }
