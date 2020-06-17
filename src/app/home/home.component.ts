@@ -111,41 +111,41 @@ export class HomeComponent {
 
   admission = [
     {
-      icon: '#icon_training',
+      icon: '#icon_reading',
       description: `Sculpting
 Young
 Learners`,
     },
     {
-      icon: '#icon_training',
+      icon: '#icon_education',
       description: `Imparting
 Holistic
 Education`,
     },
     {
-      icon: '#icon_training',
+      icon: '#icon_emoDev',
       description: `Nurturing a
 Progressive
 Mindset`,
     },
     {
-      icon: '#icon_training',
+      icon: '#icon_reading',
       description: `Sculpting
 Young
 Learners`,
     },
     {
-      icon: '#icon_training',
+      icon: '#icon_education',
       description: `Imparting
 Holistic
 Education`,
     },
     {
-      icon: '#icon_training',
+      icon: '#icon_emoDev',
       description: `Nurturing a
 Progressive
 Mindset`,
-    },
+    }
   ];
 
 
