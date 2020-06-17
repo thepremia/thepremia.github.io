@@ -124,8 +124,32 @@
 		
 	}
 
-	.curri-list{
+	.section-curriculum-list{
 		margin-top:15px;
+		&.nav-pills{
+			li{
+				margin-bottom:30px;
+				.nav-link{
+					color: #000;
+					padding-left:50px;
+					position: relative;
+					&.active{
+						background:none;
+						color: #bf272d;
+						&::after{
+							content: "";
+							position: absolute;
+							left:0;
+							top:17px;
+							width: 40px;
+							height: 2px;
+							background: #bf272d;
+						}
+					}
+				}
+				
+			}
+		}
 	}
 	
 	.curriculum-info{

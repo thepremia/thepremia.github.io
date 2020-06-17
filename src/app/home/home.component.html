@@ -12,50 +12,51 @@
         </ng-template>     
       </ngb-carousel> -->
 
-      <video controls autoplay>
+    <video controls autoplay>
         <source src="https://thepremia.github.io/academy/assets/images/banner.mp4" type="video/mp4">
         Your browser does not support the video tag.
-      </video>
+    </video>
 
-  </div>
+</div>
 
-  <section class="section-admission">
+<section class="section-admission">
     <div class="container">
         <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-12 admission-flag">
-            <div class="flag-pos">
-                <div class="v-align">
-                    <h1>Join<br>
-                        The Premia<br>
-                        Family
-                        <br>
-                        <button class="btn btn-primary">LEARN MORE</button></h1>
-                </div>
-                </div>
-        </div>
-
-        <ngx-slick-carousel class="carousel col-lg-9 col-md-9 col-sm-12" #slickModal="slick-carousel" [config]="admissionConfig">
-            <div ngxSlickItem *ngFor="let item of admission; index as i" class="slide">
-                <div class="panel">
-                    <div class="panel-front">
-                        <div class="panel-heading">
-                            <i class="icon icon-medium">
-                                <svg focusable="false">
-                                    <use attr.xlink:href="{{item.icon}}"></use>
-                                </svg>
-                            </i>
-                             
-                                <p>{{item.description}}</p>
-                        </div>
-                     </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 admission-flag">
+                <div class="flag-pos">
+                    <div class="v-align">
+                        <h1>Join<br>
+                            The Premia<br>
+                            Family
+                            <br>
+                            <button class="btn btn-primary">LEARN MORE</button></h1>
+                    </div>
                 </div>
             </div>
-        </ngx-slick-carousel>
-       
+
+            <ngx-slick-carousel class="carousel col-lg-9 col-md-9 col-sm-12" #slickModal="slick-carousel"
+                [config]="admissionConfig">
+                <div ngxSlickItem *ngFor="let item of admission; index as i" class="slide">
+                    <div class="panel">
+                        <div class="panel-front">
+                            <div class="panel-heading">
+                                <i class="icon icon-medium">
+                                    <svg focusable="false">
+                                        <use attr.xlink:href="{{item.icon}}"></use>
+                                    </svg>
+                                </i>
+
+                                <p>{{item.description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ngx-slick-carousel>
+
+        </div>
     </div>
-</div>
 </section>
-  
+
 <section class="section-info">
     <img src="assets/images/1.jpg">
     <div class="container">
@@ -64,41 +65,41 @@
                 <h1>We don’t just
                     teach kids,<br>
                     we nurture them</h1>
-             </div>
+            </div>
             <div *ngFor="let item of solution" class="col-lg-4 col-md-4 col-sm-12 panel-container">
                 <div class="panel">
                     <div class="panel-front">
                         <div class="panel-heading">
-                                <i class="icon icon-medium">
-                                    <svg focusable="false">
-                                        <use attr.xlink:href="{{item.icon}}"></use>
-                                    </svg>
-                                </i>
+                            <i class="icon icon-medium">
+                                <svg focusable="false">
+                                    <use attr.xlink:href="{{item.icon}}"></use>
+                                </svg>
+                            </i>
                         </div>
-                        
+
                     </div>
                     <div class="panel-back">
                         <p>{{item.description}}
                         </p>
-                     </div>
+                    </div>
                 </div>
             </div>
 
-        </div>      
+        </div>
     </div>
 </section>
 
 <section class="section-nofify">
     <div class="container">
         <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-            <h1>What drives<br>
-                us?</h1>
-        </div>
-        <div *ngFor="let item of notify" class="col-lg-4 col-md-4 col-sm-12">
-            <div class="panel">
-                <div class="panel-front">
-                    <div class="panel-heading">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h1>What drives<br>
+                    us?</h1>
+            </div>
+            <div *ngFor="let item of notify" class="col-lg-4 col-md-4 col-sm-12">
+                <div class="panel">
+                    <div class="panel-front">
+                        <div class="panel-heading">
                             <h5><span>{{item.title}}</span></h5>
                             <p>{{item.description}}</p>
                             <ul class="list">
@@ -106,59 +107,132 @@
                                     {{data.info}}
                                 </li>
                             </ul>
+                        </div>
                     </div>
-                 </div>
+                </div>
             </div>
+
         </div>
-       
     </div>
-</div>
 </section>
 <section class="section-curriculum">
     <div class="row-f">
-     <div class="col-lg-9 col-md-9 col-sm-12 float-right p0">
-        <img src="assets/images/2.jpg">
-    </div>
-</div>
-<div class="clearfix"></div>
-    <div class="container">
-    <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="curri-list">
-            <p class="text-highlighter">CURRICULUM</p><br>
-            <p> PREMIA EDGE</p><br>
-            <p> COMMUNICATION<br>
-                AND LANGUAGE</p><br>
-            <p> PERSONAL, SOCIAL AND<br>
-                EMOTIONAL DEVELOPMENT</p><br>
-            <p> PHYSICAL DEVELOPMENT</p><br>
-        </div></div>
-        <div class="col-lg-8 col-md-8 col-sm-12 curriculum-info">
-            <p>
-                The term curriculum refers to the lessons and academic syllabus taught in a school for students to follow,
-which will help them attain their goals and ambitions of life. It is an instructional and educative program
-comprising of all the subjects to be taught during an academic year.<br><br>
-An appropriate curriculum is required to enhance the learning experiences of students. Students today
-need a curriculum that is not only designed to achieve educational goals but also relevant to the interests
-and needs of the students to enhance their abilities to understand the world around them.<br><br>
-An integrated curriculum provides lifelong learning, creating and developing values for the development
-of students according to the changing social requirements. 
-            </p>
-            <p>
-                Sustained learning and the ability to apply concepts. <br>
-Facilitate self-confidence and motivation <br>
-A deeper understanding of science and math concepts<br> 
-Improved reading and writing skills <br>
-Fostering positive attitudes and personal growth. <br>
-Critical thinking skills and improved quality of work. <br>
-Remarkable academic success 
-<button class="btn btn-primary" (click)="knowMore('culture');">KNOW MORE</button>
-            </p>
-           
+        <div class="col-lg-9 col-md-9 col-sm-12 float-right p0">
+            <img src="assets/images/2.jpg">
         </div>
     </div>
+    <div class="clearfix"></div>
+    <div class="container">
+        <div class="row">
+
+            <div class="d-flex">
+                <ul ngbNav #nav="ngbNav" [(activeId)]="active"
+                    class="nav-pills section-curriculum-list col-lg-4 col-md-4 col-sm-12" orientation="vertical">
+                    <li ngbNavItem="1">
+                        <a ngbNavLink>CURRICULUM</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                The term curriculum refers to the lessons and academic syllabus taught in a school for
+                                students to follow,
+                                which will help them attain their goals and ambitions of life. It is an instructional
+                                and educative program
+                                comprising of all the subjects to be taught during an academic year.<br><br>
+                                An appropriate curriculum is required to enhance the learning experiences of students.
+                                Students today
+                                need a curriculum that is not only designed to achieve educational goals but also
+                                relevant to the interests
+                                and needs of the students to enhance their abilities to understand the world around
+                                them.<br><br>
+                                An integrated curriculum provides lifelong learning, creating and developing values for
+                                the development
+                                of students according to the changing social requirements.
+                            </p>
+                            <p>
+                                Sustained learning and the ability to apply concepts. <br>
+                                Facilitate self-confidence and motivation <br>
+                                A deeper understanding of science and math concepts<br>
+                                Improved reading and writing skills <br>
+                                Fostering positive attitudes and personal growth. <br>
+                                Critical thinking skills and improved quality of work. <br>
+                                Remarkable academic success<br><br>
+                                <button class="btn btn-primary" (click)="knowMore('culture');">KNOW MORE</button>
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="2">
+                        <a ngbNavLink>PREMIA EDGE</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                The integrated curriculum at Premia comprises & aligns with all the learning outcomes in
+                                CBSE, IGCSE & AERO standards. The curriculum includes reading, writing, listening,
+                                speaking, social studies, math, science, health, physical education, music, and visual
+                                arts, experiential learning, public speaking, emphasis on projects, etc. We at Premia
+                                will utilize different approaches of integration best suited for the students:
+                                <br><br>
+                                ● Multi-Disciplinary Integration -<br>
+                                To focus on reading, writing, and communication in all its forms, in language arts. This
+                                approach focuses on integration within one subject area, teaching the content with
+                                deeper understanding.
+                                <br><br>
+                                ● Inter-disciplinary integration -<br>
+                                Focuses on project-based learning in more than one subject area. Interdisciplinary
+                                integration assembles the teaching of several subjects around common issues, or
+                                problems, highlighting thematic concepts in which a common theme is studied.
+                                <br><br>
+                                ● Trans-disciplinary integration -<br>
+                                Involves understanding the student’s interests, and concerns while encouraging them to
+                                ask questions to inquire about the subject matter from a variety of perspectives.
+                                Interdisciplinary integration incorporates information, involving students’ interests
+                                and questions.<br><br>
+
+
+                                <button class="btn btn-primary" (click)="knowMore('edge');">KNOW MORE</button>
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="3">
+                        <a ngbNavLink>COMMUNICATION
+                            AND LANGUAGE</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Communication and language development is about different ways a child understands and
+                                communicates, using words, gestures or facial expressions.
+                                Being an indicator of fine motor skill development and a reflection of cognitive
+                                development, reading is one of the best ways to encourage communication and language
+                                development.
+
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="4">
+                        <a ngbNavLink>PERSONAL, SOCIAL AND
+                            EMOTIONAL DEVELOPMENT</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                It’s essential for children to feel comfortable, emotionally and physically to learn
+                                effectively. Helping children to learn how to regulate and manage their feelings is,
+                                therefore, a vital stepping stone for success in learning and life.
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li ngbNavItem="5">
+                        <a ngbNavLink>PHYSICAL DEVELOPMENT</a>
+                        <ng-template ngbNavContent>
+                            <p>
+                                Children meet a myriad of physical development milestones in the first few years of
+                                life, from walking to drawing. Physical development focuses on increasing the skill and
+                                performance of the body. The development of children’s physical skills should be
+                                developed holistically across all areas of learning.
+                            </p>
+                        </ng-template>
+                    </li>
+                </ul>
+
+                <div [ngbNavOutlet]="nav" class="ml-4 col-lg-8 col-md-8 col-sm-12 curriculum-info"></div>
+            </div>
+        </div>
     </div>
-    </section>
+</section>
 
 
 <div class="clear-float"></div>
@@ -167,12 +241,12 @@ Remarkable academic success
         <div class="row">
             <div class="col-sm-12 center">
                 <h1>The Premian League</h1>
-             </div>
+            </div>
         </div>
         <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
             <div ngxSlickItem *ngFor="let list of premianLeague; index as i" class="slide">
-                <img src="assets/images/premianleague{{i+1}}.jpg" alt="" width="100%">  
-                <h6>{{list.name}}</h6> 
+                <img src="assets/images/premianleague{{i+1}}.jpg" alt="" width="100%">
+                <h6>{{list.name}}</h6>
                 <p>{{list.post}}</p>
                 <p>{{list.desc}}</p>
             </div>
@@ -203,26 +277,22 @@ Remarkable academic success
                             {{info.clientName}}<br>
                             <span>{{info.desti}}</span>
                         </p>
-                       
-
                     </ng-template>
                 </ngb-carousel>
-
             </div>
-
         </div>
     </div>
 </section>
 
 
 <div class="container">
-<section class="section-events"> 
-    <div class="events-grid">
+    <section class="section-events">
+        <div class="events-grid">
             <li *ngFor="let info of events; index as i" class="p2">
                 <a>
                     <figure>
                         <img src="assets/images/events/event{{i + 1}}.jpg" alt="Experience">
-                        <div class="show-more-overlay"></div>  
+                        <div class="show-more-overlay"></div>
                         <figcaption>
                             <span class="show_date">{{info.eventDate}}</span>
                             <h2 class="show_more-title">{{info.title}}</h2>
@@ -234,8 +304,8 @@ Remarkable academic success
                     </figure>
                 </a>
             </li>
-        </div>  
-</section>
+        </div>
+    </section>
 </div>
 
 <section class="newsletter">
@@ -244,8 +314,8 @@ Remarkable academic success
             <form class="form-inline" action="/action_page.php">
                 <label for="email">Newsletter </label>
                 <input type="email" class="form-control" placeholder="Enter email" id="email">
-               <button type="submit" class="btn btn-primary"> Subscribe</button>
-              </form>
+                <button type="submit" class="btn btn-primary"> Subscribe</button>
+            </form>
         </div>
     </div>
 </section>
