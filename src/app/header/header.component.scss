@@ -6,7 +6,7 @@
 }
 nav {
         background-color:#f0f0f0;
-        width:100%;
+        width:calc(100% - 70px);
         z-index: 9;
         padding:10px;
         position: fixed;
@@ -22,7 +22,7 @@ nav {
             }
         }
         .login{
-            border:1px solid #000;
+            // border:1px solid #000;
             margin:0 15px;
             a{
                 color:#000 !important;
@@ -45,6 +45,7 @@ nav {
     height: 100vh;
     background-color: #f0f0f0;
     top: 0px;
+    left:0px;
     padding-left: 15px;
     a{
         padding:0px;
@@ -122,6 +123,11 @@ nav {
         color:#fff;
         font-size:28px;
         align-self: center;
+    }
+    .btn{
+        outline: none;
+        background:none;
+        border:2px solid #fff;
     }
 }}
 .navbar-nav-list{

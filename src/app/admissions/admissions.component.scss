@@ -1,7 +1,7 @@
 .section-admission{
   
 	.row-f, .row{
-		margin:70px 0 100px 70px ; 
+		margin:70px 0 100px; 
 		position: relative;
     }
     .admission-info{
@@ -136,7 +136,7 @@
 
 	.pp0{
 		&::after{
-		background:#fff;}
+		background:#3e65ac;}
 	}
 	.pp1{&::after{
 		background:#bf272d;}
@@ -156,6 +156,11 @@
 		.add-info{
 			padding:0px;
 			display: flex;
+			&:first-child{
+				.panel{
+					margin-left:0px;
+				}
+			}
 		}
 	}
 	.admission-flag{
@@ -163,19 +168,7 @@
 		color:#fff;
 		padding:25px 0;
 		height:250px;
-		
-		.flag-pos{
-			content:'';
-			background:url(../../assets/images/bulb.jpg) #bf272d;
-			position: absolute;
-			top: -25px;
-			left: 0px;
-			width: 100%;
-			padding: 325px 20px 0;
-			z-index: 1;
-			box-shadow: 7px 5px 10px 0px rgba(0, 0, 0, 0.5);
-		}
-        .btn{
+		.btn{
 			border:1px solid #fff;
 			color:#fff;
 			background:none;
@@ -186,9 +179,40 @@
 		margin-top:15px;
 	}
 		.panel{
-			background:url(../../assets/images/bulb.png) no-repeat 40px top #fff;
-			margin-right: 5px;
+			background:url(../../assets/images/bulb.png) no-repeat 40px -10px #fff;
+			margin-left: 5px;
 			padding-top: 270px;
+			width: 100%;
+			.panel-heading{
+				z-index: 2;
+    			position: relative;
+			}
+			
+			&:hover{
+				.panel-heading{
+					.bar{
+						&::after{
+							background: #fff !important;
+						}
+					}
+					h3, p{
+						color:#fff;
+					}
+				}
+				&::after{
+					content:'';
+					background:url(../../assets/images/bulb.jpg) no-repeat -65px -50px #bf272d;
+					position: absolute;
+					top: -25px;
+					left: 0px;
+					width: 100%;
+					height: calc(100% + 50px);
+					padding: 325px 20px 0;
+					z-index: 1;
+					box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+				
+			}
+			}
 			i{
 				margin:0 auto;
 				display:block;

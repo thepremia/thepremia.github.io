@@ -22,7 +22,7 @@ const routes: Routes = [
   {path: 'ThePremianStory', component: ThepremianstoryComponent},
   {path: 'ThePremianEdge', component: ThepremianedgeComponent},
   {path: 'Admissions', component: AdmissionsComponent},
-  {path: 'Apply', component: ApplyComponent},
+  {path: 'HowToApply', component: ApplyComponent},
   {path: 'Eng', component: EngComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full' }
 

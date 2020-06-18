@@ -5,6 +5,11 @@ body{
 	background:url(../assets/images/body.png) repeat #f0f0f0;
 }
 
+.left-space{
+	padding-left: 70px;
+    float: left;
+}
+
 *{
 	outline:none;
 }
@@ -45,7 +50,7 @@ a{
 }
 .breadcum{
 	margin-top:115px;
-	margin-left:140px;
+	margin-left:70px;
 	font-family: "Lora", serif;
 	span{
 		margin:0 15px;
@@ -250,31 +255,31 @@ ul.list{
 //     padding-left: 0px;
 // }
 
-@media(min-width: 768px){
-	.container{
-	width:calc(720px - 108px);
-	margin-right:108px;
-}
-}
+// @media(min-width: 768px){
+// 	.container{
+// 	width:calc(720px - 64px);
+// 	margin-right:64px;
+// }
+// }
 
-@media(min-width: 992px){
-	.container{
-	width:calc(960px - 108px);
-	margin-right:108px;
-}
-}
+// @media(min-width: 992px){
+// 	.container{
+// 	width:calc(960px - 64px);
+// 	margin-left:64px;
+// }
+// }
 
-@media(min-width: 1200px){
-	.container{
-	width:calc(1140px - 108px);
-	margin-right:108px;
-}
-}
+// @media(min-width: 1200px){
+// 	.container{
+// 	width:calc(1140px - 64px);
+// 	margin-left:64px;
+// }
+// }
 
 @media (max-width: 576px){
-	.container{
-		width:100%;
-		margin-right:0;
+	.left-space{
+		padding-left: 0px;
+		float: left;
 	}
 	.navbar-vertical{
 		display:none;
