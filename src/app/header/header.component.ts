@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewEncapsulation, ViewChild, TemplateRef } from '@angular/core';
 import { viewClassName } from '@angular/compiler';
 import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource, NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
+import { Router } from '@angular/router';
 
 
 
@@ -55,7 +56,7 @@ export class HeaderComponent implements OnInit {
 
   closeResult = '';
 
-  constructor(private modalService: NgbModal) {
+  constructor(private modalService: NgbModal, private router: Router) {
     this.list = [
         {name: 'Home'},
         {name: 'ThePremianStory'},
@@ -64,10 +65,13 @@ export class HeaderComponent implements OnInit {
         {name: 'ThePremianEdge'},
         {name: 'Admissions'},
         {name: 'HowToApply'},
+        {name: 'Blog'},
         {name: 'ContactUs'},
         // {name: 'Eng'}
     ];
   }
+
+  
     open(content) {
       this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title', size: 'lg'}).result.then((result) => {
         this.closeResult = `Closed with: ${result}`;
@@ -76,6 +80,7 @@ export class HeaderComponent implements OnInit {
       });
     }
   
+
     private getDismissReason(reason: any): string {
       if (reason === ModalDismissReasons.ESC) {
         return 'by pressing ESC';
@@ -125,6 +130,12 @@ export class HeaderComponent implements OnInit {
     }
     if (this.pauseOnIndicator && !slideEvent.paused && slideEvent.source === NgbSlideEventSource.INDICATOR) {
       this.togglePaused();
+    }
+  }
+
+  knowMore = function(text) {
+    if(text == 'admission'){
+      this.router.navigateByUrl('/Admissions', {skipLocationChange: true});
     }
   }
 

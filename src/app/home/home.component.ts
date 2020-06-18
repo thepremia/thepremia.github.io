@@ -298,10 +298,14 @@ Business Icon` },
     }else if(text == 'edge'){
       this.router.navigateByUrl('/ThePremianEdge', {skipLocationChange: true});
     }
+    else if(text == 'apply'){
+      this.router.navigateByUrl('/HowToApply', {skipLocationChange: true});
+    }
+    else if(text == 'admission'){
+      this.router.navigateByUrl('/Admissions', {skipLocationChange: true});
+    }
 
 };
-
-
 
   onSlide(slideEvent: NgbSlideEvent) {
     if (this.unpauseOnArrow && slideEvent.paused &&
