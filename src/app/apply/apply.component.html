@@ -1,4 +1,4 @@
-<section class="section-study-culture">
+<section class="section-study-culture section-inner-subheader">
     <div class="breadcum">
         <a>
             <i class="icon icon-ex-small">
@@ -13,37 +13,41 @@
             Premian Story
         </a>
     </div>
-    <div class="row">
 
-        <div class="col-lg-6 col-md-6 col-sm-12">
+
+    <div class="row-f">
+        <h1>
+            How to apply?
+        </h1>
+
+        <div class="col-lg-11 col-md-11 col-sm-12 inner-info">
            
-                <h2>
-                    How to apply?
-                </h2>
+         <div class="panel">
+              
                 <div class="panel-body">
-                <p>At Premia Academy, our school year calendar will begin from June through April.
-                    <br><br>
-                    We encourage parents to submit the admission application, documents and payment as soon as possible. The Admissions Department will review completed applications prior to enrollment.</p>
+                <p>Thank You for expressing interest in Premia Academy.  We at Premia Academy, welcome all learners to a vibrant school community delivering an ethical education in an academic setting.<br><br>
+                    Our admissions policy ensures an appropriate admission procedure with respect to each application received for admission. We pursue to set a selection standard that is fair and consistent. Assessment for admissions to preprimary and primary would be an analysis to evaluate the developmental preparedness of students, using a range of assessment methods to understand the applicant’s skills. Prior to admissions, we assess applicants to determine their readiness for our School providing practical and ethical methods of teaching.</p>
+                
+                    <ul class="list">
+                        <li *ngFor="let data of moreInfo">
+                            {{data.info}}
+                        </li>
+                    </ul>
                 </div>
-           
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
+            </div>
+
+            </div>
+        <div class="img-flag">
             <img src="assets/images/10.jpg">
- 
-    </div>
+        </div>
+
     </div>
     <div class="clearfix"></div>
 
     <div class="row applycation-rules">
         <div class="col-lg-1 col-md-1 col-sm-12"></div>
         <div class="col-lg-11 col-md-11 col-sm-12 float-right">
-            <div class="panel">
-             <ul class="list">
-                      <li *ngFor="let data of moreInfo">
-                          {{data.info}}
-                      </li>
-                  </ul>
-          </div>
+            
           <button class="btn btn-primary">APPLY</button>
        </div>
     </div>

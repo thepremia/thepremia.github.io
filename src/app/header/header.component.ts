@@ -57,11 +57,14 @@ export class HeaderComponent implements OnInit {
 
   constructor(private modalService: NgbModal) {
     this.list = [
+        {name: 'Home'},
         {name: 'ThePremianStory'},
+        {name: 'TheTeam'},
         {name: 'TheStudyCulture'},
         {name: 'ThePremianEdge'},
         {name: 'Admissions'},
-        {name: 'Apply'},
+        {name: 'HowToApply'},
+        {name: 'ContactUs'},
         // {name: 'Eng'}
     ];
   }

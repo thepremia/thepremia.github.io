@@ -1,16 +1,23 @@
-.section-study-culture{
+.section-inner-subheader{
 	.row-f, .row{
-		margin:70px 0 100px 70px ; 
+		margin:70px 0 100px; 
 		position: relative;
 	}
-	.curriculum{
-		margin-bottom:0px;
+	.inner-info{
+        background:#fff;
+    }
+	.img-flag{
+		position: absolute;
+		right:0;
+		top:0;
+		width: 40%;
 	}
 	.panel {
 		background:#fff;
-		padding:50px;
+        padding:50px;
+        padding-bottom:0px;
 		.panel-body{
-			width:70%;
+			width:50%;
 		}
 		&.story-info{
 			background:#bf272d;

@@ -63,39 +63,21 @@
     </div>
     <div class="clearfix"></div>
     <section class="section-admission-2">
-        <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-12 admission-flag">
-            <div class="flag-pos">
-                <div class="v-align">
-                    <h3 class="bar pp0">Admission<br>
-                        to Nursery
-                    </h3>
-                    <p>
-                        The child will have to <br>be 2 years 6 months as <br>on 1st June 2020
-                    </p>
-                </div>
-                </div>
-        </div>
-    
-        <div class="col-lg-9 col-md-9 col-sm-12 addmin-sec">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 add-info" *ngFor="let item of admission_2; index as i">
+      <div class="container">
+        <div class="row addmin-sec">
+                <div class="col-lg-3 col-md-3 col-sm-12 add-info" *ngFor="let item of admission_2; index as i">
                     <div class="panel">
-                        <div class="panel-front">
-                            <div class="panel-heading">
+                        <div class="panel-heading">
                                 <h3 class="bar {{item.bar}}">
                                     {{item.title}}
                                 </h3>
                                  
                                     <p>{{item.description}}</p>
                             </div>
-                         </div>
-                    </div>
+                       </div>
                 </div>
-            </div>
-        </div>
-       
-    </div>
+      </div>          
+   </div>
     
     </section>
 </section>

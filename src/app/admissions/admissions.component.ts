@@ -30,6 +30,14 @@ A Community`,
 
   admission_2 = [
     {
+      title: `Admission
+to Nursery`,
+      bar:'pp0',
+      description: `The child will have to 
+be 2 years 6 months as 
+on 1st June 2020 `,
+    },
+    {
       title: 'Admission to PP 1',
       bar:'pp1',
       description: `The child needs to be 3 
