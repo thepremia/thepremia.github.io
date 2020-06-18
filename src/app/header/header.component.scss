@@ -215,14 +215,16 @@ nav {
      ul.main-nav{
             float:none;
             li{
-                float:left;
+                float: none;
+                text-align: center;
+                margin-bottom: 20px;
                 a{
                     padding:15px;
                     color:#000;
                     font-size:18px;
                     font-weight:bold;
                     text-decoration: none;
-                    &:hover{
+                    &:hover, &.active{
                         color:#f44336;
                     }
                 }
