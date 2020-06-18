@@ -194,6 +194,7 @@ nav {
     width: 100%;
     height: calc(100vh);
     top:0;
+    left:0;
     flex-direction: column; /* make main-axis vertical */
     justify-content: center; /* align items vertically, in this case */
     align-items: center; /* align items horizontally, in this case */
