@@ -25,6 +25,16 @@ export class AppComponent implements OnInit {
         }
     });
 }
+
+knowMore = function(text) {
+  if(text == 'culture'){
+    this.router.navigateByUrl('/TheStudyCulture', {skipLocationChange: true});
+  }else if(text == 'edge'){
+    this.router.navigateByUrl('/ThePremianEdge', {skipLocationChange: true});
+  }
+
+};
+
 ngOnInit() {
   // Called after the constructor and called  after the first ngOnChanges() 
 }
