@@ -185,11 +185,11 @@ Mindset`,
     },
     {
       description: `Communication and
-      vocational training`,
+      Vocational Training`,
       icon: '#icon_commTrainning'
     },
     {
-      description: `Performing arts`,
+      description: `Performing Arts`,
       icon: '#icon_art'
     },
     {
