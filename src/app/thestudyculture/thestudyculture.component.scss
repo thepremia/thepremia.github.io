@@ -75,9 +75,13 @@
 }
 
 .more-info{
+	h2{
+		margin:30px 0 0;
+	}
 	.panel{
 		background:#bf272d;
 		margin-top: 35px;
+		margin-bottom: 70px;
 		ul.list{
 			li {
 				color:#fff;
@@ -90,9 +94,7 @@
 	float:none;
 	clear:both;
 	p{
-		background:#fff;
-		padding:30px;
-		margin:50px 0 70px 75px ;
+		color:#fff;
 	}
 }
 

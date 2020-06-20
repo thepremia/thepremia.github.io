@@ -34,7 +34,7 @@ export class ThestudycultureComponent implements OnInit {
   ];
 
   moreInfo = [
-    { info : ' sustained learning and the ability to apply concepts.'},
+    { info : ' Sustained learning and the ability to apply concepts.'},
     { info : ' Facilitate self-confidence and motivation'},
     { info : ' A deeper understanding of science and math concepts '},
     { info : ' Improved reading and writing skills '},
