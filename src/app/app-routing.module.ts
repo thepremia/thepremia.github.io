@@ -10,10 +10,9 @@ import { ThepremianedgeComponent } from './thepremianedge/thepremianedge.compone
 import { AdmissionsComponent } from './admissions/admissions.component';
 import { ApplyComponent } from './apply/apply.component';
 import { EngComponent } from './eng/eng.component';
-
-
-
-
+import { ContactComponent } from './contact/contact.component';
+import { BlobComponent } from './blob/blob.component';
+import { TheteamComponent } from './theteam/theteam.component';
 
 
 const routes: Routes = [
@@ -23,7 +22,9 @@ const routes: Routes = [
   {path: 'ThePremianEdge', component: ThepremianedgeComponent},
   {path: 'Admissions', component: AdmissionsComponent},
   {path: 'HowToApply', component: ApplyComponent},
-  {path: 'Eng', component: EngComponent},
+  {path: 'ContactUs', component: ContactComponent},
+  {path: 'Blog', component: BlobComponent},
+  {path: 'TheTeam', component: TheteamComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full' }
 
 ];
@@ -36,7 +37,10 @@ const routes: Routes = [
     ThepremianedgeComponent,
     AdmissionsComponent,
     ApplyComponent,
-    EngComponent
+    EngComponent,
+    ContactComponent,
+    BlobComponent,
+    TheteamComponent
 ],
   imports: [
     RouterModule.forRoot(routes, { enableTracing: false, scrollPositionRestoration: 'enabled'}),
@@ -46,4 +50,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
