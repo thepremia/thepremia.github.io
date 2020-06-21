@@ -66,20 +66,18 @@ export class HeaderComponent implements OnInit {
         {name: 'Admissions'},
         {name: 'HowToApply'},
         {name: 'Blog'},
-        {name: 'ContactUs'},
+        {name: 'ContactUs'}
         // {name: 'Eng'}
     ];
   }
 
-  
-    open(content) {
+   open(content) {
       this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title', size: 'lg'}).result.then((result) => {
         this.closeResult = `Closed with: ${result}`;
       }, (reason) => {
         this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
       });
     }
-  
 
     private getDismissReason(reason: any): string {
       if (reason === ModalDismissReasons.ESC) {
@@ -99,7 +97,7 @@ export class HeaderComponent implements OnInit {
     if (!this.isOpen) {
       body.classList.add('remove-scroll');
     } else {
-      body.classList.remove('remove-scroll'); 
+      body.classList.remove('remove-scroll');
     }
   }
 
@@ -132,11 +130,9 @@ export class HeaderComponent implements OnInit {
       this.togglePaused();
     }
   }
-
   knowMore = function(text) {
-    if(text == 'admission'){
+    if (text === 'admission') {
       this.router.navigateByUrl('/Admissions', {skipLocationChange: true});
-    }
-  }
-
+      this.modalService.dismissAll();
+    }};
 }

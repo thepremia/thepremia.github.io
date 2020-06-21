@@ -7,7 +7,8 @@ body{
 
 .left-space{
 	padding-left: 70px;
-    float: left;
+	float: left;
+	width:100%;
 }
 
 *{
@@ -185,6 +186,24 @@ svg:not(:root) {
 	.slick-slide{
 		margin:0 15px;
 	}
+  }
+
+  .recent-article{
+	.slick-prev{
+		right: 60px !important;
+	}
+	.slick-prev, .slick-next{
+		background:#bf272d;
+		bottom: auto;
+		top: -25px;
+		right: 15px;
+		left: auto !important;
+		padding: 0px 25px;
+			&:before{	
+				color: #fff;
+			
+			}
+	}  
   }
 
   .inner-banner{
