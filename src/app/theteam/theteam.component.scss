@@ -1,14 +1,15 @@
 .section-inner-subheader{
+	margin-bottom:50px;
 	.the-team-info{
 		margin:0;	
-		margin-bottom:50px;
+		margin-top:50px;
 		.col {
 			padding:0;
 		}
 	}
 	
 	.panel {
-		background:#fff;
+		color:#fff;
 		padding:50px;
 		margin-bottom:50px;
 	}
@@ -23,8 +24,20 @@
 	.avtar{
 		background:#fff;
 	}
+	.team-info{
+		margin-top:50px;
+	}
 }
 
+.blue-bg{
+	background:#3e65ac;
+}
+.red-bg{
+	background:#bf272d;
+}
+.black-bg{
+	background:#000;
+}
 
 @media (max-width: 576px){
 		.row-f, .row, h1{

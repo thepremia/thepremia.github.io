@@ -412,15 +412,7 @@
 		width:100% ; 
 	}
 }
-.picsum-img-wrapper{
-	background-image: url("../../assets/images/banner1.jpg");
-	background-color: #cccccc;
-	height: 500px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}
+
 
 .newsletter{
     background:#3e65ac;
@@ -507,9 +499,6 @@
 
 	.main-banner{
 		height: auto;
-		.picsum-img-wrapper{
-			height: auto;	
-		}
 	}
 	.newsletter {
 		.btn{

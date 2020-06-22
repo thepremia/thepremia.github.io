@@ -72,8 +72,33 @@
     padding:70px 0px;
     h2{
         margin-bottom:70px;
-    }
+	}
+	.btn-wrapper{
+		position: relative;
+		.div-btn{
+			background:#fff;
+			padding-left:20px;
+			float:right;
+			position: relative;
+    		z-index: 1;
+			.btn{
+				background:#bf272d;
+				padding:10px 20px;
+			}
+		}
+		&::after{
+			content: "";
+			position: absolute;
+			top:21px;
+			left:0px;
+			height:2px;
+			background:#000;
+			width:100%;
+		}
+	}
 }
+
+
 
 .recent-article{
     .container{
