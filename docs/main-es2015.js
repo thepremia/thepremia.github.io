@@ -668,10 +668,10 @@ let AppComponent = class AppComponent {
         this.router.events.subscribe(routerEvent => {
             if (routerEvent instanceof _angular_router__WEBPACK_IMPORTED_MODULE_2__["NavigationStart"]) {
                 if (routerEvent.url === '/') {
-                    this.router.navigate(['/TheTeam'], { skipLocationChange: true });
+                    this.router.navigate(['/Home'], { skipLocationChange: true });
                 }
             }
-            if (this.router.url === '/home') {
+            if (this.router.url === '/Home') {
                 document.body.classList.add('main-page');
             }
             else {

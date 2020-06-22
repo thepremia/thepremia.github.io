@@ -1250,13 +1250,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.router.events.subscribe(function (routerEvent) {
           if (routerEvent instanceof _angular_router__WEBPACK_IMPORTED_MODULE_2__["NavigationStart"]) {
             if (routerEvent.url === '/') {
-              _this.router.navigate(['/TheTeam'], {
+              _this.router.navigate(['/Home'], {
                 skipLocationChange: true
               });
             }
           }
 
-          if (_this.router.url === '/home') {
+          if (_this.router.url === '/Home') {
             document.body.classList.add('main-page');
           } else {
             document.body.classList.remove('main-page');
