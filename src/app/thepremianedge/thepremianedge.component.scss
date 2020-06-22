@@ -156,8 +156,18 @@
             height:1px;
             background:#fff;
         }
-    }
+	}
+	.extra-info{
+		position: relative;
+		.panel{
+			.panel-body{
+				width:50%;
+			}
+		}
+	}
 }
+
+
 
 @media (max-width: 576px){
 	.section-study-culture{

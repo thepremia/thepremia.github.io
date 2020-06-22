@@ -16,7 +16,7 @@ import { TheteamComponent } from './theteam/theteam.component';
 
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: 'Home', component: HomeComponent},
   {path: 'TheStudyCulture', component: ThestudycultureComponent},
   {path: 'ThePremianStory', component: ThepremianstoryComponent},
   {path: 'ThePremianEdge', component: ThepremianedgeComponent},
