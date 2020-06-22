@@ -15,10 +15,10 @@ export class AppComponent implements OnInit {
     this.router.events.subscribe(routerEvent => {
         if (routerEvent instanceof NavigationStart) {
             if (routerEvent.url === '/') {
-                this.router.navigate(['/TheTeam'], {skipLocationChange: true});
+                this.router.navigate(['/Home'], {skipLocationChange: true});
             }
         }
-        if (this.router.url === '/home') {
+        if (this.router.url === '/Home') {
           document.body.classList.add('main-page');
         } else {
           document.body.classList.remove('main-page');
