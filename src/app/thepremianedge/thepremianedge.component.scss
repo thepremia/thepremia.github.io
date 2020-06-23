@@ -96,7 +96,7 @@
 }
 
 .edge-info{
-
+    margin:100px 0 0 0 !important;
     .plan-title{
         margin:80px 0 50px;
     }
@@ -135,7 +135,18 @@
         span{
             background: #000;
     } 
-    }
+	}
+	
+	
+	&:nth-child(4){
+        span{
+            background: #3e65ac;
+	}}
+	&:nth-child(5){
+        span{
+            background: #bf272d;
+    }}
+
     span{
        
         z-index: 1;

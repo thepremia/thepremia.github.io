@@ -295,7 +295,37 @@ ul.list{
 // }
 // }
 
+.sub-header{
+	.panel{
+		padding-bottom:0px !important;
+		padding-right:0px !important;
+	}
+	.doodle{
+	   font-size: 72px;
+	   font-family: "Lora", serif;
+	   color:#f0f0f0;
+	   text-align: right;
+	   line-height: 90px;
+	}
+}
+
+
+
 @media (max-width: 576px){
+	nav{
+		width:100% !important;
+	}
+	section:first-child{
+		margin-top:150px;
+		overflow: hidden;
+	}
+	.row , .row-f{
+		margin:0 !important;
+	}
+	
+	.img-flag, .panel-body{
+		width:100% !important;
+	}
 	.left-space{
 		padding-left: 0px;
 		float: left;
