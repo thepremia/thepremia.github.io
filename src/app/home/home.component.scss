@@ -115,6 +115,15 @@
 }
 
 .section-curriculum{
+	ul{
+		&.list {
+			li{
+				&::before{
+					background:#bf272d;
+				}
+			}
+		}
+	}
 	.row-f{
 		float:left;
 		width:100%;

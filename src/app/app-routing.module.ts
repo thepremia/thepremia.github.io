@@ -18,8 +18,8 @@ import { TheteamComponent } from './theteam/theteam.component';
 const routes: Routes = [
   {path: 'Home', component: HomeComponent},
   {path: 'TheStudyCulture', component: ThestudycultureComponent},
-  {path: 'ThePremianStory', component: ThepremianstoryComponent},
-  {path: 'ThePremianEdge', component: ThepremianedgeComponent},
+  {path: 'ThePremiaStory', component: ThepremianstoryComponent},
+  {path: 'ThePremiaEdge', component: ThepremianedgeComponent},
   {path: 'Admissions', component: AdmissionsComponent},
   {path: 'HowToApply', component: ApplyComponent},
   {path: 'ContactUs', component: ContactComponent},
