@@ -100,64 +100,28 @@
             </div>
         </div>
     </div>
-
-
-    <div class="clearfix"></div>
-    <div class="row edge-info">
-        <div class="col-lg-1 col-md-1 col-sm-12"></div>
-        <div class="col-lg-11 col-md-11 col-sm-12 float-right">
-            
-        <h1 class="plan-title"><span>Explicit Areas of Learning</span></h1></div>
-        <div class="col-lg-1 col-md-1 col-sm-12"></div>
-        <div class="col-lg-11 col-md-11 col-sm-12 float-right">
-           
-            <div class="panel">
-                <h3 class="heading-title"><span>Literacy</span></h3>
-                <p>
-                    Having introduced a thematic and literacy-based curriculum, Premia Academy has a
-                    levelled book room – a shared reading resource for successful whole-school learning, to
-                    designate the importance of guided reading and journal writing in our teachings.</p>
-            </div>
-            <div class="panel">
-                <h3 class="heading-title"><span>Mathematics</span></h3>
-                <p>
-                    The idea of introducing concepts for the application of mathematical terms in
-                    multiple, yet simple ways, serves as a strong base for future calculations with logic.
-                    Premia conceptualizes Mathematics in a well- researched, sequential series, enabling
-                    children to think out of the box and relate numeracy to everyday life. Topics are introduced
-                    using well-planned activities, developing mathematical thinking and problem-solving skills.
-                    
-                </p>
-            </div>
-            <div class="panel">
-                <h3 class="heading-title"><span>The World (Experiential Learning)</span></h3>
-                <p>
-                    Experiential learning is a process through which
-                    students develop knowledge, skills, and values from direct experiences outside a traditional
-                    academic setting. Experiential learning encompasses a variety of activities, hands-on
-                    learning, etc. Students can understand concepts with concrete experience and reflective
-                    observation.
-                </p>
-            </div>
-            <div class="panel">
-                <h3 class="heading-title"><span>Expressive Arts and Design</span></h3>
-                <p>
-                    Premia helps children develop their imagination so they can
-                express their ideas in a variety of individual ways within a stimulating learning
-                environment. Expressive arts and design are intended to support learning and development for
-                children.
-                </p>
-            </div>
-            <div class="panel">
-                <h3 class="heading-title"><span>Technology and Innovations Lab</span></h3>
-                <p>
-                    Our literacy-based curriculum emphasizes subjects through
-                an inquiry-based, thematic, hands-on learning, driven by the goal of closely aligning
-                programs that students will experience in and beyond the classroom. In today’s scenario
-                where content knowledge is interconnected, our STREAM- Labs, mapped with the curriculum, are
-                meticulously planned to deliver and enhance the learning process at Premia.
-                </p>
-            </div>
-        </div>
-    </div>
 </section>
+
+
+<section class="section-explicit">
+    <div class="container">
+      <div class="row explicit-sec">
+              <div class="add-info" *ngFor="let item of explicit; index as i">
+                  <div class="panel">
+                      <div class="panel-heading">
+                          <h1>{{item.bar}}</h1>
+                          <i class="icon icon-medium">
+                            <svg focusable="false">
+                                <use attr.xlink:href="{{item.icon}}"></use>
+                            </svg>
+                        </i>
+                              <h6 class="bar _{{item.bar}}">
+                                  {{item.title}}
+                              </h6>
+                             </div>
+                     </div>
+                     <!-- <p>{{item.description}}</p> -->
+              </div>
+    </div>          
+ </div> 
+  </section>

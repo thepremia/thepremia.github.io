@@ -2,15 +2,15 @@
     <div class="breadcum">
         <a>
             <i class="icon icon-ex-small">
-              <svg focusable="false">
-                <use xlink:href="#icon_home"></use>
-              </svg>
+                <svg focusable="false">
+                    <use xlink:href="#icon_home"></use>
+                </svg>
             </i>
-          </a> 
-         <span> |</span>
-          <a>
+        </a>
+        <span> |</span>
+        <a>
             The Study Culture
-          </a>
+        </a>
     </div>
     <!-- <div class="row-f sub-header">
        
@@ -67,7 +67,7 @@
 
 
     <div class="row-f sub-header">
-       
+
         <div class="col-lg-8 col-md-8 col-sm-12">
             <h1>
                 The<br>
@@ -77,27 +77,30 @@
 
             <div class="panel">
                 <div class="panel-body">
-                <h2>
-                    Our Belief
-                </h2>
-                <p>The Premia Academy was founded on the belief that every child has the potential to make the world a beautiful place. Every child <br>is unique and capable of learning when instructed properly. Premia Academy believes the development of these primary areas -</p>
-                <ul class="list">
-                    <li *ngFor="let data of belief">
-                        {{data.info}}
-                    </li>
-                </ul>
+                    <h2>
+                        Our Belief
+                    </h2>
+                    <p>The Premia Academy was founded on the belief that every child has the potential to make the world
+                        a beautiful place. Every child <br>is unique and capable of learning when instructed properly.
+                        Premia Academy believes the development of these primary areas -</p>
+                    <ul class="list">
+                        <li *ngFor="let data of belief">
+                            {{data.info}}
+                        </li>
+                    </ul>
+                </div>
+                <div class="doodle">
+                    The Premian Story
+                </div>
             </div>
-        <div class="doodle">
-            The Premian Story
-        </div></div>
         </div>
         <div class="img-flag">
             <img src="assets/images/3.jpg">
         </div>
-        
+
     </div>
 
- 
+
     <div class="clearfix"></div>
 
     <!-- <div class="row">
@@ -122,47 +125,100 @@
 
     <div class="row curriculum">
         <div class="col-lg-1 col-md-1 col-sm-12"></div>
-        <div class="col-lg-11 col-md-11 col-sm-12"> 
+        <div class="col-lg-11 col-md-11 col-sm-12">
             <h2>
-            Our Curriculum
-        </h2></div>
-       
-      
+                Our Curriculum
+            </h2>
+        </div>
+
+
         <div class="col-lg-1 col-md-1 col-sm-12"></div>
         <div class="col-lg-5 col-md-5 col-sm-12 curriculum-1">
-            
-              <p>An integrated curriculum extends a framework with significant and expressive learning including assessments and evaluation to meet the standards and benchmarks of the boards whose learning objectives are the guide. Learning through integration stimulates the development of creativity, critical thinking and problem-solving. Integration also develops Communication and collaboration within students. Also, digital literacy, social and cultural skills, prove to be beneficial, providing students with opportunities to acquire enduring skills for life. The attributes of an integrated curriculum include experiences to develop children’s attitudes, skills, and knowledge exposing them to a range of activities to develop and sustain in the ever-changing and challenging world. Integrated teaching and learning processes facilitate continued successful learning and there are multiple benefits of an integrated curriculum such as: </p>
-              
-              
-              <div class="panel">
-            
+
+            <p>An integrated curriculum extends a framework with significant and expressive learning including
+                assessments and evaluation to meet the standards and benchmarks of the boards whose learning objectives
+                are the guide. Learning through integration stimulates the development of creativity, critical thinking
+                and problem-solving. Integration also develops Communication and collaboration within students. Also,
+                digital literacy, social and cultural skills, prove to be beneficial, providing students with
+                opportunities to acquire enduring skills for life. The attributes of an integrated curriculum include
+                experiences to develop children’s attitudes, skills, and knowledge exposing them to a range of
+                activities to develop and sustain in the ever-changing and challenging world. Integrated teaching and
+                learning processes facilitate continued successful learning and there are multiple benefits of an
+                integrated curriculum such as: </p>
+
+
+            <div class="panel">
+
                 <ul class="list">
                     <li *ngFor="let data of moreInfo">
                         {{data.info}}
                     </li>
                 </ul>
-          </div>
-         </div>
+            </div>
+        </div>
         <div class="col-lg-6 col-md-6 col-sm-12 curriculum-1">
             <div class="img-flag">
                 <img src="assets/images/14.jpg">
             </div>
         </div>
-     
+
     </div>
     <div class="more-info">
-        
+
         <div class="col-lg-11 col-md-11 col-sm-12 float-right">
             <h2>
-                Our Approach 
+                Our Approach
             </h2>
-           <div class="panel">
-            <p>We aim to create better opportunities for teacher-student planning and cooperative evaluation. This leads to enhanced creative teaching and learning.Our process of learning and teaching comes from a fusion of knowledge with various activities, resources; and experiencing real-life situations for a solution-based approach. It also instils problem-solving, critical thinking and collaboration in and beyond the classroom. <br> 
-                We take a Student Centric approach with flexibility, innovation and other core values for essential life experiences.
+            <div class="panel">
+                <p>We aim to create better opportunities for teacher-student planning and cooperative evaluation. This
+                    leads to enhanced creative teaching and learning.Our process of learning and teaching comes from a
+                    fusion of knowledge with various activities, resources; and experiencing real-life situations for a
+                    solution-based approach. It also instils problem-solving, critical thinking and collaboration in and
+                    beyond the classroom. <br>
+                    We take a Student Centric approach with flexibility, innovation and other core values for essential
+                    life experiences.
                 </p>
-           </div>
+            </div>
         </div>
-       <div class="clearfix"></div>
+        <div class="clearfix"></div>
     </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 float-right">
+                <h2>
+                    Our Partners
+                </h2>
+                <div class="panel">
+                    <p>Our quest for creating the perfect learning environment was further helped by a few organisations
+                        who shared our vision. With their ideologies and compassion, we have successfully made a haven
+                        for knowledge and growth.</p>
+                </div>
+            </div>
+
+            <ngx-slick-carousel class="carousel col-lg-12 col-md-12 col-sm-12 partner" #slickModal="slick-carousel"
+                [config]="partnerConfig">
+                <div ngxSlickItem *ngFor="let item of partner; index as i" class="slide">
+                    <div class="panel">
+                       <div class="panel-heading">
+                                <div class="img-box">
+                                    <img src="assets/images/partner{{i+1}}.png">
+                                </div>
+                                <p>{{item.description}}</p>
+                            </div>
+                        <div class="info-view">
+                            <div class="panel-heading">
+                                <div class="img-box">
+                                    <img src="assets/images/partner{{i+1}}.png">
+                                </div>
+                                <h5>{{item.description}}</h5>
+                                <p>{{item.description_2}}</p>
+                                <a>{{item.link}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ngx-slick-carousel>
+        </div>
+    </div>
 </section>
