@@ -7,6 +7,116 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThestudycultureComponent implements OnInit {
 
+  partnerConfig = {
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  };
+
+  partner = [
+    {
+      description: `Metamor-
+      phosis`,
+      description_2: `An organisation that
+      seeks to empower the
+      youth with an
+      entrepreneurial skillset.`,
+      link: `http://www.metamor
+      phosisedu.com`
+    },
+    {
+      description: `Sportz Village`,
+      description_2: `An organisation that
+      seeks to empower the
+      youth with an
+      entrepreneurial skillset.`,
+      link: `http://www.metamor
+      phosisedu.com`
+    },
+    {
+      description: `Furtados
+      School Of
+      Music`,
+      description_2: `An organisation that
+      seeks to empower the
+      youth with an
+      entrepreneurial skillset.`,
+      link: `http://www.metamor
+      phosisedu.com`
+    },
+    {
+      description: `Yardstick`,
+      description_2: `An organisation that
+      seeks to empower the
+      youth with an
+      entrepreneurial skillset.`,
+      link: `http://www.metamor
+      phosisedu.com`
+    },
+    {
+      description: `Metamor-
+      phosis`,
+      description_2: `An organisation that
+      seeks to empower the
+      youth with an
+      entrepreneurial skillset.`,
+      link: `http://www.metamor
+      phosisedu.com`
+    },
+    {
+      description: `Sportz Village`,
+      description_2: `An organisation that
+      seeks to empower the
+      youth with an
+      entrepreneurial skillset.`,
+      link: `http://www.metamor
+      phosisedu.com`
+    },
+    {
+      description: `Furtados
+      School Of
+      Music`,
+      description_2: `An organisation that
+      seeks to empower the
+      youth with an
+      entrepreneurial skillset.`,
+      link: `http://www.metamor
+      phosisedu.com`
+    },
+    {
+      description: `Yardstick`,
+      description_2: `An organisation that
+      seeks to empower the
+      youth with an
+      entrepreneurial skillset.`,
+      link: `http://www.metamor
+      phosisedu.com`
+    }
+  ];
+
   vision = [
     { info : ' Resilient and Confident lifelong learners'},
     { info : ' Agile and authentic individuals'},
