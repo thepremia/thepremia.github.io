@@ -105,23 +105,28 @@
 
 <section class="section-explicit">
     <div class="container">
-      <div class="row explicit-sec">
-              <div class="add-info" *ngFor="let item of explicit; index as i">
-                  <div class="panel">
+     <ul class="row explicit-sec nav-tabs" ngbNav #nav="ngbNav" [(activeId)]="active">
+              <li class="add-info" ngbNavItem="{{i+1}}"  *ngFor="let list of explicit; index as i">
+                  <a ngbNavLink class="panel">
                       <div class="panel-heading">
-                          <h1>{{item.bar}}</h1>
+                          <h1>{{list.bar}}</h1>
                           <i class="icon icon-medium">
                             <svg focusable="false">
-                                <use attr.xlink:href="{{item.icon}}"></use>
+                                <use attr.xlink:href="{{list.icon}}"></use>
                             </svg>
                         </i>
-                              <h6 class="bar _{{item.bar}}">
-                                  {{item.title}}
+                              <h6 class="bar _{{list.bar}}">
+                                  {{list.title}}
                               </h6>
-                             </div>
-                     </div>
-                     <!-- <p>{{item.description}}</p> -->
-              </div>
-    </div>          
+                            </div>
+                           
+                        </a>
+                     <ng-template ngbNavContent>
+                       {{list.description}}
+                    </ng-template>
+                </li>
+
+              <div [ngbNavOutlet]="nav" class="tab-info"></div>
+            </ul>   
  </div> 
   </section>

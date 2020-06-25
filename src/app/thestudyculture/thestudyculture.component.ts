@@ -49,71 +49,43 @@ export class ThestudycultureComponent implements OnInit {
     },
     {
       description: `Sportz Village`,
-      description_2: `An organisation that
-      seeks to empower the
-      youth with an
-      entrepreneurial skillset.`,
-      link: `http://www.metamor
-      phosisedu.com`
+      description_2: `A platform that focuses on the 
+      aspects of physical education`,
+      link: `https://www.sportzvillage.com/schools/ `
     },
     {
       description: `Furtados
       School Of
       Music`,
-      description_2: `An organisation that
-      seeks to empower the
-      youth with an
-      entrepreneurial skillset.`,
-      link: `http://www.metamor
-      phosisedu.com`
+      description_2: `One of the largest 
+      music educators of India`,
+      link: `https://furtadosschoolofmusic.com`
     },
     {
       description: `Yardstick`,
-      description_2: `An organisation that
-      seeks to empower the
-      youth with an
-      entrepreneurial skillset.`,
-      link: `http://www.metamor
-      phosisedu.com`
+      description_2: `Learning programs that 
+      enhance the child's experience`,
+      link: ` http://www.yardstickedu.com`
     },
     {
-      description: `Metamor-
-      phosis`,
-      description_2: `An organisation that
-      seeks to empower the
-      youth with an
-      entrepreneurial skillset.`,
-      link: `http://www.metamor
-      phosisedu.com`
+      description: `NumberNaga`,
+      description_2: `An integrated program for Maths, 
+      Science and English`,
+      link: `https://www.numbernagar.com/`
     },
     {
-      description: `Sportz Village`,
-      description_2: `An organisation that
-      seeks to empower the
-      youth with an
-      entrepreneurial skillset.`,
-      link: `http://www.metamor
-      phosisedu.com`
+      description: `Creya Learning`,
+      description_2: `An organisation that helps 
+      children become inventors and innovators`,
+      link: `https://www.creyalearning.com
+      /stem/`
     },
     {
-      description: `Furtados
-      School Of
-      Music`,
-      description_2: `An organisation that
-      seeks to empower the
-      youth with an
-      entrepreneurial skillset.`,
-      link: `http://www.metamor
-      phosisedu.com`
-    },
-    {
-      description: `Yardstick`,
-      description_2: `An organisation that
-      seeks to empower the
-      youth with an
-      entrepreneurial skillset.`,
-      link: `http://www.metamor
-      phosisedu.com`
+      description: `Book room from Scholastic`,
+      description_2: `Organising your books`,
+      link: `http://teacher.scholastic.com
+      /products/leveledbookrooms
+      /index.htm`
     }
   ];
 
