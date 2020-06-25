@@ -209,32 +209,52 @@ Mindset`,
 
   testimonials = [
     {
-      clientView_1: ' We ensure excellence in service through understanding of our clients business and their unique requirements.',
-      clientView_2: ' Due to our close relationships and constant interactions with clients,',
-      clientView_3: ' we have developed solid understanding and insight in our focus industries that include.',
-      clientName: 'xyz Company',
-      desti: 'CEO'
+      clientView_1: 'The Premia Academy is the kind of school I was looking for my kid- a perfect balance of curriculum and sports. The school has got all the required facilities for a kid to learn. Infrastructure is excellent as it is very new and needs to be maintained the same way in the coming years without compromising on quality. Parent relationship is good I should say.',
+      clientView_2: ' I like the involvement of school staff with the kids as they make the children comfortable. Principal and the management are making sure the kids, as well as the parents, feel confident about the school which is a good sign and we understand this is the first academic year for Premia.',
+      clientView_3: ' We foresee that this will be one of the best school in Hyderabad. All the best and look forward to seeing the school grow in strength and bustling with students at the campus soon..',
+      clientName: `Sweta D.S
+      Parent of Sanketh D.S`,
+      desti: 'Grade 2'
     },
     {
-      clientView_1: ' Consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
-      clientView_2: ' Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.',
-      clientView_3: ' lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.',
-      clientName: 'ABC Company',
-      desti: 'CEO'
+      clientView_1: `I've always believed in holistic education and when I met with academicians at Premia, that's what seemed to be their plan. Some of the values that they talk about are very similar to the ones I try to inculcate as a professional and parent.  `,
+      clientView_2: `Knowing that my child will be exposed to sports and music at a very young age is comforting. These engagements go a long way in developing certain important skills such as focus, team behavior and dealing with losses in a balanced manner. `,
+      clientView_3: `I firmly believe that this tends to impact their attitude in real life social situations too. Although my journey with Premia started only about a month back, I see them do their best in this lock down situation. All I want is my child to be happy in life and  I do hope we lay the foundation of their happy lives together.`,
+      clientName:`Sushma Panyam 
+      Parent of Nihal Singaraju`,
+      desti: 'Grade 2'
     },
     {
-      clientView_1: ' We ensure excellence in service through understanding of our clients business and their unique requirements.',
-      clientView_2: ' Due to our close relationships and constant interactions with clients,',
-      clientView_3: ' we have developed solid understanding and insight in our focus industries that include.',
-      clientName: '123 Company',
-      desti: 'CEO'
+      clientView_1: 'The Premia Academy is the kind of school I was looking for my kid- a perfect balance of curriculum and sports. The school has got all the required facilities for a kid to learn. Infrastructure is excellent as it is very new and needs to be maintained the same way in the coming years without compromising on quality. Parent relationship is good I should say.',
+      clientView_2: ' I like the involvement of school staff with the kids as they make the children comfortable. Principal and the management are making sure the kids, as well as the parents, feel confident about the school which is a good sign and we understand this is the first academic year for Premia.',
+      clientView_3: ' We foresee that this will be one of the best school in Hyderabad. All the best and look forward to seeing the school grow in strength and bustling with students at the campus soon..',
+      clientName: `Sweta D.S
+      Parent of Sanketh D.S`,
+      desti: 'Grade 2'
     },
     {
-      clientView_1: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      clientView_2: ' Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo',
-      clientView_3: ' Proin sodales pulvinar tempor.',
-      clientName: 'QWERTy',
-      desti: 'CEO'
+      clientView_1: `I've always believed in holistic education and when I met with academicians at Premia, that's what seemed to be their plan. Some of the values that they talk about are very similar to the ones I try to inculcate as a professional and parent.  `,
+      clientView_2: `Knowing that my child will be exposed to sports and music at a very young age is comforting. These engagements go a long way in developing certain important skills such as focus, team behavior and dealing with losses in a balanced manner. `,
+      clientView_3: `I firmly believe that this tends to impact their attitude in real life social situations too. Although my journey with Premia started only about a month back, I see them do their best in this lock down situation. All I want is my child to be happy in life and  I do hope we lay the foundation of their happy lives together.`,
+      clientName:`Sushma Panyam 
+      Parent of Nihal Singaraju`,
+      desti: 'Grade 2'
+    },
+    {
+      clientView_1: 'The Premia Academy is the kind of school I was looking for my kid- a perfect balance of curriculum and sports. The school has got all the required facilities for a kid to learn. Infrastructure is excellent as it is very new and needs to be maintained the same way in the coming years without compromising on quality. Parent relationship is good I should say.',
+      clientView_2: ' I like the involvement of school staff with the kids as they make the children comfortable. Principal and the management are making sure the kids, as well as the parents, feel confident about the school which is a good sign and we understand this is the first academic year for Premia.',
+      clientView_3: ' We foresee that this will be one of the best school in Hyderabad. All the best and look forward to seeing the school grow in strength and bustling with students at the campus soon..',
+      clientName: `Sweta D.S
+      Parent of Sanketh D.S`,
+      desti: 'Grade 2'
+    },
+    {
+      clientView_1: `I've always believed in holistic education and when I met with academicians at Premia, that's what seemed to be their plan. Some of the values that they talk about are very similar to the ones I try to inculcate as a professional and parent.  `,
+      clientView_2: `Knowing that my child will be exposed to sports and music at a very young age is comforting. These engagements go a long way in developing certain important skills such as focus, team behavior and dealing with losses in a balanced manner. `,
+      clientView_3: `I firmly believe that this tends to impact their attitude in real life social situations too. Although my journey with Premia started only about a month back, I see them do their best in this lock down situation. All I want is my child to be happy in life and  I do hope we lay the foundation of their happy lives together.`,
+      clientName:`Sushma Panyam 
+      Parent of Nihal Singaraju`,
+      desti: 'Grade 2'
     },
 ];
 

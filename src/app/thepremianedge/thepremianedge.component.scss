@@ -181,10 +181,13 @@
 .section-explicit{
 	margin:70px 0px;
 	.row{
-		margin-top: 0;
+		margin-top: 40px;
 		margin-bottom: 0;
 	}
 
+	h1{
+		font-weight: normal;
+	}
 	.bar{
 		position:relative;
 		padding-top:15px;
@@ -256,6 +259,7 @@
 			}
 			&:hover, &.active{
 				border: none;
+				border-radius: 0;
 				background:#bf272d;
 				transform: scale(1.1);
 				z-index: 1;
