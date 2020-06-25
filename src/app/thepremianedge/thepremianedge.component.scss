@@ -235,11 +235,16 @@
 			width: 100%;
 			background: #fff;
 			transition: .5s;
+			a{
+				color:#000;
+			}
 			h1{
 				font-family: "Quicksand", sans-serif;
+				color:#000;
 			}
 			h6{
 				font-family: "Lora", serif;
+				color:#000;
 			}
 			i{
 				margin: 25px auto;
@@ -249,7 +254,8 @@
 				width:75px;
 				height:75px;
 			}
-			&:hover{
+			&:hover, &.active{
+				border: none;
 				background:#bf272d;
 				transform: scale(1.1);
 				z-index: 1;
@@ -260,7 +266,7 @@
 							background: #fff !important;
 						}
 					}
-					h6, p, h1{
+					h6, p, h1, a{
 						color:#fff;
 					}
 				}
@@ -280,6 +286,13 @@
 			// }
 			}
 		}
+}
+
+.tab-info{
+	background:#bf272d;
+	padding:15px;
+	margin-top: 40px;
+	color:#fff;
 }
 
 @media (max-width: 576px){
