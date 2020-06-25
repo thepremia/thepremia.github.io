@@ -49,7 +49,7 @@ export class ThestudycultureComponent implements OnInit {
     },
     {
       description: `Sportz Village`,
-      description_2: `A platform that focuses on the 
+      description_2: `A platform that focuses on the
       aspects of physical education`,
       link: `https://www.sportzvillage.com/schools/ `
     },
@@ -57,19 +57,19 @@ export class ThestudycultureComponent implements OnInit {
       description: `Furtados
       School Of
       Music`,
-      description_2: `One of the largest 
+      description_2: `One of the largest
       music educators of India`,
       link: `https://furtadosschoolofmusic.com`
     },
     {
       description: `Yardstick`,
-      description_2: `Learning programs that 
+      description_2: `Learning programs that
       enhance the child's experience`,
       link: ` http://www.yardstickedu.com`
     },
     {
-      description: `NumberNaga`,
-      description_2: `An integrated program for Maths, 
+      description: `NumberNagar`,
+      description_2: `An integrated program for Maths,
       Science and English`,
       link: `https://www.numbernagar.com/`
     },
@@ -77,15 +77,12 @@ export class ThestudycultureComponent implements OnInit {
       description: `Creya Learning`,
       description_2: `An organisation that helps 
       children become inventors and innovators`,
-      link: `https://www.creyalearning.com
-      /stem/`
+      link: `https://www.creyalearning.com/stem/`
     },
     {
       description: `Book room from Scholastic`,
       description_2: `Organising your books`,
-      link: `http://teacher.scholastic.com
-      /products/leveledbookrooms
-      /index.htm`
+      link: `http://teacher.scholastic.com/products/leveledbookrooms/index.htm`
     }
   ];
 
