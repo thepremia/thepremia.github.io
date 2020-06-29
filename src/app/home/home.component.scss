@@ -144,7 +144,7 @@
 					position: relative;
 					&.active{
 						background:none;
-						color: #bf272d;
+						color: #3e65ac;
 						&::after{
 							content: "";
 							position: absolute;
@@ -152,7 +152,7 @@
 							top:17px;
 							width: 40px;
 							height: 2px;
-							background: #bf272d;
+							background: #3e65ac;
 						}
 					}
 				}
@@ -163,20 +163,23 @@
 	
 	.curriculum-info{
 		margin-top:-50px;
-		background:#3e65ac;
+		background:#fff;
 		padding:30px;
-		color:#fff;
+		color:#000;
 		font-family: "Lora", serif;
 		font-size:16px;
 		.btn{
 			background:none;
-			border:2px solid #fff;
-			color:#fff;
+			border:2px solid #000;
+			color:#000;
 			float:right;
 			font-family: "Lora", serif;
 		}
 		p{
 			font-size:12px;
+		}
+		ul.list li{
+			color:#000;
 		}
 	}
 	
@@ -187,7 +190,7 @@
 			float: left;
 			width: 40px;
 			height: 2px;
-			background: #bf272d;
+			background: #3e65ac;
 			margin: 10px 0px 0 -45px;
 			}
 		} 

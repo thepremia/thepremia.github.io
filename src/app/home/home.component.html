@@ -261,15 +261,21 @@
             <div class="col-sm-12 center">
                 <h1>The Premia League</h1>
             </div>
-        </div>
-        <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+        
+        <!-- <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
             <div ngxSlickItem *ngFor="let list of premianLeague; index as i" class="slide">
                 <img src="assets/images/premianleague{{i+1}}.jpg" alt="" width="100%">
                 <h6>{{list.name}}</h6>
                 <p>{{list.post}}</p>
                 <p>{{list.desc}}</p>
             </div>
-        </ngx-slick-carousel>
+        </ngx-slick-carousel> -->
+             <div *ngFor="let list of premianLeague; index as i" class="col-lg-4 col-md-4 col-sm-12">
+                <img src="assets/images/premianleague{{i+1}}.jpg" >
+                <h6>{{list.name}}</h6>
+             </div>
+       
+    </div>
     </div>
 </section>
 
@@ -279,7 +285,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>TESTIMONIALS</h1>
+                <h1>Parents Speak</h1>
                 <ngb-carousel #carousel interval="5000" [showNavigationArrows]='true' [showNavigationIndicators]='false'
                     [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
                     <ng-template ngbSlide *ngFor="let info of testimonials; index as i">
@@ -304,7 +310,7 @@
 </section>
 
 
-<div class="container">
+<!-- <div class="container">
     <section class="section-events">
         <div class="events-grid">
             <li *ngFor="let info of events; index as i" class="p2">
@@ -325,8 +331,8 @@
             </li>
         </div>
     </section>
-</div>
-
+</div> -->
+ 
 <section class="newsletter">
     <div class="container">
         <div class="row">

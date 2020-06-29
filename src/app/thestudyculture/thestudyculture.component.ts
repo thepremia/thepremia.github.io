@@ -86,6 +86,29 @@ export class ThestudycultureComponent implements OnInit {
     }
   ];
 
+  events = [
+    {
+      eventDate: 'february 6, 2020',
+      title: 'CIS events and school visits impacted by Coronavirus',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.'
+    },
+    {
+      eventDate: 'february 6, 2020',
+      title: 'CIS events and school visits impacted by Coronavirus',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.'
+    },
+    {
+      eventDate: 'february 6, 2020',
+      title: 'CIS events and school visits impacted by Coronavirus',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.'
+    },
+    {
+      eventDate: 'february 6, 2020',
+      title: 'CIS events and school visits impacted by Coronavirus',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.'
+    }
+  ];
+
   vision = [
     { info : ' Resilient and Confident lifelong learners'},
     { info : ' Agile and authentic individuals'},

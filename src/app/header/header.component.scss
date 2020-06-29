@@ -88,9 +88,12 @@ nav {
 
 .notice-board{
     position:fixed;
-    background:#bf272d;
     bottom: 10px;
-    left: 10px;
+    left: 3px;
+    i{
+        background:#bf272d;
+        padding:10px;
+    }
     a{
         padding:15px !important;
     }

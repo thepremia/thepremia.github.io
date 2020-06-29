@@ -262,39 +262,40 @@ Mindset`,
 
   premianLeague = [
     {
-      name:'SHRI PRADEEP REDDY',
-      post:'SOCIETY PRESIDENT',
-      desc:`IITian
-Renowned
-Business Icon` },
+      name: 'MS. MALINI PAUL',
+      post: 'HEADMISTRESS',
+      desc: `Facilitator, Visionary, educationist
+30+ Years of experience` },
     {
-      name:'MS. TRUPTI RAO',
-      post:'PRINCIPAL',
-      desc:`Educator, Teacher, Achiever
+      name: 'MS. TRUPTI RAO',
+      post: 'PRINCIPAL',
+      desc: `Educator, Teacher, Achiever
  21+ Years of experience
 19 years at Meridian` },
     {
-      name:'MS. MALINI PAUL',
-      post:'HEADMISTRESS',
-      desc:`Facilitator, Visionary, educationist
-30+ Years of experience` },
-    {
-      name:'SHRI PRADEEP REDDY',
-      post:'SOCIETY PRESIDENT',
-      desc:`IITian
+      name: 'MS. RUBINA MAJID',
+      post: 'SOCIETY PRESIDENT',
+      desc: `IITian
 Renowned
-Business Icon` },
-    {
-      name:'MS. TRUPTI RAO',
-      post:'PRINCIPAL',
-      desc:`Educator, Teacher, Achiever
-21+ Years of experience
-19 years at Meridian` },
-    {
-      name:'MS. MALINI PAUL',
-      post:'HEADMISTRESS',
-      desc:`Facilitator, Visionary, educationist
-30+ Years of experience` },
+Business Icon`
+    },
+//     {
+//       name:'SHRI PRADEEP REDDY',
+//       post:'SOCIETY PRESIDENT',
+//       desc:`IITian
+// Renowned
+// Business Icon` },
+//     {
+//       name:'MS. TRUPTI RAO',
+//       post:'PRINCIPAL',
+//       desc:`Educator, Teacher, Achiever
+// 21+ Years of experience
+// 19 years at Meridian` },
+//     {
+//       name:'MS. MALINI PAUL',
+//       post:'HEADMISTRESS',
+//       desc:`Facilitator, Visionary, educationist
+// 30+ Years of experience` },
   ];
 
   paused = false;
