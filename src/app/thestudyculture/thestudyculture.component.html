@@ -183,7 +183,7 @@
         <div class="clearfix"></div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 float-right">
                 <h2>
@@ -220,5 +220,28 @@
                 </div>
             </ngx-slick-carousel>
         </div>
+    </div> -->
+
+    <div class="container">
+        <section class="section-events">
+            <div class="events-grid">
+                <li *ngFor="let info of events; index as i" class="p2">
+                    <a>
+                        <figure>
+                            <img src="assets/images/events/event{{i + 1}}.jpg" alt="Experience">
+                            <div class="show-more-overlay"></div>
+                            <figcaption>
+                                <span class="show_date">{{info.eventDate}}</span>
+                                <h2 class="show_more-title">{{info.title}}</h2>
+                                <p class="show_more-desc">
+                                    {{info.description}}
+                                </p>
+                                <button class="btn btn-primary">LEARN MORE</button>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </div>
+        </section>
     </div>
 </section>
