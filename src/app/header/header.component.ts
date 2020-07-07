@@ -60,14 +60,14 @@ export class HeaderComponent implements OnInit {
     this.list = [
         {name: 'Home'},
         {name: 'ThePremiaStory'},
-        {name: 'TheTeam'},
+        {name: 'ThePremiaLeague'},
         {name: 'TheStudyCulture'},
-        {name: 'ThePremiaEdge'},
+        {name: 'ThePremiaPride'},
         {name: 'Admissions'},
-        {name: 'HowToApply'},
-        {name: 'Blog'},
-        {name: 'ContactUs'}
-        // {name: 'Eng'}
+        {name: 'ThePremiaCorner'},
+        {name: 'CatchUpOverCoffee'}
+        // {name: 'Eng'},
+        //{name: 'HowToApply'},
     ];
   }
 

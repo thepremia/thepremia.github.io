@@ -182,11 +182,29 @@
 			background:url(../../assets/images/bulb.png) no-repeat 40px -10px #fff;
 			margin-left: 5px;
 			padding-top: 270px;
+			padding-bottom:50px;
 			width: 100%;
 			.panel-heading{
 				z-index: 2;
-    			position: relative;
+				position: relative;
 			}
+			.btn{
+				position: absolute;
+				bottom:15px;
+				border:2px solid #000;
+				background:none;
+				color:#000;
+				z-index: 2;
+				}
+
+			&:hover{
+				.btn{
+					border:2px solid #fff;
+					background:none;
+					color:#fff;
+					}
+			}
+			
 			
 			&:hover{
 				.panel-heading{
@@ -198,6 +216,7 @@
 					h3, p{
 						color:#fff;
 					}
+					
 				}
 				&::after{
 					content:'';

@@ -19,12 +19,12 @@ const routes: Routes = [
   {path: 'Home', component: HomeComponent},
   {path: 'TheStudyCulture', component: ThestudycultureComponent},
   {path: 'ThePremiaStory', component: ThepremianstoryComponent},
-  {path: 'ThePremiaEdge', component: ThepremianedgeComponent},
+  {path: 'ThePremiaPride', component: ThepremianedgeComponent},
   {path: 'Admissions', component: AdmissionsComponent},
   {path: 'HowToApply', component: ApplyComponent},
-  {path: 'ContactUs', component: ContactComponent},
-  {path: 'Blog', component: BlobComponent},
-  {path: 'TheTeam', component: TheteamComponent},
+  {path: 'CatchUpOverCoffee', component: ContactComponent},
+  {path: 'ThePremiaCorner', component: BlobComponent},
+  {path: 'ThePremiaLeague', component: TheteamComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full' }
 
 ];
