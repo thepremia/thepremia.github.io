@@ -17,10 +17,10 @@ import { TheteamComponent } from './theteam/theteam.component';
 
 const routes: Routes = [
   {path: 'Home', component: HomeComponent},
-  {path: 'TheStudyCulture', component: ThestudycultureComponent},
+  {path: 'ThePremiaCulture', component: ThestudycultureComponent},
   {path: 'ThePremiaStory', component: ThepremianstoryComponent},
-  {path: 'ThePremiaPride', component: ThepremianedgeComponent},
-  {path: 'Admissions', component: AdmissionsComponent},
+  {path: 'ThePremiaEdge', component: ThepremianedgeComponent},
+  {path: 'JoinThePremiaPride', component: AdmissionsComponent},
   {path: 'HowToApply', component: ApplyComponent},
   {path: 'CatchUpOverCoffee', component: ContactComponent},
   {path: 'ThePremiaCorner', component: BlobComponent},

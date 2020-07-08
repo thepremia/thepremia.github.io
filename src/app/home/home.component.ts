@@ -10,6 +10,85 @@ import { Router } from '@angular/router';;
 export class HomeComponent {
 
 
+  partnerConfig = {
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  };
+
+  partner = [
+    {
+      description: `Metamor-
+      phosis`,
+      description_2: `An organisation that
+      seeks to empower the
+      youth with an
+      entrepreneurial skillset.`,
+      link: `http://www.metamor
+      phosisedu.com`
+    },
+    {
+      description: `Sportz Village`,
+      description_2: `A platform that focuses on the
+      aspects of physical education`,
+      link: `https://www.sportzvillage.com/schools/ `
+    },
+    {
+      description: `Furtados
+      School Of
+      Music`,
+      description_2: `One of the largest
+      music educators of India`,
+      link: `https://furtadosschoolofmusic.com`
+    },
+    {
+      description: `Yardstick`,
+      description_2: `Learning programs that
+      enhance the child's experience`,
+      link: ` http://www.yardstickedu.com`
+    },
+    {
+      description: `NumberNagar`,
+      description_2: `An integrated program for Maths,
+      Science and English`,
+      link: `https://www.numbernagar.com/`
+    },
+    {
+      description: `Creya Learning`,
+      description_2: `An organisation that helps 
+      children become inventors and innovators`,
+      link: `https://www.creyalearning.com/stem/`
+    },
+    {
+      description: `Book room from Scholastic`,
+      description_2: `Organising your books`,
+      link: `http://teacher.scholastic.com/products/leveledbookrooms/index.htm`
+    }
+  ];
+
   banner = [
     {
       title: 'First slide label',
@@ -87,28 +166,6 @@ export class HomeComponent {
   constructor(private router: Router) {
   }
 
-  events = [
-    {
-      eventDate: 'february 6, 2020',
-      title: 'CIS events and school visits impacted by Coronavirus',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.'
-    },
-    {
-      eventDate: 'february 6, 2020',
-      title: 'CIS events and school visits impacted by Coronavirus',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.'
-    },
-    {
-      eventDate: 'february 6, 2020',
-      title: 'CIS events and school visits impacted by Coronavirus',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.'
-    },
-    {
-      eventDate: 'february 6, 2020',
-      title: 'CIS events and school visits impacted by Coronavirus',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.'
-    }
-  ];
 
   admission = [
     {
