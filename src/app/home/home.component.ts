@@ -210,33 +210,33 @@ Mindset`,
   notify = [
     {
       title: 'Vision',
-      col:'col-lg-5 col-md-5',
+      col: 'col-lg-5 col-md-5',
       description: 'Our vision is to raise, our ‘Premia Pride’ to live their dreams as a generation who are:',
-      moreInfo : [
-        { info : 'Resilient and Confident lifelong learners'},
-        { info : 'Agile and authentic individuals'},
-        { info : 'Innovative and intuitive changemakers'},
-        { info : 'Socially responsible and humble global citizens'},
-        { info : 'Empathetic and humane souls who uphold integrity above all'}
+      moreInfo: [
+        { info: 'Resilient and Confident lifelong learners' },
+        { info: 'Agile and authentic individuals' },
+        { info: 'Innovative and intuitive changemakers' },
+        { info: 'Socially responsible and humble global citizens' },
+        { info: 'Empathetic and humane souls who uphold integrity above all' }
       ]
     },
     {
       title: 'Mission',
-      col:'col-lg-4 col-md-4',
+      col: 'col-lg-4 col-md-4',
       description: `Our students will be equipped to meet the current and future challenges with
       values of
       `,
-      moreInfo : [
-        { info : 'Resilience'},
-        { info : 'Agility'},
-        { info : 'Integrity'},
-        { info : 'Social responsibility'},
-        { info : 'Empathy'},
+      moreInfo: [
+        { info: 'Resilience' },
+        { info: 'Agility' },
+        { info: 'Integrity' },
+        { info: 'Social responsibility' },
+        { info: 'Empathy' },
       ]
     },
   ];
 
- solution = [
+  solution = [
     {
       description: `Comprehensive Development`,
       icon: '#icon_termDevelopment'
@@ -277,7 +277,7 @@ Mindset`,
       clientView_1: `I've always believed in holistic education and when I met with academicians at Premia, that's what seemed to be their plan. Some of the values that they talk about are very similar to the ones I try to inculcate as a professional and parent.  `,
       clientView_2: `Knowing that my child will be exposed to sports and music at a very young age is comforting. These engagements go a long way in developing certain important skills such as focus, team behavior and dealing with losses in a balanced manner. `,
       clientView_3: `I firmly believe that this tends to impact their attitude in real life social situations too. Although my journey with Premia started only about a month back, I see them do their best in this lock down situation. All I want is my child to be happy in life and  I do hope we lay the foundation of their happy lives together.`,
-      clientName:`Sushma Panyam 
+      clientName: `Sushma Panyam 
       Parent of Nihal Singaraju`,
       desti: 'Grade 2'
     },
@@ -293,7 +293,7 @@ Mindset`,
       clientView_1: `I've always believed in holistic education and when I met with academicians at Premia, that's what seemed to be their plan. Some of the values that they talk about are very similar to the ones I try to inculcate as a professional and parent.  `,
       clientView_2: `Knowing that my child will be exposed to sports and music at a very young age is comforting. These engagements go a long way in developing certain important skills such as focus, team behavior and dealing with losses in a balanced manner. `,
       clientView_3: `I firmly believe that this tends to impact their attitude in real life social situations too. Although my journey with Premia started only about a month back, I see them do their best in this lock down situation. All I want is my child to be happy in life and  I do hope we lay the foundation of their happy lives together.`,
-      clientName:`Sushma Panyam 
+      clientName: `Sushma Panyam 
       Parent of Nihal Singaraju`,
       desti: 'Grade 2'
     },
@@ -309,11 +309,11 @@ Mindset`,
       clientView_1: `I've always believed in holistic education and when I met with academicians at Premia, that's what seemed to be their plan. Some of the values that they talk about are very similar to the ones I try to inculcate as a professional and parent.  `,
       clientView_2: `Knowing that my child will be exposed to sports and music at a very young age is comforting. These engagements go a long way in developing certain important skills such as focus, team behavior and dealing with losses in a balanced manner. `,
       clientView_3: `I firmly believe that this tends to impact their attitude in real life social situations too. Although my journey with Premia started only about a month back, I see them do their best in this lock down situation. All I want is my child to be happy in life and  I do hope we lay the foundation of their happy lives together.`,
-      clientName:`Sushma Panyam 
+      clientName: `Sushma Panyam 
       Parent of Nihal Singaraju`,
       desti: 'Grade 2'
     },
-];
+  ];
 
   // images = [62, 83, 466, 965, 982, 1043, 738].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
@@ -336,23 +336,23 @@ Mindset`,
 Renowned
 Business Icon`
     },
-//     {
-//       name:'SHRI PRADEEP REDDY',
-//       post:'SOCIETY PRESIDENT',
-//       desc:`IITian
-// Renowned
-// Business Icon` },
-//     {
-//       name:'MS. TRUPTI RAO',
-//       post:'PRINCIPAL',
-//       desc:`Educator, Teacher, Achiever
-// 21+ Years of experience
-// 19 years at Meridian` },
-//     {
-//       name:'MS. MALINI PAUL',
-//       post:'HEADMISTRESS',
-//       desc:`Facilitator, Visionary, educationist
-// 30+ Years of experience` },
+    //     {
+    //       name:'SHRI PRADEEP REDDY',
+    //       post:'SOCIETY PRESIDENT',
+    //       desc:`IITian
+    // Renowned
+    // Business Icon` },
+    //     {
+    //       name:'MS. TRUPTI RAO',
+    //       post:'PRINCIPAL',
+    //       desc:`Educator, Teacher, Achiever
+    // 21+ Years of experience
+    // 19 years at Meridian` },
+    //     {
+    //       name:'MS. MALINI PAUL',
+    //       post:'HEADMISTRESS',
+    //       desc:`Facilitator, Visionary, educationist
+    // 30+ Years of experience` },
   ];
 
   paused = false;
@@ -372,19 +372,16 @@ Business Icon`
   }
 
   knowMore = function(text) {
-    if(text == 'culture'){
-      this.router.navigateByUrl('/TheStudyCulture', {skipLocationChange: true});
-    }else if(text == 'edge'){
-      this.router.navigateByUrl('/ThePremianEdge', {skipLocationChange: true});
+    if (text === 'culture') {
+      this.router.navigateByUrl('/ThePremiaCulture', { skipLocationChange: true });
+    } else if (text === 'edge') {
+      this.router.navigateByUrl('/ThePremiaEdge', { skipLocationChange: true });
+    } else if (text === 'apply') {
+      this.router.navigateByUrl('/Admissions', { skipLocationChange: true });
+    } else if (text === 'admission') {
+      this.router.navigateByUrl('/Admissions', { skipLocationChange: true });
     }
-    else if(text == 'apply'){
-      this.router.navigateByUrl('/Admissions', {skipLocationChange: true});
-    }
-    else if(text == 'admission'){
-      this.router.navigateByUrl('/Admissions', {skipLocationChange: true});
-    }
-
-};
+  };
 
   onSlide(slideEvent: NgbSlideEvent) {
     if (this.unpauseOnArrow && slideEvent.paused &&
