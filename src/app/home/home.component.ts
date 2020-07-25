@@ -24,7 +24,7 @@ export class HomeComponent {
           arrows: true,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 2
+          slidesToShow: 1
         }
       },
       {
@@ -118,7 +118,7 @@ export class HomeComponent {
           arrows: true,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 2
+          slidesToShow: 1
         }
       },
       {
@@ -148,7 +148,7 @@ export class HomeComponent {
           arrows: true,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 2
+          slidesToShow: 1
         }
       },
       {
