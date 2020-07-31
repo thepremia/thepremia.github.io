@@ -427,6 +427,10 @@ ul.list{
 	}
 }
 @media (max-width: 576px){
+	.section-about[_ngcontent-tjf-c4], .section-nofify[_ngcontent-tjf-c4], .premian-league[_ngcontent-tjf-c4], .section-events[_ngcontent-tjf-c4], .section-spacing[_ngcontent-tjf-c4] {
+		padding: 30px 0;
+	}
+
 	nav{
 		width:100% !important;
 	}
