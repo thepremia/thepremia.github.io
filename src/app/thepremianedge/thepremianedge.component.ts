@@ -7,6 +7,35 @@ import { Component, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angula
 })
 export class ThepremianedgeComponent implements OnInit, AfterViewInit {
 
+  explicitConfig = {
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    infinite: false,
+    autoplay: false,
+    autoplaySpeed: 1500,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  };
+
   explicit = [{
     title: `Literacy`,
     icon: `#icon_ethicalEdu`,

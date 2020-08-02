@@ -10,6 +10,7 @@
 			padding:0px;
 			margin-bottom: 0;	
 		}
+		
 	}
 	
 	.panel {
@@ -45,18 +46,21 @@
 
 @media (max-width: 576px){
 		.row-f, .row, h1{
-			margin-left:0px; 
+			display:block;
 	}
 	.breadcum{
 		margin-left:15px;
 	}
 	.img-flag{
-		padding:15px;
+		padding:15px 0px;
 		position: static;
 		width:100%;
 	}
 	.panel-body{
 		width:100%;
+	}
+	.avtar{
+		display: none;
 	}
 
 }

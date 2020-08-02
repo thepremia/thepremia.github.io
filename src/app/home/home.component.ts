@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, Renderer2 } from '@angular/core';
 import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';;
 
@@ -9,6 +9,7 @@ import { Router } from '@angular/router';;
 })
 export class HomeComponent {
 
+  @ViewChild('collapse', {static: false}) collapse: ElementRef;
 
   partnerConfig = {
     slidesToShow: 4,
@@ -23,7 +24,7 @@ export class HomeComponent {
         settings: {
           arrows: true,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '0px',
           slidesToShow: 1
         }
       },
@@ -32,7 +33,7 @@ export class HomeComponent {
         settings: {
           arrows: true,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '0px',
           slidesToShow: 1
         }
       }
@@ -163,9 +164,21 @@ export class HomeComponent {
     ]
   };
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private renderer: Renderer2) {
+    
   }
 
+  isOpen = true;
+  drowDownToggle() {
+    this.isOpen = !this.isOpen;
+  }
+
+  ngAfterViewInit(){
+    this.renderer.addClass(this.collapse.nativeElement, 'test');
+  }
+  ngOnInit(){
+    
+  }
 
   admission = [
     {

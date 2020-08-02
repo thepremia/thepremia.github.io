@@ -29,8 +29,9 @@
 		background:#fff;
         padding:50px;
         padding-bottom:0px;
-		.panel-body{
-			width:50%;
+		.image-wrap{
+			width: 50%;
+    margin: -120px 0 26px 50px;
 		}
 		&.story-info{
 			background:#bf272d;
@@ -248,13 +249,6 @@
 
 @media (max-width: 576px){
 
-	.section-admission-2 {
-		.addmin-sec {
-			.add-info{
-				margin-bottom:50px;
-			}
-		}
-	}
 
 	.section-study-culture{
 		.row-f, .row, h1{
@@ -263,13 +257,33 @@
 	.breadcum{
 		margin-left:15px;
 	}
-	.img-flag{
-		padding:15px;
-		position: static;
-		width:100%;
-	}
+	
 	.panel-body{
 		width:100%;
 	}
 }
+
+
+.section-admission{
+	.panel{
+		padding:40px 0;
+		.image-wrap{
+			width: 100% !important;
+			margin: 0px !important;
+		}
+	}
+	.section-admission-2 {
+		.addmin-sec {
+			.add-info{
+				margin-bottom:50px;
+			}
+		}
+		.panel{
+			padding: 270px 50px 50px;
+			width: 100%;
+		}
+	}
+}
+
+
 }

@@ -124,11 +124,16 @@
     <div class="clearfix"></div>
     <div class="container">
         <div class="row">
-
-            <div class="d-flex">
-                <ul ngbNav #nav="ngbNav" [(activeId)]="active"
+            <ul ngbNav #collapse #nav="ngbNav" [ngClass]="isOpen ? '' : 'drop-down-active'" [(activeId)]="active" 
                     class="nav-pills section-curriculum-list col-lg-4 col-md-4 col-sm-12" orientation="vertical">
-                    <li ngbNavItem="1">
+                    <li class="d-sm-block d-md-none drop-down" (click)="drowDownToggle()"> 
+                         <i class="icon icon-ex-small">
+                            <svg focusable="false">
+                                <use xlink:href="#icon_downArrow"></use>
+                            </svg>
+                        </i>
+                    </li>
+                    <li ngbNavItem="1" (click)="drowDownToggle()">
                         <a ngbNavLink>CURRICULUM</a>
                         <ng-template ngbNavContent>
                             <p>
@@ -153,7 +158,7 @@
                             
                         </ng-template>
                     </li>
-                    <li ngbNavItem="2">
+                    <li ngbNavItem="2" (click)="drowDownToggle()">
                         <a ngbNavLink>PREMIA EDGE</a>
                         <ng-template ngbNavContent>
                             <p>
@@ -188,7 +193,7 @@
                             
                         </ng-template>
                     </li>
-                    <li ngbNavItem="3">
+                    <li ngbNavItem="3" (click)="drowDownToggle()">
                         <a ngbNavLink>COMMUNICATION
                             AND LANGUAGE</a>
                         <ng-template ngbNavContent>
@@ -198,7 +203,7 @@
                             </p>
                         </ng-template>
                     </li>
-                    <li ngbNavItem="4">
+                    <li ngbNavItem="4" (click)="drowDownToggle()">
                         <a ngbNavLink>PERSONAL, SOCIAL AND
                             EMOTIONAL DEVELOPMENT</a>
                         <ng-template ngbNavContent>
@@ -207,7 +212,7 @@
                             </p>
                         </ng-template>
                     </li>
-                    <li ngbNavItem="5">
+                    <li ngbNavItem="5" (click)="drowDownToggle()">
                         <a ngbNavLink>PHYSICAL DEVELOPMENT</a>
                         <ng-template ngbNavContent>
                             <p>
@@ -219,8 +224,7 @@
                 </ul>
 
                 <div [ngbNavOutlet]="nav" class="col-lg-8 col-md-8 col-sm-12 curriculum-info"></div>
-            </div>
-        </div>
+         </div>
     </div>
 </section>
 
