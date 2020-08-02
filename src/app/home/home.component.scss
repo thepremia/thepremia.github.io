@@ -135,13 +135,27 @@
 
 	.section-curriculum-list{
 		margin-top:15px;
+		position:relative;
+		.drop-down{
+			position: absolute;
+			right:15px;
+			top:10px;
+			width: auto;
+			transition: .1s;
+			
+		}
+		&.drop-down-active{
+			svg{
+				transform: rotate(-180deg);
+			}
+		}
 		&.nav-pills{
 			li{
-				margin-bottom:30px;
 				.nav-link{
 					color: #000;
 					padding-left:50px;
 					position: relative;
+					margin-bottom:30px;
 					&.active{
 						background:none;
 						color: #3e65ac;
@@ -405,22 +419,49 @@
 		}
 	}
 
+	.section-curriculum-list{ 
+		transition: 1s;
+		display: block;
+		background: rgb(243, 243, 243);
+		a:not(.active){
+			display:none;
+		}
+		li{
+			width:100%;
+			a{
+				margin: 10px 0 !important;
+			}
+		}
+		&.drop-down-active{
+			a:not(.active){
+				display:block;
+			}
+		}
+	}
+
+	
+
 	.section-curriculum{
 		.row-f{
 			width:auto;
 		}
-		.section-curriculum-list{
-			display:none;
-		}
 	}
 
-	.testimonials img {
-		height: 100%;
-		position: absolute;
-		top: 0;
-		right: 0;
-		opacity: 0.5;
-		width: auto;}
+	.testimonials {
+		img {
+			height: 100%;
+			right: 0;
+			width: auto;
+		}
+		::ng-deep .carousel-inner{
+			height:auto !important;
+			padding-bottom:50px;
+		}
+
+		::ng-deep .carousel-control-next, ::ng-deep .carousel-control-prev{
+				bottom:10px;
+		}
+	}
 
 	.section-curriculum {
 		.curriculum-info{

@@ -313,12 +313,18 @@ ul.list{
 	}
 }
 
-.partner{
-	.slick-list{
-		padding:50px 0px;
-	}
-}
 
+	.slick-list{
+		padding:50px 0px !important;
+	}
+
+	.recent-article .slick-prev, .recent-article .slick-next{
+		top: -100px;
+	}
+
+	.slick-slider .slick-slide{
+		padding:0px;
+	}
 
 .main-page{
 	float:none;

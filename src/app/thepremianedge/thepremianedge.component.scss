@@ -210,6 +210,8 @@
 			width:20%;
 			padding:0px;
 			display: flex;
+			margin: 0 2px;
+    		height: 325px;
 			&:first-child{
 				.panel{
 					margin-left:0px;
@@ -298,6 +300,7 @@
 	margin-top: 40px;
 	color:#fff;
 }
+
 
 @media (max-width: 576px){
 	.section-study-culture{

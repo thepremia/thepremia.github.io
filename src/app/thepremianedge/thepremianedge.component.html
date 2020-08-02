@@ -110,8 +110,9 @@
             
             <h1 class="plan-title"><span>Explicit Areas of Learning</span></h1>
     </div>
-     <ul class="row explicit-sec nav-tabs" ngbNav #nav="ngbNav" [(activeId)]="active">
-              <li class="add-info" ngbNavItem="{{i+1}}"  *ngFor="let list of explicit; index as i">
+     <ngx-slick-carousel class="row explicit-sec nav-tabs" ngbNav #nav="ngbNav" [(activeId)]="active"
+     #slickModal="slick-carousel" [config]="explicitConfig">
+              <li ngxSlickItem class="add-info" ngbNavItem="{{i+1}}"  *ngFor="let list of explicit; index as i">
                   <a ngbNavLink class="panel">
                       <div class="panel-heading">
                           <h1>{{list.bar}}</h1>
@@ -130,8 +131,8 @@
                        {{list.description}}
                     </ng-template>
                 </li>
+        </ngx-slick-carousel>   
 
-              <div [ngbNavOutlet]="nav" class="tab-info"></div>
-            </ul>   
+            <div [ngbNavOutlet]="nav" class="tab-info"></div>
  </div> 
   </section>

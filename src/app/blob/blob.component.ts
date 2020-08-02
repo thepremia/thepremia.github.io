@@ -91,8 +91,8 @@ export class BlobComponent implements OnInit {
         settings: {
           arrows: true,
           centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 2
+          centerPadding: '0px',
+          slidesToShow: 1
         }
       },
       {
@@ -100,7 +100,7 @@ export class BlobComponent implements OnInit {
         settings: {
           arrows: true,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '0px',
           slidesToShow: 1
         }
       }
