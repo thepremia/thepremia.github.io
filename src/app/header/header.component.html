@@ -32,7 +32,7 @@
       </a>
     </li>
     <li class="nav-item login">
-       <a class="nav-link">
+       <a class="nav-link" (click)="open(login)">
          <i class="icon icon-small">
            <svg focusable="false">
              <use xlink:href="#icon_login"></use>
@@ -40,6 +40,77 @@
          </i><br>
          Login
        </a>
+
+       <ng-template #login let-modal>
+        <div class="modal-header">
+           <h4 class="modal-title" id="modal-basic-title">Login/ Register</h4>
+              <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <i class="icon icon-ex-small">
+                  <svg focusable="false">
+                    <use xlink:href="#icon_close"></use>
+                  </svg>
+                </i>
+              </a>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 login-form">
+              <h6>Login</h6>
+              <form action="">
+             
+              <div class="row">
+                <div class="col">
+                    <label for="userName">User Name</label>
+                    <input type="text" class="form-control" placeholder="User Name" name="userName">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="pass">Password</label>
+                  <input type="password" class="form-control" placeholder="Password" name="pass">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox"> Remember me
+                </label>
+                <a href="" class="ml-5">Forgot Password?</a>
+            </div>
+            </div>
+            <button class="btn btn-primary">Login</button>
+            </form>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 login-form">
+              <h6>Register</h6>
+              <form action="">
+             
+                <div class="row">
+                  <div class="col">
+                      <label for="userName">User Name</label>
+                      <input type="text" class="form-control" placeholder="User Name" name="userName">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <label for="email">Email ID</label>
+                    <input type="text" class="form-control" placeholder="Email ID" name="EmailID">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="phoneno">Phone No.</label>
+                  <input type="text" class="form-control" placeholder="Phone Number" name="phoneno">
+              </div>
+            </div>
+               <button class="btn btn-primary" >Register</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </ng-template>
+
      </li>
    </ul>
   </nav>
@@ -66,19 +137,19 @@
                 <span>Facebook</span>
             </a>
         </li>
-        <li><a href="https://www.instagram.com" target="_blank">
+        <li><a href="https://www.linkedin.com" target="_blank">
                 <i class="icon icon-ex-small">
                     <svg focusable="false">
-                        <use xlink:href="#icon_instagram"></use>
+                        <use xlink:href="#icon_linkedin"></use>
                     </svg>
                 </i>
                 <span>Linkedin</span>
             </a>
         </li>
-        <li><a href="https://www.twitter.com" target="_blank">
+        <li><a href="https://www.instagram.com" target="_blank">
                 <i class="icon icon-ex-small">
                     <svg focusable="false">
-                        <use xlink:href="#icon_twitter"></use>
+                        <use xlink:href="#icon_instagram"></use>
                     </svg>
                 </i>
                 <span>Instagram</span>

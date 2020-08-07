@@ -13,7 +13,7 @@
       </ngb-carousel> -->
 
     <video controls autoplay>
-        <source src="https://thepremia.github.io/academy/assets/images/banner.mp4" type="video/mp4">
+        <source src="assets/images/banner.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
@@ -245,9 +245,9 @@
                 <p>{{list.desc}}</p>
             </div>
         </ngx-slick-carousel> -->
-             <div *ngFor="let list of premianLeague; index as i" class="col-lg-4 col-md-4 col-sm-12" data-aos="fade-up" data-aos-once="true">
-                <img src="assets/images/premianleague{{i+1}}.jpg" >
-                <h6>{{list.name}}</h6>
+             <div *ngFor="let list of premianLeague; index as i" class="col-lg-4 col-md-4 col-sm-12">
+                <img src="assets/images/premianleague{{i+1}}.jpg" data-aos="fade-up" data-aos-once="true">
+                <h6 data-aos="fade-up" data-aos-once="true">{{list.name}}</h6>
              </div>
        
     </div>
@@ -255,25 +255,25 @@
 </section>
 
 
-<section class="testimonials" data-aos="fade-up" data-aos-once="true">
+<section class="testimonials">
     <img src="assets/images/7.jpg">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Parents Speak</h1>
-                <ngb-carousel #carousel interval="5000" [showNavigationArrows]='true' [showNavigationIndicators]='false'
+                <h1  data-aos="fade-up" data-aos-once="true">Parents Speak</h1>
+                <ngb-carousel  #carousel interval="5000" [showNavigationArrows]='true' [showNavigationIndicators]='false'
                     [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
                     <ng-template ngbSlide *ngFor="let info of testimonials; index as i">
-                        <p>
+                        <p data-aos="fade-up" data-aos-once="true" >
                             {{info.clientView_1}}
                         </p>
-                        <p>
+                        <p data-aos="fade-up" data-aos-once="true" >
                             {{info.clientView_2}}
                         </p>
-                        <p>
+                        <p data-aos="fade-up" data-aos-once="true" >
                             {{info.clientView_3}}
                         </p>
-                        <p>
+                        <p data-aos="fade-up" data-aos-once="true" >
                             <span class="client-name"> <b>{{info.clientName}}<br>
                             {{info.desti}}</b></span>
                         </p>
@@ -286,11 +286,11 @@
 
 <div class="container partner">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 float-right" data-aos="fade-up" data-aos-once="true">
-                <h2>
+            <div class="col-lg-12 col-md-12 col-sm-12 float-right">
+                <h2 data-aos="fade-up" data-aos-once="true" >
                     Our Partners
                 </h2>
-                    <p>Our quest for creating the perfect learning environment led to collaborating with a few organisations whose vision aligned with ours. Each of the programs are well researched to cater to the needs of the millennials who require constant innovation. With combined ideologies and compassion, successful partnerships are created on a trajectory to deliver nothing but the best! </p>
+                    <p data-aos="fade-up" data-aos-once="true" >Our quest for creating the perfect learning environment led to collaborating with a few organisations whose vision aligned with ours. Each of the programs are well researched to cater to the needs of the millennials who require constant innovation. With combined ideologies and compassion, successful partnerships are created on a trajectory to deliver nothing but the best! </p>
                
             </div>
 
