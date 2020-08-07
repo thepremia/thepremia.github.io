@@ -1,5 +1,6 @@
 import { Component, ViewEncapsulation, OnInit } from '@angular/core';
 import { Router, NavigationStart } from '@angular/router';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -36,6 +37,6 @@ knowMore = function(text) {
 };
 
 ngOnInit() {
-  // Called after the constructor and called  after the first ngOnChanges() 
+  AOS.init();
 }
 }

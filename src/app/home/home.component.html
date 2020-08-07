@@ -62,11 +62,11 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 center">
-                <h1>We don’t just
+                <h1 data-aos="fade-up" data-aos-once="true">We don’t just
                     teach kids,<br>
                     we nurture them</h1>
             </div>
-            <div *ngFor="let item of solution" class="col-lg-4 col-md-4 col-sm-12 panel-container">
+            <div *ngFor="let item of solution" class="col-lg-4 col-md-4 col-sm-12 panel-container" data-aos="fade-up" data-aos-once="true">
                 <div class="panel">
                     <div class="panel-front">
                         <div class="panel-heading">
@@ -93,10 +93,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12">
-                <h1>What drives<br>
+                <h1 data-aos="fade-up" data-aos-once="true">What drives<br>
                     us?</h1>
             </div>
-            <div *ngFor="let item of notify" class="{{item.col}} col-sm-12">
+            <div *ngFor="let item of notify" class="{{item.col}} col-sm-12" data-aos="fade-up" data-aos-once="true">
                 <div class="panel">
                     <div class="panel-front">
                         <div class="panel-heading">
@@ -117,13 +117,13 @@
 </section>
 <section class="section-curriculum">
     <div class="row-f">
-        <div class="col-lg-9 col-md-9 col-sm-12 float-right p0">
+        <div class="col-lg-9 col-md-9 col-sm-12 float-right p0" data-aos="fade-up" data-aos-once="true">
             <img src="assets/images/2.jpg">
         </div>
     </div>
     <div class="clearfix"></div>
     <div class="container">
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-once="true">
             <ul ngbNav #collapse #nav="ngbNav" [ngClass]="isOpen ? '' : 'drop-down-active'" [(activeId)]="active" 
                     class="nav-pills section-curriculum-list col-lg-4 col-md-4 col-sm-12" orientation="vertical">
                     <li class="d-sm-block d-md-none drop-down" (click)="drowDownToggle()"> 
@@ -234,7 +234,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 center">
-                <h1>The Premia League</h1>
+                <h1 data-aos="fade-up" data-aos-once="true">The Premia League</h1>
             </div>
         
         <!-- <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
@@ -245,7 +245,7 @@
                 <p>{{list.desc}}</p>
             </div>
         </ngx-slick-carousel> -->
-             <div *ngFor="let list of premianLeague; index as i" class="col-lg-4 col-md-4 col-sm-12">
+             <div *ngFor="let list of premianLeague; index as i" class="col-lg-4 col-md-4 col-sm-12" data-aos="fade-up" data-aos-once="true">
                 <img src="assets/images/premianleague{{i+1}}.jpg" >
                 <h6>{{list.name}}</h6>
              </div>
@@ -255,7 +255,7 @@
 </section>
 
 
-<section class="testimonials">
+<section class="testimonials" data-aos="fade-up" data-aos-once="true">
     <img src="assets/images/7.jpg">
     <div class="container">
         <div class="row">
@@ -286,7 +286,7 @@
 
 <div class="container partner">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 float-right">
+            <div class="col-lg-12 col-md-12 col-sm-12 float-right" data-aos="fade-up" data-aos-once="true">
                 <h2>
                     Our Partners
                 </h2>
@@ -296,7 +296,7 @@
 
             <ngx-slick-carousel class="carousel col-lg-12 col-md-12 col-sm-12" #slickModal="slick-carousel"
                 [config]="partnerConfig">
-                <div ngxSlickItem *ngFor="let item of partner; index as i" class="slide">
+                <div ngxSlickItem *ngFor="let item of partner; index as i" class="slide" data-aos="fade-up" data-aos-once="true">
                     <div class="panel">
                        <div class="panel-heading">
                                 <div class="img-box">
