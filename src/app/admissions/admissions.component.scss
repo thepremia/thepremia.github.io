@@ -8,7 +8,8 @@
         background:#fff;
     }
     .add-spec{
-        margin:0 0 0 35px;
+		margin-left:35px;
+		margin-bottom:35px;
         .row{
             margin:0px;
         }
@@ -245,6 +246,13 @@
 			
 		}
 }
+
+.apply-form{
+	.row{
+		margin-bottom:15px;
+	}
+}
+
 
 
 @media (max-width: 576px){

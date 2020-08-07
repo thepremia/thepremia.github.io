@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal, ModalDismissReasons, NgbDateStruct} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-admissions',
@@ -6,8 +7,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./admissions.component.scss']
 })
 export class AdmissionsComponent implements OnInit {
+  closeResult = '';
+  model: NgbDateStruct;
+  constructor(private modalService: NgbModal,) { }
 
-  constructor() { }
+  open(content) {
+    this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title', size: 'lg'}).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+    }, (reason) => {
+      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+    });
+  }
+
+  private getDismissReason(reason: any): string {
+    if (reason === ModalDismissReasons.ESC) {
+      return 'by pressing ESC';
+    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+      return 'by clicking on a backdrop';
+    } else {
+      return `with: ${reason}`;
+    }
+  }
   
   admission = [
     {
