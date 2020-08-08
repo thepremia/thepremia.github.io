@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgbModal, ModalDismissReasons, NgbDateStruct} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModal, ModalDismissReasons, NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-admissions',
@@ -12,7 +12,7 @@ export class AdmissionsComponent implements OnInit {
   constructor(private modalService: NgbModal,) { }
 
   open(content) {
-    this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title', size: 'lg'}).result.then((result) => {
+    this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title', size: 'lg' }).result.then((result) => {
       this.closeResult = `Closed with: ${result}`;
     }, (reason) => {
       this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
@@ -28,7 +28,7 @@ export class AdmissionsComponent implements OnInit {
       return `with: ${reason}`;
     }
   }
-  
+
   admission = [
     {
       icon: '#icon_ethicalEdu',
@@ -50,33 +50,31 @@ A Community`,
 
   admission_2 = [
     {
-      title: `Admission
-to Pre-Primary`,
-      bar:'pp0',
-      description: `The child will have to 
-be 2 years 6 months as 
-on 1st June 2020 `,
+      title: `Admission to Foundation Stage`,
+      bar: 'pp0',
+      description: `Activity Based Learning 
+for 5 years`,
     },
     {
-      title: 'Admission to Primary',
-      bar:'pp1',
-      description: `The child needs to be 3 
-years 6 months as on
-1st June 2020`,
+      title: 'Admission to Preparatory Stage',
+      bar: 'pp1',
+      description: `Discovery, Play and Interactive 
+Classroom learning 
+for 3 years`,
     },
     {
-      title: 'Admission to Middle School',
-      bar:'pp2',
-      description: `The child needs to be 4
-years 6 months as on 1st 
-June 2020`,
+      title: 'Admission to Middle Stage',
+      bar: 'pp2',
+      description: `Experiential learning in 
+Mathematics, Science, Arts, etc. 
+for 3 years`,
     },
     {
-      title: 'Admission to High School',
-      bar:'pp3',
-      description: `The child needs to be 5 
-years 6 months as on 1st 
-June 2020`,
+      title: 'Admission to Secondary Stage',
+      bar: 'pp3',
+      description: `Flexibility in choice of subjects 
+with multidisciplinary study 
+for 4 years`,
     }
   ];
 

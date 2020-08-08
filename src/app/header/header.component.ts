@@ -132,7 +132,7 @@ export class HeaderComponent implements OnInit {
   }
   knowMore = function(text) {
     if (text === 'admission') {
-      this.router.navigateByUrl('/Admissions', {skipLocationChange: true});
+      this.router.navigateByUrl('/JoinThePremiaPride', {skipLocationChange: true});
       this.modalService.dismissAll();
     }};
 }

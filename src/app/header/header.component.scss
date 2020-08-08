@@ -26,7 +26,7 @@ nav {
             // border:1px solid #000;
             margin:0 15px;
             a{
-                color:#000 !important;
+                color:#bf272d !important;
                 text-align: center;
                 svg{
                     fill:#000;
@@ -178,6 +178,14 @@ nav {
             margin-right:5px;
          }
 
+         &.social-media{
+            svg{
+                width:24px;
+                height:24px;
+                margin-right:5px;
+             }
+         }
+
     }
 }
 
@@ -261,11 +269,19 @@ nav {
         }
 }
 
-// @media (max-width: 576px){
-// 	.navbar-nav-list{
-//         float: left;
-//         width:100%;
-//         margin-top: 30px;
-//         border-top:1px solid #ccc;
-// 	}
-// }
+@media (max-width: 576px){
+
+	.header-nav{
+        position: absolute;
+        z-index: 99999999;
+        top: 10px;
+        right: 70px;
+        display: block;
+        .login{
+            margin:0;
+            span{
+                display:none;
+            }
+        }
+    }
+}

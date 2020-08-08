@@ -73,9 +73,8 @@
                         <div class="panel-heading">
                                 <h3 class="bar {{item.bar}}">
                                     {{item.title}}
-                                </h3>
-<!--                                  
-                                    <p>{{item.description}}</p> -->
+                                </h3> 
+                                <p>{{item.description}}</p> 
                                     
                             </div>
                             <button class="btn btn-primary" (click)="open(content)" data-aos="fade-up" data-aos-once="true">APPLY NOW</button>
@@ -101,7 +100,7 @@
     <div class="modal-body">
       <div class="row">
         <div class="col-sm-12 apply-form">
-            <form action="/action_page.php">
+            <form>
                 <div class="row">
                     <div class="col">
                         <label for="sel1">Academic Year</label>
