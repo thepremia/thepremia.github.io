@@ -350,6 +350,12 @@ ul.list{
 	}
 }
 
+.apply-form{
+	.row{
+		margin-bottom:15px;
+	}
+}
+
 // .flying-img{
 // 	position: absolute;
 // 	width:100px;
@@ -491,5 +497,10 @@ ul.list{
 	}
 	.panel{
 		padding:30px 15px !important;
+	}
+
+	.login-form .row{
+		margin-right: -15px !important;
+    margin-left: -15px !important;
 	}
 }

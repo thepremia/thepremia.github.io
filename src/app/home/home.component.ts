@@ -390,9 +390,9 @@ Business Icon`
     } else if (text === 'edge') {
       this.router.navigateByUrl('/ThePremiaEdge', { skipLocationChange: true });
     } else if (text === 'apply') {
-      this.router.navigateByUrl('/Admissions', { skipLocationChange: true });
+      this.router.navigateByUrl('/JoinThePremiaPride', { skipLocationChange: true });
     } else if (text === 'admission') {
-      this.router.navigateByUrl('/Admissions', { skipLocationChange: true });
+      this.router.navigateByUrl('/JoinThePremiaPride', { skipLocationChange: true });
     }
   };
 
