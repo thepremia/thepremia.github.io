@@ -109,37 +109,41 @@
                         </select>
                     </div>
                     <div class="col">
-                        <label for="sel2">Branch</label>
-                        <select class="form-control" id="sel2">
-                            <option>The Premia Academy</option>
-                        </select>
-                    </div> </div>
+                      <label for="pn">Parent Name</label>
+                      <input type="pn" class="form-control" placeholder="Parent Name" name="pn">
+                  </div>
+                  </div>
                 <div class="row">
+                  <div class="col">
+                    <label for="pn">Parent ID</label>
+                    <input type="pi" class="form-control" placeholder="Parent ID" name="pi">
+                  </div>
                     <div class="col">
                         <label for="phone">Parent Mobile No</label>
                         <input type="phone" class="form-control" placeholder="Phone" name="phone">
                     </div>
-                    <div class="col">
-                        <div class="form-group">
-                            <label for="Date">Student DOB</label>
-                            <div class="input-group">
-                              <input class="form-control" placeholder="yyyy-mm-dd"
-                                     name="dp" ngModel="model" ngbDatepicker #d="ngbDatepicker">
-                              <div class="input-group-append">
-                                <button class="btn btn-outline-secondary calendar" (click)="d.toggle()" type="button">
-                                    <i class="icon icon-ex-small">
-                                        <svg focusable="false">
-                                          <use xlink:href="#icon_calender"></use>
-                                        </svg>
-                                      </i>
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                     </div>
+                   
                 </div>
                 <div class="row">
-                    <div class="col col-lg-6 col-md-6">
+                  <div class="col">
+                    <div class="form-group">
+                        <label for="Date">Student DOB</label>
+                        <div class="input-group">
+                          <input class="form-control" placeholder="yyyy-mm-dd"
+                                 name="dp" ngModel="model" ngbDatepicker #d="ngbDatepicker">
+                          <div class="input-group-append">
+                            <button class="btn btn-outline-secondary calendar" (click)="d.toggle()" type="button">
+                                <i class="icon icon-ex-small">
+                                    <svg focusable="false">
+                                      <use xlink:href="#icon_calender"></use>
+                                    </svg>
+                                  </i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                    <div class="col">
                         <label for="Grade">Grade</label>
                         <select class="form-control" id="Grade">
                             <option>Select-class</option>

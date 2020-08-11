@@ -26,13 +26,41 @@ nav {
             // border:1px solid #000;
             margin:0 15px;
             a{
-                color:#bf272d !important;
+                color:#000 !important;
                 text-align: center;
                 svg{
-                    fill:#000;
+                    fill:#bf272d;
                 }
                 &:hover{
                     background:none !important;
+                }
+            }
+            &.dropping{
+                position:relative;
+                &:hover{
+                    .dropper{
+                        display:block;
+                    }
+                }
+            }
+            .dropper{
+                background:#fff;
+                border-bottom:2px solid #f44336;
+                box-shadow: 1px 3px 6px rgb(72 71 71 / 30%);
+                display: none;
+                position: absolute;
+                top: 62px;
+                right: 0px;
+                width: 260px;
+                a{
+                    display:block;
+                    border-bottom:1px solid #ccc;
+                    &:hover{
+                        color:#ccc;
+                    }
+                    &:last-child{
+                        border:none;
+                    }
                 }
             }
         }
