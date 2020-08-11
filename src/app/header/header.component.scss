@@ -163,6 +163,7 @@ nav {
     }
 }}
 
+
 .login-form{
     .row{
         margin-bottom:15px;
@@ -298,6 +299,15 @@ nav {
 }
 
 @media (max-width: 576px){
+
+    .login-form{
+         &:first-child{
+            border-bottom:1px solid #ccc;
+            border-right:none;
+            padding-bottom: 15px;
+        }
+       
+    }
 
 	.header-nav{
         position: absolute;

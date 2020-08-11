@@ -56,9 +56,8 @@
                   </i>
                 </a>
           </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-sm-12 apply-form">
+          <div class="modal-body apply-form">
+          
                   <form>
                       <div class="row">
                           <div class="col">
@@ -74,8 +73,8 @@
                         </div>
                       <div class="row">
                         <div class="col">
-                          <label for="pn">Parent ID</label>
-                          <input type="pi" class="form-control" placeholder="Parent ID" name="pi">
+                          <label for="pn">Parent Email ID</label>
+                          <input type="pi" class="form-control" placeholder="Parent Email ID" name="pi">
                         </div>
                           <div class="col">
                               <label for="phone">Parent Mobile No</label>
@@ -124,14 +123,12 @@
                       </div>
                       
                   </form>
-              </div>
-            </div>
-      
+          
           </div>
         </ng-template>  
       </li>
       <li class="nav-item login">
-         <a class="nav-link" (click)="open(login)">
+         <a class="nav-link" (click)="openlogin(login)">
            <i class="icon icon-small">
              <svg focusable="false">
                <use xlink:href="#icon_login"></use>
@@ -257,7 +254,7 @@
             </a>
         </li>
 
-        <li class="notice-board"><a  target="_blank" (click)="open(content)">
+        <li class="notice-board"><a  target="_blank" (click)="notifyOpen(notify)">
           <i class="icon icon-ex-small">
               <svg focusable="false">
                   <use xlink:href="#icon_noticeBoard"></use>
@@ -270,7 +267,7 @@
 </div>
 </nav>
 
-<ng-template #content let-modal>
+<ng-template #notify let-modal>
   <div class="modal-header">
     <i class="icon icon-ex-small">
       <svg focusable="false">
@@ -352,7 +349,7 @@
       </a>
        </li>
        <li class="nav-item social-media">
-        <a class="nav-link" target="_blank" (click)="open(content)">
+        <a class="nav-link" target="_blank" (click)="notifyOpen(notify)">
           <i class="icon icon-small">
               <svg focusable="false">
                   <use xlink:href="#icon_noticeBoard"></use>

@@ -156,7 +156,7 @@
 			margin-left:0px;
 		}
 		.add-info{
-			padding:0px;
+			padding:2px;
 			display: flex;
 			&:first-child{
 				.panel{
@@ -182,7 +182,6 @@
 	}
 		.panel{
 			background:url(../../assets/images/bulb.png) no-repeat 40px -10px #fff;
-			margin-left: 5px;
 			padding-top: 270px;
 			padding-bottom:50px;
 			width: 100%;
