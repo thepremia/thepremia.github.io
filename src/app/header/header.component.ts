@@ -12,7 +12,12 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  @ViewChild('content', { static: true }) content: TemplateRef<any>;
+  @ViewChild('notify', { static: true }) content: TemplateRef<any>;
+
+  ngOnInit() {
+    this.modalService.open(this.content, { size: 'lg', windowClass: 'notification-popup' });
+  }
+
 
   showNavigationIndicators = false;
   showNavigationArrows = false;
@@ -72,7 +77,23 @@ export class HeaderComponent implements OnInit {
   }
 
    open(content) {
-      this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title', windowClass: 'dark-modal', size: 'lg'}).result.then((result) => {
+      this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title', size: 'lg'}).result.then((result) => {
+        this.closeResult = `Closed with: ${result}`;
+      }, (reason) => {
+        this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+      });
+    }
+
+    notifyOpen(content) {
+      this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title', size: 'lg', windowClass: 'notification-popup'}).result.then((result) => {
+        this.closeResult = `Closed with: ${result}`;
+      }, (reason) => {
+        this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+      });
+    }
+
+    openlogin(content) {
+      this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title', size: 'lg', windowClass: 'sign'}).result.then((result) => {
         this.closeResult = `Closed with: ${result}`;
       }, (reason) => {
         this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
@@ -99,10 +120,6 @@ export class HeaderComponent implements OnInit {
     } else {
       body.classList.remove('remove-scroll');
     }
-  }
-
-  ngOnInit() {
-    this.modalService.open(this.content, { size: 'lg', windowClass: 'notification-popup' });
   }
 
   paused = false;

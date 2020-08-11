@@ -352,7 +352,13 @@ ul.list{
 
 .apply-form{
 	.row{
-		margin-bottom:15px;
+		margin:0 0 15px !important;
+	}
+}
+
+.sign{
+	h6{
+		font-weight:bold;
 	}
 }
 
@@ -498,9 +504,23 @@ ul.list{
 	.panel{
 		padding:30px 15px !important;
 	}
-
+	.sign{
+		.modal-body{padding:0px;}
+		h6{
+			font-weight:bold;
+		}
+   }
 	.login-form .row{
 		margin-right: -15px !important;
     margin-left: -15px !important;
 	}
+
+	.apply-form  {
+		padding: 1rem 0;
+		.row{
+		display: block;
+		.col:first-child{
+			margin-bottom:15px;
+		}
+	}}
 }
