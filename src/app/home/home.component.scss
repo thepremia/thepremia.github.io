@@ -1,7 +1,8 @@
 .section-about, .section-nofify, .premian-league, .section-events, .section-spacing{
-	padding:70px 0;
+	padding:50px 0;
 	h1{
 		margin-bottom:40px;
+		color:#3e65ac;
 	}
 }
 
@@ -68,6 +69,7 @@
 }
 
 .section-admission{
+	background:#ededed;
 	.admission-flag{
 		position:relative;
 		text-align:center;
@@ -81,7 +83,7 @@
 			top: -25px;
 			left: 0px;
 			width: 100%;
-			height: calc(100% + 100px);
+			height: calc(100% + 70px);
 			z-index: 1;
 			box-shadow: 7px 5px 10px 0px rgba(0, 0, 0, 0.5);
 		}
@@ -287,6 +289,7 @@
 .partner{
 	margin-top:70px;
 	margin-bottom:70px;
+	background:#efefef;
 	p{
 		font-size:16px;	
 		font-family: "Quicksand", sans-serif;
@@ -294,7 +297,7 @@
 	.panel{
 		height:300px;
 		position: relative;
-		background:#fff;
+		background:#3e65ac;
 		padding:30px;
 		&:hover{
 			.info-view{

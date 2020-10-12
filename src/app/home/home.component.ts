@@ -223,7 +223,6 @@ Mindset`,
   notify = [
     {
       title: 'Vision',
-      col: 'col-lg-5 col-md-5',
       description: 'Our vision is to raise, our ‘Premia Pride’ to live their dreams as a generation who are:',
       moreInfo: [
         { info: 'Resilient and Confident lifelong learners' },
@@ -235,7 +234,6 @@ Mindset`,
     },
     {
       title: 'Mission',
-      col: 'col-lg-4 col-md-4',
       description: `Our students will be equipped to meet the current and future challenges with
       values of
       `,
@@ -247,6 +245,19 @@ Mindset`,
         { info: 'Empathy' },
       ]
     },
+    {
+      title: 'Values',
+      description: `Our students will be equipped to meet the current and future challenges with
+      values of
+      `,
+      moreInfo: [
+        { info: 'Resilience' },
+        { info: 'Agility' },
+        { info: 'Integrity' },
+        { info: 'Social responsibility' },
+        { info: 'Empathy' },
+      ]
+    }
   ];
 
   solution = [
