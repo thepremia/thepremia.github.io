@@ -1,4 +1,4 @@
-.section-about, .section-nofify, .premian-league, .section-events, .section-spacing{
+.section-about, .section-nofify, .premian-league, .section-events, .section-spacing, .testimonials, .partner{
 	padding:50px 0;
 	h1{
 		margin-bottom:40px;
@@ -216,76 +216,6 @@
 		} 
 }
 
-::ng-deep .testimonials{
-	background:#bf272d;
-	position:relative;
-	overflow: hidden;
-	padding-top:50px;
-	img{
-		width:100%;
-		position: absolute;
-		top:0;
-		left:0;
-		opacity:0.5;
-	}
-	h1{
-		color:#fff;
-		margin-bottom:20px;
-	}
-	p{
-		font-size:18px;
-		font-weight:700;
-		color:#fff;
-		margin-bottom:5px;
-		&:last-child{
-			margin-top:35px;
-		}
-	}
-	.carousel{
-		margin-top:0;
-		z-index:1;
-		margin-left: 50px;
-	}
-	.carousel-inner{
-		height:390px;
-	}
-	.carousel-indicators li{
-		height:10px;
-		border-radius:10px;
-		border:1px solid #fff;
-		background:transparent;
-		&.active{
-			background:#fff;
-		}
-	}
-	.carousel-item {
-		transition: opacity 1s ease !important;
-		position: absolute !important;
-		display: block !important;
-		opacity: 0;
-		&.active {
-				position: relative !important;
-				opacity: 1;
-			  }
-	  }
-	  .carousel-control-next, 
-	  .carousel-control-prev{
-		left:auto;
-		right:0;
-		top: auto;
-    	bottom: 75px;
-		}
-		.carousel-control-prev{
-			right:100px;
-		}
-		.client-name{
-			font-weight: bold;
-			color:#000;
-			font-size: 20px;
-		}
-}
-
-
 .partner{
 	margin-top:70px;
 	margin-bottom:70px;
@@ -459,19 +389,7 @@
 	}
 
 	.testimonials {
-		img {
-			height: 100%;
-			right: 0;
-			width: auto;
-		}
-		::ng-deep .carousel-inner{
-			height:auto !important;
-			padding-bottom:50px;
-		}
-
-		::ng-deep .carousel-control-next, ::ng-deep .carousel-control-prev{
-				bottom:10px;
-		}
+		
 	}
 
 	.section-curriculum {
