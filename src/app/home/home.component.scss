@@ -6,6 +6,13 @@
 	}
 }
 
+.heading-spacer{
+	h1{
+		margin-bottom:40px;
+		margin-top:20px;
+		color:#3e65ac;
+	}
+}
 
 .section-info{
 	background:#3e65ac;
@@ -43,27 +50,43 @@
 }
 
 .section-nofify{
-	
-	h5{
-		display:table;
-		span{
-			float:left;
-			font-weight: bold;
-		}
-		&:after{ 
-			content: " ";
-			float:left;
-			width:75px;
-			height:2px;
-			background:#ccc;
-			margin-left:15px;
-			margin-top: 13px;
+	background:#3e65ac;
+	padding: 0px;
+	.col{
+		padding:20px 45px;
+		&:nth-child(2){
+			background:#bf272d;
 		}
 	}
+	h5{
+		display:table;
+		color:#fff;
+		span{
+			float:left;
+			position:relative;
+			padding:0 50px 5px 0;
+			&:after{ 
+				content: " ";
+				position: absolute;
+				left:0px;
+				bottom:0px;
+				width:100%;
+				height:1px;
+				background:#fff;
+			}
+		}	
+	}
+	p{
+		color:#fff;
+	}
 	ul.list li{
-		color:#000;
+		color:#fff;
+		padding:0 0 15px 20px;
+		font-size:14px;
 		&::before{
-			background:#bf272d;
+			background:#fff;
+			width: 8px;
+			height: 8px;
 		}
 	}
 }
@@ -217,12 +240,13 @@
 }
 
 .partner{
-	margin-top:70px;
 	margin-bottom:70px;
 	background:#efefef;
+	padding:30px 0;
 	p{
 		font-size:16px;	
 		font-family: "Quicksand", sans-serif;
+		color:#fff;
 	}
 	.panel{
 		height:300px;
@@ -271,6 +295,7 @@
 			font-size:14px;
 			font-family: "Quicksand", sans-serif;
 			word-break: break-all;
+			
 		}
 		a{
 			word-break: break-all;
@@ -292,26 +317,57 @@
 	}
 }
 
-.premian-league{
-	background-color: rgba(247, 247, 247, .5);
-	img{
-		-webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-	  }
-	.slick-slide{
-		img{
-		  width: 100%;
+.testimonials{
+	background:#3e65ac;
+	padding: 0px;
+	.img-circle{
+		border-radius:50%;
+		width:150px;
+		height:150px;
+		overflow:hidden;
+		margin: 0 auto 20px;
+	}
+	.col{
+		padding:20px 45px;
+		&:nth-child(2){
+			background:#bf272d;
 		}
-		h6{
-			margin-bottom:0;
-			margin-top:15px;
-			line-height:18px;
-			font-weight:bold;
-		}
-		p{
-			white-space: pre;
+		p, h6{
+			color:#fff;
+			text-align:center;
 		}
 	}
+}
+
+.premian-league{
+	background: url(../../assets/images/home-concept.png) no-repeat center top;
+	width: 100%;
+	overflow: hidden;
+	.row{
+		align-items: center;
+	}
+	.col{
+	.img-circle{
+			border-radius:50%;
+			border:2px dashed #3e65ac;
+			width:150px;
+			height:150px;
+			overflow:hidden;
+			margin: 0 auto 20px;
+			padding:3px;
+			img{
+				border-radius: 50%;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&:last-child{
+			.img-circle{
+			width:350px;
+			height:350px;}
+		}
+	}
+
 }
 
 .clear-float{
@@ -327,6 +383,24 @@
 	}
 }
 
+.the-premia-corner{
+	margin-bottom:30px;
+	.col{
+		background:#3e65ac;
+		padding:15px;
+		border-radius:15px;
+		img{
+			box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+			border-radius:15px;
+		}
+
+		h4{
+			color:#fff;
+			font-weight:bold;
+			margin-top:15px;
+		}
+	}
+}
 
 .newsletter{
     background:#3e65ac;
