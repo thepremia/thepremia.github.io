@@ -346,6 +346,13 @@
 	.row{
 		align-items: center;
 	}
+	.carousel{
+		border-radius:50%;
+		border:2px dashed #3e65ac;
+		overflow: hidden;
+		width: 400px;
+		height: 400px;
+	}
 	.col{
 	.img-circle{
 			border-radius:50%;
