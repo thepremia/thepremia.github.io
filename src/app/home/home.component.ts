@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef, Renderer2 } from '@angular/core';
 import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
-import { Router } from '@angular/router';;
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +10,7 @@ import { Router } from '@angular/router';;
 export class HomeComponent {
 
   @ViewChild('collapse', {static: false}) collapse: ElementRef;
+
 
   partnerConfig = {
     slidesToShow: 4,
@@ -104,6 +105,15 @@ export class HomeComponent {
       description: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
     }
   ];
+
+  premianLeagueConfig = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: false,
+  };
 
   slideConfig = {
     slidesToShow: 3,
@@ -340,10 +350,6 @@ Mindset`,
       name: 'How we make if happen',
       gridClass:'col-md-2 '
     },
-    {
-      name: 'Who we are',
-      gridClass:'col-md-4 col-md-offset-1'
-    }
   ];
 
   paused = false;
