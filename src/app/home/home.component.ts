@@ -111,7 +111,7 @@ export class HomeComponent {
     slidesToScroll: 1,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 2000,
     arrows: false,
   };
 
@@ -183,9 +183,6 @@ export class HomeComponent {
     this.isOpen = !this.isOpen;
   }
 
-  ngAfterViewInit(){
-    this.renderer.addClass(this.collapse.nativeElement, 'test');
-  }
   ngOnInit(){
     
   }

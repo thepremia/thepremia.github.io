@@ -52,10 +52,17 @@
 .section-nofify{
 	background:#3e65ac;
 	padding: 0px;
+	
 	.col{
 		padding:20px 45px;
+		&:nth-child(1){
+			background:url(../../assets/images/wdu-1.png) no-repeat right bottom ;
+		}
 		&:nth-child(2){
-			background:#bf272d;
+			background:url(../../assets/images/wdu-2.png) no-repeat right bottom #bf272d;
+		}
+		&:nth-child(3){
+			background:url(../../assets/images/wdu-3.png) no-repeat right bottom ;
 		}
 	}
 	h5{
@@ -340,11 +347,68 @@
 }
 
 .premian-league{
-	background: url(../../assets/images/home-concept.png) no-repeat center top;
 	width: 100%;
 	overflow: hidden;
+	
 	.row{
 		align-items: center;
+		position: relative;
+		.concept{
+			position: absolute;
+			width:100%;
+		}
+		.asset{
+			position: absolute;
+		}
+		.asset_2{
+			background:url(../../assets/images/asset-2.png) no-repeat right bottom ;
+			left:10%;
+			top:20px;
+			width:84px;
+			height:84px;
+			animation: spin 10s infinite;
+		}
+		.asset_3{
+			background:url(../../assets/images/asset-3.png) no-repeat right bottom ;
+			left:50px;
+			top:10px;
+			width:50px;
+			height:32px;
+			animation: mymove3 2s infinite;
+		}
+		.asset_4{
+			background:url(../../assets/images/asset-4.png) no-repeat right bottom ;
+			left:30%;
+			top:55px;
+			width:86px;
+			height:58px;
+			animation: mymove4 2s infinite;
+		}
+		.asset_5{
+			background:url(../../assets/images/asset-5.png) no-repeat right bottom ;
+			left:50%;
+			top:70px;
+			width:140px;
+			height:65px;
+			animation: mymove 2s infinite;
+		}
+
+		@keyframes spin {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+		@keyframes mymove3 {
+			from {top: 10px;}
+			to   {top: 12px;}
+		  }
+		  @keyframes mymove4 {
+			from {top: 55px;}
+			to   {top: 60px;}
+		  }
+		@keyframes mymove {
+			from {top: 70px;}
+			to   {top: 90px;}
+		  }
 	}
 	.carousel{
 		border-radius:50%;
@@ -352,6 +416,17 @@
 		overflow: hidden;
 		width: 400px;
 		height: 400px;
+		background:#fff;
+		perspective: 1000px;
+		.slick-slide{
+			
+			transition: transform 1s;
+			transform-style: preserve-3d;
+			transform: rotateY(-180deg);
+			&.slick-active{
+				transform: rotateY(0deg);
+			}
+		}
 	}
 	.col{
 	.img-circle{
