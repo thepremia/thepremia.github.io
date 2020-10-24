@@ -12,16 +12,15 @@
             The Premia Culture
         </a>
     </div>
-    <!-- <div class="row-f sub-header">
+    <div class="row-f">
+
+        <h1>
+            The<br>
+            Study Culture
+        </h1>
        
-        <div class="col-lg-8 col-md-8 col-sm-12">
-            <h1>
-                The<br>
-                Study Culture
-            </h1>
-
-
-            <div class="panel">
+        <div class="col-lg-8 col-md-8 col-sm-12 sub-header">
+           <div class="panel">
                 <h2>
                     Our Vision
                 </h2>
@@ -32,17 +31,18 @@
                     </li>
                 </ul>
         
-        <div class="doodle">
+         <!--<div class="doodle">
             The Premian Story
-        </div></div>
+        </div>-->
+    </div>
         </div>
         <div class="img-flag">
             <img src="assets/images/3.jpg">
         </div>
         
-    </div> -->
+    </div> 
 
-    <!-- <div class="row-f our-mission"> 
+   <div class="row-f our-mission"> 
         
        
         <div class="col-lg-11 col-md-11 col-sm-12 panel">
@@ -63,10 +63,10 @@
         <div class="img-flag">
             <img src="assets/images/4.jpg">
         </div>
-    </div> -->
+    </div> 
 
 
-    <div class="row-f">
+    <!-- <div class="row-f">
         <h1>
             The<br>
             Premia Culture
@@ -89,21 +89,21 @@
                         </li>
                     </ul>
                 </div>
-                <!-- <div class="doodle">
+                <div class="doodle">
                     The Premian Story
-                </div> -->
+                </div>
             </div>
         </div>
         <div class="img-flag" data-aos="fade-up" data-aos-once="true">
             <img src="assets/images/3.jpg">
         </div>
 
-    </div>
+    </div>-->
 
 
     <div class="clearfix"></div>
 
-    <!-- <div class="row">
+   <div class="row">
         <div class="col-lg-1 col-md-1 col-sm-12"></div>
         <div class="col-lg-11 col-md-11 col-sm-12 our-belief">
             <h2>
@@ -120,7 +120,7 @@
         </div>
         </div>
      
-    </div> -->
+    </div>
 
 
     <div class="row curriculum">
@@ -189,7 +189,7 @@
     </div>
 
     <div class="clearfix"></div>
-    <div class="row edge-info">
+    <!-- <div class="row edge-info">
         <div class="col-lg-1 col-md-1 col-sm-12"></div>
         <div class="col-lg-11 col-md-11 col-sm-12 float-right">
             <div class="panel" data-aos="fade-up" data-aos-once="true">
@@ -211,20 +211,81 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="more-info">
 
         <div class="col-lg-11 col-md-11 col-sm-12 float-right">
-            <h2 data-aos="fade-up" data-aos-once="true">
+            <!-- <h2 data-aos="fade-up" data-aos-once="true">
                 Our Approach
-            </h2>
+            </h2> -->
             <div class="panel" data-aos="fade-up" data-aos-once="true">
-                <p>Creating better opportunities for teacher-student planning and cooperative evaluation which leads to enhanced creative teaching and learning. Our process of learning and teaching comes from a fusion of knowledge with various activities, resources; and experiencing real-life situations for a solution-based approach. It also instils problem-solving, critical thinking and collaboration in and beyond the classroom. We take a Student Centric approach with flexibility, innovation and other core values for essential life experiences.
+                <ul class="list row">
+                    <li *ngFor="let data of curriculum" class="col-lg-6 col-md-6 col-sm-12">
+                        {{data.info}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="more-info-2">
+
+        <div class="col-lg-9 col-md-9 col-sm-12 float-right">
+            <!-- <h2 data-aos="fade-up" data-aos-once="true">
+                Our Approach
+            </h2> -->
+            <div class="panel" data-aos="fade-up" data-aos-once="true">
+                <p>
+                    These advantages lead to better opportunities for teacher-student 
+                    planning and cooperative evaluation which leads to enhanced creative 
+                    teaching and learning activities. The process of learning and teaching 
+                    from a fusion of knowledge with various activities, resources; and 
+                    experiencing real-life situations for a solution-based approach. 
+                    It also instils problem-solving, critical thinking and collaboration 
+                    in and beyond the classroom. The Premia curriculum will be 
+                    student-centric with flexibility, innovation and standards of 
+                    learning outcomes for academic achievements as well as core values 
+                    essential for practical life experiences. 
                 </p>
             </div>
         </div>
         <div class="clearfix"></div>
     </div>
 
+
+    <div class="clearfix"></div>
+
+    <div class="row">
+         <div class="col-lg-1 col-md-1 col-sm-12"></div>
+         <div class="col-lg-11 col-md-11 col-sm-12">
+             <h2>
+                Our Partners
+             </h2>
+             <div class="panel">
+               <p class="center">Our quest for creating the perfect learning environment was further helped by a few organisations who shared our vision. With their ideologies and compassion, we have successfully made a haven for knowledge and growth.
+             </p>
+         </div>
+         </div>
+     </div>
+    <div>
+     <div class="row our-partners" *ngFor="let item of partner; index as i">
+        <div class="col-lg-1 col-md-1 col-sm-12"></div>
+        <div class="col-lg-11 col-md-11 col-sm-12">
+           <div class="panel">
+                <h3 class="heading-title"><span>{{item.description}}</span></h3>
+                   <div class="panel-heading">
+                    <div class="img-box">
+                      <img src="assets/images/partner{{i+1}}.png">
+                    </div>
+                    <div>
+                        <p>{{item.description_2}}</p>
+                        <a>{{item.link}}</a>    
+                    </div>
+                  </div>
+            </div>
+            </div>
+     </div>
+    </div>
 </section>
