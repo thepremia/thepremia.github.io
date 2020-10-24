@@ -33,6 +33,66 @@ export class ThestudycultureComponent implements OnInit {
     { info : ' Physical Development'},
   ];
 
+  curriculum = [
+    { info : ' Sustained learning and the ability to apply concepts.'},
+    { info : ' Facilitate self-confidence and motivation'},
+    { info : ' A deeper understanding of science and math concepts '},
+    { info : ' Improved reading and writing skills'},
+    { info : ' Fostering positive attitudes and personal growth. '},
+    { info : ' Critical thinking skills and improved quality of work. '},
+    { info : ' Remarkable academic success'}
+];
+
+partner = [
+  {
+    description: `Metamor-
+    phosis`,
+    description_2: `An organisation that
+    seeks to empower the
+    youth with an
+    entrepreneurial skillset.`,
+    link: `http://www.metamor
+    phosisedu.com`
+  },
+  {
+    description: `Sportz Village`,
+    description_2: `A platform that focuses on the
+    aspects of physical education`,
+    link: `https://www.sportzvillage.com/schools/ `
+  },
+  {
+    description: `Furtados
+    School Of
+    Music`,
+    description_2: `One of the largest
+    music educators of India`,
+    link: `https://furtadosschoolofmusic.com`
+  },
+  {
+    description: `Yardstick`,
+    description_2: `Learning programs that
+    enhance the child's experience`,
+    link: ` http://www.yardstickedu.com`
+  },
+  {
+    description: `NumberNagar`,
+    description_2: `An integrated program for Maths,
+    Science and English`,
+    link: `https://www.numbernagar.com/`
+  },
+  {
+    description: `Creya Learning`,
+    description_2: `An organisation that helps 
+    children become inventors and innovators`,
+    link: `https://www.creyalearning.com/stem/`
+  },
+  {
+    description: `Book room from Scholastic`,
+    description_2: `Organising your books`,
+    link: `http://teacher.scholastic.com/products/leveledbookrooms/index.htm`
+  }
+];
+
   moreInfo = [
     { info : ' Best possible start to learning ',
       info_2 : 'Our caring, experienced teachers and teacher assistants give our youngest students the best possible start to learning. Our play-based learning environment captures their natural curiosity and sense of wonder. Our core subjects are complemented by all core subject classes, including Physical Education, Visual & Performing Arts and Music are all delivered in a warm, nurturing environment. '},
