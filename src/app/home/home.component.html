@@ -91,13 +91,20 @@
 
 <div class="clear-float"></div>
 <section class="premian-league">
+ 
   <div class="container">
     <div class="row">
+      <img class="concept" src="assets/images/home-concept.png">
+      <div class="asset asset_2"></div>
+      <div class="asset asset_3"></div>
+      <div class="asset asset_4"></div>
+      <div class="asset asset_5"></div>
       <div class="col-sm-12 center">
         <h1 data-aos="fade-up" data-aos-once="true">The Premia Experience</h1>
       </div>
       <div *ngFor="let list of premianLeague; index as i" class="col {{list.gridClass}} col-sm-12">
-        <div class="img-circle" data-aos="zoom-in" data-aos-once="true">
+        
+    <div class="img-circle" data-aos="zoom-in" data-aos-once="true">
           <img src="assets/images/premianleague{{i+1}}.jpg">
         </div>
         <h4 class="center">{{list.name}}</h4>
@@ -106,8 +113,7 @@
       <div class="col-lg-4 col-md-4 col-sm-12">
       <ngx-slick-carousel class="carousel" #slickModal="slick-carousel"
         [config]="premianLeagueConfig">
-        <div ngxSlickItem *ngFor="let item of partner; index as i" class="slide" data-aos="fade-up"
-          data-aos-once="true">
+        <div ngxSlickItem *ngFor="let item of partner; index as i" class="slide">
           <div class="panel">
             <div class="panel-heading">
               <div class="img-box">
