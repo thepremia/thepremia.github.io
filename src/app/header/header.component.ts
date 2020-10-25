@@ -68,10 +68,11 @@ export class HeaderComponent implements OnInit {
         {name: 'ThePremiaLeague'},
         {name: 'ThePremiaCulture'},
         {name: 'ThePremiaEdge'},
+        {name: 'Curriculum'},
+        {name: 'PremiaEthos'},
         {name: 'JoinThePremiaPride'},
         {name: 'ThePremiaCorner'},
         {name: 'CatchUpOverCoffee'}
-        // {name: 'Eng'},
         //{name: 'HowToApply'},
     ];
   }

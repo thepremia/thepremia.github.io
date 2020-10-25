@@ -136,6 +136,26 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/curriculum/curriculum.component.html":
+  /*!********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/curriculum/curriculum.component.html ***!
+    \********************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppCurriculumCurriculumComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<section class=\"the-urriculum\">\n    <div class=\"breadcum\">\n        <a>\n            <i class=\"icon icon-ex-small\">\n                <svg focusable=\"false\">\n                    <use xlink:href=\"#icon_home\"></use>\n                </svg>\n            </i>\n        </a>\n        <span> |</span>\n        <a>\n            Premia Curriculum\n        </a>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n            <h1 data-aos=\"fade-up\" data-aos-once=\"true\">\n                Premia Curriculum\n            </h1>\n            <div class=\"panel-body\" data-aos=\"fade-up\" data-aos-once=\"true\">\n                <h2 class=\"center\">“Integrating the pedagogies of the world, So our little\n                    global citizens are ignited, inspired and explored.”\n                </h2>\n            </div>\n        </div>\n\n        <div class=\"col-lg-12 col-md-12 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n            <img src=\"assets/images/map.jpg\">\n        </div>\n\n        <div class=\"col-lg-12 col-md-12 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n            <h2>Why an Integrated Curriculum?</h2>\n            <p>The Premia Integrated Curriculum offers our students many opportunities for deep learning as they use\n                their knowledge to make connections between subjects or disciplines to decode\n                the simplicities and intricacies of life</p>\n        </div>\n\n    </div>\n\n    <div class=\"row curriculum-info\">\n        <div class=\"col col-lg-2 col-md-2 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n            <p>Students develop\n                new levels of\n                awareness -</p>\n        </div>\n        <div class=\"col-lg-6 col-md-6 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n            <p>Of the world\n                Of themselv es\n                And their place in it</p>\n        </div>\n    </div>\n    <div class=\"row curriculum-info\">\n        <div class=\"col col-lg-2 col-md-2 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n            <p>Students develop\n                new levels of\n                awareness -</p>\n        </div>\n        <div class=\"col-lg-6 col-md-6 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n            <p>Of the world\n                Of themselv es\n                And their place in it</p>\n        </div>\n    </div>\n\n    <div class=\"row int-curriculum\">\n        <div class=\"col col-lg-12 col-md-12 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n            <h1>What is an Integrated Curriculum?</h1>\n            <p>An Integrated Curriculum is a unification of all subjects and experiences.\n                The intertwining of different approaches to integration such as</p>\n        </div>\n\n        <div class=\"col col-lg-12 col-md-12 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n            <div class=\"row\">\n                <div class=\"col-lg-4 col-md-4 col-sm-12\">\n                    <div>\n                        <h3>\n                            <i class=\"icon icon-medium\">\n                                <svg focusable=\"false\">\n                                    <use xlink:href=\"#icon_ethicalEdu\"></use>\n                                </svg>\n                            </i>\n                            Multi-disciplinary\n                        </h3>\n                        <p>Focuses primarily on the various disciplines allowing the students to correlate different\n                            subjects to a\n                            common theme.\n                        </p>\n                    </div>\n\n                    <div>\n                        <h3>\n                            <i class=\"icon icon-medium\">\n                                <svg focusable=\"false\">\n                                    <use xlink:href=\"#icon_ethicalEdu\"></use>\n                                </svg>\n                            </i>\n                            Interdisciplinary\n                        </h3>\n                        <p>Integrating the sub-disciplines within a subject area makes students nderstand the\n                            connections between\n                            the different sub-disciplines and their relationship. Example: Integrating reading, writing,\n                            and oral\n                            communication in language arts.\n                        </p>\n                    </div>\n\n                    <div>\n                        <h3>\n                            <i class=\"icon icon-medium\">\n                                <svg focusable=\"false\">\n                                    <use xlink:href=\"#icon_ethicalEdu\"></use>\n                                </svg>\n                            </i>\n                            Transdisciplinary\n                        </h3>\n                        <p>Here the curriculum is organized around student questions and concerns.\n                            Two routes lead to transdisciplinary integration: i.e project-research based and\n                            collaborative learning.\n                        </p>\n                    </div>\n\n                </div>\n                <div class=\"col-lg-8 col-md-8 col-sm-12\">\n                    <img src=\"assets/images/int-curricolum.jpg\">\n                </div>\n            </div>\n        </div>\n\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col col-lg-12 col-md-12 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n            <h3>How do we integrate - Premia Niche?</h3>\n            <p>The core belief of our curriculum works on Howard Gardner’s Theory of Multiple Intelligences.<br>\n                Fulfills the learning outcomes of CBSE, IGCSE, Common Core, Aero & IB<br>\n                Considers different types of learners in a class<br>\n                Caters to the innate aptitudes and attitudes of every student<br>\n                Aids differentiated learning- allows for individual learning processes<br>\n                Enables each learner to utilise his or her specific abilities to demonstrate learning.<br><br>\n\n                <b> Our curriculum is an amalgamation of the different Methodologies & Theories of teaching\n                    such as Maria Montessori, Reggio Emilio, Jean Piaget etc. Where</b><br><br>\n\n                Reading and literacy is the base- World class Scholastic Levelled Bookroom 4.0\n                Research for a learning experience is encouraged\n                Expanding the world view is a norm<br><br>\n\n                <b> Thus, helping them evolve their authentic self, driven by purpose and fuelled by passion.\n                    Every well wisher of a child wants the child to be successful and happy, this can be achieved\n                    if we encourage children to be their true and authentic selves.</b>\n            </p>\n        </div>\n    </div>\n\n    <div class='row cur-info-slider'>\n        <input type=\"radio\" id=\"animal\" name=\"wiki\" value=\"Animal\" checked>\n<input type=\"radio\" id=\"plant\" name=\"wiki\" value=\"Plant\">\n<input type=\"radio\" id=\"space\" name=\"wiki\" value=\"Space\">\n<input type=\"radio\" id=\"river\" name=\"wiki\" value=\"River\">\n\n<ul class=\"accordion\">\n  <li data-radio=\"animal\">\n    <label for=\"animal\" class=\"accordion-title\">\n      <span>01</span>\n      <span class=\"accordion-heading\">Visual & Spatial</span>\n    </label>\n    <div class=\"accordion-content\">Animals are multicellular eukaryotic organisms that form the biological kingdom Animalia. With few exceptions, animals consume organic material, breathe oxygen, are able to move, can reproduce sexually, and grow from a hollow sphere of cells, the blastula, during embryonic development. Over 1.5 million living animal species have been described—of which around 1 million are insects—but it has been estimated there are over 7 million animal species in total. Animals range in length from 8.5 millionths of a metre to 33.6 metres (110 ft). They have complex interactions with each other and their environments, forming intricate food webs. The kingdom Animalia includes humans, but in colloquial use the term animal often refers only to non-human animals. The study of non-human animals is known as zoology.</div>\n  </li>\n  <li data-radio=\"plant\">\n    <label for=\"plant\" class=\"accordion-title\">\n      <span>02</span>\n      <span class=\"accordion-heading\">Linguistic / Word Smart</span>\n    </label>\n    <div class=\"accordion-content\">MPlants are mainly multicellular, predominantly photosynthetic eukaryotes of the kingdom Plantae. Historically, plants were treated as one of two kingdoms including all living things that were not animals, and all algae and fungi were treated as plants. However, all current definitions of Plantae exclude the fungi and some algae, as well as the prokaryotes (the archaea and bacteria). By one definition, plants form the clade Viridiplantae (Latin name for \"green plants\"), a group that includes the flowering plants, conifers and other gymnosperms, ferns and their allies, hornworts, liverworts, mosses and the green algae, but excludes the red and brown algae.</div>\n  </li>\n  <li data-radio=\"space\">\n    <label for=\"space\" class=\"accordion-title\">\n      <span>03</span>\n      <span class=\"accordion-heading\">Logical / Mathematical</span>\n    </label>\n    <div class=\"accordion-content\">Space is the boundless three-dimensional extent in which objects and events have relative position and direction. Physical space is often conceived in three linear dimensions, although modern physicists usually consider it, with time, to be part of a boundless four-dimensional continuum known as spacetime. The concept of space is considered to be of fundamental importance to an understanding of the physical universe. However, disagreement continues between philosophers over whether it is itself an entity, a relationship between entities, or part of a conceptual framework.</div>\n  </li>\n  <li data-radio=\"river\">\n    <label for=\"river\" class=\"accordion-title\">\n      <span>04</span>\n      <span class=\"accordion-heading\">Bodily / Kinesthetic</span>\n    </label>\n    <div class=\"accordion-content\">A river is a natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river. In some cases a river flows into the ground and becomes dry at the end of its course without reaching another body of water. Small rivers can be referred to using names such as stream, creek, brook, rivulet, and rill. There are no official definitions for the generic term river as applied to geographic features, although in some countries or communities a stream is defined by its size. Many names for small rivers are specific to geographic location; examples are \"run\" in some parts of the United States, \"burn\" in Scotland and northeast England, and \"beck\" in northern England. Sometimes a river is defined as being larger than a creek, but not always: the language is vague.</div>\n  </li>\n</ul>\n    </div>\n\n</section>";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/eng/eng.component.html":
   /*!******************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/eng/eng.component.html ***!
@@ -212,6 +232,26 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
     __webpack_exports__["default"] = "<div class=\"main-banner\">\r\n  <!-- <ngb-carousel #carousel interval=\"5000\" [showNavigationArrows]=\"showNavigationArrows\" [pauseOnHover]=\"pauseOnHover\"\r\n    (slide)=\"onSlide($event)\">\r\n        <ng-template ngbSlide  *ngFor=\"let info of banner; index as i\">\r\n          <div class=\"picsum-img-wrapper\">\r\n            <img src=\"assets/images/banner{{i+1}}.jpg\" alt=\"Random first slide\">\r\n          </div>\r\n          <div class=\"carousel-caption\">\r\n           <h3>{{info.title}}</h3>\r\n            <p>{{info.description}}</p>\r\n          </div>\r\n        </ng-template>     \r\n      </ngb-carousel> -->\r\n\r\n  <video controls autoplay>\r\n    <source src=\"assets/images/banner.mp4\" type=\"video/mp4\">\r\n    Your browser does not support the video tag.\r\n  </video>\r\n\r\n</div>\r\n\r\n<section class=\"section-admission\">\r\n  <div class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-3 col-md-3 col-sm-12 admission-flag\">\r\n        <div class=\"flag-pos\">\r\n          <div class=\"v-align\">\r\n            <h1>Join<br>\r\n              The Premia<br>\r\n              Family\r\n              <br>\r\n              <button class=\"btn btn-primary\" (click)=\"knowMore('apply');\">Apply Now</button>\r\n            </h1>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n      <ngx-slick-carousel class=\"carousel col-lg-9 col-md-9 col-sm-12\" #slickModal=\"slick-carousel\"\r\n        [config]=\"admissionConfig\">\r\n        <div ngxSlickItem *ngFor=\"let item of admission; index as i\" class=\"slide\">\r\n          <div class=\"panel\">\r\n            <div class=\"panel-front\">\r\n              <div class=\"panel-heading\">\r\n                <i class=\"icon icon-medium\">\r\n                  <svg focusable=\"false\">\r\n                    <use attr.xlink:href=\"{{item.icon}}\"></use>\r\n                  </svg>\r\n                </i>\r\n\r\n                <p>{{item.description}}</p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </ngx-slick-carousel>\r\n\r\n    </div>\r\n  </div>\r\n</section>\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-sm-12 text-center heading-spacer\">\r\n      <h1 data-aos=\"fade-up\" data-aos-once=\"true\">What drives us?</h1>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<section class=\"section-nofify\">\r\n  <div class=\"container\">\r\n    <div class=\"row\">\r\n      <div *ngFor=\"let item of notify\" class=\"col col-lg-4 col-md-4 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\r\n        <div class=\"panel\">\r\n          <div class=\"panel-front\">\r\n            <div class=\"panel-heading\">\r\n              <h5><span>{{item.title}}</span></h5>\r\n              <p>{{item.description}}</p>\r\n              <ul class=\"list\">\r\n                <li *ngFor=\"let data of item.moreInfo\">\r\n                  {{data.info}}\r\n                </li>\r\n              </ul>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n\r\n<div class=\"clear-float\"></div>\r\n<section class=\"premian-league\">\r\n \r\n  <div class=\"container\">\r\n    <div class=\"row\">\r\n      <img class=\"concept\" src=\"assets/images/home-concept.png\">\r\n      <div class=\"asset asset_2\"></div>\r\n      <div class=\"asset asset_3\"></div>\r\n      <div class=\"asset asset_4\"></div>\r\n      <div class=\"asset asset_5\"></div>\r\n      <div class=\"col-sm-12 center\">\r\n        <h1 data-aos=\"fade-up\" data-aos-once=\"true\">The Premia Experience</h1>\r\n      </div>\r\n      <div *ngFor=\"let list of premianLeague; index as i\" class=\"col {{list.gridClass}} col-sm-12\">\r\n        \r\n    <div class=\"img-circle\" data-aos=\"zoom-in\" data-aos-once=\"true\">\r\n          <img src=\"assets/images/premianleague{{i+1}}.jpg\">\r\n        </div>\r\n        <h4 class=\"center\">{{list.name}}</h4>\r\n      </div>\r\n      <div class=\"col-lg-1 col-md-1 col-sm-12\"></div>\r\n      <div class=\"col-lg-4 col-md-4 col-sm-12\">\r\n      <ngx-slick-carousel class=\"carousel\" #slickModal=\"slick-carousel\"\r\n        [config]=\"premianLeagueConfig\">\r\n        <div ngxSlickItem *ngFor=\"let item of partner; index as i\" class=\"slide\">\r\n          <div class=\"panel\">\r\n            <div class=\"panel-heading\">\r\n              <div class=\"img-box\">\r\n                <img src=\"assets/images/partner{{i+1}}.png\">\r\n              </div>\r\n              <p>{{item.description}}</p>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </ngx-slick-carousel>\r\n      <h4 class=\"center\">Who we are</h4>\r\n    </div>\r\n    </div>\r\n  </div>\r\n\r\n\r\n\r\n</section>\r\n\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-sm-12 center heading-spacer\">\r\n      <h1 data-aos=\"fade-up\" data-aos-once=\"true\">Parents Speak</h1>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<section class=\"testimonials\">\r\n  <div class=\"container\">\r\n    <div class=\"row\">\r\n      <div *ngFor=\"let list of testimonials; index as i\" class=\"col col-lg-4 col-md-4 col-sm-12\">\r\n        <div class=\"img-circle\">\r\n          <img src=\"assets/images/premianleague{{i+1}}.jpg\" data-aos=\"fade-up\" data-aos-once=\"true\">\r\n        </div>\r\n        <p>\"{{list.clientView}}\"</p>\r\n        <h6 data-aos=\"fade-up\" data-aos-once=\"true\">{{list.clientName}}</h6>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-lg-12 col-md-12 col-sm-12 heading-spacer\">\r\n      <h1 class=\"center\" data-aos=\"fade-up\" data-aos-once=\"true\">\r\n        Our Partners\r\n      </h1>\r\n      <p data-aos=\"fade-up\" data-aos-once=\"true\">Our quest for creating the perfect learning environment led to\r\n        collaborating with a few organisations whose vision aligned with ours. Each of the programs are well researched\r\n        to cater to the needs of the millennials who require constant innovation. With combined ideologies and\r\n        compassion, successful partnerships are created on a trajectory to deliver nothing but the best! </p>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<section class=\"partner\">\r\n  <div class=\"container\">\r\n    <div class=\"row\">\r\n      <ngx-slick-carousel class=\"carousel col-lg-12 col-md-12 col-sm-12\" #slickModal=\"slick-carousel\"\r\n        [config]=\"partnerConfig\">\r\n        <div ngxSlickItem *ngFor=\"let item of partner; index as i\" class=\"slide\" data-aos=\"fade-up\"\r\n          data-aos-once=\"true\">\r\n          <div class=\"panel\">\r\n            <div class=\"panel-heading\">\r\n              <div class=\"img-box\">\r\n                <img src=\"assets/images/partner{{i+1}}.png\">\r\n              </div>\r\n              <p>{{item.description}}</p>\r\n            </div>\r\n            <div class=\"info-view\">\r\n              <div class=\"panel-heading\">\r\n                <div class=\"img-box\">\r\n                  <img src=\"assets/images/partner{{i+1}}.png\">\r\n                </div>\r\n                <h5>{{item.description}}</h5>\r\n                <p>{{item.description_2}}</p>\r\n                <a href=\"{{item.link}}\" target=\"blank\">{{item.link}}</a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </ngx-slick-carousel>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-sm-12 center heading-spacer\">\r\n      <h1 data-aos=\"fade-up\" data-aos-once=\"true\">The Premia Corner</h1>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<section class=\"the-premia-corner\">\r\n  <div class=\"container\">\r\n    <div class=\"row\">\r\n      <div *ngFor=\"let list of thePremiaCorner; index as i\" class=\"col-lg-3 col-md-3 col-sm-12\">\r\n        <div class=\"col\">\r\n\r\n          <img src=\"assets/images/premianleague{{i+1}}.jpg\" data-aos=\"fade-up\" data-aos-once=\"true\">\r\n\r\n          <h4 class=\"center\" data-aos=\"fade-up\" data-aos-once=\"true\">{{list.description}}</h4>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n<section class=\"newsletter\">\r\n  <div class=\"container\">\r\n    <div class=\"row\">\r\n      <form class=\"form-inline\" action=\"/action_page.php\">\r\n        <label for=\"email\">Newsletter </label>\r\n        <input type=\"email\" class=\"form-control\" placeholder=\"Enter email\" id=\"email\">\r\n        <button type=\"submit\" class=\"btn btn-primary\"> Subscribe</button>\r\n      </form>\r\n    </div>\r\n  </div>\r\n</section>";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/premiaethos/premiaethos.component.html":
+  /*!**********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/premiaethos/premiaethos.component.html ***!
+    \**********************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppPremiaethosPremiaethosComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<section class=\"premia-ethos\">\n    <div class=\"breadcum\">\n        <a>\n            <i class=\"icon icon-ex-small\">\n                <svg focusable=\"false\">\n                    <use xlink:href=\"#icon_home\"></use>\n                </svg>\n            </i>\n        </a>\n        <span> |</span>\n        <a>\n            Premia ETHOS\n        </a>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n            <h1 data-aos=\"fade-up\" data-aos-once=\"true\">\n                Premia ETHOS\n            </h1>\n            <div class=\"panel-body\" data-aos=\"fade-up\" data-aos-once=\"true\">\n                <h2 class=\"center\">THE CULTURE AND ATMOSPHERE OF OUR SCHOOL\n                </h2>\n            </div>\n        </div>\n\n        <div class=\"col-lg-12 col-md-12 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n            <img src=\"assets/images/premia-ethos.jpg\">\n        </div>\n    </div>\n\n    <div class=\"row prodigy\">\n      <div class=\"col-lg-12 col-md-12 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n          <div class=\"panel\">\n            <h2> <i class=\"icon icon-medium\">\n                <svg focusable=\"false\">\n                    <use xlink:href=\"#icon_ethicalEdu\"></use>\n                </svg>\n            </i>Prodigy (Miracles in making)</h2>\n            <p> It's our driving force that all our children go on to achieve their aspirations and live lives that inspire one and all. Every step we take, every move we make, is an effort to ensure we awaken the hidden prodigy every pupil. That journey builds itself on the bedrock of integrity, growth and innovation mindset and their tireless quest for knowledge. While everyone focuses on the thirst for materialistic success in life, little do we understand that\n                fame, success and prosperity is the by-product of work done with passion and purpose</p>\n            </div>\n        </div>\n\n    </div>\n\n    <div class=\"row white\">\n        <div class=\"col-lg-12 col-md-12 col-sm-12\" data-aos=\"fade-up\" data-aos-once=\"true\">\n              <div class=\"panel\">\n            <p> The Premia Academy was founded on the belief that every child has the potential to make the world a beautiful place. Every child is unique and capable of learning when stimulated properly. Premiaa Academy believes in the development of these primary areas.  \n                Every institution has a framework or ground rules that they function with for the empowerment of every stakeholder. We at Premia like to call it the Premia ethos. We aspire to build a positive and progressive culture in our school, not only within our corridors and premises but in the very lives of all who are a part of our journey-children, parents, teachers, staff and administration. \n                We revisit our methods from time to time to ensure that we constantly and consistently keep soaring towards our goal of engendering an atmosphere to empower SOCIALLY RESPONSIBLE CITIZENSHIP.\n                While most would say food and water and the basic needs of life help a child survive, we at the Premia Academy beg to differ, we strongly believe that safety, love and a positive learning environment helps children thrive. </p>\n            </div>\n          </div>\n  \n      </div>\n\n  </section>\n";
     /***/
   },
 
@@ -1158,6 +1198,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _theteam_theteam_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
     /*! ./theteam/theteam.component */
     "./src/app/theteam/theteam.component.ts");
+    /* harmony import */
+
+
+    var _curriculum_curriculum_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    /*! ./curriculum/curriculum.component */
+    "./src/app/curriculum/curriculum.component.ts");
+    /* harmony import */
+
+
+    var _premiaethos_premiaethos_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    /*! ./premiaethos/premiaethos.component */
+    "./src/app/premiaethos/premiaethos.component.ts");
 
     var routes = [{
       path: 'Home',
@@ -1187,6 +1239,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       path: 'ThePremiaLeague',
       component: _theteam_theteam_component__WEBPACK_IMPORTED_MODULE_15__["TheteamComponent"]
     }, {
+      path: 'Curriculum',
+      component: _curriculum_curriculum_component__WEBPACK_IMPORTED_MODULE_16__["CurriculumComponent"]
+    }, {
+      path: 'PremiaEthos',
+      component: _premiaethos_premiaethos_component__WEBPACK_IMPORTED_MODULE_17__["PremiaethosComponent"]
+    }, {
       path: '',
       redirectTo: '/home',
       pathMatch: 'full'
@@ -1197,7 +1255,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     };
 
     AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-      declarations: [_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"], _thestudyculture_thestudyculture_component__WEBPACK_IMPORTED_MODULE_7__["ThestudycultureComponent"], _thepremianstory_thepremianstory_component__WEBPACK_IMPORTED_MODULE_8__["ThepremianstoryComponent"], _thepremianedge_thepremianedge_component__WEBPACK_IMPORTED_MODULE_9__["ThepremianedgeComponent"], _admissions_admissions_component__WEBPACK_IMPORTED_MODULE_10__["AdmissionsComponent"], _apply_apply_component__WEBPACK_IMPORTED_MODULE_11__["ApplyComponent"], _eng_eng_component__WEBPACK_IMPORTED_MODULE_12__["EngComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_13__["ContactComponent"], _blob_blob_component__WEBPACK_IMPORTED_MODULE_14__["BlobComponent"], _theteam_theteam_component__WEBPACK_IMPORTED_MODULE_15__["TheteamComponent"]],
+      declarations: [_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"], _thestudyculture_thestudyculture_component__WEBPACK_IMPORTED_MODULE_7__["ThestudycultureComponent"], _thepremianstory_thepremianstory_component__WEBPACK_IMPORTED_MODULE_8__["ThepremianstoryComponent"], _thepremianedge_thepremianedge_component__WEBPACK_IMPORTED_MODULE_9__["ThepremianedgeComponent"], _admissions_admissions_component__WEBPACK_IMPORTED_MODULE_10__["AdmissionsComponent"], _apply_apply_component__WEBPACK_IMPORTED_MODULE_11__["ApplyComponent"], _eng_eng_component__WEBPACK_IMPORTED_MODULE_12__["EngComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_13__["ContactComponent"], _blob_blob_component__WEBPACK_IMPORTED_MODULE_14__["BlobComponent"], _theteam_theteam_component__WEBPACK_IMPORTED_MODULE_15__["TheteamComponent"], _curriculum_curriculum_component__WEBPACK_IMPORTED_MODULE_16__["CurriculumComponent"], _premiaethos_premiaethos_component__WEBPACK_IMPORTED_MODULE_17__["PremiaethosComponent"]],
       imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes, {
         enableTracing: false,
         scrollPositionRestoration: 'enabled'
@@ -1299,7 +1357,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.router.events.subscribe(function (routerEvent) {
           if (routerEvent instanceof _angular_router__WEBPACK_IMPORTED_MODULE_2__["NavigationStart"]) {
             if (routerEvent.url === '/') {
-              _this2.router.navigate(['/Home'], {
+              _this2.router.navigate(['/PremiaEthos'], {
                 skipLocationChange: true
               });
             }
@@ -1738,6 +1796,83 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./src/app/curriculum/curriculum.component.scss":
+  /*!******************************************************!*\
+    !*** ./src/app/curriculum/curriculum.component.scss ***!
+    \******************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppCurriculumCurriculumComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "@charset \"UTF-8\";\n.the-urriculum .row {\n  margin: 70px 0 100px 70px;\n  position: relative;\n}\n.the-urriculum .curriculum-info .col {\n  border-right: 2px solid #000;\n}\n.the-urriculum .int-curriculum {\n  background: #3e65ac;\n  color: #fff;\n}\n.the-urriculum .int-curriculum svg {\n  fill: #fff;\n}\n.the-urriculum .int-curriculum .row {\n  margin: 0px;\n}\n.cur-info-slider {\n  /* ACCORDION\n  –––––––––––––––––––––––––––––––––––––––––––––––––– */\n  /* MQ\n  –––––––––––––––––––––––––––––––––––––––––––––––––– */\n}\n.cur-info-slider label {\n  cursor: pointer;\n}\n.cur-info-slider ul {\n  list-style: none;\n}\n.cur-info-slider a {\n  text-decoration: none;\n  color: inherit;\n}\n.cur-info-slider input[type=radio] {\n  position: absolute;\n  left: -9999px;\n}\n.cur-info-slider body {\n  position: relative;\n  display: flex;\n  align-items: center;\n  min-height: 100vh;\n  padding: 50px 0;\n  font: 1rem/1.5 \"Muli\", sans-serif;\n}\n.cur-info-slider .accordion {\n  position: relative;\n  width: calc(100% - 20px);\n  min-height: 380px;\n  margin: 0 auto;\n  background: #282828;\n  color: #9b9b9b;\n}\n.cur-info-slider .accordion label {\n  text-align: center;\n}\n.cur-info-slider .accordion,\n.cur-info-slider .accordion li,\n.cur-info-slider .accordion .accordion-title {\n  display: flex;\n}\n.cur-info-slider .accordion li:not(:last-child) {\n  border: 1px solid #292c2d;\n}\n.cur-info-slider .accordion .accordion-title {\n  flex-direction: column;\n  justify-content: space-between;\n  width: 70px;\n  font-size: 1.4rem;\n  font-weight: bold;\n  line-height: normal;\n  padding: 20px 10px;\n  background: #191919;\n  transition: color 0.1s;\n}\n.cur-info-slider .accordion .accordion-title:hover {\n  color: #3e86d2;\n}\n.cur-info-slider .accordion .accordion-heading {\n  display: inline-block;\n  white-space: nowrap;\n  transform-origin: bottom;\n  transform: rotate(-90deg) translate(50%, 50%);\n}\n.cur-info-slider .accordion .accordion-content {\n  display: none;\n  align-items: center;\n  justify-content: center;\n  flex-grow: 1;\n  padding: 20px;\n}\n.cur-info-slider [value=Animal]:checked ~ .accordion [data-radio=animal],\n.cur-info-slider [value=Plant]:checked ~ .accordion [data-radio=plant],\n.cur-info-slider [value=Space]:checked ~ .accordion [data-radio=space],\n.cur-info-slider [value=River]:checked ~ .accordion [data-radio=river] {\n  flex-grow: 1;\n}\n.cur-info-slider [value=Animal]:checked ~ .accordion [for=animal] + .accordion-content,\n.cur-info-slider [value=Plant]:checked ~ .accordion [for=plant] + .accordion-content,\n.cur-info-slider [value=Space]:checked ~ .accordion [for=space] + .accordion-content,\n.cur-info-slider [value=River]:checked ~ .accordion [for=river] + .accordion-content {\n  display: flex;\n}\n.cur-info-slider [value=Animal]:checked ~ .accordion [for=animal],\n.cur-info-slider [value=Plant]:checked ~ .accordion [for=plant],\n.cur-info-slider [value=Space]:checked ~ .accordion [for=space],\n.cur-info-slider [value=River]:checked ~ .accordion [for=river] {\n  color: #3e86d2;\n}\n@media screen and (max-width: 650px) {\n  .cur-info-slider .accordion {\n    min-height: 0;\n  }\n  .cur-info-slider .accordion,\n.cur-info-slider .accordion li {\n    flex-direction: column;\n  }\n  .cur-info-slider .accordion .accordion-title {\n    flex-direction: row;\n    width: auto;\n  }\n  .cur-info-slider .accordion .accordion-heading {\n    transform: none;\n  }\n  .cur-info-slider .accordion .accordion-title,\n.cur-info-slider .accordion .accordion-content {\n    padding: 20px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3VycmljdWx1bS9jdXJyaWN1bHVtLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jdXJyaWN1bHVtL0Y6XFxnaXRodWJcXGFjYWRlbXkvc3JjXFxhcHBcXGN1cnJpY3VsdW1cXGN1cnJpY3VsdW0uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZ0JBQWdCO0FDQ1o7RUFDSSx5QkFBQTtFQUNOLGtCQUFBO0FEQ0Y7QUNFUTtFQUNJLDRCQUFBO0FEQVo7QUNHSTtFQUNJLG1CQUFBO0VBQ0EsV0FBQTtBRERSO0FDRVE7RUFDSSxVQUFBO0FEQVo7QUNFUTtFQUNJLFdBQUE7QURBWjtBQ0tBO0VBOEJFO3NEQUFBO0VBNkVBO3NEQUFBO0FEekdGO0FDQUU7RUFDRSxlQUFBO0FERUo7QUNDRTtFQUNFLGdCQUFBO0FEQ0o7QUNFRTtFQUNFLHFCQUFBO0VBQ0EsY0FBQTtBREFKO0FDR0U7RUFDRSxrQkFBQTtFQUNBLGFBQUE7QURESjtBQ0lFO0VBQ0Usa0JBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxpQ0FBQTtBREZKO0FDUUU7RUFDRSxrQkFBQTtFQUNBLHdCQUFBO0VBQ0EsaUJBQUE7RUFDQSxjQUFBO0VBQ0EsbUJBQUE7RUFDQSxjQUFBO0FETko7QUNTRTtFQUNFLGtCQUFBO0FEUEo7QUNVRTs7O0VBR0UsYUFBQTtBRFJKO0FDV0U7RUFDRSx5QkFBQTtBRFRKO0FDWUU7RUFDRSxzQkFBQTtFQUNBLDhCQUFBO0VBQ0EsV0FBQTtFQUNBLGlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxtQkFBQTtFQUNBLGtCQUFBO0VBQ0EsbUJBQUE7RUFDQSxzQkFBQTtBRFZKO0FDYUU7RUFDRSxjQUFBO0FEWEo7QUNjRTtFQUNFLHFCQUFBO0VBQ0EsbUJBQUE7RUFDQSx3QkFBQTtFQUNBLDZDQUFBO0FEWko7QUNlRTtFQUNFLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7QURiSjtBQ2dCRTs7OztFQUlFLFlBQUE7QURkSjtBQ2lCRTs7OztFQUlFLGFBQUE7QURmSjtBQ2tCRTs7OztFQUlFLGNBQUE7QURoQko7QUNxQkU7RUFDRTtJQUNFLGFBQUE7RURuQko7RUNzQkU7O0lBRUUsc0JBQUE7RURwQko7RUN1QkU7SUFDRSxtQkFBQTtJQUNBLFdBQUE7RURyQko7RUN3QkU7SUFDRSxlQUFBO0VEdEJKO0VDeUJFOztJQUVFLGFBQUE7RUR2Qko7QUFDRiIsImZpbGUiOiJzcmMvYXBwL2N1cnJpY3VsdW0vY3VycmljdWx1bS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBjaGFyc2V0IFwiVVRGLThcIjtcbi50aGUtdXJyaWN1bHVtIC5yb3cge1xuICBtYXJnaW46IDcwcHggMCAxMDBweCA3MHB4O1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG4udGhlLXVycmljdWx1bSAuY3VycmljdWx1bS1pbmZvIC5jb2wge1xuICBib3JkZXItcmlnaHQ6IDJweCBzb2xpZCAjMDAwO1xufVxuLnRoZS11cnJpY3VsdW0gLmludC1jdXJyaWN1bHVtIHtcbiAgYmFja2dyb3VuZDogIzNlNjVhYztcbiAgY29sb3I6ICNmZmY7XG59XG4udGhlLXVycmljdWx1bSAuaW50LWN1cnJpY3VsdW0gc3ZnIHtcbiAgZmlsbDogI2ZmZjtcbn1cbi50aGUtdXJyaWN1bHVtIC5pbnQtY3VycmljdWx1bSAucm93IHtcbiAgbWFyZ2luOiAwcHg7XG59XG5cbi5jdXItaW5mby1zbGlkZXIge1xuICAvKiBBQ0NPUkRJT05cbiAg4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCTICovXG4gIC8qIE1RXG4gIOKAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAkyAqL1xufVxuLmN1ci1pbmZvLXNsaWRlciBsYWJlbCB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cbi5jdXItaW5mby1zbGlkZXIgdWwge1xuICBsaXN0LXN0eWxlOiBub25lO1xufVxuLmN1ci1pbmZvLXNsaWRlciBhIHtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICBjb2xvcjogaW5oZXJpdDtcbn1cbi5jdXItaW5mby1zbGlkZXIgaW5wdXRbdHlwZT1yYWRpb10ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGxlZnQ6IC05OTk5cHg7XG59XG4uY3VyLWluZm8tc2xpZGVyIGJvZHkge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIG1pbi1oZWlnaHQ6IDEwMHZoO1xuICBwYWRkaW5nOiA1MHB4IDA7XG4gIGZvbnQ6IDFyZW0vMS41IFwiTXVsaVwiLCBzYW5zLXNlcmlmO1xufVxuLmN1ci1pbmZvLXNsaWRlciAuYWNjb3JkaW9uIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB3aWR0aDogY2FsYygxMDAlIC0gMjBweCk7XG4gIG1pbi1oZWlnaHQ6IDM4MHB4O1xuICBtYXJnaW46IDAgYXV0bztcbiAgYmFja2dyb3VuZDogIzI4MjgyODtcbiAgY29sb3I6ICM5YjliOWI7XG59XG4uY3VyLWluZm8tc2xpZGVyIC5hY2NvcmRpb24gbGFiZWwge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG4uY3VyLWluZm8tc2xpZGVyIC5hY2NvcmRpb24sXG4uY3VyLWluZm8tc2xpZGVyIC5hY2NvcmRpb24gbGksXG4uY3VyLWluZm8tc2xpZGVyIC5hY2NvcmRpb24gLmFjY29yZGlvbi10aXRsZSB7XG4gIGRpc3BsYXk6IGZsZXg7XG59XG4uY3VyLWluZm8tc2xpZGVyIC5hY2NvcmRpb24gbGk6bm90KDpsYXN0LWNoaWxkKSB7XG4gIGJvcmRlcjogMXB4IHNvbGlkICMyOTJjMmQ7XG59XG4uY3VyLWluZm8tc2xpZGVyIC5hY2NvcmRpb24gLmFjY29yZGlvbi10aXRsZSB7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgd2lkdGg6IDcwcHg7XG4gIGZvbnQtc2l6ZTogMS40cmVtO1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgbGluZS1oZWlnaHQ6IG5vcm1hbDtcbiAgcGFkZGluZzogMjBweCAxMHB4O1xuICBiYWNrZ3JvdW5kOiAjMTkxOTE5O1xuICB0cmFuc2l0aW9uOiBjb2xvciAwLjFzO1xufVxuLmN1ci1pbmZvLXNsaWRlciAuYWNjb3JkaW9uIC5hY2NvcmRpb24tdGl0bGU6aG92ZXIge1xuICBjb2xvcjogIzNlODZkMjtcbn1cbi5jdXItaW5mby1zbGlkZXIgLmFjY29yZGlvbiAuYWNjb3JkaW9uLWhlYWRpbmcge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHdoaXRlLXNwYWNlOiBub3dyYXA7XG4gIHRyYW5zZm9ybS1vcmlnaW46IGJvdHRvbTtcbiAgdHJhbnNmb3JtOiByb3RhdGUoLTkwZGVnKSB0cmFuc2xhdGUoNTAlLCA1MCUpO1xufVxuLmN1ci1pbmZvLXNsaWRlciAuYWNjb3JkaW9uIC5hY2NvcmRpb24tY29udGVudCB7XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBmbGV4LWdyb3c6IDE7XG4gIHBhZGRpbmc6IDIwcHg7XG59XG4uY3VyLWluZm8tc2xpZGVyIFt2YWx1ZT1BbmltYWxdOmNoZWNrZWQgfiAuYWNjb3JkaW9uIFtkYXRhLXJhZGlvPWFuaW1hbF0sXG4uY3VyLWluZm8tc2xpZGVyIFt2YWx1ZT1QbGFudF06Y2hlY2tlZCB+IC5hY2NvcmRpb24gW2RhdGEtcmFkaW89cGxhbnRdLFxuLmN1ci1pbmZvLXNsaWRlciBbdmFsdWU9U3BhY2VdOmNoZWNrZWQgfiAuYWNjb3JkaW9uIFtkYXRhLXJhZGlvPXNwYWNlXSxcbi5jdXItaW5mby1zbGlkZXIgW3ZhbHVlPVJpdmVyXTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZGF0YS1yYWRpbz1yaXZlcl0ge1xuICBmbGV4LWdyb3c6IDE7XG59XG4uY3VyLWluZm8tc2xpZGVyIFt2YWx1ZT1BbmltYWxdOmNoZWNrZWQgfiAuYWNjb3JkaW9uIFtmb3I9YW5pbWFsXSArIC5hY2NvcmRpb24tY29udGVudCxcbi5jdXItaW5mby1zbGlkZXIgW3ZhbHVlPVBsYW50XTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZm9yPXBsYW50XSArIC5hY2NvcmRpb24tY29udGVudCxcbi5jdXItaW5mby1zbGlkZXIgW3ZhbHVlPVNwYWNlXTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZm9yPXNwYWNlXSArIC5hY2NvcmRpb24tY29udGVudCxcbi5jdXItaW5mby1zbGlkZXIgW3ZhbHVlPVJpdmVyXTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZm9yPXJpdmVyXSArIC5hY2NvcmRpb24tY29udGVudCB7XG4gIGRpc3BsYXk6IGZsZXg7XG59XG4uY3VyLWluZm8tc2xpZGVyIFt2YWx1ZT1BbmltYWxdOmNoZWNrZWQgfiAuYWNjb3JkaW9uIFtmb3I9YW5pbWFsXSxcbi5jdXItaW5mby1zbGlkZXIgW3ZhbHVlPVBsYW50XTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZm9yPXBsYW50XSxcbi5jdXItaW5mby1zbGlkZXIgW3ZhbHVlPVNwYWNlXTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZm9yPXNwYWNlXSxcbi5jdXItaW5mby1zbGlkZXIgW3ZhbHVlPVJpdmVyXTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZm9yPXJpdmVyXSB7XG4gIGNvbG9yOiAjM2U4NmQyO1xufVxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNjUwcHgpIHtcbiAgLmN1ci1pbmZvLXNsaWRlciAuYWNjb3JkaW9uIHtcbiAgICBtaW4taGVpZ2h0OiAwO1xuICB9XG4gIC5jdXItaW5mby1zbGlkZXIgLmFjY29yZGlvbixcbi5jdXItaW5mby1zbGlkZXIgLmFjY29yZGlvbiBsaSB7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgfVxuICAuY3VyLWluZm8tc2xpZGVyIC5hY2NvcmRpb24gLmFjY29yZGlvbi10aXRsZSB7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICB3aWR0aDogYXV0bztcbiAgfVxuICAuY3VyLWluZm8tc2xpZGVyIC5hY2NvcmRpb24gLmFjY29yZGlvbi1oZWFkaW5nIHtcbiAgICB0cmFuc2Zvcm06IG5vbmU7XG4gIH1cbiAgLmN1ci1pbmZvLXNsaWRlciAuYWNjb3JkaW9uIC5hY2NvcmRpb24tdGl0bGUsXG4uY3VyLWluZm8tc2xpZGVyIC5hY2NvcmRpb24gLmFjY29yZGlvbi1jb250ZW50IHtcbiAgICBwYWRkaW5nOiAyMHB4O1xuICB9XG59IiwiLnRoZS11cnJpY3VsdW17XHJcbiAgICAucm93e1xyXG4gICAgICAgIG1hcmdpbjo3MHB4IDAgMTAwcHggNzBweCA7IFxyXG5cdFx0cG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgfVxyXG4gICAgLmN1cnJpY3VsdW0taW5mb3tcclxuICAgICAgICAuY29se1xyXG4gICAgICAgICAgICBib3JkZXItcmlnaHQ6MnB4IHNvbGlkICMwMDA7XHJcbiAgICAgICAgfVxyXG4gICAgfVxyXG4gICAgLmludC1jdXJyaWN1bHVte1xyXG4gICAgICAgIGJhY2tncm91bmQ6IzNlNjVhYztcclxuICAgICAgICBjb2xvcjojZmZmO1xyXG4gICAgICAgIHN2Z3tcclxuICAgICAgICAgICAgZmlsbDojZmZmO1xyXG4gICAgICAgIH1cclxuICAgICAgICAucm93e1xyXG4gICAgICAgICAgICBtYXJnaW46MHB4O1xyXG4gICAgICAgIH1cclxuICAgIH1cclxufVxyXG5cclxuLmN1ci1pbmZvLXNsaWRlcntcclxuIFxyXG4gIGxhYmVsIHtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICB9XHJcbiAgXHJcbiAgdWwge1xyXG4gICAgbGlzdC1zdHlsZTogbm9uZTtcclxuICB9XHJcbiAgXHJcbiAgYSB7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICBjb2xvcjogaW5oZXJpdDtcclxuICB9XHJcbiAgXHJcbiAgaW5wdXRbdHlwZT1cInJhZGlvXCJdIHtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIGxlZnQ6IC05OTk5cHg7XHJcbiAgfVxyXG4gIFxyXG4gIGJvZHkge1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBtaW4taGVpZ2h0OiAxMDB2aDtcclxuICAgIHBhZGRpbmc6IDUwcHggMDtcclxuICAgIGZvbnQ6IDFyZW0vMS41ICdNdWxpJywgc2Fucy1zZXJpZjtcclxuICB9XHJcbiAgXHJcbiAgXHJcbiAgLyogQUNDT1JESU9OXHJcbiAg4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCT4oCTICovXHJcbiAgLmFjY29yZGlvbiB7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICB3aWR0aDogY2FsYygxMDAlIC0gMjBweCk7XHJcbiAgICBtaW4taGVpZ2h0OiAzODBweDtcclxuICAgIG1hcmdpbjogMCBhdXRvO1xyXG4gICAgYmFja2dyb3VuZDogIzI4MjgyODtcclxuICAgIGNvbG9yOiAjOWI5YjliO1xyXG4gIH1cclxuICBcclxuICAuYWNjb3JkaW9uIGxhYmVsIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB9XHJcbiAgXHJcbiAgLmFjY29yZGlvbixcclxuICAuYWNjb3JkaW9uIGxpLFxyXG4gIC5hY2NvcmRpb24gLmFjY29yZGlvbi10aXRsZSB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gIH1cclxuICBcclxuICAuYWNjb3JkaW9uIGxpOm5vdCg6bGFzdC1jaGlsZCkge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgIzI5MmMyZDtcclxuICB9XHJcbiAgXHJcbiAgLmFjY29yZGlvbiAuYWNjb3JkaW9uLXRpdGxlIHtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgICB3aWR0aDogNzBweDtcclxuICAgIGZvbnQtc2l6ZTogMS40cmVtO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBsaW5lLWhlaWdodDogbm9ybWFsO1xyXG4gICAgcGFkZGluZzogMjBweCAxMHB4O1xyXG4gICAgYmFja2dyb3VuZDogIzE5MTkxOTtcclxuICAgIHRyYW5zaXRpb246IGNvbG9yIDAuMXM7XHJcbiAgfVxyXG4gIFxyXG4gIC5hY2NvcmRpb24gLmFjY29yZGlvbi10aXRsZTpob3ZlciB7XHJcbiAgICBjb2xvcjogIzNlODZkMjtcclxuICB9XHJcbiAgXHJcbiAgLmFjY29yZGlvbiAuYWNjb3JkaW9uLWhlYWRpbmcge1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcclxuICAgIHRyYW5zZm9ybS1vcmlnaW46IGJvdHRvbTtcclxuICAgIHRyYW5zZm9ybTogcm90YXRlKC05MGRlZykgdHJhbnNsYXRlKDUwJSwgNTAlKTtcclxuICB9XHJcbiAgXHJcbiAgLmFjY29yZGlvbiAuYWNjb3JkaW9uLWNvbnRlbnQge1xyXG4gICAgZGlzcGxheTogbm9uZTtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGZsZXgtZ3JvdzogMTtcclxuICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgfVxyXG4gIFxyXG4gIFt2YWx1ZT1cIkFuaW1hbFwiXTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZGF0YS1yYWRpbz1cImFuaW1hbFwiXSxcclxuICBbdmFsdWU9XCJQbGFudFwiXTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZGF0YS1yYWRpbz1cInBsYW50XCJdLFxyXG4gIFt2YWx1ZT1cIlNwYWNlXCJdOmNoZWNrZWQgfiAuYWNjb3JkaW9uIFtkYXRhLXJhZGlvPVwic3BhY2VcIl0sXHJcbiAgW3ZhbHVlPVwiUml2ZXJcIl06Y2hlY2tlZCB+IC5hY2NvcmRpb24gW2RhdGEtcmFkaW89XCJyaXZlclwiXSB7XHJcbiAgICBmbGV4LWdyb3c6IDE7XHJcbiAgfVxyXG4gIFxyXG4gIFt2YWx1ZT1cIkFuaW1hbFwiXTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZm9yPVwiYW5pbWFsXCJdICsgLmFjY29yZGlvbi1jb250ZW50LFxyXG4gIFt2YWx1ZT1cIlBsYW50XCJdOmNoZWNrZWQgfiAuYWNjb3JkaW9uIFtmb3I9XCJwbGFudFwiXSArIC5hY2NvcmRpb24tY29udGVudCxcclxuICBbdmFsdWU9XCJTcGFjZVwiXTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZm9yPVwic3BhY2VcIl0gKyAuYWNjb3JkaW9uLWNvbnRlbnQsXHJcbiAgW3ZhbHVlPVwiUml2ZXJcIl06Y2hlY2tlZCB+IC5hY2NvcmRpb24gW2Zvcj1cInJpdmVyXCJdICsgLmFjY29yZGlvbi1jb250ZW50IHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgfVxyXG4gIFxyXG4gIFt2YWx1ZT1cIkFuaW1hbFwiXTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZm9yPVwiYW5pbWFsXCJdLFxyXG4gIFt2YWx1ZT1cIlBsYW50XCJdOmNoZWNrZWQgfiAuYWNjb3JkaW9uIFtmb3I9XCJwbGFudFwiXSxcclxuICBbdmFsdWU9XCJTcGFjZVwiXTpjaGVja2VkIH4gLmFjY29yZGlvbiBbZm9yPVwic3BhY2VcIl0sXHJcbiAgW3ZhbHVlPVwiUml2ZXJcIl06Y2hlY2tlZCB+IC5hY2NvcmRpb24gW2Zvcj1cInJpdmVyXCJdIHtcclxuICAgIGNvbG9yOiAjM2U4NmQyO1xyXG4gIH1cclxuICBcclxuICAvKiBNUVxyXG4gIOKAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAk+KAkyAqL1xyXG4gIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDY1MHB4KSB7XHJcbiAgICAuYWNjb3JkaW9uIHtcclxuICAgICAgbWluLWhlaWdodDogMDsgIFxyXG4gICAgfVxyXG4gICAgXHJcbiAgICAuYWNjb3JkaW9uLFxyXG4gICAgLmFjY29yZGlvbiBsaSB7XHJcbiAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICB9XHJcbiAgICBcclxuICAgIC5hY2NvcmRpb24gLmFjY29yZGlvbi10aXRsZSB7XHJcbiAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XHJcbiAgICAgIHdpZHRoOiBhdXRvO1xyXG4gICAgfVxyXG4gICAgXHJcbiAgICAuYWNjb3JkaW9uIC5hY2NvcmRpb24taGVhZGluZyB7XHJcbiAgICAgIHRyYW5zZm9ybTogbm9uZTtcclxuICAgIH1cclxuICAgIFxyXG4gICAgLmFjY29yZGlvbiAuYWNjb3JkaW9uLXRpdGxlLFxyXG4gICAgLmFjY29yZGlvbiAuYWNjb3JkaW9uLWNvbnRlbnQge1xyXG4gICAgICBwYWRkaW5nOiAyMHB4O1xyXG4gICAgfVxyXG4gIH1cclxuICBcclxufSJdfQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/curriculum/curriculum.component.ts":
+  /*!****************************************************!*\
+    !*** ./src/app/curriculum/curriculum.component.ts ***!
+    \****************************************************/
+
+  /*! exports provided: CurriculumComponent */
+
+  /***/
+  function srcAppCurriculumCurriculumComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CurriculumComponent", function () {
+      return CurriculumComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var CurriculumComponent = /*#__PURE__*/function () {
+      function CurriculumComponent() {
+        _classCallCheck(this, CurriculumComponent);
+      }
+
+      _createClass(CurriculumComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return CurriculumComponent;
+    }();
+
+    CurriculumComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-curriculum',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./curriculum.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/curriculum/curriculum.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./curriculum.component.scss */
+      "./src/app/curriculum/curriculum.component.scss"))["default"]]
+    })], CurriculumComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/eng/eng.component.scss":
   /*!****************************************!*\
     !*** ./src/app/eng/eng.component.scss ***!
@@ -2016,13 +2151,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }, {
           name: 'ThePremiaEdge'
         }, {
+          name: 'Curriculum'
+        }, {
+          name: 'PremiaEthos'
+        }, {
           name: 'JoinThePremiaPride'
         }, {
           name: 'ThePremiaCorner'
         }, {
           name: 'CatchUpOverCoffee'
-        } // {name: 'Eng'},
-        //{name: 'HowToApply'},
+        } //{name: 'HowToApply'},
         ];
       }
 
@@ -2546,6 +2684,83 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       /*! ./home.component.scss */
       "./src/app/home/home.component.scss"))["default"]]
     })], HomeComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/premiaethos/premiaethos.component.scss":
+  /*!********************************************************!*\
+    !*** ./src/app/premiaethos/premiaethos.component.scss ***!
+    \********************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppPremiaethosPremiaethosComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".premia-ethos .row {\n  margin: 70px 0 100px 70px;\n  position: relative;\n}\n.premia-ethos .prodigy {\n  background: #3e65ac;\n  color: #fff;\n}\n.premia-ethos .prodigy svg {\n  fill: #fff;\n}\n.premia-ethos .white {\n  background: #fff;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJlbWlhZXRob3MvRjpcXGdpdGh1YlxcYWNhZGVteS9zcmNcXGFwcFxccHJlbWlhZXRob3NcXHByZW1pYWV0aG9zLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9wcmVtaWFldGhvcy9wcmVtaWFldGhvcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDSTtFQUNJLHlCQUFBO0VBQ0Esa0JBQUE7QUNBUjtBREVJO0VBQ0ksbUJBQUE7RUFDQSxXQUFBO0FDQVI7QURDUTtFQUNJLFVBQUE7QUNDWjtBREVJO0VBQ0ksZ0JBQUE7QUNBUiIsImZpbGUiOiJzcmMvYXBwL3ByZW1pYWV0aG9zL3ByZW1pYWV0aG9zLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnByZW1pYS1ldGhvc3tcclxuICAgIC5yb3d7XHJcbiAgICAgICAgbWFyZ2luOjcwcHggMCAxMDBweCA3MHB4IDsgXHJcbiAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgfVxyXG4gICAgLnByb2RpZ3l7XHJcbiAgICAgICAgYmFja2dyb3VuZDojM2U2NWFjO1xyXG4gICAgICAgIGNvbG9yOiNmZmY7XHJcbiAgICAgICAgc3Zne1xyXG4gICAgICAgICAgICBmaWxsOiNmZmY7XHJcbiAgICAgICAgfVxyXG4gICAgfVxyXG4gICAgLndoaXRle1xyXG4gICAgICAgIGJhY2tncm91bmQ6I2ZmZjtcclxuICAgIH1cclxufVxyXG4iLCIucHJlbWlhLWV0aG9zIC5yb3cge1xuICBtYXJnaW46IDcwcHggMCAxMDBweCA3MHB4O1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG4ucHJlbWlhLWV0aG9zIC5wcm9kaWd5IHtcbiAgYmFja2dyb3VuZDogIzNlNjVhYztcbiAgY29sb3I6ICNmZmY7XG59XG4ucHJlbWlhLWV0aG9zIC5wcm9kaWd5IHN2ZyB7XG4gIGZpbGw6ICNmZmY7XG59XG4ucHJlbWlhLWV0aG9zIC53aGl0ZSB7XG4gIGJhY2tncm91bmQ6ICNmZmY7XG59Il19 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/premiaethos/premiaethos.component.ts":
+  /*!******************************************************!*\
+    !*** ./src/app/premiaethos/premiaethos.component.ts ***!
+    \******************************************************/
+
+  /*! exports provided: PremiaethosComponent */
+
+  /***/
+  function srcAppPremiaethosPremiaethosComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "PremiaethosComponent", function () {
+      return PremiaethosComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var PremiaethosComponent = /*#__PURE__*/function () {
+      function PremiaethosComponent() {
+        _classCallCheck(this, PremiaethosComponent);
+      }
+
+      _createClass(PremiaethosComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return PremiaethosComponent;
+    }();
+
+    PremiaethosComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-premiaethos',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./premiaethos.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/premiaethos/premiaethos.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./premiaethos.component.scss */
+      "./src/app/premiaethos/premiaethos.component.scss"))["default"]]
+    })], PremiaethosComponent);
     /***/
   },
 

@@ -13,6 +13,8 @@ import { EngComponent } from './eng/eng.component';
 import { ContactComponent } from './contact/contact.component';
 import { BlobComponent } from './blob/blob.component';
 import { TheteamComponent } from './theteam/theteam.component';
+import { CurriculumComponent } from './curriculum/curriculum.component';
+import { PremiaethosComponent } from './premiaethos/premiaethos.component';
 
 
 const routes: Routes = [
@@ -25,6 +27,8 @@ const routes: Routes = [
   {path: 'CatchUpOverCoffee', component: ContactComponent},
   {path: 'ThePremiaCorner', component: BlobComponent},
   {path: 'ThePremiaLeague', component: TheteamComponent},
+  {path: 'Curriculum', component: CurriculumComponent},
+  {path: 'PremiaEthos', component: PremiaethosComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full' }
 
 ];
@@ -40,7 +44,9 @@ const routes: Routes = [
     EngComponent,
     ContactComponent,
     BlobComponent,
-    TheteamComponent
+    TheteamComponent,
+    CurriculumComponent,
+    PremiaethosComponent
 ],
   imports: [
     RouterModule.forRoot(routes, { enableTracing: false, scrollPositionRestoration: 'enabled'}),
