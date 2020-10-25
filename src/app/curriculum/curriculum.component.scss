@@ -1,0 +1,157 @@
+.the-urriculum{
+    .row{
+        margin:70px 0 100px 70px ; 
+		position: relative;
+    }
+    .curriculum-info{
+        .col{
+            border-right:2px solid #000;
+        }
+    }
+    .int-curriculum{
+        background:#3e65ac;
+        color:#fff;
+        svg{
+            fill:#fff;
+        }
+        .row{
+            margin:0px;
+        }
+    }
+}
+
+.cur-info-slider{
+ 
+  label {
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px 0;
+    font: 1rem/1.5 'Muli', sans-serif;
+  }
+  
+  
+  /* ACCORDION
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .accordion {
+    position: relative;
+    width: calc(100% - 20px);
+    min-height: 380px;
+    margin: 0 auto;
+    background: #282828;
+    color: #9b9b9b;
+  }
+  
+  .accordion label {
+    text-align: center;
+  }
+  
+  .accordion,
+  .accordion li,
+  .accordion .accordion-title {
+    display: flex;
+  }
+  
+  .accordion li:not(:last-child) {
+    border: 1px solid #292c2d;
+  }
+  
+  .accordion .accordion-title {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: normal;
+    padding: 20px 10px;
+    background: #191919;
+    transition: color 0.1s;
+  }
+  
+  .accordion .accordion-title:hover {
+    color: #3e86d2;
+  }
+  
+  .accordion .accordion-heading {
+    display: inline-block;
+    white-space: nowrap;
+    transform-origin: bottom;
+    transform: rotate(-90deg) translate(50%, 50%);
+  }
+  
+  .accordion .accordion-content {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  [value="Animal"]:checked ~ .accordion [data-radio="animal"],
+  [value="Plant"]:checked ~ .accordion [data-radio="plant"],
+  [value="Space"]:checked ~ .accordion [data-radio="space"],
+  [value="River"]:checked ~ .accordion [data-radio="river"] {
+    flex-grow: 1;
+  }
+  
+  [value="Animal"]:checked ~ .accordion [for="animal"] + .accordion-content,
+  [value="Plant"]:checked ~ .accordion [for="plant"] + .accordion-content,
+  [value="Space"]:checked ~ .accordion [for="space"] + .accordion-content,
+  [value="River"]:checked ~ .accordion [for="river"] + .accordion-content {
+    display: flex;
+  }
+  
+  [value="Animal"]:checked ~ .accordion [for="animal"],
+  [value="Plant"]:checked ~ .accordion [for="plant"],
+  [value="Space"]:checked ~ .accordion [for="space"],
+  [value="River"]:checked ~ .accordion [for="river"] {
+    color: #3e86d2;
+  }
+  
+  /* MQ
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  @media screen and (max-width: 650px) {
+    .accordion {
+      min-height: 0;  
+    }
+    
+    .accordion,
+    .accordion li {
+      flex-direction: column;
+    }
+    
+    .accordion .accordion-title {
+      flex-direction: row;
+      width: auto;
+    }
+    
+    .accordion .accordion-heading {
+      transform: none;
+    }
+    
+    .accordion .accordion-title,
+    .accordion .accordion-content {
+      padding: 20px;
+    }
+  }
+  
+}
