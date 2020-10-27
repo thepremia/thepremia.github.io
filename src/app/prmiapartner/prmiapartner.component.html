@@ -1,0 +1,53 @@
+<section class="premia-partner">
+    <div class="breadcum">
+        <a>
+            <i class="icon icon-ex-small">
+                <svg focusable="false">
+                    <use xlink:href="#icon_home"></use>
+                </svg>
+            </i>
+        </a>
+        <span> |</span>
+        <a>
+            The
+            Premia Partners
+        </a>
+    </div>
+
+    <div class="row-f">
+        <h1>
+            Premia Partners
+        </h1>
+
+        <h2 class="center">
+            <span class="highlighted">"</span>When great ideas and good intentions come
+together <span class="highlighted">MAGIC HAPPENS</span> meet our friends and
+partners who have joined our mission<span class="highlighted">"</span>
+        </h2>
+
+        <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
+            <img src="assets/images/partner-01.png">
+        </div>
+
+    </div>
+<div class="partner-panel">
+    <div class="row-f">
+        <div class="col-lg-12 col-md-12 col-sm-12 partner-grid" *ngFor="let list of partners; index as i" data-aos="fade-up" data-aos-once="true">
+           <div class="panel">
+               <div class="row">
+                   <div class="col-lg-6 col-md-6 col-sm-12 left-panel">
+                      <h3>{{list.name}}</h3>
+                       <p>{{list.title}}</p>
+                       <div class="number">0{{i+1}}</div>
+                   </div>
+                   <div class="col-lg-6 col-md-6 col-sm-12 right-panel">
+                    {{list.des}}
+                    <div class='read-more'>READ MORE</div>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+    </div>
+
+</section>

@@ -52,6 +52,7 @@
 .section-nofify{
 	background:#3e65ac;
 	padding: 0px;
+	font-family: 'Comic Neue', cursive;
 	
 	.col{
 		padding:20px 45px;
@@ -258,7 +259,8 @@
 	.panel{
 		height:300px;
 		position: relative;
-		background:#3e65ac;
+		box-shadow: 2px 1px 4px -2px #3e65ac;
+		background:#fff;
 		padding:30px;
 		&:hover{
 			.info-view{
