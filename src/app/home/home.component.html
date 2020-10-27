@@ -102,12 +102,11 @@
       <div class="col-sm-12 center">
         <h1 data-aos="fade-up" data-aos-once="true">The Premia Experience</h1>
       </div>
-      <div *ngFor="let list of premianLeague; index as i" class="col {{list.gridClass}} col-sm-12">
-        
-    <div class="img-circle" data-aos="zoom-in" data-aos-once="true">
+      <div *ngFor="let list of premianLeague; index as i" class="col {{list.gridClass}} col-sm-12 col-premia">
+        <div class="img-circle" data-aos="zoom-in" data-aos-once="true">
           <img src="assets/images/premianleague{{i+1}}.jpg">
         </div>
-        <h4 class="center">{{list.name}}</h4>
+        <h6 class="center">{{list.name}}</h6>
       </div>
       <div class="col-lg-1 col-md-1 col-sm-12"></div>
       <div class="col-lg-4 col-md-4 col-sm-12">
@@ -123,14 +122,12 @@
             </div>
           </div>
         </div>
+        
       </ngx-slick-carousel>
-      <h4 class="center">Who we are</h4>
+      <h6 class="center">Who we are</h6>
     </div>
     </div>
   </div>
-
-
-
 </section>
 
 

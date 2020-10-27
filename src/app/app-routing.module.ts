@@ -30,7 +30,7 @@ const routes: Routes = [
   {path: 'ThePremiaLeague', component: TheteamComponent},
   {path: 'Curriculum', component: CurriculumComponent},
   {path: 'PremiaEthos', component: PremiaethosComponent},
-  {path: 'PrmiaPartner', component: PrmiapartnerComponent},
+  {path: 'PremiaPartner', component: PrmiapartnerComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full' }
 
 ];

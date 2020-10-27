@@ -1,6 +1,9 @@
 .section-inner-subheader{
 	margin-bottom:50px;
 	.the-team-info{
+		display: flex;
+		align-items: center;
+		justify-content:center;
 		margin:0;	
 		margin-top:50px;
 		.col {
@@ -11,12 +14,27 @@
 			margin-bottom: 0;	
 		}
 		
-	}
-	
+	}	
 	.panel {
 		color:#fff;
 		padding:50px;
 		margin-bottom:50px;
+		.panel-body{
+			margin-top: -70px;
+			z-index: -1;
+			position: relative;
+			padding:80px 20px 1px;
+			border-radius: 25px 25px 0 0;
+			h5{
+				font-size: 16px;
+				background: #fff;
+				border-radius: 20px;
+				color: #bf272d;
+				text-align: center;
+				padding: 5px 0;
+				box-shadow: 1px 1px 3px 0px #0e0e0e;
+			}
+		}
 	}
 	h1{
 		margin-left:65px;
@@ -25,7 +43,6 @@
 	h6{
 		margin-left:65px;
 	}
-
 	.avtar{
 		background:#fff;
 	}
@@ -33,13 +50,14 @@
 		margin-top:50px;
 	}
 }
-
 .the-team-info{
 	img {
-		filter: grayscale(100%);
+		width: 70%;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
 	  }
 }
-
 .blue-bg{
 	background:#3e65ac;
 }

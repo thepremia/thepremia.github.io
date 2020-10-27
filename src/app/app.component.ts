@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
     this.router.events.subscribe(routerEvent => {
         if (routerEvent instanceof NavigationStart) {
             if (routerEvent.url === '/') {
-                this.router.navigate(['/PrmiaPartner'], {skipLocationChange: true});
+                this.router.navigate(['/Home'], {skipLocationChange: true});
             }
         }
         if (this.router.url === '/Home') {
