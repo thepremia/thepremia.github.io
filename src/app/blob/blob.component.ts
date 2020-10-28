@@ -107,6 +107,25 @@ export class BlobComponent implements OnInit {
     ]
   };
 
+  thePremiaCorner = [
+    {
+      icon: '#icon_reading',
+      description: `Premia Blogs`,
+    },
+    {
+      icon: '#icon_education',
+      description: `Students Work`,
+    },
+    {
+      icon: '#icon_emoDev',
+      description: `Hand on Learning`,
+    },
+    {
+      icon: '#icon_reading',
+      description: `Premia events`,
+    }
+  ];
+
 
   ngOnInit() {
   }
