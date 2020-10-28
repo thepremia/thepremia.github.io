@@ -124,6 +124,17 @@ svg:not(:root) {
 	height: 24px;
 }
 
+.partner{
+	.slick-slide{
+		.panel{
+			p{
+				font-family:"Quicksand", sans-serif !important;
+				text-align: center;	
+			}
+		}
+	}
+}
+
 .section-admission{
 		.slick-prev:before, .slick-next:before{
 		color:#000;
