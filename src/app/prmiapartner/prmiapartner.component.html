@@ -25,8 +25,33 @@ together <span class="highlighted">MAGIC HAPPENS</span> meet our friends and
 partners who have joined our mission<span class="highlighted">"</span>
         </h2>
 
-        <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
-            <img src="assets/images/partner-01.png">
+        <div class="col-lg-12 col-md-12 col-sm-12 grear-container" data-aos="fade-up" data-aos-once="true">
+            <div class="gears gears-{{i+1}}" *ngFor="let list of partners; index as i">
+                <i class="icon icon-{{list.size}}">
+                    <svg focusable="false">
+                      <use xlink:href="#icon_gears"></use>
+                    </svg>
+                    <a href="#{{i+1}}">
+                        <img src="assets/images/partner{{i+1}}.png" alt="">
+                    </a>
+                  </i>
+            </div>
+            <div class="gears gears-9">
+                <i class="icon icon-small">
+                    <svg focusable="false">
+                      <use xlink:href="#icon_gears"></use>
+                    </svg>
+
+                  </i>
+            </div>
+            <div class="gears gears-10">
+                <i class="icon icon-small">
+                    <svg focusable="false">
+                      <use xlink:href="#icon_gears"></use>
+                    </svg>
+
+                  </i>
+            </div>
         </div>
 
     </div>
