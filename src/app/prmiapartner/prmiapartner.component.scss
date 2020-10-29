@@ -150,3 +150,59 @@
 	  }
   }
 }
+.grear-container{
+	height:200px;
+}
+.gears{
+	width:285px;
+	height:285px;
+	position: absolute;
+	&.gears-1{
+		top:10px;
+		left: 10px;
+	}
+	&.gears-2{
+		top:50px;
+		left: 50px;
+	}
+	&.gears-3{
+		top:70px;
+		left: 70px;
+	}
+	&.gears-4{
+		top:90px;
+		left: 190px;
+	}
+	&.gears-5{
+		top:190px;
+		left: 490px;
+	}
+	&.gears-6{
+		top:200px;
+		left: 100px;
+	}
+	&.gears-7{
+		top:150px;
+		left: 250px;
+	}
+	&.gears-8{
+		top:160px;
+		left: 480px;
+	}
+	&.gears-9{
+		top:190px;
+		left: 310px;
+	}
+	&.gears-10{
+		top:390px;
+		left: 300px;
+	}
+	i{
+		position:relative;
+		a{
+			position: absolute;
+			top:0px;
+			left:0px;
+		}
+	}
+}
