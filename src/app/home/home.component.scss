@@ -52,7 +52,6 @@
 .section-nofify{
 	background:#3e65ac;
 	padding: 0px;
-	font-family: 'Comic Neue', cursive;
 	
 	.col{
 		padding:20px 45px;
@@ -106,7 +105,6 @@
 		text-align:center;
 		color:#fff;
 		padding:25px 0;
-		height:250px;
 		.flag-pos{
 			content:'';
 			background:#bf272d;
@@ -247,13 +245,57 @@
 		} 
 }
 
+.admission-new{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	.icon-medium{
+		svg{
+			width:80px;
+			height:80px;
+		}
+	}
+	p{
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+	}
+}
+
+.admission-new{
+	position: relative;
+	&:hover{
+		.more-viewer{
+		display:block;
+	}
+	}
+.more-viewer{
+	display:none;
+	position: absolute;
+	top:0px;
+	left: 30px;
+    width: 90%;
+	transform: scale(1.1);
+	background:#fff;
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+	padding:15px;
+	z-index:10;
+	p{
+		font-size:12px;
+		white-space: pre-wrap;
+	}
+}
+
+}
+
+
 .partner{
 	margin-bottom:70px;
 	background:#efefef;
 	padding:30px 0;
 	p{
-		font-size:16px;	
-		font-family:"Comic Neue", cursive;
+		font-size:16px;
 		color:#000;
 	}
 	.panel{
@@ -366,7 +408,6 @@
 		line-height: 22px;
 		font-weight: bold;
 		color:#bf272d;
-		font-family:"Comic Neue", cursive;
 	}
 	
 	.row{
@@ -455,7 +496,6 @@
 		line-height: 22px;
 		font-weight: bold;
 		color:#bf272d;
-		font-family:"Comic Neue", cursive;
 		}
 	}
 	.col{
@@ -510,7 +550,6 @@
 			color:#fff;
 			font-weight:bold;
 			margin-top:15px;
-			font-family:"Comic Neue", cursive;
 		}
 	}
 }

@@ -35,9 +35,9 @@
         </div>
       </div>
 
-      <ngx-slick-carousel class="carousel col-lg-9 col-md-9 col-sm-12" #slickModal="slick-carousel"
-        [config]="admissionConfig">
-        <div ngxSlickItem *ngFor="let item of admission; index as i" class="slide">
+      <div class="col-lg-9 col-md-9 col-sm-12">
+        <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 admission-new" *ngFor="let item of admission; index as i">
           <div class="panel">
             <div class="panel-front">
               <div class="panel-heading">
@@ -46,14 +46,18 @@
                     <use attr.xlink:href="{{item.icon}}"></use>
                   </svg>
                 </i>
-
                 <p>{{item.description}}</p>
+
+                <div class="more-viewer">
+                  <p>{{item.description2}}</p>
+                </div>
+
               </div>
             </div>
           </div>
         </div>
-      </ngx-slick-carousel>
-
+      </div>
+    </div>
     </div>
   </div>
 </section>
