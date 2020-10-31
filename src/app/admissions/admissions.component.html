@@ -88,9 +88,7 @@
                             <h3 class="bar {{item.bar}}">
                                 {{item.title}}
                             </h3>
-                            <p>{{item.description}}</p>
-
-                        </div>
+                         </div>
                         <button class="btn btn-primary" (click)="open(content)" data-aos="fade-up"
                             data-aos-once="true">APPLY NOW</button>
                     </div>
@@ -100,70 +98,83 @@
 
     </section>
 
-    <section>
-        <div class="row-f sub-header">
-            <h1 class="center" data-aos="fade-up" data-aos-once="true">
-                Admission Process at The Premia Academy
-            </h1>
-            <h6 class="center">Join The Premia Pride Online Enquiry</h6>
-            <div class="container">
-                    <img class="image-wrap" src="assets/images/join-premia-pride-01.png" data-aos="fade-up"
-                        data-aos-once="true">
+    <div class="container">
+        <div class="row ethos-1">
+            <div class="col-lg-4 col-md-4 col-sm-12 ethos-col" *ngFor="let item of ehtos; index as i">
+              <p>
+                {{item.title}}
+              </p>
+              <div class="circle" (click)="onClick(i+1)">
+                <img src="assets/images/ethos-{{i+1}}.png" alt="">
+              </div>
             </div>
-        </div>
-
-        <div class="row-f sub-header">
-            <h1 class="center" data-aos="fade-up" data-aos-once="true">
-                Admission Criteria
-            </h1>
-            <h6 class="center">The pupil should have achieved the competencies of the previous year to the grade to which he/she is applying for.</h6>
-            <div class="container">
-                    <table class="table-bordered adm-info-table">
-                        <tr>
-                            <td>Grade</td>
-                            <td>Minimum Age by June</td>
-                        <tr>
-                        <tr>
-                            <td>Nursery</td>
-                            <td>2 Years 6 Months</td>
-                        <tr>
-                        <tr>
-                            <td>PP1</td>
-                            <td>3 Years 6 Months</td>
-                        <tr>
-                        <tr>
-                            <td>PP2</td>
-                            <td>4 Years 6 Months</td>
-                        <tr>
-                        <tr>
-                            <td>Grade 1</td>
-                            <td>5 Years 6 Months</td>
-                        <tr>
-                        <tr>
-                            <td>Grade 2</td>
-                            <td>6 Years 6 Months</td>
-                        <tr>
-                        <tr>
-                            <td>Grade 3</td>
-                            <td>7 Years 6 Months</td>
-                        <tr>
-                        <tr>
-                            <td>Grade 4</td>
-                            <td>8 Years 6 Months</td>
-                        <tr>
-                        <tr>
-                            <td>Grade 5</td>
-                            <td>9 Years 6 Months</td>
-                        <tr>
-                        <tr>
-                            <td>Grade 6</td>
-                            <td>10 Years 6 Months</td>
-                        <tr>
-                        
-                    </table>
+          </div>
+    
+          <div class="row ethos-2">
+            <div class="col-lg-4 col-md-4 col-sm-12 ethos-col-2" *ngFor="let item of ehtos2; index as i">
+              <div class="circle" (click)="onClick(i+5)">
+                <img src="assets/images/ethos-{{i+5}}.png" alt="">
+              </div>
+              <p>
+                {{item.title}}
+              </p>
             </div>
+          </div>   
+    </div>
+   
+    <div class="container">
+    <div class="row">
+        <h1 class="center col-sm-12" data-aos="fade-up" data-aos-once="true">
+            Admission Criteria
+        </h1>
+        <h6 class="center col-sm-12">The pupil should have achieved the competencies of the previous year to the grade to which he/she is applying for.</h6>
+        <div class="container">
+                <table class="table-bordered adm-info-table">
+                    <tr>
+                        <td>Grade</td>
+                        <td>Minimum Age by June</td>
+                    <tr>
+                    <tr>
+                        <td>Nursery</td>
+                        <td>2 Years 6 Months</td>
+                    <tr>
+                    <tr>
+                        <td>PP1</td>
+                        <td>3 Years 6 Months</td>
+                    <tr>
+                    <tr>
+                        <td>PP2</td>
+                        <td>4 Years 6 Months</td>
+                    <tr>
+                    <tr>
+                        <td>Grade 1</td>
+                        <td>5 Years 6 Months</td>
+                    <tr>
+                    <tr>
+                        <td>Grade 2</td>
+                        <td>6 Years 6 Months</td>
+                    <tr>
+                    <tr>
+                        <td>Grade 3</td>
+                        <td>7 Years 6 Months</td>
+                    <tr>
+                    <tr>
+                        <td>Grade 4</td>
+                        <td>8 Years 6 Months</td>
+                    <tr>
+                    <tr>
+                        <td>Grade 5</td>
+                        <td>9 Years 6 Months</td>
+                    <tr>
+                    <tr>
+                        <td>Grade 6</td>
+                        <td>10 Years 6 Months</td>
+                    <tr>
+                    
+                </table>
         </div>
-    </section>
+    </div>
+</div>
 </section>
 
 <ng-template #content let-modal>

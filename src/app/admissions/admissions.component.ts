@@ -29,6 +29,28 @@ export class AdmissionsComponent implements OnInit {
     }
   }
 
+  ehtos = [{
+    title:`The safe and positive environment (Safety isn’t expensive, it's priceless):`,
+  },
+  {
+    title:`Learn about our beliefs: Our Parent Relationship Managers will contact you to give you more details`,
+  },
+  {
+    title:`School Tour: Visit our campus or join our online demo classes`,
+  }
+]
+
+ehtos2 = [{
+  title:`Meet the Principal: Connect with our principal with your child. This stage might include an assessment depending on the class`,
+},
+{
+  title:`Interview with the Academic Team`,
+},
+{
+  title:`6.	Admission : Once approved you will be directed to complete the admission formalities`,
+}
+]
+
   admission = [
     {
       icon: '#icon_ethicalEdu',
@@ -50,27 +72,27 @@ A Community`,
 
   admission_2 = [
     {
-      title: `Admission to Foundation Stage`,
+      title: `Admission Process `,
       bar: 'pp0',
       description: `Activity Based Learning 
 for 5 years`,
     },
     {
-      title: 'Admission to Preparatory Stage',
+      title: 'Admission Criteria',
       bar: 'pp1',
       description: `Discovery, Play and Interactive 
 Classroom learning 
 for 3 years`,
     },
     {
-      title: 'Admission to Middle Stage',
+      title: 'Fees - Link it to Enquiry form',
       bar: 'pp2',
       description: `Experiential learning in 
 Mathematics, Science, Arts, etc. 
 for 3 years`,
     },
     {
-      title: 'Admission to Secondary Stage',
+      title: 'Download Admission Forms ',
       bar: 'pp3',
       description: `Flexibility in choice of subjects 
 with multidisciplinary study 
