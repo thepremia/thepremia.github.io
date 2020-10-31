@@ -13,40 +13,38 @@ export class CurriculumComponent implements OnInit {
   tab2 : any
   tab3 : any
   tab4 : any
+  tab5 : any
+  tab6 : any
+  tab7 : any
+  tab8 : any
+  tab9 : any
   Clicked : boolean
-  
- 
-
-
-
     onClick(check){
-    //    console.log(check);
         if(check==1){
           this.tab = 'tab1';
         }else if(check==2){
           this.tab = 'tab2';
         }else if(check==3){
           this.tab = 'tab3';
-        }else{
+        }else if(check==3){
           this.tab = 'tab4';
+        }else if(check==4){
+          this.tab = 'tab4';
+        }else if(check==5){
+          this.tab = 'tab5';
+        }else if(check==6){
+          this.tab = 'tab6';
+        }else if(check==7){
+          this.tab = 'tab7';
+        }else if(check==8){
+          this.tab = 'tab8';
+        }else{
+          this.tab = 'tab9';
         }    
       
     }
 
-   onSwitch(check){
  
-     switch (check) {
-      case 1:
-        return 'tab1';
-      case 2:
-        return 'tab2';
-      case 3:
-        return 'tab3';
-        case 4:
-          return 'tab4';
-    }
-
-}
   curSlider = [
     {
       description: `Metamor-
