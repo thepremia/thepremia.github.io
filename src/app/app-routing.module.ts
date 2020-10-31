@@ -52,7 +52,7 @@ const routes: Routes = [
     PrmiapartnerComponent
 ],
   imports: [
-    RouterModule.forRoot(routes, { enableTracing: false, scrollPositionRestoration: 'enabled'}),
+    RouterModule.forRoot(routes, { enableTracing: false, scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled'}),
     BrowserModule,
     NgbModule,
     SlickCarouselModule

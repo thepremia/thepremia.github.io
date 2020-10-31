@@ -145,34 +145,34 @@ export class HomeComponent {
   };
 
 
-  admissionConfig = {
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 1500,
-    arrows: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
-  };
+  // admissionConfig = {
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   infinite: true,
+  //   autoplay: true,
+  //   autoplaySpeed: 1500,
+  //   arrows: false,
+  //   responsive: [
+  //     {
+  //       breakpoint: 768,
+  //       settings: {
+  //         arrows: true,
+  //         centerMode: true,
+  //         centerPadding: '40px',
+  //         slidesToShow: 1
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 480,
+  //       settings: {
+  //         arrows: true,
+  //         centerMode: true,
+  //         centerPadding: '40px',
+  //         slidesToShow: 1
+  //       }
+  //     }
+  //   ]
+  // };
 
   constructor(private router: Router, private renderer: Renderer2) {
     
@@ -192,37 +192,22 @@ export class HomeComponent {
       icon: '#icon_reading',
       description: `Sculpting
 Young
-Learners`,
+Learners`, 
+description2:`For The Premia Academy, holistic education is part of our ethos. Our students are inspired to be well rounded, confident citizens who will be positive contributors to society. A literacy-based, integrated curriculum is offered to our students from preschool age to Grade 5, giving them a solid base of the capability to opt for any board of education from thereon. Social-emotional learning is an integral part of our curriculum. We have included Design Thinking sessions to encourage our children to think beyond and outside the box. Dance/exercise sessions help keep the body fit and flexible. Mindfulness activities during class are used to enhance their awareness of their environs.`
     },
     {
       icon: '#icon_education',
       description: `Imparting
 Holistic
 Education`,
+description2:`Having a progressive mindset is a must-have addition to any of our members and associates, given that we are so completely unsure of the world of tomorrow that our children are being nurtured towards. We, at The Premia Academy, are open and constantly on the lookout for new ways to channel and challenge our students so that we equip them to the best of our ability for the largely unknown future. Ensuring that our students are fully prepared to think on their feet and rise to the challenges of their tomorrow is something that we commit to being a positive part of. `
     },
     {
       icon: '#icon_emoDev',
       description: `Nurturing a
 Progressive
 Mindset`,
-    },
-    {
-      icon: '#icon_reading',
-      description: `Sculpting
-Young
-Learners`,
-    },
-    {
-      icon: '#icon_education',
-      description: `Imparting
-Holistic
-Education`,
-    },
-    {
-      icon: '#icon_emoDev',
-      description: `Nurturing a
-Progressive
-Mindset`,
+description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts, Life Skills, Entrepreneurship, Functional Languages, the best of curricula, and much more is what we currently use to equip our young learners to face the challenges of their times. The Premia Academy is not limited to these forms of learning alone. We are constantly in the quest of knowledge to enlarge the capabilities of our young wards and will keep no stone unturned in this deep search.`
     }
   ];
 
