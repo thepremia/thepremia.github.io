@@ -322,6 +322,7 @@
 		&~div{
 			display:inline-block;
 			margin-left:20px;	
+			word-break: break-all;
 		}
 		img{
 			width:auto;
@@ -387,3 +388,8 @@
 	}
 }
 }
+
+@media (max-width: 576px){
+	.our-partners .img-box ~ div{
+		margin-left:0px;
+	}}

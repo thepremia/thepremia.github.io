@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
   @ViewChild('notify', { static: true }) content: TemplateRef<any>;
 
   ngOnInit() {
-    this.modalService.open(this.content, { size: 'lg', windowClass: 'notification-popup' });
+    //this.modalService.open(this.content, { size: 'lg', windowClass: 'notification-popup' });
   }
 
 

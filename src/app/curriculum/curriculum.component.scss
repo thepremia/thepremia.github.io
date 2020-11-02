@@ -109,6 +109,7 @@
 		&~div{
 			display:inline-block;
       margin-left:20px;	
+      word-wrap:break-all;
       h3{
         margin-top:30px;
       }
@@ -228,5 +229,17 @@
       display: block;
       width: 32px;
     }
+  }
+}
+
+@media (max-width: 576px){
+  .our-partners .img-box ~ div{
+      margin-left:0px;
+  }
+  .the-urriculum .int-curriculum{
+      display:block;
+  }
+  .cur-info-slider{
+    display:none;
   }
 }
