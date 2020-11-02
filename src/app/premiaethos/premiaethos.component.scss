@@ -124,3 +124,26 @@
     }
   }
 }
+
+
+
+  @media (max-width: 576px){
+    .premia-ethos {
+      .row, .row-f{
+        margin:0 !important;
+      }
+      .circle{
+        margin:0 auto;
+        &:after{
+         display: none;
+      }
+      }
+      .ethos-col{
+        margin-bottom:15px;
+      }
+      .ethos-2{
+        .circle{
+          margin:0 auto;
+      }}
+    }
+  }

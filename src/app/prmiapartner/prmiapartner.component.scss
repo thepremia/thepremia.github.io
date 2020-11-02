@@ -237,3 +237,49 @@
 .dropup:not(.read-more), .dropdown:not(.read-more){
 	width:50%;
 }
+
+@media (max-width: 576px){
+	.grear-container{
+		display:none;
+	}
+	.premia-partner {
+		.partner-panel {
+			.row-f, .row{
+				margin:0px !important;
+			}
+			.partner-grid{
+				height:auto;
+				.panel{
+					.read-more{
+						position: relative;
+						writing-mode: horizontal-tb;
+						border:none;
+						border-top:1px solid #000;
+						height:auto;
+						margin-top:30px;
+						padding-top:15px;
+					}
+
+					.right-panel{
+						padding:0px !important;
+						
+					}
+					.left-panel{
+						padding:15px;
+						height:auto;
+						margin-bottom:30px;
+						border-radius:0px;
+						&::after, .number{
+							display: none !important;
+						}
+					}
+				}
+			}
+			
+		}
+	}
+
+	.dropup:not(.read-more), .dropdown:not(.read-more){
+		width:100%;
+	}
+}

@@ -412,4 +412,38 @@
 	}
 }
 
+
+.ethos-1, .ethos-2 {
+  .row,
+  .row-f {
+    margin: 0 !important;
+  }
+  .ethos-col, .ethos-col-2{
+	display: block;
+	p{
+		display: block;
+		width: 100%;
+	}
+	.circle{
+		&::after, &::before{
+			display:none;
+		}
+	}
+  }
+
+}
+
+.circle {
+  margin: 0 auto;
+
+  &:after {
+    display: none;
+  }
+}
+
+.ethos-2 {
+  .circle {
+    margin: 0 auto;
+  }
+}
 }
