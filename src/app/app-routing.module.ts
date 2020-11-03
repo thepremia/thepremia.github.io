@@ -28,9 +28,9 @@ const routes: Routes = [
   {path: 'CatchUpOverCoffee', component: ContactComponent},
   {path: 'ThePremiaCorner', component: BlobComponent},
   {path: 'ThePremiaLeague', component: TheteamComponent},
-  {path: 'Curriculum', component: CurriculumComponent},
-  {path: 'PremiaEthos', component: PremiaethosComponent},
-  {path: 'PremiaPartner', component: PrmiapartnerComponent},
+  {path: 'ThePremiaCurriculum', component: CurriculumComponent},
+  {path: 'ThePremiaEthos', component: PremiaethosComponent},
+  {path: 'PremiaPartners', component: PrmiapartnerComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full' }
 
 ];
@@ -52,7 +52,7 @@ const routes: Routes = [
     PrmiapartnerComponent
 ],
   imports: [
-    RouterModule.forRoot(routes, { enableTracing: false, scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled'}),
+    RouterModule.forRoot(routes, { enableTracing: false, scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled', scrollOffset: [0, 150]}),
     BrowserModule,
     NgbModule,
     SlickCarouselModule

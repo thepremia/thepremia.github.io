@@ -1,4 +1,4 @@
-<section class="section-admission">
+<div class="section-admission">
     <div class="breadcum">
         <a>
             <i class="icon icon-ex-small">
@@ -12,7 +12,7 @@
             Join The Premia Pride
         </a>
     </div>
-    <div class="container center">
+    <div class="container mt-3">
         <h1 data-aos="fade-up" data-aos-once="true">
             Join The Premia Pride
         </h1>
@@ -95,7 +95,7 @@
                     <div class="panel" data-aos="fade" data-aos-once="true" (click)="open(content)">
                         <div class="panel-heading">
                             <h3 class="bar pp2">
-                               Form
+                                Enquiry <br>Form
                             </h3>
                          </div>
                     </div>
@@ -114,8 +114,9 @@
 
     </section>
 
-    <div class="container" id="1">
-        <div class="row ethos-1">
+    <section class="section-ethos">
+    <div class="container ethos-1" id="1">
+        <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 ethos-col" *ngFor="let item of ehtos; index as i">
               <p>
                 {{item.title}}
@@ -192,6 +193,7 @@
     </div>
 </div>
 </section>
+</div>
 
 <ng-template #content let-modal>
     <div class="modal-header">

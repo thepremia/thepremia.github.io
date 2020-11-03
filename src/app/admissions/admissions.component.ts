@@ -15,7 +15,8 @@ export class AdmissionsComponent implements OnInit {
 
   public onClick(elementId): void { 
     if(elementId == 1 || elementId == 2){
-      this.viewportScroller.scrollToAnchor(elementId);
+      this.viewportScroller.scrollToAnchor(elementId, );
+     
     }
     
 }
@@ -56,7 +57,7 @@ ehtos2 = [{
   title:`Interview with the Academic Team`,
 },
 {
-  title:`6.	Admission : Once approved you will be directed to complete the admission formalities`,
+  title:`Admission : Once approved you will be directed to complete the admission formalities`,
 }
 ]
 

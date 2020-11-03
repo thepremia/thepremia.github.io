@@ -10,6 +10,24 @@
     </button>
   </div>
     <ul class="navbar-nav navbar-nav-list header-nav">
+      <li class="nav-item login dropping">
+     <div class="input-group">
+          <input class="form-control" placeholder="yyyy-mm-dd"
+                 name="dp" ngModel="model" ngbDatepicker #d="ngbDatepicker" style="display: none;">
+          <div class="input-group-append">
+            <a class="nav-link">
+            <i class="icon icon-ex-small" (click)="d.toggle()">
+                    <svg focusable="false">
+                      <use xlink:href="#icon_calender"></use>
+                    </svg>
+                  </i>
+                  <br>
+                  <span>Calender</span>  
+            </a>
+          </div>
+        </div>
+
+      </li>
       <li class="nav-item login">
         <a class="nav-link">
           <i class="icon icon-small">
@@ -20,7 +38,7 @@
           <span>Chat</span> 
         </a>
       </li>
-      <li class="nav-item login dropping">
+      <!-- <li class="nav-item login dropping">
         <a class="nav-link">
           <i class="icon icon-small">
             <svg focusable="false">
@@ -28,7 +46,7 @@
             </svg>
           </i><br>
          <span>Enquiry</span> 
-        </a>
+        </a> 
 
         <div class="dropper">
           <a (click)="open(apply)">
@@ -126,7 +144,7 @@
           
           </div>
         </ng-template>  
-      </li>
+      </li>-->
       <li class="nav-item login">
          <a class="nav-link" (click)="openlogin(login)">
            <i class="icon icon-small">

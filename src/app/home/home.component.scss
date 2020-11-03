@@ -378,7 +378,17 @@
 }
 
 .testimonials{
-	background:#3e65ac;
+	.col{
+
+		&:nth-child(1){
+			background: #3e65ac;
+		}
+		&:nth-child(2){
+			background:#bf272d;
+		}
+		&:nth-child(3){
+			background: #3e65ac;
+		}}
 	padding: 0px;
 	.img-circle{
 		border-radius:50%;
@@ -536,7 +546,6 @@
 .main-banner{
 	height: 666px;	
 	overflow:hidden;
-	margin-top:70px;
 	video{
 		width:100% ; 
 	}

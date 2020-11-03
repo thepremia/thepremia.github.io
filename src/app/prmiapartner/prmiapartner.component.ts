@@ -10,6 +10,7 @@ export class PrmiapartnerComponent implements OnInit {
 
   partners = [{
     name : 'Creya',
+    id:'1',
     title : 'Design Thinking',
     des : `Design thinking is implemented at Premia Academy during the child's growing years using the mantra-Define, Discover, Dream, Design, Deliver and Debrief!`,
     des2:`This course utilizes the spatial and logical intelligences of a child in thinking critically, designing and innovating.
@@ -18,6 +19,7 @@ export class PrmiapartnerComponent implements OnInit {
   },
   {
     name : 'Metamorphosis',
+    id:'5',
     title : 'Design Thinking',
     des : `The A++ factors - Ask, Acquire, Analyze, Apply and Assess are the foundation of teaching Entrepreneurship at The Premia academy!`,
     des2:`Our curricula for  entrepreneurship fostering leadership, risk taking, team building and being a responsible Global Citizen is a platform where children use their intelligence of logical, intra & interpersonal, spatial and naturalistic skills where by they ideate, incubate and create business models.
@@ -26,6 +28,7 @@ export class PrmiapartnerComponent implements OnInit {
   {
     name : `Furtados School
     of Music`,
+    id:'4',
     title : 'Performing Art',
     des : `Did you know that music training helps develop
     areas of reasoning and language training?
@@ -36,6 +39,7 @@ export class PrmiapartnerComponent implements OnInit {
   },
   {
     name : 'Yardstick',
+    id:'6',
     title : 'Experiential Learning',
     des : `Experiences stitched together is what makes the perfect garment we call life. - this thought has inspired us to collaborate with Yardstick`,
     des2:`a globally acclaimed programme which provides tailor-made ‘experience kits’ for children where they use logical, spatial & naturalistic intelligences. We are glad to collaborate with a brand which, like us, believes in experiential learning`
@@ -44,12 +48,14 @@ export class PrmiapartnerComponent implements OnInit {
     name : `Scholastic
     levelled
     BookRoom`,
+    id:'7',
     title : 'Literacy Based Curriculum',
     des : `Our curriculum lays emphasis on reading as we believe the integences of language and the likes of speaking, creativity,story telling & writing skills are enhanced leading to better comprehension in all other areas of learning`,
     des2:`True to Kate DiCamillo’s words -Reading is not presented to our children as a chore, a duty. It is offered as a gift!.-And to our young readers and leaders, our PREMIA PRIDE, here’s the best present we could find - @Scholastic levelled BookRoom 4.0 The largest collection of books across genres, subjects and interests with Over 6,200 texts, 240 books per level, 60 Short Reads per level, 24/7 digital access with the Leveled Bookroom Accelerator. Need we say more? Yes, we do, because we are the only school in Hyderabad to have a campus powered with the Scholastic material.`
   },
   {
     name : 'Swadhay',
+    id:'_6',
     title : `Life Skills - Transforming
     lives to transform the world`,
     des : `Did you know that music training helps develop
@@ -60,6 +66,7 @@ export class PrmiapartnerComponent implements OnInit {
   },
   {
     name : 'Sports village',
+    id:'3',
     title : '',
     des : `“The world is full of players, be a game changer!” MS Dhoni At the Premia Academy sports is a wholesome lesson in time management –`,
     des2:`“The world is full of players, be a game changer!” MS Dhoni
@@ -69,6 +76,7 @@ export class PrmiapartnerComponent implements OnInit {
   },
   {
     name : 'Avni  ',
+    id:'2',
     title : `Synchronicity, Sagacity
     and Sustainability`,
     des : `“The greatest threat to our planet is the belief that someone else will save it.” Robert Swan We will not let this be…Everyone can do simple things to make a difference and every little bit counts - stella ma-Cartney`,
