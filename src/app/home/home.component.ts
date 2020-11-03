@@ -359,7 +359,10 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
       this.router.navigateByUrl('/JoinThePremiaPride', { skipLocationChange: true });
     } else if (text === 'admission') {
       this.router.navigateByUrl('/JoinThePremiaPride', { skipLocationChange: true });
+    }else if (text === 'premiaCorner') {
+      this.router.navigateByUrl('/ThePremiaCorner', { skipLocationChange: true });
     }
+    
   };
 
   onSlide(slideEvent: NgbSlideEvent) {

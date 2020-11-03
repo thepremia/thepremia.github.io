@@ -50,19 +50,23 @@
 }
 
 .section-nofify{
-	background:#3e65ac;
 	padding: 0px;
+	.panel{
+		padding:25px 15px;
+		.list{
+			width:78%;
+		}
+	}
 	
 	.col{
-		padding:20px 45px;
 		&:nth-child(1){
-			background:url(../../assets/images/wdu-1.png) no-repeat right bottom ;
+			background:url(../../assets/images/wdu-1.png) no-repeat right bottom #3e65ac;
 		}
 		&:nth-child(2){
 			background:url(../../assets/images/wdu-2.png) no-repeat right bottom #bf272d;
 		}
 		&:nth-child(3){
-			background:url(../../assets/images/wdu-3.png) no-repeat right bottom ;
+			background:url(../../assets/images/wdu-3.png) no-repeat right bottom #3e65ac;
 		}
 	}
 	h5{
@@ -303,6 +307,7 @@
 	.panel{
 		height:300px;
 		position: relative;
+		border:1px solid rgba(62, 101, 172, .15);
 		box-shadow: 2px 1px 4px -2px #3e65ac;
 		background:#fff;
 		padding:30px;
@@ -552,6 +557,7 @@
 			color:#fff;
 			font-weight:bold;
 			margin-top:15px;
+			cursor:pointer;
 		}
 	}
 }

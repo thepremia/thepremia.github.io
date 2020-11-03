@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { NgbModal, ModalDismissReasons, NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
 
@@ -9,7 +10,15 @@ import { NgbModal, ModalDismissReasons, NgbDateStruct } from '@ng-bootstrap/ng-b
 export class AdmissionsComponent implements OnInit {
   closeResult = '';
   model: NgbDateStruct;
-  constructor(private modalService: NgbModal,) { }
+  content
+  constructor(private modalService: NgbModal, private viewportScroller: ViewportScroller) { }
+
+  public onClick(elementId): void { 
+    if(elementId == 1 || elementId == 2){
+      this.viewportScroller.scrollToAnchor(elementId);
+    }
+    
+}
 
   open(content) {
     this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title', size: 'lg' }).result.then((result) => {
@@ -84,20 +93,20 @@ for 5 years`,
 Classroom learning 
 for 3 years`,
     },
-    {
-      title: 'Fees - Link it to Enquiry form',
-      bar: 'pp2',
-      description: `Experiential learning in 
-Mathematics, Science, Arts, etc. 
-for 3 years`,
-    },
-    {
-      title: 'Download Admission Forms ',
-      bar: 'pp3',
-      description: `Flexibility in choice of subjects 
-with multidisciplinary study 
-for 4 years`,
-    }
+//     {
+//       title: 'Fees',
+//       bar: 'pp2',
+//       description: `Experiential learning in 
+// Mathematics, Science, Arts, etc. 
+// for 3 years`,
+//     },
+//     {
+//       title: 'Download Admission Forms ',
+//       bar: 'pp3',
+//       description: `Flexibility in choice of subjects 
+// with multidisciplinary study 
+// for 4 years`,
+//     }
   ];
 
 

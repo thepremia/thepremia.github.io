@@ -24,7 +24,9 @@
 together <span class="highlighted">MAGIC HAPPENS</span> meet our friends and
 partners who have joined our mission<span class="highlighted">"</span>
         </h3>
+    </div>
 
+    <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 grear-container" data-aos="fade-up" data-aos-once="true">
             <div class="gears gears-{{i+1}}" *ngFor="let list of partners; index as i">
                 <a (click)="onClick(i+1)">
@@ -43,8 +45,8 @@ partners who have joined our mission<span class="highlighted">"</span>
             </div>
             
         </div>
-
     </div>
+
 <div class="partner-panel">
     <div class="row-f">
         <div class="col-lg-12 col-md-12 col-sm-12 partner-grid" id="{{i+1}}" *ngFor="let list of partners; index as i" data-aos="fade-up" data-aos-once="true">
