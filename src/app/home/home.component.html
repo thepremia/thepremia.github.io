@@ -108,7 +108,7 @@
       </div>
       <div *ngFor="let list of premianLeague; index as i" class="col {{list.gridClass}} col-sm-12 col-premia">
         <div class="img-circle" data-aos="zoom-in" data-aos-once="true">
-          <img src="assets/images/premianleague{{i+1}}.jpg">
+          <img src="assets/images/premia-exp-{{i+1}}.jpg">
         </div>
         <h6 class="center">{{list.name}}</h6>
       </div>
@@ -120,15 +120,15 @@
           <div class="panel">
             <div class="panel-heading">
               <div class="img-box">
-                <img src="assets/images/partner{{i+1}}.png">
+                <img src="assets/images/premia-exp-{{i+1}}.jpg">
               </div>
-              <p>{{item.description}}</p>
+              <!-- <p>{{item.description}}</p> -->
             </div>
           </div>
         </div>
         
       </ngx-slick-carousel>
-      <h6 class="center">Who we are</h6>
+      <h6 class="center last-circle">Who we are</h6>
     </div>
     </div>
   </div>
