@@ -1,8 +1,4 @@
 .section-admission{
-  h1{
-	  color:#3e65ac;
-  }
-
   .adm-info-table{
 	  border-radius:15px;
 	  display: table;
@@ -16,6 +12,8 @@
 	  }
 
   }
+
+  
 	.row-f, .row{
 		margin:70px 0 100px; 
 		position: relative;
@@ -132,7 +130,7 @@
 }
 
 .section-admission-2{
-	margin:70px 0px;
+	margin:70px 0px 0 0;
 	.row{
 		margin-top: 0;
 		margin-bottom: 0;
