@@ -1,4 +1,8 @@
 .premia-ethos {
+  .breadcum{
+    margin-left:87px;
+    margin-bottom:15px;
+  }
   .row {
     position: relative;
     margin-bottom: 40px;
@@ -107,9 +111,26 @@
     }
   }
 
+  .ethos-col-2, .ethos-col{
+    h3{
+      font-size: 16px;
+      white-space: pre-line;
+      visibility:hidden;
+    }
+
+      &:hover{
+        h3{
+          visibility: visible;
+        }
+      }
+    
+  }
   .prodigy {
     .panel {
-      padding: 15px;
+      padding: 25px;
+      svg{
+        margin-right:20px;
+      }
     }
 
     &:not(.active) {
