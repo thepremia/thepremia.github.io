@@ -261,11 +261,17 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
       description: `Our students will be equipped to meet the current and future challenges with
       values of
       `,
+      desc:`Most of all 
+      We love our children 
+      We love learning 
+      We love lifeOur Values:
+      `
+    ,
       moreInfo: [
-        { info: 'Resilience' },
-        { info: 'Agility' },
-        { info: 'Integrity' },
-        { info: 'Social responsibility' },
+        { info: 'Integrity & ingenuity ' },
+        { info: 'Energetic & efficient ' },
+        { info: 'Compassionate & competent ' },
+        { info: 'Tolerant & tenacious ' },
         { info: 'Empathy' },
       ]
     }

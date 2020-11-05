@@ -54,7 +54,7 @@
 	.panel{
 		padding:25px 15px;
 		.list{
-			width:78%;
+			width:70%;
 		}
 	}
 	
@@ -89,6 +89,7 @@
 	}
 	p{
 		color:#fff;
+		white-space:pre-line;
 	}
 	ul.list li{
 		color:#fff;
@@ -411,7 +412,6 @@
 
 .premian-league{
 	width: 100%;
-	overflow: hidden;
 	position: relative;
 	.col-premia{
 		position:relative;
@@ -493,6 +493,7 @@
 		overflow: hidden;
 		width: 100%;
 		height: 350px;
+		width: 350px;
 		background:#fff;
 		perspective: 1000px;
 		.slick-slide{
@@ -593,6 +594,11 @@
     }
 }
 @media (max-width: 576px){
+	.section-nofify {
+		.col{
+			background-size:32% !important;
+		}
+	}
 	.section-admission{
 		.admission-flag{
 			.flag-pos{
@@ -629,10 +635,6 @@
 		.row-f{
 			width:auto;
 		}
-	}
-
-	.testimonials {
-		
 	}
 
 	.section-curriculum {
@@ -708,9 +710,14 @@
 		margin-left: -15px;
 	}
 	.premian-league{
+		.last-circle{
+			top:120%;
+		}
 		.carousel{
-			height:322px;
-			top:25px;
+			height:250px;
+			width: 250px;
+			top:45px;
+			
 			h6{
 				top:auto;
 				bottom:-70px;
