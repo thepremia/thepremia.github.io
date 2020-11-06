@@ -22,8 +22,8 @@ export class PrmiapartnerComponent implements OnInit {
     id:'5',
     title : 'Design Thinking',
     des : `The A++ factors - Ask, Acquire, Analyze, Apply and Assess are the foundation of teaching Entrepreneurship at The Premia academy!`,
-    des2:`Our curricula for  entrepreneurship fostering leadership, risk taking, team building and being a responsible Global Citizen is a platform where children use their intelligence of logical, intra & interpersonal, spatial and naturalistic skills where by they ideate, incubate and create business models.
-    For this we have on board, @metamorphosisedu, who have customized a first of its kind curriculum to nurture entrepreneurial skill-set from  the early years.  `
+    des2:`Our curriculum for  entrepreneurship fostering leadership, risk taking, team building and being a responsible Global Citizen is a platform where children use their intelligence of logical, intra & interpersonal, spatial and naturalistic skills where by they ideate, incubate and create business models.
+    For this we have on board, metamorphosisedu, who have customized a first of its kind curriculum to nurture entrepreneurial skill-set from  the early years.  `
   },
   {
     name : `Furtados School

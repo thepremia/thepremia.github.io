@@ -81,6 +81,7 @@
     <div class="clearfix"></div>
     <section class="section-admission-2">
         <div class="container">
+            
             <div class="row addmin-sec">
                 <div class="col-lg-3 col-md-3 col-sm-12 add-info" *ngFor="let item of admission_2; index as i">
                     <div class="panel" data-aos="fade" data-aos-once="true" (click)="onClick(i+1)">
@@ -113,9 +114,14 @@
         </div>
 
     </section>
-
+    <div class="clearfix"></div>
+    <br>
     <section class="section-ethos">
+
     <div class="container ethos-1" id="1">
+        <h1 data-aos="fade-up" data-aos-once="true">
+            Admission Process
+        </h1>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 ethos-col" *ngFor="let item of ehtos; index as i">
               <p>
