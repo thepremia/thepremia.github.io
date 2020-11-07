@@ -16,7 +16,8 @@ import { TheteamComponent } from './theteam/theteam.component';
 import { CurriculumComponent } from './curriculum/curriculum.component';
 import { PremiaethosComponent } from './premiaethos/premiaethos.component';
 import { PrmiapartnerComponent } from './prmiapartner/prmiapartner.component';
-
+import 'hammerjs';
+import { NgxGalleryModule } from 'ngx-gallery';
 
 const routes: Routes = [
   {path: 'Home', component: HomeComponent},
@@ -55,7 +56,8 @@ const routes: Routes = [
     RouterModule.forRoot(routes, { enableTracing: false, scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled', scrollOffset: [0, 150]}),
     BrowserModule,
     NgbModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    NgxGalleryModule
   ],
   exports: [RouterModule]
 })
