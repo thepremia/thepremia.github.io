@@ -73,12 +73,122 @@ We want to nurture a confident, compassionate student body that is ready to make
 <section class="recent-article">
     <div class="container">
         <div class="row">
-            <div *ngFor="let list of thePremiaCorner; index as i" class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12" (click)="notifyOpen(premiaBlogs1)">
                 <div class="panel">
-                <img src="assets/images/premia-corner-{{i+1}}.jpg">
-                <h4 class="center" data-aos="fade-up" data-aos-once="true">{{list.description}}</h4>
+                <img src="assets/images/premia-corner-1.jpg">
+                <h4 class="center" data-aos="fade-up" data-aos-once="true">Premia Blogs</h4>
                </div>
             </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12" (click)="notifyOpen(premiaBlogs2)">
+                <div class="panel">
+                <img src="assets/images/premia-corner-2.jpg">
+                <h4 class="center" data-aos="fade-up" data-aos-once="true">Students Work</h4>
+               </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12" (click)="notifyOpen(premiaBlogs3)">
+                <div class="panel">
+                <img src="assets/images/premia-corner-3.jpg">
+                <h4 class="center" data-aos="fade-up" data-aos-once="true">Hand on Learning</h4>
+               </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12" (click)="notifyOpen(premiaBlogs4)">
+                <div class="panel">
+                <img src="assets/images/premia-corner-4.jpg">
+                <h4 class="center" data-aos="fade-up" data-aos-once="true">Premia events</h4>
+               </div>
+            </div>
+            
         </div>
     </div>
 </section>
+
+<ng-template #premiaBlogs1 let-modal>
+    <div class="modal-header">
+      <i class="icon icon-ex-small">
+        <svg focusable="false">
+            <use xlink:href="#icon_noticeBoard"></use>
+        </svg>
+    </i>
+      <h4 class="modal-title" id="modal-basic-title">Premia Blogs</h4>
+          <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <i class="icon icon-ex-small">
+              <svg focusable="false">
+                <use xlink:href="#icon_close"></use>
+              </svg>
+            </i>
+          </a>
+    </div>
+    <div class="modal-body">
+        <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+  
+    </div>
+  </ng-template>
+
+  <ng-template #premiaBlogs3 let-modal>
+    <div class="modal-header">
+      <i class="icon icon-ex-small">
+        <svg focusable="false">
+            <use xlink:href="#icon_noticeBoard"></use>
+        </svg>
+    </i>
+      <h4 class="modal-title" id="modal-basic-title">Hand on Learning</h4>
+          <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <i class="icon icon-ex-small">
+              <svg focusable="false">
+                <use xlink:href="#icon_close"></use>
+              </svg>
+            </i>
+          </a>
+    </div>
+    <div class="modal-body">
+        <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+  
+    </div>
+  </ng-template>
+
+  <ng-template #premiaBlogs2 let-modal>
+    <div class="modal-header">
+      <i class="icon icon-ex-small">
+        <svg focusable="false">
+            <use xlink:href="#icon_noticeBoard"></use>
+        </svg>
+    </i>
+      <h4 class="modal-title" id="modal-basic-title">Students Work</h4>
+          <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <i class="icon icon-ex-small">
+              <svg focusable="false">
+                <use xlink:href="#icon_close"></use>
+              </svg>
+            </i>
+          </a>
+    </div>
+    <div class="modal-body">
+        <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+  
+    </div>
+  </ng-template>
+
+  <ng-template #premiaBlogs4 let-modal>
+    <div class="modal-header">
+      <i class="icon icon-ex-small">
+        <svg focusable="false">
+            <use xlink:href="#icon_noticeBoard"></use>
+        </svg>
+    </i>
+      <h4 class="modal-title" id="modal-basic-title">Premia events</h4>
+          <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <i class="icon icon-ex-small">
+              <svg focusable="false">
+                <use xlink:href="#icon_close"></use>
+              </svg>
+            </i>
+          </a>
+    </div>
+    <div class="modal-body">
+        <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+  
+    </div>
+  </ng-template>

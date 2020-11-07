@@ -1,13 +1,35 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarousel, NgbModal, NgbSlideEvent, NgbSlideEventSource, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
 @Component({
   selector: 'app-blob',
   templateUrl: './blob.component.html',
   styleUrls: ['./blob.component.scss']
 })
 export class BlobComponent implements OnInit {
-  constructor() { }
 
+  galleryOptions: NgxGalleryOptions[];
+    galleryImages: NgxGalleryImage[];
+
+  constructor(private modalService: NgbModal, ) { }
+  closeResult = '';
+  notifyOpen(content) {
+    this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title', size: 'lg', windowClass: 'notification-popup'}).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+    }, (reason) => {
+      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+    });
+  }
+  
+  private getDismissReason(reason: any): string {
+    if (reason === ModalDismissReasons.ESC) {
+      return 'by pressing ESC';
+    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+      return 'by clicking on a backdrop';
+    } else {
+      return `with: ${reason}`;
+    }
+  }
   admission = [
     {
       date: '2nd May 2020',
@@ -125,9 +147,59 @@ export class BlobComponent implements OnInit {
       description: `Premia events`,
     }
   ];
+  ngOnInit(): void {
+ 
+    this.galleryOptions = [
+        {
+            width: '700px',
+            height: '500px',
+            thumbnailsColumns: 4,
+            imageAnimation: NgxGalleryAnimation.Slide
+        },
+        // max-width 800
+        {
+            breakpoint: 800,
+            width: '100%',
+            height: '600px',
+            imagePercent: 80,
+            thumbnailsPercent: 20,
+            thumbnailsMargin: 20,
+            thumbnailMargin: 20
+        },
+        // max-width 400
+        {
+            breakpoint: 400,
+            preview: false
+        }
+    ];
 
-
-  ngOnInit() {
-  }
+    this.galleryImages = [
+        {
+            small: 'assets/images/1.jpg',
+            medium: 'assets/images/1.jpg',
+            big: 'assets/images/1-big.jpg'
+        },
+        {
+            small: 'assets/images/2.jpg',
+            medium: 'assets/images/2.jpg',
+            big: 'assets/images/2.jpg'
+        },
+        {
+            small: 'assets/images/3.jpg',
+            medium: 'assets/images/3.jpg',
+            big: 'assets/images/3.jpg'
+        },
+        {
+          small: 'assets/images/4.jpg',
+          medium: 'assets/images/4.jpg',
+          big: 'assets/images/4.jpg'
+      },
+        {
+            small: 'assets/images/banner.mp4',
+            medium: 'assets/images/banner.mp4',
+            big: 'assets/images/banner.mp4'
+        }
+    ];
+}
 
 }
