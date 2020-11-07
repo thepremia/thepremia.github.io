@@ -44,10 +44,11 @@
       <div class="col-lg-12 col-md-12 col-sm-12">
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-12 ethos-col" *ngFor="let item of ehtos; index as i">
-          <h3>
+          <h3 class="click-event">
             {{item.title}}
+            <span (click)="onClick(i+1)">Read More</span>
           </h3>
-          <div class="circle" (click)="onClick(i+1)">
+          <div class="circle">
             <img src="assets/images/ethos-{{i+1}}.png" alt="">
           </div>
         </div>
@@ -56,11 +57,12 @@
       <div class="col-lg-12 col-md-12 col-sm-12">
       <div class="row ethos-2">
         <div class="col-lg-3 col-md-3 col-sm-12 ethos-col-2" *ngFor="let item of ehtos2; index as i">
-          <div class="circle" (click)="onClick(i+5)">
+          <div class="circle">
             <img src="assets/images/ethos-{{i+5}}.png" alt="">
           </div>
-          <h3>
+          <h3 class="click-event">
             {{item.title}}
+            <span (click)="onClick(i+1)">Read More</span>
           </h3>
         </div>
       </div>

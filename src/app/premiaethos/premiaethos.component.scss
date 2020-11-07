@@ -12,6 +12,19 @@
     background: #fff;
   }
 
+  .click-event{
+    background:#fff;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 1px 1px 5px 2px rgb(4 102 179 / 50%);
+    span{
+      cursor:pointer;
+    color:#3e65ac;
+    display: block;
+    padding:10px 0px;
+    }
+  }
+
   .ethos-col {
     justify-content: center;
     align-self: flex-end;
