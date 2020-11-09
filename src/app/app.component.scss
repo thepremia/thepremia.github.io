@@ -247,6 +247,31 @@ img{
 	}
 }
 
+.ngx-gallery-arrow-left{
+	.ngx-gallery-arrow{
+	left:-25px !important;}
+    .ngx-gallery-icon-content{
+		
+		font-style: normal;
+        &:after{
+            content: "<";
+        }
+    }
+ 
+}
+.ngx-gallery-arrow-right{
+	.ngx-gallery-arrow{
+	right: -25px !important;}
+    .ngx-gallery-icon-content{
+		
+		font-style: normal;
+        &:after{
+            content: ">";
+        }
+    }
+ 
+}
+
 ul.list{
 	margin-top:35px;
 	li{

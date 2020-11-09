@@ -10,6 +10,10 @@ export class BlobComponent implements OnInit {
 
   galleryOptions: NgxGalleryOptions[];
     galleryImages: NgxGalleryImage[];
+    hlImages: NgxGalleryImage[];
+    swImages: NgxGalleryImage[];
+    peImages:NgxGalleryImage[];
+
 
   constructor(private modalService: NgbModal, ) { }
   closeResult = '';
@@ -200,6 +204,105 @@ export class BlobComponent implements OnInit {
             big: 'assets/images/banner.mp4'
         }
     ];
+
+    this.hlImages = [
+      {
+          small: 'assets/images/hl/hl1.jpeg',
+          medium: 'assets/images/hl/hl1.jpeg',
+          big: 'assets/images/hl/hl1.jpeg'
+      },
+      {
+          small: 'assets/images/hl/hl2.jpeg',
+          medium: 'assets/images/hl/hl2.jpeg',
+          big: 'assets/images/hl/hl2.jpeg'
+      },
+      {
+        small: 'assets/images/hl/hl3.jpeg',
+        medium: 'assets/images/hl/hl3.jpeg',
+        big: 'assets/images/hl/hl3.jpeg'
+      },
+      {
+        small: 'assets/images/hl/hl4.jpeg',
+          medium: 'assets/images/hl/hl4.jpeg',
+          big: 'assets/images/hl/hl4.jpeg'
+    },
+      {
+        small: 'assets/images/hl/hl5.jpeg',
+        medium: 'assets/images/hl/hl5.jpeg',
+        big: 'assets/images/hl/hl5.jpeg'
+      }
+  ];
+
+
+
+  this.swImages = [
+    {
+        small: 'assets/images/sw/sw1.jpeg',
+        medium: 'assets/images/sw/sw1.jpeg',
+        big: 'assets/images/sw/sw1.jpeg'
+    },
+    {
+        small: 'assets/images/sw/sw2.jpg',
+        medium: 'assets/images/sw/sw2.jpg',
+        big: 'assets/images/sw/sw2.jpg'
+    },
+    {
+      small: 'assets/images/sw/sw3.jpg',
+      medium: 'assets/images/sw/sw3.jpg',
+      big: 'assets/images/sw/sw3.jpg'
+    },
+    
+];
+
+this.peImages = [
+  {
+      small: 'assets/images/pe/pe1.jpeg',
+      medium: 'assets/images/pe/pe1.jpeg',
+      big: 'assets/images/pe/pe1.jpeg'
+  },
+  {
+      small: 'assets/images/pe/pe2.jpg',
+      medium: 'assets/images/pe/pe2.jpg',
+      big: 'assets/images/pe/pe2.jpg'
+  },
+  {
+    small: 'assets/images/pe/pe3.jpg',
+    medium: 'assets/images/pe/pe3.jpg',
+    big: 'assets/images/pe/pe3.jpg'
+  },
+  {
+    small: 'assets/images/pe/pe4.jpeg',
+    medium: 'assets/images/pe/pe4.jpeg',
+    big: 'assets/images/pe/pe4.jpeg'
+},
+{
+    small: 'assets/images/pe/pe5.jpg',
+    medium: 'assets/images/pe/pe5.jpg',
+    big: 'assets/images/pe/pe5.jpg'
+},
+{
+  small: 'assets/images/pe/pe6.jpg',
+  medium: 'assets/images/pe/pe6.jpg',
+  big: 'assets/images/pe/pe6.jpg'
+},
+{
+  small: 'assets/images/pe/pe7.jpeg',
+  medium: 'assets/images/pe/pe7.jpeg',
+  big: 'assets/images/pe/pe7.jpeg'
+},
+{
+  small: 'assets/images/pe/pe8.jpg',
+  medium: 'assets/images/pe/pe8.jpg',
+  big: 'assets/images/pe/pe8.jpg'
+},
+{
+small: 'assets/images/pe/pe9.jpg',
+medium: 'assets/images/pe/pe9.jpg',
+big: 'assets/images/pe/pe9.jpg'
+},
+  
+];
+
 }
 
 }
