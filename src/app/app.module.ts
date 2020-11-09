@@ -10,6 +10,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { CreateSpacePipe } from './space.pipe.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

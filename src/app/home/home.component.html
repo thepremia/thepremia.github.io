@@ -111,7 +111,7 @@
         <div class="img-circle" data-aos="zoom-in" data-aos-once="true">
           <img src="assets/images/premia-exp-{{i+1}}.jpg">
         </div>
-        <h6 class="center">{{list.name}}</h6>
+        <h6 class="center" (click)="knowMore(list.link)">{{list.name}}</h6>
       </div>
       <div class="col-lg-1 col-md-1 col-sm-12"></div>
       <div class="col-lg-4 col-md-4 col-sm-12">
@@ -129,7 +129,7 @@
         </div>
         
       </ngx-slick-carousel>
-      <h6 class="center last-circle">Who we are</h6>
+      <h6 class="center last-circle" (click)="knowMore('ThePremiaLeague')">Who we are</h6>
     </div>
     </div>
   </div>
