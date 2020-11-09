@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PremiaethosComponent implements OnInit {
 
+  
+
   constructor(private viewportScroller: ViewportScroller) { }
 
   ehtos = [{

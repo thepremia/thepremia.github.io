@@ -328,15 +328,18 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
   premianLeague = [
     {
       name: 'Why we exist',
-      gridClass:'col-md-2 col-md-offset-1'
+      gridClass:'col-md-2 col-md-offset-1',
+      link:'ThePremiaEthos'
     },
     {
       name: 'What we offer',
-      gridClass:'col-md-2'
+      gridClass:'col-md-2',
+      link:'PremiaPartners'
     },
     {
       name: 'How we make if happen',
-      gridClass:'col-md-2 '
+      gridClass:'col-md-2 ',
+      link:'ThePremiaCurriculum'
     },
   ];
 
@@ -367,6 +370,18 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
       this.router.navigateByUrl('/JoinThePremiaPride', { skipLocationChange: true });
     }else if (text === 'premiaCorner') {
       this.router.navigateByUrl('/ThePremiaCorner', { skipLocationChange: true });
+    }
+    else if (text === 'ThePremiaEthos') {
+      this.router.navigateByUrl('/ThePremiaEthos', { skipLocationChange: true });
+    }
+    else if (text === 'ThePremiaCurriculum') {
+      this.router.navigateByUrl('/ThePremiaCurriculum', { skipLocationChange: true });
+    }
+    else if (text === 'PremiaPartners') {
+      this.router.navigateByUrl('/PremiaPartners', { skipLocationChange: true });
+    }
+    else if (text === 'ThePremiaLeague') {
+      this.router.navigateByUrl('/ThePremiaLeague', { skipLocationChange: true });
     }
     
   };
