@@ -1,30 +1,30 @@
 <section class="premia-ethos">
-  <div class="breadcum">
-    <a>
-      <i class="icon icon-ex-small">
+    <div class="breadcum">
+        <a>
+            <i class="icon icon-ex-small">
         <svg focusable="false">
           <use xlink:href="#icon_home"></use>
         </svg>
       </i>
-    </a>
-    <span> |</span>
-    <a>
+        </a>
+        <span> |</span>
+        <a>
       Premia ETHOS
     </a>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12">
-        <h1 data-aos="fade-up" data-aos-once="true">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 data-aos="fade-up" data-aos-once="true">
           Premia ETHOS
         </h1>
 
-        
-        <div class="panel-body">
-          <h2 class="">The culture and atmosphere of our school
+
+                <div class="panel-body">
+                    <h2 class="">The culture and atmosphere of our school
           </h2>
 
-          <!-- <p class="mb-5">
+                    <!-- <p class="mb-5">
             The Premia Academy was founded on the belief that every child has the potential to make the world a
             beautiful place. Every child is unique and capable of learning when stimulated properly. Premiaa Academy
             believes in the development of these primary areas. <br>
@@ -40,243 +40,212 @@
 
           </p> -->
 
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div class="col-lg-12 col-md-12 col-sm-12">
-      <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-12 ethos-col" *ngFor="let item of ehtos; index as i">
-          <h3 class="click-event">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 ethos-col" *ngFor="let item of ehtos; index as i">
+                        <h3 class="click-event">
             {{item.title}}
             <span (click)="onClick(i+1)">Read More</span>
           </h3>
-          <div class="circle">
-            <img src="assets/images/ethos-{{i+1}}.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-      <div class="col-lg-12 col-md-12 col-sm-12">
-      <div class="row ethos-2">
-        <div class="col-lg-3 col-md-3 col-sm-12 ethos-col-2" *ngFor="let item of ehtos2; index as i">
-          <div class="circle">
-            <img src="assets/images/ethos-{{i+5}}.png" alt="">
-          </div>
-          <h3 class="click-event">
+                        <div class="circle">
+                            <img src="assets/images/ethos-{{i+1}}.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="row ethos-2">
+                    <div class="col-lg-3 col-md-3 col-sm-12 ethos-col-2" *ngFor="let item of ehtos2; index as i">
+                        <div class="circle">
+                            <img src="assets/images/ethos-{{i+5}}.png" alt="">
+                        </div>
+                        <h3 class="click-event">
             {{item.title}}
             <span (click)="onClick(i+5)">Read More</span>
           </h3>
-        </div>
-      </div>
-    </div>
-    
-    </div>
-  </div>
-  <div class="container">
-    <div class="row white">
-      <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
-        <div class="panel">
-          <p> The Premia Academy was founded on the belief that every child has the potential to make the world a
-            beautiful place. Every child is unique and capable of learning when stimulated properly. Premia Academy
-            believes in the development of these primary areas.
-            Every institution has a framework or ground rules that they function with for the empowerment of every
-            stakeholder. We at Premia like to call it the Premia ethos. We aspire to build a positive and progressive
-            culture in our school, not only within our corridors and premises but in the very lives of all who are a
-            part
-            of our journey-children, parents, teachers, staff and administration.
-            We revisit our methods from time to time to ensure that we constantly and consistently keep soaring towards
-            our goal of engendering an atmosphere to empower SOCIALLY RESPONSIBLE CITIZENSHIP.
-            While most would say food and water and the basic needs of life help a child survive, we at the Premia
-            Academy
-            beg to differ, we strongly believe that safety, love and a positive learning environment helps children
-            thrive. </p>
-        </div>
-      </div>
-    </div>
+                    </div>
+                </div>
+            </div>
 
-    <div class="row prodigy" [ngClass]="{'active': tab==='tab1'}" id="1">
-      <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
-        <div class="panel">
-          <h2> <i class="icon icon-medium">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row white">
+            <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
+                <div class="panel">
+                    <p> The Premia Academy was founded on the belief that every child has the potential to make the world a beautiful place. Every child is unique and capable of learning when stimulated properly. Premia Academy believes in the development of these primary areas. Every institution has a framework or ground rules that they function with for the empowerment of every stakeholder. We at Premia like to call it the Premia ethos. We aspire to build a positive and progressive culture in our school, not only within our corridors and premises but in the very lives of all who are a part of our journey-children, parents, teachers, staff and administration. We revisit our methods from time to time to ensure that we constantly and consistently keep soaring towards our goal of engendering an atmosphere to empower SOCIALLY RESPONSIBLE CITIZENSHIP. While most would say food and water and the basic needs of life help a child survive, we at the Premia Academy beg to differ, we strongly believe that safety, love and a positive learning environment helps children thrive. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row prodigy" [ngClass]="{'active': tab==='tab1'}" id="1">
+            <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
+                <div class="panel">
+                    <h2> <i class="icon icon-medium">
               <svg focusable="false">
                 <use xlink:href="#icon_ethicalEdu"></use>
               </svg>
             </i>The safe and positive environment (Safety isn’t expensive, it's priceless):</h2>
-          <p>
-            At Premia we believe that a child's health and safety is paramount. A Safe and Positive Learning Environment
-            is key to accomplishing our purpose. It is the launch pad that every child takes off from. Keeping this in
-            mind has been the reason to ensure that all the facilities provided at The Premia Academy ensures the safety
-            of all who enter our premises, including the air they breathe! A sophisticated Air conditioning system that
-            allows us to breathe clean, purified air is only one of such thought processes. According to educational
-            researcher Sheryl Feinstein’s book From the Brain to the Classroom. It was found that half of the learning
-            impact came from light, temperature, and air quality.
-          </p>
-          <ul class="list">
-            <li>
-              Centralized AC System in campus with VRF technology-Most ACs recycle 100% of the air which increases CO2
-              levels and doesn't filter out or deactivate airborne infections. Premia's state of the air Air
-              Conditioning system provides a mixture of fresh and recycled air to allow consistent oxygen levels at a
-              pleasant temperature. UV lamps inside the ducting ensure that germs are eradicated.
-            </li>
-            <li>
-              CCTV Surveillance
-            </li>
-            <li>
-              Background verified Staff-All Teaching and Non Teaching staff at Premia have had to go through stringent
-              background checks and police verification, undergone training on Premia's safety and security policies.
-              Everyone including teaching staff and visitors are vetted and frisked prior to being allowed on campus.
-              Visitors once registered in our visitor management system are accompanied by Premia staff at all times.
-            </li>
-            <li>
-              Eco friendly campus - We use state of the art RO & UV plants to provide students with the safe drinking
-              water.</li>
-            <li> Astroturf 5 aside Futsal field</li>
-            <li> Acoustic Walls</li>
-            <li> Public Addressing System -Our campus wide audio and video surveillance network consisting of over a 100
-              high definition cameras allows our team of trained professionals to monitor, identify and handle any
-              situation with ease.</li>
-            <li> Safe Transport Facility-All our Buses are operated by highly experienced bus drivers and include female
-              attendants. Our buses capture all student entry and exits, have cctv monitoring and gps tracking.</li>
-            <li> Kids friendly Infrastructure</li>
-            <li> Regular Pest Control and Sanitization </li>
-            <li>Tie up with Hospital</li>
-            <li>Fully equipped infirmary access -Our on campus infirmary is operated by trained nurses where we maintain
-              health records of all students. We have tied up with local hospitals for any emergencies.</li>
-            <li> Counselling Support </li>
-            <li> No Corporal Punishment</li>
-          </ul>
+                    <p>
+                        At Premia we believe that a child's health and safety is paramount. A Safe and Positive Learning Environment is key to accomplishing our purpose. It is the launch pad that every child takes off from. Keeping this in mind has been the reason to ensure that all the facilities provided at The Premia Academy ensures the safety of all who enter our premises, including the air they breathe! A sophisticated Air conditioning system that allows us to breathe clean, purified air is only one of such thought processes. According to educational researcher Sheryl Feinstein’s book From the Brain to the Classroom. It was found that half of the learning impact came from light, temperature, and air quality.
+                    </p>
+                    <ul class="list">
+                        <li>
+                            Centralized AC System in campus with VRF technology-Most ACs recycle 100% of the air which increases CO2 levels and doesn't filter out or deactivate airborne infections. Premia's state of the air Air Conditioning system provides a mixture of fresh and recycled air to allow consistent oxygen levels at a pleasant temperature. UV lamps inside the ducting ensure that germs are eradicated.
+                        </li>
+                        <li>
+                            CCTV Surveillance
+                        </li>
+                        <li>
+                            Background verified Staff-All Teaching and Non Teaching staff at Premia have had to go through stringent background checks and police verification, undergone training on Premia's safety and security policies. Everyone including teaching staff and visitors are vetted and frisked prior to being allowed on campus. Visitors once registered in our visitor management system are accompanied by Premia staff at all times.
+                        </li>
+                        <li>
+                            Eco friendly campus - We use state of the art RO & UV plants to provide students with the safe drinking water.
+                        </li>
+                        <li> Astroturf 5 aside Futsal field</li>
+                        <li> Acoustic Walls</li>
+                        <li> Public Addressing System -Our campus wide audio and video surveillance network consisting of over a 100 high definition cameras allows our team of trained professionals to monitor, identify and handle any situation with ease.</li>
+                        <li> Safe Transport Facility-All our Buses are operated by highly experienced bus drivers and include female attendants. Our buses capture all student entry and exits, have cctv monitoring and gps tracking.</li>
+                        <li> Kids friendly Infrastructure</li>
+                        <li> Regular Pest Control and Sanitization </li>
+                        <li>Tie up with Hospital</li>
+                        <li>Fully equipped infirmary access -Our on campus infirmary is operated by trained nurses where we maintain health records of all students. We have tied up with local hospitals for any emergencies.</li>
+                        <li> Counselling Support </li>
+                        <li> No Corporal Punishment</li>
+                    </ul>
 
-         
+
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="row prodigy" [ngClass]="{'active': tab==='tab2'}" id="2">
-      <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
-        <div class="panel">
-          <h2> <i class="icon icon-medium">
+        <div class="row prodigy" [ngClass]="{'active': tab==='tab2'}" id="2">
+            <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
+                <div class="panel">
+                    <h2> <i class="icon icon-medium">
               <svg focusable="false">
                 <use xlink:href="#icon_ethicalEdu"></use>
               </svg>
             </i>Growth & Innovation mindset (Empower & Inspire)</h2>
-          <p>
-            All learning and nurturing becomes obsolete without the right mindset and attitude, as an institution we are devoted to raising children who will always choose to be the few who are change makers, risk takers and problem solvers. As young adults will empower and inspire all the lives they touch. <br>
-How do we do this?
+                    <p>
+                        All learning and nurturing becomes obsolete without the right mindset and attitude, as an institution we are devoted to raising children who will always choose to be the few who are change makers, risk takers and problem solvers. As young adults will empower and inspire all the lives they touch.
+                        <br> How do we do this?
 
-          </p>
-          <ul class="list">
-            <li>Establish School norms -Self goals are set with essential agreements and conveyed with positive statements.</li> 
-            <li>	E4 circuit:  Express, energise, endure & elevate : an initiative that helps with Democratized group work, Choice of tasks which are meaningful and relevant to one’s success and take responsibility for one's actions whilst reflecting and refining the set goals. </li>
-            <li>Creya Design thinking program : helps sow the seeds of a constant resonance with a solution based approach. Help our students to identify, evaluate and solve the problem. </li>
-            <li>Metamorphosis : an organisation that is the pioneer and expert in the field of teaching young minds the art and science of business and growth. </li>
-            <li>Mentor counsel: organises career counselling drives and identifies kids passion and strength. 
-              
-            </li>
-          </ul>
+                    </p>
+                    <ul class="list">
+                        <li>Establish School norms -Self goals are set with essential agreements and conveyed with positive statements.</li>
+                        <li> E4 circuit: Express, energise, endure & elevate : an initiative that helps with Democratized group work, Choice of tasks which are meaningful and relevant to one’s success and take responsibility for one's actions whilst reflecting and refining the set goals. </li>
+                        <li>Creya Design thinking program : helps sow the seeds of a constant resonance with a solution based approach. Help our students to identify, evaluate and solve the problem. </li>
+                        <li>Metamorphosis : an organisation that is the pioneer and expert in the field of teaching young minds the art and science of business and growth. </li>
+                        <li>Mentor counsel: organises career counselling drives and identifies kids passion and strength.
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="row prodigy" [ngClass]="{'active': tab==='tab3'}" id="3">
-      <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
-        <div class="panel">
-          <h2> <i class="icon icon-medium">
+        <div class="row prodigy" [ngClass]="{'active': tab==='tab3'}" id="3">
+            <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
+                <div class="panel">
+                    <h2> <i class="icon icon-medium">
               <svg focusable="false">
                 <use xlink:href="#icon_ethicalEdu"></use>
               </svg>
             </i>Quest for learning (Lifelong learners) </h2>
-          <p>
-            We as an institution are advocates of the thought process that learning never stops. If it does so does progress. All our children will be equipped with the skills and mindset to be lifelong learners on a quest to impact humanity in a promising and genuine manner. We teach our children how to learn not what to learn, thus ensuring their quest for learning stays ignited. <br>
-How do we do this? 
-          </p>
-          <ul class="list">
-            <li>
-              	Robust and well rounded curriculum </li>
-                <li>	Differentiated learning- we are passionate and morally obligated to help students reach individual student goals </li>
-                <li>Yardstick : partnered to bring a tactile and experiential learning to every child </li>
-                <li>Number nuger. : to get the foundation of concepts and logic right, to ensure no child feels left behind. </li>
-                <li>State of the art library: readers are people who can self learn indefinitely </li>
-                <li>Scholastic bookroom. : a program designed to make every pupil a profound reader.
+                    <p>
+                        We as an institution are advocates of the thought process that learning never stops. If it does so does progress. All our children will be equipped with the skills and mindset to be lifelong learners on a quest to impact humanity in a promising and genuine manner. We teach our children how to learn not what to learn, thus ensuring their quest for learning stays ignited.
+                        <br> How do we do this?
+                    </p>
+                    <ul class="list">
+                        <li>
+                            Robust and well rounded curriculum </li>
+                        <li> Differentiated learning- we are passionate and morally obligated to help students reach individual student goals </li>
+                        <li>Yardstick : partnered to bring a tactile and experiential learning to every child </li>
+                        <li>Number nuger. : to get the foundation of concepts and logic right, to ensure no child feels left behind. </li>
+                        <li>State of the art library: readers are people who can self learn indefinitely </li>
+                        <li>Scholastic bookroom. : a program designed to make every pupil a profound reader.
 
-            </li>
-          </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
 
-    <div class="row prodigy" [ngClass]="{'active': tab==='tab4'}" id="4">
-      <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
-        <div class="panel">
-          <h2> <i class="icon icon-medium">
+        <div class="row prodigy" [ngClass]="{'active': tab==='tab4'}" id="4">
+            <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
+                <div class="panel">
+                    <h2> <i class="icon icon-medium">
               <svg focusable="false">
                 <use xlink:href="#icon_ethicalEdu"></use>
               </svg>
             </i>Integrity above all (Virtue in our veins) </h2>
-          <p>
-            the most integral part of our culture and curricula is our endeavour to have each and everyone of The Premia Family to be an exemplary reflection of integrity from the very fibre of our beings. It is emphasised in every area of our interaction with students, parents, teachers, staff and administration. We encourage students to correct their own wrongs as it persuades them to take responsibility for their actions. <br>
-How do we do this? 
-          </p>
-          <ul class="list">
-            <li>We walk the talk</li>
-                <li>Social emotional learning across all verticals</li>
-                <li>Swadhyay -  life enrichment value system- Ethos, ethics and etiquette become a way of life</li>
-                <li>guest interactions with people from all walks of life.</li>
-                <li>Avani - our sustainable living curricula </li>
-                <li>Impetus on Relationship Building – great bonds with family and friends help us become better people everyday.
-            </li>
-          </ul>
+                    <p>
+                        the most integral part of our culture and curricula is our endeavour to have each and everyone of The Premia Family to be an exemplary reflection of integrity from the very fibre of our beings. It is emphasised in every area of our interaction with students, parents, teachers, staff and administration. We encourage students to correct their own wrongs as it persuades them to take responsibility for their actions.
+                        <br> How do we do this?
+                    </p>
+                    <ul class="list">
+                        <li>We walk the talk</li>
+                        <li>Social emotional learning across all verticals</li>
+                        <li>Swadhyay - life enrichment value system- Ethos, ethics and etiquette become a way of life</li>
+                        <li>guest interactions with people from all walks of life.</li>
+                        <li>Avani - our sustainable living curricula </li>
+                        <li>Impetus on Relationship Building – great bonds with family and friends help us become better people everyday.
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="row prodigy" [ngClass]="{'active': tab==='tab5'}" id="5">
-      <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
-        <div class="panel">
-          <h2> <i class="icon icon-medium">
+        <div class="row prodigy" [ngClass]="{'active': tab==='tab5'}" id="5">
+            <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
+                <div class="panel">
+                    <h2> <i class="icon icon-medium">
               <svg focusable="false">
                 <use xlink:href="#icon_ethicalEdu"></use>
               </svg>
             </i>Passion(Finding your inner strength)</h2>
-          <p>
-            our varied platforms and events, help children identify their strengths, weaknesses and  interest areas. 
-Once children finish their 10th grade our mentors do career counselling with the help of scientific ability tests and personality tests to further help children choose their direction
-Once kids decide on their chosen fields, experts from the field will be invited to address and explain to our students about the permutations and combinations of their respective fields. 
-          </p>
+                    <p>
+                        our varied platforms and events, help children identify their strengths, weaknesses and interest areas. Once children finish their 10th grade our mentors do career counselling with the help of scientific ability tests and personality tests to further help children choose their direction Once kids decide on their chosen fields, experts from the field will be invited to address and explain to our students about the permutations and combinations of their respective fields.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
 
-    <div class="row prodigy" [ngClass]="{'active': tab==='tab6'}" id="6">
-      <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
-        <div class="panel">
-          <h2> <i class="icon icon-medium">
+        <div class="row prodigy" [ngClass]="{'active': tab==='tab6'}" id="6">
+            <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
+                <div class="panel">
+                    <h2> <i class="icon icon-medium">
               <svg focusable="false">
                 <use xlink:href="#icon_ethicalEdu"></use>
               </svg>
             </i>Purpose (THe Driving force)</h2>
-          <p>
-            Good citizenship is about being a tribe that exudes peace and progress, while great citizenship is about impacting and changing lives for the better. We encourage our children to identify the purpose behind their passion and persistence. 
-          </p>
+                    <p>
+                        Good citizenship is about being a tribe that exudes peace and progress, while great citizenship is about impacting and changing lives for the better. We encourage our children to identify the purpose behind their passion and persistence.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="row prodigy" [ngClass]="{'active': tab==='tab7'}" id="7">   
-      <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
-        <div class="panel">
-          <h2> <i class="icon icon-medium">
+        <div class="row prodigy" [ngClass]="{'active': tab==='tab7'}" id="7">
+            <div class="col-lg-12 col-md-12 col-sm-12" data-aos="fade-up" data-aos-once="true">
+                <div class="panel">
+                    <h2> <i class="icon icon-medium">
               <svg focusable="false">
                 <use xlink:href="#icon_ethicalEdu"></use>
               </svg>
             </i>Prodigy (Miracles in making)</h2>
-          <p>
-            It's our driving force that all our children go on to achieve their aspirations and live lives that inspire one and all. Every step we take, every move we make, is an effort to ensure we awaken the hidden prodigy every pupil. That journey builds itself on the bedrock of integrity, growth and innovation mindset and their tireless quest for knowledge. While everyone focuses on the thirst for materialistic success in life, little do we understand that fame, success and prosperity is the by-product of work done with passion and purpose
-          </p>
+                    <p>
+                        It's our driving force that all our children go on to achieve their aspirations and live lives that inspire one and all. Every step we take, every move we make, is an effort to ensure we awaken the hidden prodigy every pupil. That journey builds itself on the bedrock of integrity, growth and innovation mindset and their tireless quest for knowledge. While everyone focuses on the thirst for materialistic success in life, little do we understand that fame, success and prosperity is the by-product of work done with passion and purpose
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-  </div>
+    </div>
 </section>

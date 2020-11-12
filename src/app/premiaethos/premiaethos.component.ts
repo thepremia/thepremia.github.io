@@ -48,14 +48,14 @@ ehtos2 = [{
 ]
 
 tab : any = 'tab1';
-tab1 : any
-tab2 : any
-tab3 : any
-tab4 : any
-tab5 : any
-tab6 : any
+tab1 : any = 'tab2';
+tab2 : any = 'tab3';
+tab3 : any = 'tab4';
+tab4 : any = 'tab5';
+tab5 : any = 'tab6';
+tab6 : any = 'tab7';
 tab7 : any
-tab8 : any
+tab8 : any 
 tab9 : any
 Clicked : boolean
 
