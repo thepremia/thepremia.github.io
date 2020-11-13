@@ -133,6 +133,12 @@ nav {
     }
 }
 
+
+.center-date{
+    margin:0 auto;
+    display:table;
+}
+
 ::ng-deep .notification-popup.modal{
     display: flex !important;
     align-items: center;

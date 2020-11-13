@@ -8,6 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './footer/footer.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { CreateSpacePipe } from './space.pipe.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -19,6 +20,7 @@ import { CreateSpacePipe } from './space.pipe.module';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     NgbModule,
     SlickCarouselModule,

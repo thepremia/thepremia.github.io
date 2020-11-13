@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewEncapsulation, ViewChild, TemplateRef, Injectable} from '@angular/core';
 import { viewClassName } from '@angular/compiler';
-import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource, NgbModal, ModalDismissReasons, NgbTimeStruct, NgbTimeAdapter} from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource, NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
 
 
@@ -13,7 +13,7 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  time: NgbTimeStruct = {hour: 13, minute: 30, second: 0};
+  time = {hour: 13, minute: 30};
   meridian = true;
 
   @ViewChild('notify', { static: true }) content: TemplateRef<any>;

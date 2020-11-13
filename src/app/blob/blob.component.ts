@@ -256,9 +256,9 @@ export class BlobComponent implements OnInit {
 
 this.peImages = [
   {
-      small: 'assets/images/pe/pe1.jpeg',
-      medium: 'assets/images/pe/pe1.jpeg',
-      big: 'assets/images/pe/pe1.jpeg'
+      small: 'assets/images/pe/pe1.jpg',
+      medium: 'assets/images/pe/pe1.jpg',
+      big: 'assets/images/pe/pe1.jpg'
   },
   {
       small: 'assets/images/pe/pe2.jpg',
@@ -271,9 +271,9 @@ this.peImages = [
     big: 'assets/images/pe/pe3.jpg'
   },
   {
-    small: 'assets/images/pe/pe4.jpeg',
-    medium: 'assets/images/pe/pe4.jpeg',
-    big: 'assets/images/pe/pe4.jpeg'
+    small: 'assets/images/pe/pe4.jpg',
+    medium: 'assets/images/pe/pe4.jpg',
+    big: 'assets/images/pe/pe4.jpg'
 },
 {
     small: 'assets/images/pe/pe5.jpg',
@@ -286,9 +286,9 @@ this.peImages = [
   big: 'assets/images/pe/pe6.jpg'
 },
 {
-  small: 'assets/images/pe/pe7.jpeg',
-  medium: 'assets/images/pe/pe7.jpeg',
-  big: 'assets/images/pe/pe7.jpeg'
+  small: 'assets/images/pe/pe7.jpg',
+  medium: 'assets/images/pe/pe7.jpg',
+  big: 'assets/images/pe/pe7.jpg'
 },
 {
   small: 'assets/images/pe/pe8.jpg',

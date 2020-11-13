@@ -12,6 +12,17 @@
     background: #fff;
   }
 
+
+  .rocket{
+    position: absolute;
+    top: -60px;
+    right: -60px;
+    z-index: -1;
+    img{
+      width:50%;
+    }
+  }
+
   .click-event{
     background:#fff;
     padding:10px;
