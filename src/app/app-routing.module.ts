@@ -18,6 +18,7 @@ import { PremiaethosComponent } from './premiaethos/premiaethos.component';
 import { PrmiapartnerComponent } from './prmiapartner/prmiapartner.component';
 import 'hammerjs';
 import { NgxGalleryModule } from 'ngx-gallery';
+import { FormsModule } from '@angular/forms';
 
 const routes: Routes = [
   {path: 'Home', component: HomeComponent},
@@ -55,6 +56,7 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(routes, { enableTracing: false, scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled', scrollOffset: [0, 150]}),
     BrowserModule,
+    FormsModule,
     NgbModule,
     SlickCarouselModule,
     NgxGalleryModule
