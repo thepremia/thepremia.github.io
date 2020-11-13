@@ -39,26 +39,31 @@ export class AdmissionsComponent implements OnInit {
     }
   }
 
-  ehtos = [{
-    title:`The safe and positive environment (Safety isn’t expensive, it's priceless):`,
-  },
+  ehtos = [
   {
     title:`Learn about our beliefs: Our Parent Relationship Managers will contact you to give you more details`,
   },
   {
-    title:`School Tour: Visit our campus or join our online demo classes`,
-  }
-]
-
-ehtos2 = [{
   title:`Meet the Principal: Connect with our principal with your child. This stage might include an assessment depending on the class`,
 },
+ {
+  title:`Admission : Once approved you will be directed to complete the admission formalities`,
+} 
+  
+]
+
+ehtos2 = [
+{
+    title:`The First Step: Fill the Admission Enquiry Form `,
+  },
+  {
+    title:`School Tour: Visit our campus or join our online demo classes`,
+  },
+
 {
   title:`Interview with the Academic Team`,
 },
-{
-  title:`Admission : Once approved you will be directed to complete the admission formalities`,
-}
+
 ]
 
   admission = [
