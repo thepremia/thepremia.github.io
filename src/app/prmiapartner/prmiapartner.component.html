@@ -47,25 +47,22 @@ partners who have joined our mission<span class="highlighted">"</span>
         </div>
     </div>
 
-    <div class="partner-panel">
-        <div class="row-f">
-            <div class="col-lg-12 col-md-12 col-sm-12 partner-grid" id="{{list.id}}" *ngFor="let list of partners; index as i" data-aos="fade-up" data-aos-once="true">
-                <div class="panel">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 left-panel">
-                            <!--
-                            <a href=""="list.url">
-                                <h3>{{list.name}}</h3>
-                            </a>
--->
-                            <a href="" class="pre-partner"><h3>{{list.name}}</h3></a>
-                            <p>{{list.title}}</p>
-                            <div class="number">0{{i+1}}</div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 right-panel">
-                            {{list.des}}
-                            <div class='read-more' ngbDropdown container="body">
-                                <div ngbDropdownToggle>READ MORE</div>
+<div class="partner-panel">
+    <div class="row-f">
+        <div class="col-lg-12 col-md-12 col-sm-12 partner-grid" id="{{list.id}}" *ngFor="let list of partners; index as i" data-aos="fade-up" data-aos-once="true">
+           <div class="panel">
+               <div class="row">
+                   <div class="col-lg-6 col-md-6 col-sm-12 left-panel">
+                    <a href="{{list.link}}" target="blank">
+                      <h3>{{list.name}}</h3>
+                       <p>{{list.title}}</p>
+                       <div class="number">0{{i+1}}</div>
+                    </a>
+                   </div>
+                   <div class="col-lg-6 col-md-6 col-sm-12 right-panel">
+                    {{list.des}}
+                    <div class='read-more' ngbDropdown container="body">
+                    <div ngbDropdownToggle>READ MORE</div>
 
                                 <div ngbDropdownMenu>
                                     {{list.des2}}

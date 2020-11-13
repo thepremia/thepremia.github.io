@@ -101,7 +101,7 @@
                          </div>
                     </div>
                 </div>
-                <a class="col-lg-3 col-md-3 col-sm-12 add-info" href="assets/forms.zip">
+                <a class="col-lg-3 col-md-3 col-sm-12 add-info" (click)="open(download)">
                     <div class="panel" data-aos="fade" data-aos-once="true">
                         <div class="panel-heading">
                             <h3 class="bar pp3">
@@ -200,6 +200,38 @@
 </div>
 </section>
 </div>
+
+<ng-template #download let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Download Form</h4>
+        <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <i class="icon icon-ex-small">
+                <svg focusable="false">
+                    <use xlink:href="#icon_close"></use>
+                </svg>
+            </i>
+        </a>
+    </div>
+    <div class="modal-body apply-form">
+        <form>
+           
+            <div class="row">
+                <div class="col">
+                    <label for="pn">Email ID</label>
+                    <input type="pi" class="form-control" placeholder="Email ID" name="pi">
+                </div>
+              </div>
+          
+            <div class="row">
+                <div class="col right">
+                    <a class="btn btn-primary" href="assets/forms.zip">APPLY NOW</a>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+</ng-template>
 
 <ng-template #content let-modal>
     <div class="modal-header">

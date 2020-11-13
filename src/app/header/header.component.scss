@@ -125,7 +125,14 @@ nav {
         display: block;
     }
 }
-::ng-deep .notification-popup.modal {
+
+
+.center-date{
+    margin:0 auto;
+    display:table;
+}
+
+::ng-deep .notification-popup.modal{
     display: flex !important;
     align-items: center;
     .modal-content {
