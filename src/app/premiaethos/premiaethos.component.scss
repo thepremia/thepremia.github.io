@@ -1,38 +1,7 @@
 .premia-ethos {
-  .breadcum{
-    margin-left:87px;
-    margin-bottom:15px;
-  }
-  .row {
-    position: relative;
-    margin-bottom: 40px;
-  }
-
-  .white {
-    background: #fff;
-  }
-
-
-  .rocket{
-    position: absolute;
-    top: -60px;
-    right: -60px;
-    z-index: -1;
-    img{
-      width:50%;
-    }
-  }
-
-  .click-event{
-    background:#fff;
-    padding:10px;
-    border-radius:5px;
-    box-shadow: 1px 1px 5px 2px rgb(4 102 179 / 50%);
-    span{
-      cursor:pointer;
-    color:#3e65ac;
-    display: block;
-    padding:10px 0px;
+    .breadcum {
+        margin-left: 87px;
+        margin-bottom: 15px;
     }
     .row {
         position: relative;
@@ -41,16 +10,26 @@
     .white {
         background: #fff;
     }
+    .rocket{
+        position: absolute;
+        top: -125px;
+        right: -65px;
+        z-index: -1;
+        img{
+          width:50%;
+        }
+    }
     .click-event {
-        background: #fff;
-        padding: 10px;
-        border-radius: 5px;
-        box-shadow: 1px 1px 5px 2px rgb(4 102 179 / 50%);
+        // background: #fff;
+        // padding: 10px;
+        // border-radius: 5px;
+        // box-shadow: 1px 1px 5px 2px rgb(4 102 179 / 50%);
         span {
             cursor: pointer;
             color: #3e65ac;
             display: block;
             padding: 10px 0px;
+            font-size:14px;
         }
     }
     .ethos-col {
@@ -138,13 +117,8 @@
     .ethos-col-2,
     .ethos-col {
         h3 {
-            font-size: 16px;
-            visibility: hidden;
-        }
-        &:hover {
-            h3 {
-                visibility: visible;
-            }
+            white-space: pre-line;
+            font-size:18px;
         }
     }
     .prodigy {
@@ -166,7 +140,6 @@
             fill: #fff;
         }
     }
-}
 }
 @media (max-width: 576px) {
     .premia-ethos {

@@ -25,7 +25,8 @@ export class PremiaethosComponent implements OnInit {
     learners)`,
   },
   {
-    title:`Integrity above all (Virtue in our veins)`,
+    title:`Integrity above all 
+    (Virtue in our veins)`,
   }
 ]
 
