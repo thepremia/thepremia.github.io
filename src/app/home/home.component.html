@@ -1,5 +1,5 @@
 <div class="main-banner">
-  <!-- <ngb-carousel #carousel interval="5000" [showNavigationArrows]="showNavigationArrows" [pauseOnHover]="pauseOnHover"
+    <!-- <ngb-carousel #carousel interval="5000" [showNavigationArrows]="showNavigationArrows" [pauseOnHover]="pauseOnHover"
     (slide)="onSlide($event)">
         <ng-template ngbSlide  *ngFor="let info of banner; index as i">
           <div class="picsum-img-wrapper">
@@ -12,229 +12,222 @@
         </ng-template>     
       </ngb-carousel> -->
 
-  <video controls autoplay>
-    <source src="assets/images/banner.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+    <video controls autoplay>
+        <source src="assets/images/banner.mp4" type="video/mp4"> Your browser does not support the video tag.
+    </video>
 
 </div>
 
 <section class="section-admission">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-12 admission-flag">
-        <div class="flag-pos">
-          <div class="v-align">
-            <h1>Join<br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 admission-flag">
+                <div class="flag-pos">
+                    <div class="v-align">
+                        <h1>Join<br>
               The Premia<br>
               Family
               <br>
               <button class="btn btn-primary" (click)="knowMore('apply');">Apply Now</button>
             </h1>
-          </div>
-        </div>
-      </div>
+                    </div>
+                </div>
+            </div>
 
-      <div class="col-lg-9 col-md-9 col-sm-12">
-        <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 admission-new" *ngFor="let item of admission; index as i">
-          <div class="panel">
-            <div class="panel-front">
-              <div class="panel-heading">
-                <i class="icon icon-medium">
+            <div class="col-lg-9 col-md-9 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 admission-new" *ngFor="let item of admission; index as i">
+                        <div class="panel">
+                            <div class="panel-front">
+                                <div class="panel-heading">
+                                    <i class="icon icon-medium">
                   <svg focusable="false">
                     <use attr.xlink:href="{{item.icon}}"></use>
                   </svg>
                 </i>
-                <p>{{item.description}}</p>
+                                    <p>{{item.description}}</p>
 
-                <div class="more-viewer">
-                  <p>{{item.description2}}</p>
+                                    <div class="more-viewer">
+                                        <p>{{item.description2}}</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    </div>
-  </div>
 </section>
 <div class="container">
-  <div class="row">
-    <div class="col-sm-12 text-center heading-spacer">
-      <h1 data-aos="fade-up" data-aos-once="true">What drives us?</h1>
+    <div class="row">
+        <div class="col-sm-12 text-center heading-spacer">
+            <h1 data-aos="fade-up" data-aos-once="true">What drives us?</h1>
+        </div>
     </div>
-  </div>
 </div>
 
 <section class="section-nofify">
-  <div class="container">
-    <div class="row">
-      <div *ngFor="let item of notify" class="col col-lg-4 col-md-4 col-sm-12" data-aos="fade-up" data-aos-once="true">
-        <div class="panel">
-          <div class="panel-front">
-            <div class="panel-heading">
-              <h5><span>{{item.title}}</span></h5>
-              <p>{{item.description}}</p>
-              <ul class="list">
-                <li *ngFor="let data of item.moreInfo">
-                  {{data.info}}
-                </li>
-              </ul>
-              <p>{{item.desc}}</p>
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let item of notify" class="col col-lg-4 col-md-4 col-sm-12" data-aos="fade-up" data-aos-once="true">
+                <div class="panel">
+                    <div class="panel-front">
+                        <div class="panel-heading">
+                            <h5><span>{{item.title}}</span></h5>
+                            <p>{{item.description}}</p>
+                            <ul class="list">
+                                <li *ngFor="let data of item.moreInfo">
+                                    {{data.info}}
+                                </li>
+                            </ul>
+                            <p>{{item.desc}}</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
 
+        </div>
     </div>
-  </div>
 </section>
 
 
 <div class="clear-float"></div>
 <section class="premian-league">
- 
-  <div class="container">
-    <div class="row">
-      <img class="concept" src="assets/images/home-concept.png">
-      <div class="asset asset_2"></div>
-      <div class="asset asset_3"></div>
-      <div class="asset asset_4"></div>
-      <div class="asset asset_5"></div>
-      <div class="col-sm-12 center">
-        <h1 data-aos="fade-up" data-aos-once="true">The Premia Experience</h1>
-      </div>
-      <div *ngFor="let list of premianLeague; index as i" class="col {{list.gridClass}} col-sm-12 col-premia">
-        <div class="img-circle" data-aos="zoom-in" data-aos-once="true">
-          <img src="assets/images/premia-exp-{{i+1}}.jpg">
-        </div>
-        <h6 class="center" (click)="knowMore(list.link)">{{list.name}}</h6>
-      </div>
-      <div class="col-lg-1 col-md-1 col-sm-12"></div>
-      <div class="col-lg-4 col-md-4 col-sm-12">
-      <ngx-slick-carousel class="carousel" #slickModal="slick-carousel"
-        [config]="premianLeagueConfig">
-        <div ngxSlickItem *ngFor="let item of partner; index as i" class="slide">
-          <div class="panel">
-            <div class="panel-heading">
-              <div class="img-box">
-                <img src="assets/images/premia-exp-{{i+1}}.jpg">
-              </div>
-              <!-- <p>{{item.description}}</p> -->
+
+    <div class="container">
+        <div class="row">
+            <img class="concept" src="assets/images/home-concept.png">
+            <div class="asset asset_2"></div>
+            <div class="asset asset_3"></div>
+            <div class="asset asset_4"></div>
+            <div class="asset asset_5"></div>
+            <div class="col-sm-12 center">
+                <h1 data-aos="fade-up" data-aos-once="true">The Premia Experience</h1>
             </div>
-          </div>
+            <div *ngFor="let list of premianLeague; index as i" class="col {{list.gridClass}} col-sm-12 col-premia">
+                <div class="img-circle" data-aos="zoom-in" data-aos-once="true">
+                    <img src="assets/images/premia-exp-{{i+1}}.jpg">
+                </div>
+                <h6 class="center" (click)="knowMore(list.link)">{{list.name}}</h6>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-12"></div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="premianLeagueConfig">
+                    <div ngxSlickItem *ngFor="let item of partner; index as i" class="slide">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <div class="img-box">
+                                    <img src="assets/images/who-we/who-we-{{i+1}}.jpg">
+                                </div>
+                                <!-- <p>{{item.description}}</p> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </ngx-slick-carousel>
+                <h6 class="center last-circle" (click)="knowMore('ThePremiaLeague')">Who we are</h6>
+            </div>
         </div>
-        
-      </ngx-slick-carousel>
-      <h6 class="center last-circle" (click)="knowMore('ThePremiaLeague')">Who we are</h6>
     </div>
-    </div>
-  </div>
 </section>
 
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm-12 center heading-spacer">
-      <h1 data-aos="fade-up" data-aos-once="true">Parents Speak</h1>
+    <div class="row">
+        <div class="col-sm-12 center heading-spacer">
+            <h1 data-aos="fade-up" data-aos-once="true">Parents Speak</h1>
+        </div>
     </div>
-  </div>
 </div>
 
 <section class="testimonials">
-  <div class="container">
-    <div class="row">
-      <div *ngFor="let list of testimonials; index as i" class="col col-lg-4 col-md-4 col-sm-12">
-        <div class="img-circle">
-          <img src="assets/images/parent-speak-{{i+1}}.jpg" data-aos="fade-up" data-aos-once="true">
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let list of testimonials; index as i" class="col col-lg-4 col-md-4 col-sm-12">
+                <div class="img-circle">
+                    <img src="assets/images/parent-speak-{{i+1}}.jpg" data-aos="fade-up" data-aos-once="true">
+                </div>
+                <p>"{{list.clientView}}"</p>
+                <h6 data-aos="fade-up" data-aos-once="true">{{list.clientName}}</h6>
+            </div>
         </div>
-        <p>"{{list.clientView}}"</p>
-        <h6 data-aos="fade-up" data-aos-once="true">{{list.clientName}}</h6>
-      </div>
     </div>
-  </div>
 </section>
 
 
 
 <section class="partner">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 heading-spacer">
-        <h1 class="center" data-aos="fade-up" data-aos-once="true">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 heading-spacer">
+                <h1 class="center" data-aos="fade-up" data-aos-once="true">
           Our Partners
         </h1>
-        <p data-aos="fade-up" data-aos-once="true">Our quest for creating the perfect learning environment led to
-          collaborating with a few organisations whose vision aligned with ours. Each of the programs are well researched
-          to cater to the needs of the millennials who require constant innovation. With combined ideologies and
-          compassion, successful partnerships are created on a trajectory to deliver nothing but the best! </p>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <ngx-slick-carousel class="carousel col-lg-12 col-md-12 col-sm-12" #slickModal="slick-carousel"
-        [config]="partnerConfig">
-        <div ngxSlickItem *ngFor="let item of partner; index as i" class="slide" data-aos="fade-up"
-          data-aos-once="true">
-          <div class="panel">
-            <div class="panel-heading">
-              <div class="img-box">
-                <img src="assets/images/partner{{i+1}}.png">
-              </div>
-              <p>{{item.description}}</p>
+                <p data-aos="fade-up" data-aos-once="true">Our quest for creating the perfect learning environment led to collaborating with a few organisations whose vision aligned with ours. Each of the programs are well researched to cater to the needs of the millennials who require constant innovation. With combined ideologies and compassion, successful partnerships are created on a trajectory to deliver nothing but the best! </p>
             </div>
-            <div class="info-view">
-              <div class="panel-heading">
-                <div class="img-box">
-                  <img src="assets/images/partner{{i+1}}.png">
-                </div>
-                <h5>{{item.description}}</h5>
-                <p>{{item.description_2}}</p>
-                <a href="{{item.link}}" target="blank">{{item.link}}</a>
-              </div>
-            </div>
-          </div>
         </div>
-      </ngx-slick-carousel>
     </div>
-  </div>
+    <div class="container">
+        <div class="row">
+            <ngx-slick-carousel class="carousel col-lg-12 col-md-12 col-sm-12" #slickModal="slick-carousel" [config]="partnerConfig">
+                <div ngxSlickItem *ngFor="let item of partner; index as i" class="slide" data-aos="fade-up" data-aos-once="true">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <div class="img-box">
+                                <img src="assets/images/partner{{i+1}}.png">
+                            </div>
+                            <p>{{item.description}}</p>
+                        </div>
+                        <div class="info-view">
+                            <div class="panel-heading">
+                                <div class="img-box">
+                                    <img src="assets/images/partner{{i+1}}.png">
+                                </div>
+                                <h5>{{item.description}}</h5>
+                                <p>{{item.description_2}}</p>
+                                <a href="{{item.link}}" target="blank">{{item.link}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ngx-slick-carousel>
+        </div>
+    </div>
 </section>
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm-12 center heading-spacer">
-      <h1 data-aos="fade-up" data-aos-once="true">The Premia Corner</h1>
+    <div class="row">
+        <div class="col-sm-12 center heading-spacer">
+            <h1 data-aos="fade-up" data-aos-once="true">The Premia Corner</h1>
+        </div>
     </div>
-  </div>
 </div>
 
 <section class="the-premia-corner">
-  <div class="container">
-    <div class="row">
-      <div *ngFor="let list of thePremiaCorner; index as i" class="col-lg-3 col-md-3 col-sm-12">
-        <div class="col">
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let list of thePremiaCorner; index as i" class="col-lg-3 col-md-3 col-sm-12">
+                <div class="col">
 
-          <img src="assets/images/premia-corner-{{i+1}}.jpg" data-aos="fade-up" data-aos-once="true">
+                    <img src="assets/images/premia-corner-{{i+1}}.jpg" data-aos="fade-up" data-aos-once="true">
 
-          <h4 class="center" data-aos="fade-up" data-aos-once="true" (click)="knowMore('premiaCorner');">{{list.description}}</h4>
+                    <h4 class="center" data-aos="fade-up" data-aos-once="true" (click)="knowMore('premiaCorner');">{{list.description}}</h4>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>
 
 <section class="newsletter">
-  <div class="container">
-    <div class="row">
-      <form class="form-inline" action="/action_page.php">
-        <label for="email">Newsletter </label>
-        <input type="email" class="form-control" placeholder="Enter email" id="email">
-        <button type="submit" class="btn btn-primary"> Subscribe</button>
-      </form>
+    <div class="container">
+        <div class="row">
+            <form class="form-inline" action="/action_page.php">
+                <label for="email">Newsletter </label>
+                <input type="email" class="form-control" placeholder="Enter email" id="email">
+                <button type="submit" class="btn btn-primary"> Subscribe</button>
+            </form>
+        </div>
     </div>
-  </div>
 </section>

@@ -16,12 +16,7 @@
         <h1 data-aos="fade-up" data-aos-once="true">
             Join The Premia Pride
         </h1>
-        <p> Our admissions policy ensures an appropriate admission procedure with respect to each
-            application received for admission. We pursue to set a selection standard that is fair and
-            consistent. Assessment for admissions to preprimary and primary would be an analysis to evaluate
-            the developmental preparedness of students, using a range of assessment methods to understand
-            the applicant’s skills. Prior to admissions, we assess applicants to determine their readiness
-            for our School providing practical and ethical methods of teaching.</p>
+        <p> Our admissions policy ensures an appropriate admission procedure with respect to each application received for admission. We pursue to set a selection standard that is fair and consistent. Assessment for admissions to preprimary and primary would be an analysis to evaluate the developmental preparedness of students, using a range of assessment methods to understand the applicant’s skills. Prior to admissions, we assess applicants to determine their readiness for our School providing practical and ethical methods of teaching.</p>
 
         <!-- <div class="col-lg-11 col-md-11 col-sm-12 admission-info">
 
@@ -81,7 +76,7 @@
     <div class="clearfix"></div>
     <section class="section-admission-2">
         <div class="container">
-            
+
             <div class="row addmin-sec">
                 <div class="col-lg-3 col-md-3 col-sm-12 add-info" *ngFor="let item of admission_2; index as i">
                     <div class="panel" data-aos="fade" data-aos-once="true" (click)="onClick(i+1)">
@@ -89,7 +84,7 @@
                             <h3 class="bar {{item.bar}}">
                                 {{item.title}}
                             </h3>
-                         </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-12 add-info">
@@ -98,7 +93,7 @@
                             <h3 class="bar pp2">
                                 Enquiry <br>Form
                             </h3>
-                         </div>
+                        </div>
                     </div>
                 </div>
                 <a class="col-lg-3 col-md-3 col-sm-12 add-info" (click)="open(download)">
@@ -107,7 +102,7 @@
                             <h3 class="bar pp3">
                                 Download Admission Forms
                             </h3>
-                         </div>
+                        </div>
                     </div>
                 </a>
             </div>
@@ -118,87 +113,93 @@
     <br>
     <section class="section-ethos">
 
-    <div class="container ethos-1" id="1">
-        <h1 data-aos="fade-up" data-aos-once="true">
+        <div class="container ethos-1" id="1">
+            <h1 data-aos="fade-up" data-aos-once="true">
             Admission Process
         </h1>
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 ethos-col" *ngFor="let item of ehtos; index as i">
-              <p>
-                {{item.title}}
-              </p>
-              <div class="circle" (click)="onClick(i+1)">
-                <img src="assets/images/ethos-{{i+1}}.png" alt="">
-              </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 ethos-col" *ngFor="let item of ehtos; index as i">
+                    <!--                    <div class="number">0{{i+1}}</div>-->
+                    <p>
+
+                        {{item.title}}
+                    </p>
+                    <div class="circle" (click)="onClick(i+1)">
+                        <img src="assets/images/ethos-{{i+1}}.png" alt="">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="row ethos-2">
-            <div class="col-lg-4 col-md-4 col-sm-12 ethos-col-2" *ngFor="let item of ehtos2; index as i">
-              <div class="circle" (click)="onClick(i+5)">
-                <img src="assets/images/ethos-{{i+5}}.png" alt="">
-              </div>
-              <p>
-                {{item.title}}
-              </p>
+
+            <div class="row ethos-2">
+                <div class="col-lg-4 col-md-4 col-sm-12 ethos-col-2" *ngFor="let item of ehtos2; index as i">
+
+                    <div class="circle" (click)="onClick(i+5)">
+                        <img src="assets/images/ethos-{{i+5}}.png" alt="">
+                    </div>
+
+                    <!--                    <div class="number">0{{i+5}}</div>-->
+                    <p>
+
+                        {{item.title}}
+                    </p>
+                </div>
             </div>
-          </div>   
-    </div>
-   
-    <div class="container" id="2">
-    <div class="row">
-        <h1 class="center col-sm-12" data-aos="fade-up" data-aos-once="true">
+        </div>
+
+        <div class="container" id="2">
+            <div class="row">
+                <h1 class="center col-sm-12" data-aos="fade-up" data-aos-once="true">
             Admission Criteria
         </h1>
-        <h6 class="center col-sm-12">The pupil should have achieved the competencies of the previous year to the grade to which he/she is applying for.</h6>
-        <div class="container">
-                <table class="table-bordered adm-info-table">
-                    <tr>
-                        <td>Grade</td>
-                        <td>Minimum Age by June</td>
-                    <tr>
-                    <tr>
-                        <td>Nursery</td>
-                        <td>2 Years 6 Months</td>
-                    <tr>
-                    <tr>
-                        <td>PP1</td>
-                        <td>3 Years 6 Months</td>
-                    <tr>
-                    <tr>
-                        <td>PP2</td>
-                        <td>4 Years 6 Months</td>
-                    <tr>
-                    <tr>
-                        <td>Grade 1</td>
-                        <td>5 Years 6 Months</td>
-                    <tr>
-                    <tr>
-                        <td>Grade 2</td>
-                        <td>6 Years 6 Months</td>
-                    <tr>
-                    <tr>
-                        <td>Grade 3</td>
-                        <td>7 Years 6 Months</td>
-                    <tr>
-                    <tr>
-                        <td>Grade 4</td>
-                        <td>8 Years 6 Months</td>
-                    <tr>
-                    <tr>
-                        <td>Grade 5</td>
-                        <td>9 Years 6 Months</td>
-                    <tr>
-                    <tr>
-                        <td>Grade 6</td>
-                        <td>10 Years 6 Months</td>
-                    <tr>
-                    
-                </table>
+                <h6 class="center col-sm-12">The pupil should have achieved the competencies of the previous year to the grade to which he/she is applying for.</h6>
+                <div class="container">
+                    <table class="table-bordered adm-info-table">
+                        <tr>
+                            <td>Grade</td>
+                            <td>Minimum Age by June</td>
+                            <tr>
+                                <tr>
+                                    <td>Nursery</td>
+                                    <td>2 Years 6 Months</td>
+                                    <tr>
+                                        <tr>
+                                            <td>PP1</td>
+                                            <td>3 Years 6 Months</td>
+                                            <tr>
+                                                <tr>
+                                                    <td>PP2</td>
+                                                    <td>4 Years 6 Months</td>
+                                                    <tr>
+                                                        <tr>
+                                                            <td>Grade 1</td>
+                                                            <td>5 Years 6 Months</td>
+                                                            <tr>
+                                                                <tr>
+                                                                    <td>Grade 2</td>
+                                                                    <td>6 Years 6 Months</td>
+                                                                    <tr>
+                                                                        <tr>
+                                                                            <td>Grade 3</td>
+                                                                            <td>7 Years 6 Months</td>
+                                                                            <tr>
+                                                                                <tr>
+                                                                                    <td>Grade 4</td>
+                                                                                    <td>8 Years 6 Months</td>
+                                                                                    <tr>
+                                                                                        <tr>
+                                                                                            <td>Grade 5</td>
+                                                                                            <td>9 Years 6 Months</td>
+                                                                                            <tr>
+                                                                                                <tr>
+                                                                                                    <td>Grade 6</td>
+                                                                                                    <td>10 Years 6 Months</td>
+                                                                                                    <tr>
+
+                    </table>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-</section>
+    </section>
 </div>
 
 <ng-template #download let-modal>
@@ -214,17 +215,17 @@
     </div>
     <div class="modal-body apply-form">
         <form>
-           
+
             <div class="row">
                 <div class="col">
                     <label for="pn">Email ID</label>
                     <input type="pi" class="form-control" placeholder="Email ID" name="pi">
                 </div>
-              </div>
-          
+            </div>
+
             <div class="row">
                 <div class="col right">
-                    <a class="btn btn-primary" href="assets/forms.zip" >DOWNLOAD NOW</a>
+                    <a class="btn btn-primary" href="assets/forms.zip">DOWNLOAD NOW</a>
                 </div>
             </div>
 
@@ -274,8 +275,7 @@
                     <div class="form-group">
                         <label for="Date">Student DOB</label>
                         <div class="input-group">
-                            <input class="form-control" placeholder="yyyy-mm-dd" name="dp" ngModel="model" ngbDatepicker
-                                #d="ngbDatepicker">
+                            <input class="form-control" placeholder="yyyy-mm-dd" name="dp" ngModel="model" ngbDatepicker #d="ngbDatepicker">
                             <div class="input-group-append">
                                 <button class="btn btn-outline-secondary calendar" (click)="d.toggle()" type="button">
                                     <i class="icon icon-ex-small">
@@ -312,4 +312,8 @@
         </form>
 
     </div>
+
+
+
+
 </ng-template>
