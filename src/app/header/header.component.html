@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a href="javascript:void(0)" class="logo" routerLink="Home" routerLinkActive="active" skipLocationChange=true>
-                <img src="assets/images/logo.png">
+                <img src="assets/images/logo.png" class="logo-img">
             </a>
             <button class="navbar-toggler" type="button" (click)="slideToggel()">
                 <span class="navbar-toggler-icon"></span>
@@ -19,21 +19,21 @@
                       <use xlink:href="#icon_calender"></use>
                     </svg>
                   </i>
-                  <br>
-                  <span>Calender</span>  
-            </a>
-          </div>
-        </div>
-        
-       <ng-template #footerTemplate>
-      <div class="center-date">
-       <ngb-timepicker [(ngModel)]="time" [meridian]="meridian"></ngb-timepicker>
-      </div>
-          <hr class="my-0">
-          <!-- <button class="btn btn-primary btn-sm m-2 float-left" (click)="model = today; d.close()">Today</button> -->
-          <button class="btn btn-secondary btn-sm m-2 float-right" (click)="open(send)">SEND</button>
-        </ng-template>
-       <ng-template #send let-modal>
+                            <br>
+                            <span>Calender</span>
+                        </a>
+                    </div>
+                </div>
+
+                <ng-template #footerTemplate>
+                    <div class="center-date">
+                        <ngb-timepicker [(ngModel)]="time" [meridian]="meridian"></ngb-timepicker>
+                    </div>
+                    <hr class="my-0">
+                    <!-- <button class="btn btn-primary btn-sm m-2 float-left" (click)="model = today; d.close()">Today</button> -->
+                    <button class="btn btn-secondary btn-sm m-2 float-right" (click)="open(send)">SEND</button>
+                </ng-template>
+                <ng-template #send let-modal>
                     <div class="modal-header">
 
                         <h4 class="modal-title" id="modal-basic-title">Appointment</h4>

@@ -10,13 +10,13 @@
     .white {
         background: #fff;
     }
-    .rocket{
+    .rocket {
         position: absolute;
         top: -125px;
         right: -65px;
         z-index: -1;
-        img{
-          width:50%;
+        img {
+            width: 50%;
         }
     }
     .click-event {
@@ -29,7 +29,7 @@
             color: #3e65ac;
             display: block;
             padding: 10px 0px;
-            font-size:14px;
+            font-size: 14px;
         }
     }
     .ethos-col {
@@ -118,7 +118,7 @@
     .ethos-col {
         h3 {
             white-space: pre-line;
-            font-size:18px;
+            font-size: 18px;
         }
     }
     .prodigy {
@@ -160,6 +160,9 @@
             .circle {
                 margin: 0 auto;
             }
+        }
+        .rocket {
+            display: none;
         }
     }
 }
