@@ -133,8 +133,8 @@ nav {
     display: flex !important;
     align-items: center;
     .modal-content {
-        background-color: #3e65ac;
-        padding: 0 15px;
+        //        background-color: #3e65ac;
+        //        padding: 0 15px;
         .modal-title {
             margin-left: 15px;
             font-family: "Lora", serif;
@@ -156,6 +156,9 @@ nav {
             outline: none;
             background: none;
             border: 2px solid #fff;
+        }
+        .modal-body {
+            padding: 0px;
         }
     }
 }
