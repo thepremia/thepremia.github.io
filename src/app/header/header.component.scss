@@ -293,6 +293,9 @@ nav {
         }
     }
 }
+.hide {
+    display: none;
+}
 @media (max-width: 576px) {
     .login-form {
         &:first-child {
