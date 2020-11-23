@@ -334,12 +334,12 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
     {
       name: 'What we offer',
       gridClass:'col-md-2',
-      link:'PremiaPartners'
+      link:'ThePremiaCurriculum'
     },
     {
-      name: 'How we make if happen',
+      name: 'How we make it happen',
       gridClass:'col-md-2 ',
-      link:'ThePremiaCurriculum'
+      link:'PremiaPartners'
     },
   ];
 
