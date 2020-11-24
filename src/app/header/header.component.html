@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a href="javascript:void(0)" class="logo" routerLink="Home" routerLinkActive="active" skipLocationChange=true>
-                <img src="assets/images/logo.png">
+                <img src="assets/images/logo.png" class="logo-img">
             </a>
             <button class="navbar-toggler" type="button" (click)="slideToggel()">
                 <span class="navbar-toggler-icon"></span>
@@ -19,21 +19,21 @@
                       <use xlink:href="#icon_calender"></use>
                     </svg>
                   </i>
-                  <br>
-                  <span>Calender</span>  
-            </a>
-          </div>
-        </div>
-        
-       <ng-template #footerTemplate>
-      <div class="center-date">
-       <ngb-timepicker [(ngModel)]="time" [meridian]="meridian"></ngb-timepicker>
-      </div>
-          <hr class="my-0">
-          <!-- <button class="btn btn-primary btn-sm m-2 float-left" (click)="model = today; d.close()">Today</button> -->
-          <button class="btn btn-secondary btn-sm m-2 float-right" (click)="open(send)">SEND</button>
-        </ng-template>
-       <ng-template #send let-modal>
+                            <br>
+                            <span>Calender</span>
+                        </a>
+                    </div>
+                </div>
+
+                <ng-template #footerTemplate>
+                    <div class="center-date">
+                        <ngb-timepicker [(ngModel)]="time" [meridian]="meridian"></ngb-timepicker>
+                    </div>
+                    <hr class="my-0">
+                    <!-- <button class="btn btn-primary btn-sm m-2 float-left" (click)="model = today; d.close()">Today</button> -->
+                    <button class="btn btn-secondary btn-sm m-2 float-right" (click)="open(send)">SEND</button>
+                </ng-template>
+                <ng-template #send let-modal>
                     <div class="modal-header">
 
                         <h4 class="modal-title" id="modal-basic-title">Appointment</h4>
@@ -329,33 +329,42 @@
 </nav>
 
 <ng-template #notify let-modal>
-    <div class="modal-header">
-        <i class="icon icon-ex-small">
+    <!--
+<div class="modal-header">
+    <i class="icon icon-ex-small">
       <svg focusable="false">
           <use xlink:href="#icon_noticeBoard"></use>
       </svg>
   </i>
-        <h4 class="modal-title" id="modal-basic-title">NOTICE BOARD</h4>
-        <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-            <i class="icon icon-ex-small">
+    <h4 class="modal-title" id="modal-basic-title">NOTICE BOARD</h4>
+    <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <i class="icon icon-ex-small">
             <svg focusable="false">
               <use xlink:href="#icon_close"></use>
             </svg>
           </i>
-        </a>
-    </div>
+    </a>
+</div>
+-->
     <div class="modal-body">
         <div class="row">
+            <!--
             <div class="col-lg-6 col-md-6 col-sm-12 v-flex">
-                <p>
-                    Admissions open
-                    <br> for the academic
-                    <br> year of 2020 - 2021
-                </p>
-                <button class="btn btn-primary" aria-label="Close" (click)="knowMore('admission');">APPLY NOW</button>
+                
+           <p>
+    Admissions open
+    <br> for the academic
+    <br> year of 2020 - 2021
+</p>
+
+
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <img src="assets/images/notice-board.png">
+-->
+            <div class="col-lg-12 col-md-12 col-sm-12">
+
+                <button class="btn btn-primary" aria-label="Close" (click)="knowMore('admission');">
+                    <a target="_blank" href="https://premia.myclassboard.com/EnquiryForm_Custom/802876AE-E29F-4584-BA0C-6AB51389D534/1"><img src="assets/images/notice-board.png"></a>
+                </button>
             </div>
         </div>
 

@@ -396,6 +396,10 @@
     width: 50%;
 }
 @media (max-width: 576px) {
+    .dropup[_ngcontent-mrr-c5]:not(.read-more),
+    .dropdown[_ngcontent-mrr-c5]:not(.read-more) {
+        transform: translate(0px, 835px) !important;
+    }
     .grear-container {
         display: none;
     }
@@ -437,7 +441,11 @@
     .dropup:not(.read-more),
     .dropdown:not(.read-more) {
         width: 100%;
+        margin-left: -40%;
     }
+    //    .read-more {
+    //        transform: translate(0px, 835px) !important;
+    //    }
 }
 .partner-panel {
     margin-top: 50%;
