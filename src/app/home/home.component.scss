@@ -342,10 +342,11 @@
         p {
             font-size: 14px;
             font-family: "Quicksand", sans-serif;
-            word-break: break-all;
+            word-break: break-word;
         }
         a {
             word-break: break-all;
+            font-size: 12px;
         }
         h5 {
             position: relative;
@@ -718,10 +719,7 @@
     .the-premia-corner .col {
         margin-bottom: 30px;
     }
-    .asset_2,
-    .asset_3,
-    .asset_4,
-    .asset_5 {
-        display: none;
-    }
+}
+.partner[_ngcontent-vjf-c4] .info-view[_ngcontent-vjf-c4] p[_ngcontent-vjf-c4] {
+    word-break: break-word !important;
 }

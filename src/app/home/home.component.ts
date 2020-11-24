@@ -74,8 +74,7 @@ export class HomeComponent {
     },
     {
       description: `NumberNagar`,
-      description_2: `An integrated program for Maths,
-      Science and English`,
+      description_2: ` An integrated program for Maths,    Science and English`,
       link: `https://www.numbernagar.com/`
     },
     {
@@ -245,9 +244,7 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
     },
     {
       title: 'Mission',
-      description: `Our students will be equipped to meet the current and future challenges with
-      values of
-      `,
+      description: `Our students will be equipped to meet the current and future challenges with values of`,
       moreInfo: [
         { info: 'Resilience' },
         { info: 'Agility' },
@@ -258,9 +255,7 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
     },
     {
       title: 'Values',
-      description: `Our students will be equipped to meet the current and future challenges with
-      values of
-      `,
+      description: `Our students will be equipped to meet the current and future challenges with values of`,
       desc:`Most of all 
       We love our children 
       We love learning 
@@ -307,19 +302,19 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
 
   testimonials = [
     {
-      clientView: 'The Premia Academy is the kind of school I was looking for my kid- a perfect balance of curriculum and sports. The school has got all the required facilities for a kid to learn.',
-      clientName: `Sweta D.S
-      Parent of Sanketh D.S`
-    },
-    {
-      clientView: `I've always believed in holistic education and when I met with academicians at Premia, that's what seemed to be their plan. `,
+      clientView: `I've always believed in holistic education and when I met with academicians at Premia, that's what seemed to be their plan.`,
       clientName: `Sushma Panyam 
-      Parent of Nihal Singaraju`
+      Parent of Nihal Singaraju - Grade 2`
     },
     {
-      clientView: 'The Premia Academy is the kind of school I was looking for my kid- a perfect balance of curriculum and sports. The school has got all the required facilities for a kid to learn.',
-      clientName: `Sweta D.S
-      Parent of Sanketh D.S`
+      clientView: `The team is so adaptable, the teachers well trained, and the online classes so structured, interactive, short, and concise - unlike the other private schools our friends' children attend.`,
+      clientName: `Cherish & Yash Nihalani
+      Parent of Vanya Nihalani`
+    },
+    {
+      clientView: 'Parent relationship is good I should say. I like the involvement of school staff with the kids as they make the children comfortable.',
+      clientName: `Sweta D.S.
+      Parent of Sanket D.S. - Grade 2`
     }
   ];
 
@@ -334,12 +329,12 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
     {
       name: 'What we offer',
       gridClass:'col-md-2',
-      link:'PremiaPartners'
+      link:'ThePremiaCurriculum'
     },
     {
-      name: 'How we make if happen',
+      name: 'How we make it happen',
       gridClass:'col-md-2 ',
-      link:'ThePremiaCurriculum'
+      link:'PremiaPartners'
     },
   ];
 

@@ -13,38 +13,30 @@ export class PremiaethosComponent implements OnInit {
   constructor(private viewportScroller: ViewportScroller) { }
 
   ehtos = [{
-    title:`The safe and positive environment (Safety isn’t expensive, it's priceless):`,
+    title:`The safe and positive
+    environment`,
   },
   {
-    title:`Growth & Innovation mindset (Empower & Inspire)-`,
+    title:`Growth & Innovation
+    mindset`,
   },
   {
     title:`Quest for 
-    learning 
-    (Lifelong 
-    learners)`,
+    learning `,
   },
   {
-    title:`Integrity above all 
-    (Virtue in our veins)`,
+    title:`Integrity above all`,
   }
 ]
 
 ehtos2 = [{
-  title:`Passion
-  (Finding
-  your inner
-  strength)`,
+  title:`Passion`,
 },
 {
-  title:`Purpose
-  (The Driving
-  force)`,
+  title:`Purpose`,
 },
 {
-  title:`Prodigy
-  (Miracles
-  in making)`,
+  title:`Prodigy`,
 }
 ]
 
