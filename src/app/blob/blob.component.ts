@@ -36,10 +36,17 @@ export class BlobComponent implements OnInit {
   }
   admission = [
     {
-      date: '2nd May 2020',
-      title: `World for all
-      and all for the
-      world!`,
+      title: `Developing Language Across the Curriculum in Premia Academy`,
+      description: `Developing competence in the language of instruction is the goal of all teaching activity throughout the school day at the Premia Academy. We believe that literacy is the most fundamental competency necessary for our school’s success. The everyday social language, formal academic language, and subject matter vocabulary are all critical in the holistic development of the students’ at the Premia Academy.
+      
+Language development at all levels — informal, problem-solving, and academic needs to be cultivated through use and through purposeful, deliberate conversation between teacher and students and not through drills and decontextualized traditional rules. Reading and writing will be taught both as explicit curricula and integrated into each content area.
+The ways of using language will prevail in teaching e.g. different ways of asking and answering questions, challenging claims, and using representations. These ways are unfamiliar to many students. The teachers also understand that the students’ own culturally based ways of talking can be effectively linked to the language used for academic disciplines by building learning contexts that draw out and build upon children’s language strengths.
+
+The development of language and literacy as a goal at the Premia Academy also applies to the specialized language genres required for the study of science, mathematics, history, art, literature and social emotional learning. Effective mathematics learning for students is based on the ability to “speak mathematics,” which is the overall ability of the students to achieve across the curriculum and dependent on mastery of the language of instruction. Thus applies especially to the solving of word problems. Reading, writing, speaking, listening, and vocabulary is taught and learned in every subject matter. Integrated curriculum provides an ideal venue for developing the language of the activity’s domain.`,
+    },
+    
+    {
+      title: `Gaming Addiction or Enthusiasm`,
       description: `Just like any involved parent, our Director, Sinduri Reddy, began a quest to find a school that would nurture her growing preschoolers in the best way possible.
       After putting together the best of schools and undergoing immense research, there were still certain factors like cleanliness, Ethos, Curriculum Focus, distance, etc. that made it impossible for her to choose. 
       So, like a popular thought,” when you can’t find someone to do exactly what you, get up and do it yourself!” That’s exactly what she did! 
@@ -47,60 +54,14 @@ export class BlobComponent implements OnInit {
       `,
     },
     {
-      date: '2nd May 2020',
-      title: `Gaming
-      Addiction or
-      Enthusiasm`,
+      title: `Pedagogy- The Art and Science of Teaching Applied 
+at The Premia Academy`,
       description: `Just like any involved parent, our Director, Sinduri Reddy, began a quest to find a school that would nurture her growing preschoolers in the best way possible.
       After putting together the best of schools and undergoing immense research, there were still certain factors like cleanliness, Ethos, Curriculum Focus, distance, etc. that made it impossible for her to choose. 
       So, like a popular thought,” when you can’t find someone to do exactly what you, get up and do it yourself!” That’s exactly what she did! 
       Her endeavours have snowballed into the Premia Academy.
       `,
     },
-    {
-      date: '2nd May 2020',
-      title: `Developing
-      language Across
-      the Curriculum`,
-      description: `Just like any involved parent, our Director, Sinduri Reddy, began a quest to find a school that would nurture her growing preschoolers in the best way possible.
-      After putting together the best of schools and undergoing immense research, there were still certain factors like cleanliness, Ethos, Curriculum Focus, distance, etc. that made it impossible for her to choose. 
-      So, like a popular thought,” when you can’t find someone to do exactly what you, get up and do it yourself!” That’s exactly what she did! 
-      Her endeavours have snowballed into the Premia Academy.
-      `,
-    },
-    {
-      date: '2nd May 2020',
-      title: `World for all
-      and all for the
-      world!`,
-      description: `Just like any involved parent, our Director, Sinduri Reddy, began a quest to find a school that would nurture her growing preschoolers in the best way possible.
-      After putting together the best of schools and undergoing immense research, there were still certain factors like cleanliness, Ethos, Curriculum Focus, distance, etc. that made it impossible for her to choose. 
-      So, like a popular thought,” when you can’t find someone to do exactly what you, get up and do it yourself!” That’s exactly what she did! 
-      Her endeavours have snowballed into the Premia Academy.
-      `,
-    },
-    {
-      date: '2nd May 2020',
-      title: `Gaming
-      Addiction or
-      Enthusiasm`,
-      description: `Just like any involved parent, our Director, Sinduri Reddy, began a quest to find a school that would nurture her growing preschoolers in the best way possible.
-      After putting together the best of schools and undergoing immense research, there were still certain factors like cleanliness, Ethos, Curriculum Focus, distance, etc. that made it impossible for her to choose. 
-      So, like a popular thought,” when you can’t find someone to do exactly what you, get up and do it yourself!” That’s exactly what she did! 
-      Her endeavours have snowballed into the Premia Academy.
-      `,
-    },
-    {
-      date: '2nd May 2020',
-      title: `Developing
-      language Across
-      the Curriculum`,
-      description: `Just like any involved parent, our Director, Sinduri Reddy, began a quest to find a school that would nurture her growing preschoolers in the best way possible.
-      After putting together the best of schools and undergoing immense research, there were still certain factors like cleanliness, Ethos, Curriculum Focus, distance, etc. that made it impossible for her to choose. 
-      So, like a popular thought,” when you can’t find someone to do exactly what you, get up and do it yourself!” That’s exactly what she did! 
-      Her endeavours have snowballed into the Premia Academy.
-      `,
-    }
   ];
 
 
@@ -108,7 +69,7 @@ export class BlobComponent implements OnInit {
     slidesToShow: 3,
     slidesToScroll: 1,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 1500,
     arrows: true,
     responsive: [
