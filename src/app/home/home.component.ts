@@ -73,7 +73,7 @@ export class HomeComponent {
       link: ` http://www.yardstickedu.com`
     },
     {
-      description: `NumberNagar`,
+      description: `Number nagar`,
       description_2: ` An integrated program for Maths,    Science and English`,
       link: `https://www.numbernagar.com/`
     },
@@ -85,7 +85,7 @@ export class HomeComponent {
     },
     {
       description: `Book room from Scholastic`,
-      description_2: `Organising your books`,
+      description_2: `A collection of around 6000 books, with a great variety of genres to broaden the scope of understanding of every reader.`,
       link: `http://teacher.scholastic.com/products/leveledbookrooms/index.htm`
     }
   ];
@@ -244,30 +244,19 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
     },
     {
       title: 'Mission',
-      description: `Our students will be equipped to meet the current and future challenges with values of`,
-      moreInfo: [
-        { info: 'Resilience' },
-        { info: 'Agility' },
-        { info: 'Integrity' },
-        { info: 'Social responsibility' },
-        { info: 'Empathy' },
-      ]
+      description: `We believe the world needs a progressive mindset, compassionate heart and an attitude that exudes peace. Making young learners embark on a journey which will bring about creativity and innovation, a sense of belonging, gratitude & feeling responsible for self & society. Building the nation and healing the world one child at a time is our endeavour.`,
+   
     },
     {
       title: 'Values',
-      description: `Our students will be equipped to meet the current and future challenges with values of`,
-      desc:`Most of all 
-      We love our children 
-      We love learning 
-      We love lifeOur Values:
-      `
-    ,
+      description: `We are a group of committed individuals who embody`,
+      
       moreInfo: [
         { info: 'Integrity & ingenuity ' },
-        { info: 'Energetic & efficient ' },
-        { info: 'Compassionate & competent ' },
-        { info: 'Tolerant & tenacious ' },
-        { info: 'Empathy' },
+        { info: 'Energy & efficiency ' },
+        { info: 'Compassion & competence ' },
+        { info: 'Tolerance & tenacity' },
+        { info: 'Most of all we love our children, learning & life!' },
       ]
     }
   ];
@@ -307,7 +296,9 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
       Parent of Nihal Singaraju - Grade 2`
     },
     {
-      clientView: `The team is so adaptable, the teachers well trained, and the online classes so structured, interactive, short, and concise - unlike the other private schools our friends' children attend.`,
+      clientView: `Being a new school, you would think there would be a bit of unstructuredness, but everything has been remarkably smooth and professional. The team is so adaptable, the teachers well trained, and the online classes so structured, interactive, short, and concise.
+ Our daughter  is enjoying her academic experience at Premia. 
+`,
       clientName: `Cherish & Yash Nihalani
       Parent of Vanya Nihalani`
     },
