@@ -244,7 +244,8 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
     },
     {
       title: 'Mission',
-      description: `We believe the world needs a progressive mindset, compassionate heart and an attitude that exudes peace. Making young learners embark on a journey which will bring about creativity and innovation, a sense of belonging, gratitude & feeling responsible for self & society. Building the nation and healing the world one child at a time is our endeavour.`,
+      description: `We believe the world needs a progressive mindset, compassionate heart and an attitude that exudes peace. Making young learners embark on a journey which will bring about creativity and innovation, a sense of belonging, gratitude & feeling responsible for self & society. Building the nation and healing the world one child at a time is our endeavour.
+`,
    
     },
     {
