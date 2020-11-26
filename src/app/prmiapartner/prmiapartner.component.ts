@@ -23,7 +23,7 @@ export class PrmiapartnerComponent implements OnInit {
     id:'5',
     title : 'Entrepreneurship',
     des : `The A++ factors - Ask, Acquire, Analyze, Apply and Assess are the foundation of teaching Entrepreneurship at The Premia academy!`,
-    des2:`Our curriculum for  entrepreneurship fostering leadership, risk taking, team building and being a responsible Global Citizen is a platform where children use their intelligence of logical, intra & interpersonal, spatial and naturalistic skills where by they ideate, incubate and create business models.
+    des2:`Our curriculum for  entrepreneurship fostering leadership, risk taking, team building and being a responsible Global Citizen is a platform where children use their intelligence of logical, intra & interpersonal, spatial and naturalistic skills whereby they ideate, incubate and create business models.
     For this we have on board, metamorphosisedu, who have customized a first of its kind curriculum to nurture entrepreneurial skill-set from  the early years.`, 
     link: `http://www.metamorphosisedu.com`
   },
@@ -45,7 +45,7 @@ export class PrmiapartnerComponent implements OnInit {
     id:'6',
     title : 'Experiential Learning',
     des : `Experiences stitched together is what makes the perfect garment we call life. - this thought has inspired us to collaborate with Yardstick`,
-    des2:`a globally acclaimed programme which provides tailor-made ‘experience kits’ for children where they use logical, spatial & naturalistic intelligences. We are glad to collaborate with a brand which, like us, believes in experiential learning`,
+    des2:`A globally acclaimed programme which provides tailor-made ‘experience kits’ for children where they use logical, spatial & naturalistic intelligences. We are glad to collaborate with a brand which, like us, believes in experiential learning.`,
     link: `http://www.yardstickedu.com`
   },
   {
@@ -70,11 +70,11 @@ export class PrmiapartnerComponent implements OnInit {
     des2:`The Experiential Awakening is a powerful platform built to nurture values, to empower change, to inculcate new habits, and to initiate a culture of innovation – things that matter most in life. The Future is more than we think. It is not just about being at the helm of a career, it is about how your presence makes a difference to the world. `
   },
   {
-    name : 'Sports village',
+    name : 'Sportz village',
     id:'3',
     title : '',
-    des : `“The world is full of players, be a game changer!” MS Dhoni At the Premia Academy sports is a wholesome lesson in time management –`,
-    des2:`“The world is full of players, be a game changer!” MS Dhoni
+    des : `“The world is full of players, be a game changer!” MS Dhoni. At the Premia Academy sports is a wholesome lesson in time management –`,
+    des2:`“The world is full of players, be a game changer!” MS Dhoni.
     At the Premia Academy sports is a wholesome lesson in time management – self-discipline, focus, resilience, grit - as they provide the spirit of competition in our students driving them to go the extra mile in other areas of their learning. The sports program curated by our partner, Sports Village, facilitates students to respect authority and  rules while building self esteem & mental alertness to reduce stress & anxiety.
    “Run when you can, walk if you have to, crawl if you must, just never give up.” Dean Karnazes. “It’s hard to beat a person who never gives up!” Babe Ruth
    `,
@@ -85,7 +85,7 @@ export class PrmiapartnerComponent implements OnInit {
     id:'2',
     title : `Synchronicity, Sagacity
     and Sustainability`,
-    des : `“The greatest threat to our planet is the belief that someone else will save it.” Robert Swan We will not let this be…Everyone can do simple things to make a difference and every little bit counts - stella ma-Cartney`,
+    des : `“The greatest threat to our planet is the belief that someone else will save it.” Robert Swan We will not let this be…Everyone can do simple things to make a difference and every little bit counts - Stella Ma'Cartney`,
     des2:`The program focuses on equipping children with the why and how of conscious living. 
     ●	Sustainability - The Intent to ensure that our economic, environmental & social necessities doesn’t compromise the hope of our  future generations living in harmony with nature.
     ●	Sagacity-The intellect to make the right choices that's good for Our people and for Our planet

@@ -46,7 +46,7 @@ export class AdmissionsComponent implements OnInit {
     title:`2) Learn about our beliefs: Our Parent Relationship Managers will contact you to give you more details`,
   },
   {
-  title:`4) Meet the Principal: Connect with our principal with your child. This stage might include an assessment depending on the class`,
+  title:`4) Meet the Principal: This stage might include an assessment depending on the class`,
 },
  {
   title:`6) Admission : Once approved you will be directed to complete the admission formalities`,
