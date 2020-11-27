@@ -108,7 +108,7 @@
             </div>
             <div *ngFor="let list of premianLeague; index as i" class="col {{list.gridClass}} col-sm-12 col-premia">
                 <div class="img-circle" data-aos="zoom-in" data-aos-once="true">
-                    <img src="assets/images/premia-exp-{{i+1}}.jpg">
+                    <img src="assets/images/premia-exp-{{i+1}}.jpg" (click)="knowMore(list.link)">
                 </div>
                 <h6 class="center" (click)="knowMore(list.link)">{{list.name}}</h6>
             </div>
@@ -119,7 +119,7 @@
                         <div class="panel">
                             <div class="panel-heading">
                                 <div class="img-box">
-                                    <img src="assets/images/who-we/who-we-{{i+1}}.jpg">
+                                    <img src="assets/images/who-we/who-we-{{i+1}}.jpg" (click)="knowMore('ThePremiaLeague')">
                                 </div>
                                 <!-- <p>{{item.description}}</p> -->
                             </div>
