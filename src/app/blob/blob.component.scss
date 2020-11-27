@@ -181,3 +181,94 @@
         width: 100%;
     }
 }
+.recent-article .notification-popup.modal .modal-content p {
+    color: #000;
+    font-size: 28px;
+    align-self: center;
+}
+.notification-popup.modal .modal-dialog.modal-lg {
+    position: absolute !important;
+    left: 20% !important;
+    top: 0% !important;
+    height: 400px !important;
+}
+.notification-popup.modal .modal-content {
+    height: 400px !important;
+    overflow: scroll !important;
+    text-align: center !important;
+}
+.notification-popup.modal .modal-body {
+    text-align: center !important;
+    width: 100% !important;
+    padding: 0px 20px !important;
+}
+.notification-popup.modal {
+    position: absolute;
+    display: block !important;
+    top: 26%;
+}
+.modal-open .modal {
+    display: flex !important;
+    align-items: center !important;
+    .modal-dialog {
+        flex-grow: 1;
+    }
+}
+::ng-deep .notification-popup.modal {
+    display: block !important;
+    align-items: center;
+    .modal-content {
+        //        background-color: #3e65ac;
+        //        padding: 0 15px;
+        .modal-title {
+            margin-left: 15px;
+            font-family: "Lora", serif;
+            color: #fff;
+        }
+        i {
+            margin-top: 9px;
+            display: block;
+        }
+        svg {
+            fill: #fff;
+        }
+        p {
+            color: #fff;
+            font-size: 28px;
+            align-self: center;
+        }
+        .btn {
+            outline: none;
+            background: none;
+            border: 2px solid #fff;
+        }
+        .modal-body {
+            padding: 0px;
+        }
+    }
+    .modal-content {
+        height: 400px !important;
+        overflow: scroll !important;
+        overflow-x: hidden !important;
+        text-align: left !important;
+    }
+    .modal-body {
+        /*        text-align: center !important;*/
+        width: 100% !important;
+        padding: 0px 20px !important;
+    }
+    .modal-dialog.modal-lg {
+        position: absolute !important;
+        left: 20% !important;
+        top: 0% !important;
+        height: 400px !important;
+    }
+    ul {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    li {
+        font-size: 16px;
+        list-style: circle;
+    }
+}

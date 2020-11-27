@@ -53,11 +53,12 @@
         </div>
         <div class="row">
             <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="recentConfig">
+                <!--
                 <div ngxSlickItem *ngFor="let item of admission; index as i" class="slide col-lg-4 col-md-4 col-sm-12">
                     <div class="panel">
 
                         <div class="panel-heading">
-                            <!--                            <p>{{item.date}}</p>-->
+                                                        <p>{{item.date}}</p>
                             <h3>{{item.title}}</h3>
                         </div>
 
@@ -66,10 +67,71 @@
                         </div>
 
                     </div>
-                    <button class="btn btn-primary" (click)="knowMore('culture');">
+                    <button class="btn btn-primary" (click)="notifyOpen(premiabloglisti)">
                         READ MORE
                     </button>
+
+
+
                 </div>
+-->
+                <div ngxSlickItem class="slide col-lg-4 col-md-4 col-sm-12">
+                    <div class="panel">
+
+                        <div class="panel-heading">
+
+                            <h3>Developing Language Across the Curriculum in Premia Academy</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <p>Developing competence in the language of instruction is the goal of all teaching activity throughout the school day at the Premia Academy. We believe that literacy is the most fundamental competency necessary for our school’s success. The everyday social language, formal academic language, and subject matter vocabulary are all critical in the holistic development of the students’ at the Premia Academy.
+                            </p>
+                        </div>
+
+                    </div>
+                    <button class="btn btn-primary" (click)="notifyOpen(premiabloglist1)">
+                        READ MORE
+                    </button>
+
+                </div>
+
+                <div ngxSlickItem class="slide col-lg-4 col-md-4 col-sm-12">
+                    <div class="panel">
+
+                        <div class="panel-heading">
+
+                            <h3>Gaming Addiction or Enthusiasm</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <p>Games are great things that many enjoy. But things can go too far with a hobby! So, at what point does a gaming hobby become an addiction? That’s an important question experts have been trying to answer about playing video games.</p>
+                        </div>
+
+                    </div>
+                    <button class="btn btn-primary" (click)="notifyOpen(premiabloglist2)">
+                        READ MORE
+                    </button>
+
+                </div>
+                <div ngxSlickItem class="slide col-lg-4 col-md-4 col-sm-12">
+                    <div class="panel">
+
+                        <div class="panel-heading">
+
+                            <h3>Pedagogy- The Art and Science of Teaching Applied at The Premia Academy</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <p>Teachers at The Premia Academy believe in the motto- Teaching is an art as well as science. Teaching at The Premia Academy inspires our children to think differently and it develops critical thinking in young, influenceable minds.</p>
+                        </div>
+
+                    </div>
+                    <button class="btn btn-primary" (click)="notifyOpen(premiabloglist3)">
+                        READ MORE
+                    </button>
+
+                </div>
+
             </ngx-slick-carousel>
         </div>
     </div>
@@ -112,6 +174,146 @@
         </div>
     </div>
 </section>
+
+
+<ng-template #premiabloglist1 let-modal>
+    <div class="modal-header">
+        <i class="icon icon-ex-small">
+                    <svg focusable="false">
+                        <use xlink:href="#icon_noticeBoard"></use>
+                    </svg>
+                        </i>
+        <h4 class="modal-title" id="modal-basic-title1" style="color: #000 !important;font-size: 22px;">Developing Language Across the Curriculum in Premia Academy</h4>
+        <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <i class="icon icon-ex-small">
+                          <svg focusable="false">
+                            <use xlink:href="#icon_close"></use>
+                          </svg>
+                        </i>
+        </a>
+    </div>
+    <div class="modal-body" style="margin-top: 30px;">
+        <p style="color: #000;font-size: 18px;">Developing competence in the language of instruction is the goal of all teaching activity throughout the school day at the Premia Academy. We believe that literacy is the most fundamental competency necessary for our school’s success. The everyday social language, formal academic language, and subject matter vocabulary are all critical in the holistic development of the students’ at the Premia Academy.
+            <br>
+            <br> Language development at all levels — informal, problem-solving, and academic needs to be cultivated through use and through purposeful, deliberate conversation between teacher and students and not through drills and decontextualized traditional rules. Reading and writing will be taught both as explicit curricula and integrated into each content area. The ways of using language will prevail in teaching e.g. different ways of asking and answering questions, challenging claims, and using representations. These ways are unfamiliar to many students. The teachers also understand that the students’ own culturally based ways of talking can be effectively linked to the language used for academic disciplines by building learning contexts that draw out and build upon children’s language strengths.
+            <br>
+            <br> The development of language and literacy as a goal at the Premia Academy also applies to the specialized language genres required for the study of science, mathematics, history, art, literature and social emotional learning. Effective mathematics learning for students is based on the ability to “speak mathematics,” which is the overall ability of the students to achieve across the curriculum and dependent on mastery of the language of instruction. Thus applies especially to the solving of word problems. Reading, writing, speaking, listening, and vocabulary is taught and learned in every subject matter. Integrated curriculum provides an ideal venue for developing the language of the activity’s domain.
+            <br>
+            <br> At The Premia Academy, teachers practice the following to make sure that there is appropriate development of the English Language:
+            <br>
+            <br> Teachers listen to student talk about familiar topics such as home and community at every grade Level.
+            <br>
+
+        </p>
+        <ul>
+            Our Teachers:
+            <li>Respond to students’ talk and questions, making impromptu changes during conversation that directly relate to students’ comments. </li>
+            <li>Assist written and oral language development through modelling, eliciting, probing, restating, clarifying, questioning, praising, etc., in purposeful conversation and writing.</li>
+            <li>Interact with students in ways that respect students’ preferences for speaking that may be different from the teacher’s, such as wait-time, eye contact and turn-taking</li>
+            <li>Connect student’s language with literacy and content area knowledge through speaking, listening, reading and writing activities.</li>
+            <li>
+                Encourage students to use content vocabulary to express their understanding of the subject.
+            </li>
+            <li>Provide frequent opportunity for students to interact with each other and the teacher during all instructional activities.</li>
+            <li>Encourage students’ use of first and second languages in instructional activities.</li>
+
+        </ul>
+    </div>
+</ng-template>
+
+<ng-template #premiabloglist2 let-modal>
+    <div class="modal-header">
+        <i class="icon icon-ex-small">
+                    <svg focusable="false">
+                        <use xlink:href="#icon_noticeBoard"></use>
+                    </svg>
+                        </i>
+        <h4 class="modal-title" id="modal-basic-title1" style="color: #000 !important;font-size: 22px;">Gaming Addiction or Enthusiasm</h4>
+        <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <i class="icon icon-ex-small">
+                          <svg focusable="false">
+                            <use xlink:href="#icon_close"></use>
+                          </svg>
+                        </i>
+        </a>
+    </div>
+    <div class="modal-body" style="margin-top: 30px;">
+        <p style="color: #000;font-size: 18px;">Games are great things that many enjoy. But things can go too far with a hobby! So, at what point does a gaming hobby become an addiction? That’s an important question experts have been trying to answer about playing video games.
+            <br>
+            <br> Gaming has been around for almost 50 years and studies about its harms are in the early stages. Experts have come to different conclusions about whether problem gaming should be called an addiction.
+            <br>
+            <br> It is important for parents to know the warning signs of problem gaming addiction. These problems can happen whether games are played online or offline. Here are some of the warning signs:
+
+        </p>
+        <ul>
+            <li>Thinking about gaming all or most of the time </li>
+            <li>Feeling disheartened when the one can’t play</li>
+            <li>Having the urge to spend more and more time playing to feel good</li>
+            <li>Not being able to quit or even play less</li>
+            <li>
+                Not wanting to do other things that the he/she used to like
+            </li>
+            <li>Having problems at school or home because of gaming addiction</li>
+            <li>Lying to family about how much time is spent playing</li>
+            <li>Using gaming to ease bad moods and feelings</li>
+            <li>Neglecting personal hygiene</li>
+
+        </ul>
+        <br>
+        <p style="color: #000;font-size: 18px;">At present, treating gaming addiction can be obtained in two ways:</p>
+        <ul>
+            <li>Individualized treatment with a certified and experienced professional for treating addictions</li>
+            <li>Group therapy or similar programs if available.</li>
+        </ul>
+        <br>
+        <p style="color: #000;font-size: 18px;">Not everyone who plays a lot has a problem with gaming. Expert opinion says that it is harmful to label people as addicted who might just be very enthusiastic about gaming. But, parents need to be to vigilant about the demarcation between addiction and enthusiasm for gaming. Parents need to make sure that the games are age appropriate and content appropriate. Engaging with the child, playing together, setting healthy limits and actively finding a variety of activities for children to consume online helps . This approach if started at an early age, will keep gaming safe and sensible for most youngsters.</p>
+    </div>
+</ng-template>
+
+<ng-template #premiabloglist3 let-modal>
+    <div class="modal-header">
+        <i class="icon icon-ex-small">
+                    <svg focusable="false">
+                        <use xlink:href="#icon_noticeBoard"></use>
+                    </svg>
+                        </i>
+        <h4 class="modal-title" id="modal-basic-title1" style="color: #000 !important;font-size: 22px;">Pedagogy- The Art and Science of Teaching Applied at The Premia Academy</h4>
+        <a class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <i class="icon icon-ex-small">
+                          <svg focusable="false">
+                            <use xlink:href="#icon_close"></use>
+                          </svg>
+                        </i>
+        </a>
+    </div>
+    <div class="modal-body" style="margin-top: 30px;">
+        <p style="color: #000;font-size: 18px;">Teachers at The Premia Academy believe in the motto- Teaching is an art as well as science. Teaching at The Premia Academy inspires our children to think differently and it develops critical thinking in young, influenceable minds.
+
+            <br>
+            <br> The students will acquire language, science and mathematical skills that they can use later on in life. We want education to have a recurring impact, long after our students become adults.
+            <br>
+            <br> The principles of teaching are constantly evolving; collaborative learning, flipped learning and deep learning are all a mainstay of the modern classroom at The Premia Academy.
+
+            <br>
+            <br> Teachers are trained in collaborative learning method of active learning that relies on the principle of two or more students working together, towards a common goal. All activities vary widely, but most centre on the learner’s exploration or application of the curriculum, Within pedagogy, there are four learner profiles at The Premia Academy-
+            <br>
+
+        </p>
+        <ul>
+            <li>Auditory learners who benefit from listening to the information presented to them in classroom. These students learn orally from both listening to instruction from the teacher, audio and video recordings. </li>
+            <li>Tactile/kinaesthetic learners who absorb knowledge through touch and movement. These students prefer to work with hands-on devices and learning aids.</li>
+            <li>Visual learners who prefer to see information in order to visualise the relationship between ideas and concepts to understand them. </li>
+            <li>Reading and writing learners who prefer to take on information by reading texts. These learners can further absorb information by condensing and rephrasing it.</li>
+            <li>
+                Encourage students to use content vocabulary to express their understanding of the subject.
+            </li>
+            <li>Provide frequent opportunity for students to interact with each other and the teacher during all instructional activities.</li>
+
+        </ul>
+        <br>
+        <p style="color: #000;font-size: 18px;">Teachers have the advantage of utilising traditional learning practices while incorporating new educational technologies to create a diverse, differentiated classroom, ready for all learners coming to The Premia Academy.</p>
+    </div>
+</ng-template>
 
 <ng-template #premiaBlogs1 let-modal>
     <div class="modal-header">
