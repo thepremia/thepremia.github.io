@@ -221,7 +221,7 @@ description2:`Robotics, Design Thinking, Coding, Music, Sports, Performing Arts,
     },
     {
       icon: '#icon_emoDev',
-      description: `Hands on Learning`,
+      description: `Hand on Learning`,
     },
     {
       icon: '#icon_reading',
