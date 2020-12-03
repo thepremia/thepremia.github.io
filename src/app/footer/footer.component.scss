@@ -7,14 +7,14 @@ footer {
     a {
         color: #dddddd;
     }
-    p{
-        color:#fff;
+    p {
+        color: #fff;
     }
     address {
         color: #dddddd;
     }
-    h5{
-        color:#fff;
+    h5 {
+        color: #fff;
     }
     ul.footer-li {
         list-style: none inside;
@@ -24,16 +24,16 @@ footer {
         li {
             padding: 10px 0;
             line-height: 12px;
-            a{
-                &.active{
-                    color:#f44336;
+            a {
+                &.active {
+                    color: #f44336;
                 }
             }
         }
     }
     .social-net {
         padding: 0;
-        ul{
+        ul {
             list-style: none inside;
             margin-top: 20px;
             padding: 0;
@@ -46,7 +46,7 @@ footer {
                     color: #fff;
                     font-size: 12px;
                 }
-                svg{
+                svg {
                     width: 24px;
                     height: 24px;
                     fill: #fff;
@@ -55,38 +55,38 @@ footer {
         }
     }
 }
-
-.contact-info{
+.contact-info {
     background: #e8e8e8;
-    padding:30px 0;
-    p, a{
-        color:#000;
+    padding: 30px 0;
+    p,
+    a {
+        color: #BF272D;
         font-family: 'Quicksand', sans-serif;
     }
-	.social-net{
-        border-left:1px solid #ccc;
-        padding-left:25px;
-		ul{
-			padding:0;
-			margin:0;
-			li{
-				list-style-type: none;
-			span{
-					margin-left:15px;
-					color:#555555;
+    .social-net {
+        border-left: 1px solid #ccc;
+        padding-left: 25px;
+        ul {
+            padding: 0;
+            margin: 0;
+            li {
+                list-style-type: none;
+                span {
+                    margin-left: 15px;
+                    color: #555555;
                 }
-                svg{
+                svg {
                     fill: #f7a05c;
                 }
-			}
-		}
+            }
+        }
     }
 }
-@media (max-width: 576px){
-	    .contact-info {
-        .social-net{
-            border:none;
-            padding:0;
+@media (max-width: 576px) {
+    .contact-info {
+        .social-net {
+            border: none;
+            padding: 0;
         }
     }
 }
